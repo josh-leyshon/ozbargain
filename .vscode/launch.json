@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "name": "Debug in Expo",
+      "cwd": "${workspaceFolder}",
+      "type": "reactnative",
+      "request": "launch",
+      "platform": "exponent",
+      "isDynamic": true,
+      "expoHostType": "tunnel",
+      "openExpoQR": true
+    }
+  ]
+}

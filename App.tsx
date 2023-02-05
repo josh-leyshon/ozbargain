@@ -1,10 +1,21 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
+import { DealsFeed } from "./src/screens/dealsFeed/dealsFeed";
+import type { OzbargainFeed } from "./src/feed-parser/parser";
+
+const parsedFeed: OzbargainFeed = require("./src/feed-parser/tests/fixtures/parsed-ozbargain-rss.json");
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <DealsFeed
+        items={parsedFeed.deals.map((deal) => ({
+          title: deal.title,
+          description: deal.description,
+          imageUrl: deal.thumbnailUrl,
+          id: deal.id,
+        }))}
+      />
       <StatusBar style="auto" />
     </View>
   );
