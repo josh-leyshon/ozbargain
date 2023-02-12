@@ -2,20 +2,25 @@ import { FlatList, StyleSheet, View } from "react-native";
 import { DealCard, type DealCardProps } from "./dealCard/dealCard";
 import type { OzbargainFeed } from "../../feed-parser/parser";
 
+type DealId = { id: OzbargainFeed["deals"][number]["id"] };
+type DealInfo = Omit<DealCardProps, "onPress">;
+type DealItemData = DealInfo & DealId;
+
 export type DealsFeedProps = {
-  items: (DealCardProps & { id: OzbargainFeed["deals"][number]["id"] })[];
+  items: DealItemData[];
+  onPressItem: (item: DealItemData) => void;
 };
 
 export function DealsFeed(props: DealsFeedProps): JSX.Element {
   return (
     <FlatList
-      style={styles.list}
       data={props.items}
       renderItem={({ item }) => (
         <DealCard
           title={item.title}
           description={item.description}
           imageUrl={item.imageUrl}
+          onPress={() => props.onPressItem(item)}
           key={item.id}
         />
       )}
@@ -29,7 +34,6 @@ function FeedItemSeparator(): JSX.Element {
 }
 
 const styles = StyleSheet.create({
-  list: {},
   separator: {
     padding: 4,
   },

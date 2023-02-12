@@ -1,17 +1,26 @@
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet, Pressable } from "react-native";
+import { SquareImage } from "../../../base/components/image/squareImage";
 
 export type DealCardProps = {
   title: string;
   description: string;
   imageUrl?: string;
+  onPress: () => void;
 };
 
 export function DealCard(props: DealCardProps): JSX.Element {
   return (
-    <View style={styles.card}>
-      <TextSection title={props.title} description={props.description} />
-      {props.imageUrl != null && <ImageContainer imgUri={props.imageUrl} />}
-    </View>
+    <Pressable onPress={props.onPress}>
+      <View style={styles.card}>
+        <TextSection title={props.title} description={props.description} />
+        {props.imageUrl != null && (
+          <SquareImage
+            source={{ uri: props.imageUrl }}
+            sizePx={cardContentHeightPx}
+          />
+        )}
+      </View>
+    </Pressable>
   );
 }
 
@@ -33,39 +42,29 @@ function TextSection(props: {
   );
 }
 
-function ImageContainer({ imgUri }: { imgUri: string }): JSX.Element {
-  return (
-    <View style={styles.imageContainer}>
-      <Image style={styles.image} source={{ uri: imgUri }} />
-    </View>
-  );
-}
-
-const cardHeightPx = 160;
-const cardSpacingPx = 16;
-
-const cardImageBorderThicknessPx = 2;
-const cardImageDimensionsPx =
-  cardHeightPx - 2 * cardSpacingPx - 2 * cardImageBorderThicknessPx;
+const cardBorderThickness = 2;
+const cardContentHeightPx = 128;
+const cardPaddingPx = 16;
+const cardMaxHeightPx =
+  cardContentHeightPx + 2 * cardPaddingPx + 2 * cardBorderThickness;
 
 const veryLightGrey = "rgb(244, 244, 244)";
 
 const styles = StyleSheet.create({
   card: {
-    flex: 1,
     flexDirection: "row",
     justifyContent: "space-between",
+    gap: cardPaddingPx,
 
-    height: 160,
-    maxHeight: 160,
-
-    backgroundColor: veryLightGrey,
+    height: cardMaxHeightPx,
+    maxHeight: cardMaxHeightPx,
+    padding: cardPaddingPx,
 
     borderColor: "orange",
     borderWidth: 2,
     borderRadius: 8,
 
-    padding: cardSpacingPx,
+    backgroundColor: veryLightGrey,
   },
   textSection: {
     flexShrink: 1,
@@ -76,21 +75,6 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   description: {
-    fontSize: 12,
-    overflow: "hidden",
-  },
-  image: {
-    width: cardImageDimensionsPx,
-    height: cardImageDimensionsPx,
-    resizeMode: "contain",
-    backgroundColor: "white",
-  },
-  imageContainer: {
-    marginLeft: cardSpacingPx,
-
-    backgroundColor: "white",
-    borderWidth: 2,
-    borderColor: "purple",
-    borderRadius: 8,
+    fontSize: 11,
   },
 });
