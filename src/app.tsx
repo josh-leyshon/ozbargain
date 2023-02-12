@@ -5,17 +5,32 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "./screens/navigationTypes";
 import { FeedScreen } from "./screens/dealsFeed/screen";
 import { DealInfoScreen } from "./screens/dealInfo/screen";
+import {
+  FeedGetter,
+  localFetchFeed,
+  useMakeFeedGetter,
+} from "./global-state/dealsFeed";
+import { Text } from "react-native";
+import { FeedContext } from "./global-state/dealsFeed";
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 function App(): JSX.Element {
-  return (
+  const feedGetter = useMakeFeedGetter(() =>
+    FeedGetter.makeFeedGetter(localFetchFeed)
+  );
+
+  return feedGetter == null ? (
+    <Text>Loading feed...</Text>
+  ) : (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Feed" component={FeedScreen} />
-        <Stack.Screen name="DealInfo" component={DealInfoScreen} />
-      </Stack.Navigator>
       <StatusBar />
+      <FeedContext.Provider value={feedGetter}>
+        <Stack.Navigator>
+          <Stack.Screen name="Feed" component={FeedScreen} />
+          <Stack.Screen name="DealInfo" component={DealInfoScreen} />
+        </Stack.Navigator>
+      </FeedContext.Provider>
     </NavigationContainer>
   );
 }

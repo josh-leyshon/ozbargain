@@ -1,10 +1,13 @@
-import { strict as assert } from "assert";
 import type { RssFeed } from "./parser";
 
 type FeedMeta = {
   title: string;
   link: string;
 };
+
+function assert(value: any, message?: string): asserts value {
+  console.assert(value, message);
+}
 
 export function assertFeedMeta(
   feed: RssFeed

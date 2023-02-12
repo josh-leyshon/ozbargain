@@ -4,22 +4,28 @@ import { LinkButtons } from "./linkButtons";
 import { Description } from "./description";
 import { FullscreenArea } from "../../base/components/screen/fullscreenArea";
 import { Column } from "../../base/layout/flex";
+import { useFeed } from "../../global-state/dealsFeed";
 
 export function DealInfoScreen({ route }: DealInfoScreenProps): JSX.Element {
-  const { deal } = route.params;
+  const { dealId } = route.params;
+  const deal = useFeed().getDealById(dealId);
+
   return (
     <FullscreenArea>
       <Column gap={16}>
         <DealHeader
           title={deal.title}
           description={deal.description}
-          imageUrl={deal.imageUrl}
+          imageUrl={deal.thumbnailUrl}
           author="some author"
-          postedAt={new Date()}
-          expiresAt={new Date()}
-          votes={{ positive: 24, negative: 3 }}
+          postedAt={deal.postedAt}
+          expiresAt={deal.expiresAt}
+          votes={deal.votes}
         />
-        <LinkButtons deal="url.com" productPage="url.com" />
+        <LinkButtons
+          deal={deal.links.deal}
+          productPage={deal.links.productPage}
+        />
         <Description description={deal.description} />
       </Column>
     </FullscreenArea>

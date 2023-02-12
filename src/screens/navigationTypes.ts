@@ -1,14 +1,10 @@
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
+import type { OzbargainFeed } from "../feed-parser/parser";
 
 type FeedScreenParamList = undefined;
 
 type DealInfoScreenParamList = {
-  deal: {
-    title: string;
-    description: string;
-    imageUrl?: string;
-    id: number;
-  };
+  dealId: OzbargainFeed["deals"][number]["id"];
 };
 
 // All routes (screens) and their params
