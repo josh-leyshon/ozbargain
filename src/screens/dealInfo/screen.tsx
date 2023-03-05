@@ -5,6 +5,8 @@ import { Description } from "./description";
 import { FullscreenArea } from "../../base/components/screen/fullscreenArea";
 import { Column } from "../../base/layout/flex";
 import { useFeed } from "../../global-state/dealsFeed";
+import { openURL } from "expo-linking";
+import { Share } from "react-native";
 
 export function DealInfoScreen({ route }: DealInfoScreenProps): JSX.Element {
   const { dealId } = route.params;
@@ -23,11 +25,18 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): JSX.Element {
           votes={deal.votes}
         />
         <LinkButtons
-          deal={deal.links.deal}
-          productPage={deal.links.productPage}
+          onPressGoToDeal={() => openLink(deal.links.productPage)}
+          onPressOpenOnOzbargain={() => openLink(deal.links.deal)}
+          onPressShare={async () => {
+            await Share.share({ message: deal.links.deal });
+          }}
         />
         <Description description={deal.description} />
       </Column>
     </FullscreenArea>
   );
+}
+
+async function openLink(url: string): Promise<void> {
+  openURL(url).catch(() => console.log("User cancelled dialog"));
 }
