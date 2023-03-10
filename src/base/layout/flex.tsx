@@ -11,52 +11,45 @@ type FlexLayoutProps = {
   shrink?: ViewStyle["flexShrink"];
   /** Default: undefined */
   grow?: ViewStyle["flexGrow"];
+  /** Default: nowrap */
+  wrap?: ViewStyle["flexWrap"];
   /** Default: unset */
   gap?: number;
   style?: StyleProp<
-    Omit<ViewStyle, "justifyContent" | "alignItems" | "flexShrink" | "flexGrow">
+    Omit<
+      ViewStyle,
+      "justifyContent" | "alignItems" | "flexShrink" | "flexGrow" | "flexWrap"
+    >
   >;
 };
 
-export function Row({
-  children,
-  justifyContent,
-  alignItems,
-  shrink,
-  grow,
-  gap,
-  style,
-}: FlexLayoutProps): JSX.Element {
-  const styles = StyleSheet.create({
-    row: {
-      flexDirection: "row",
-      justifyContent: justifyContent ?? "space-between",
-      alignItems: alignItems ?? "stretch",
-      flexShrink: shrink,
-      flexGrow: grow,
-      gap,
-    },
-  });
-
-  return <View style={[styles.row, style]}>{children}</View>;
+export function Row(props: FlexLayoutProps): JSX.Element {
+  return FlexView({ direction: "row", ...props });
 }
 
-export function Column({
+export function Column(props: FlexLayoutProps): JSX.Element {
+  return FlexView({ direction: "column", ...props });
+}
+
+function FlexView({
   children,
+  direction,
   justifyContent,
   alignItems,
   shrink,
   grow,
+  wrap,
   gap,
   style,
-}: FlexLayoutProps): JSX.Element {
+}: FlexLayoutProps & { direction: ViewStyle["flexDirection"] }): JSX.Element {
   const styles = StyleSheet.create({
     column: {
-      flexDirection: "column",
+      flexDirection: direction,
       justifyContent: justifyContent ?? "space-between",
       alignItems: alignItems ?? "stretch",
       flexShrink: shrink,
       flexGrow: grow,
+      flexWrap: wrap,
       gap,
     },
   });

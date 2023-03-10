@@ -18,9 +18,9 @@ export function DealHeader(props: DealHeaderProps): JSX.Element {
   return (
     <>
       <Row gap={16}>
-        <Column shrink={1} grow={1}>
+        <Column gap={16} shrink={1} grow={1}>
           <Text style={textStyles.title}>{props.title}</Text>
-          <Row gap={16} alignItems="flex-end">
+          <Row gap={16} alignItems="flex-end" wrap="wrap">
             <Column>
               <Text style={textStyles.light}>Posted by @{props.author}</Text>
               <Text style={textStyles.light}>
@@ -40,7 +40,7 @@ export function DealHeader(props: DealHeaderProps): JSX.Element {
             </Text>
           </Row>
         </Column>
-        <Column gap={16}>
+        <Column gap={16} justifyContent="flex-start">
           <SquareImage source={{ uri: props.imageUrl }} sizePx={140} />
           <Row gap={16}>
             <View style={styles.buttonContainer}>
