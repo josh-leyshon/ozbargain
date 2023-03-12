@@ -2,7 +2,6 @@
   "expo": {
     "name": "ozbargain",
     "slug": "ozbargain",
-    "entryPoint": "./src/app.tsx",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
