@@ -36,14 +36,13 @@ function TextSection({
   title: string;
   description: string;
 }): JSX.Element {
-  // 2 lines for title and 5 lines for description, plus marginBottom == 8 on title,
-  // fits perfectly within 160px cardHeight.
+  // This mix of lines leaves a tiny space between description text and start of card padding.
   return (
     <View style={styles.textSection}>
-      <Text style={styles.title} numberOfLines={2} ellipsizeMode="tail">
+      <Text style={styles.title} numberOfLines={4} ellipsizeMode="tail">
         {title}
       </Text>
-      <Text style={styles.description} numberOfLines={5} ellipsizeMode="tail">
+      <Text style={styles.description} numberOfLines={3} ellipsizeMode="tail">
         {description}
       </Text>
     </View>
@@ -78,7 +77,7 @@ const styles = StyleSheet.create({
     flexShrink: 1,
   },
   title: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: 'bold',
     marginBottom: 8,
   },
