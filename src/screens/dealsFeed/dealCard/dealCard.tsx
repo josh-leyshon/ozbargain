@@ -1,5 +1,5 @@
-import { View, Text, Image, StyleSheet, Pressable } from "react-native";
-import { SquareImage } from "../../../base/components/image/squareImage";
+import { View, Text, StyleSheet, Pressable } from 'react-native';
+import { SquareImage } from '../../../base/components/image/squareImage';
 
 export type DealCardProps = {
   title: string;
@@ -8,14 +8,19 @@ export type DealCardProps = {
   onPress: () => void;
 };
 
-export function DealCard(props: DealCardProps): JSX.Element {
+export function DealCard({
+  description,
+  onPress,
+  title,
+  imageUrl,
+}: DealCardProps): JSX.Element {
   return (
-    <Pressable onPress={props.onPress}>
+    <Pressable onPress={onPress}>
       <View style={styles.card}>
-        <TextSection title={props.title} description={props.description} />
-        {props.imageUrl != null && (
+        <TextSection title={title} description={description} />
+        {imageUrl != null && (
           <SquareImage
-            source={{ uri: props.imageUrl }}
+            source={{ uri: imageUrl }}
             sizePx={cardContentHeightPx}
           />
         )}
@@ -24,7 +29,10 @@ export function DealCard(props: DealCardProps): JSX.Element {
   );
 }
 
-function TextSection(props: {
+function TextSection({
+  title,
+  description,
+}: {
   title: string;
   description: string;
 }): JSX.Element {
@@ -33,10 +41,10 @@ function TextSection(props: {
   return (
     <View style={styles.textSection}>
       <Text style={styles.title} numberOfLines={2} ellipsizeMode="tail">
-        {props.title}
+        {title}
       </Text>
       <Text style={styles.description} numberOfLines={5} ellipsizeMode="tail">
-        {props.description}
+        {description}
       </Text>
     </View>
   );
@@ -48,19 +56,19 @@ const cardPaddingPx = 16;
 const cardMaxHeightPx =
   cardContentHeightPx + 2 * cardPaddingPx + 2 * cardBorderThickness;
 
-const veryLightGrey = "rgb(244, 244, 244)";
+const veryLightGrey = 'rgb(244, 244, 244)';
 
 const styles = StyleSheet.create({
   card: {
-    flexDirection: "row",
-    justifyContent: "space-between",
+    flexDirection: 'row',
+    justifyContent: 'space-between',
     gap: cardPaddingPx,
 
     height: cardMaxHeightPx,
     maxHeight: cardMaxHeightPx,
     padding: cardPaddingPx,
 
-    borderColor: "orange",
+    borderColor: 'orange',
     borderWidth: 2,
     borderRadius: 8,
 
@@ -71,7 +79,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 16,
-    fontWeight: "bold",
+    fontWeight: 'bold',
     marginBottom: 8,
   },
   description: {

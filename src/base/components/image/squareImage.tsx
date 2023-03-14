@@ -1,32 +1,27 @@
-import {
-  View,
-  Image,
-  StyleSheet,
-  type ImageSourcePropType,
-  type ViewStyle,
-} from "react-native";
+import { View, Image, StyleSheet } from 'react-native';
+import type { ImageSourcePropType } from 'react-native';
 
 type SquareImageProps = {
   source: ImageSourcePropType;
   sizePx: number;
 };
 
-export function SquareImage(props: SquareImageProps): JSX.Element {
+export function SquareImage({ sizePx, source }: SquareImageProps): JSX.Element {
   const { containerSize, imageSize } = StyleSheet.create({
     containerSize: {
-      width: props.sizePx,
-      height: props.sizePx,
+      width: sizePx,
+      height: sizePx,
     },
     imageSize: {
-      width: props.sizePx - 2 * borderThickness,
-      height: props.sizePx - 2 * borderThickness,
-      borderRadius: borderRadius,
+      width: sizePx - 2 * borderThickness,
+      height: sizePx - 2 * borderThickness,
+      borderRadius,
     },
   });
 
   return (
     <View style={[styles.container, containerSize]}>
-      <Image style={imageSize} source={props.source} resizeMode="center" />
+      <Image style={imageSize} source={source} resizeMode="center" />
     </View>
   );
 }
@@ -36,9 +31,9 @@ const borderRadius = 8;
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "white",
+    backgroundColor: 'white',
     borderWidth: borderThickness,
-    borderColor: "purple",
-    borderRadius: borderRadius,
+    borderColor: 'purple',
+    borderRadius,
   },
 });

@@ -1,23 +1,23 @@
-import { registerRootComponent } from "expo";
-import { StatusBar } from "expo-status-bar";
-import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import type { RootStackParamList } from "./screens/navigationTypes";
-import { FeedScreen } from "./screens/dealsFeed/screen";
-import { DealInfoScreen } from "./screens/dealInfo/screen";
+import { registerRootComponent } from 'expo';
+import { StatusBar } from 'expo-status-bar';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { Text } from 'react-native';
+import type { RootStackParamList } from './screens/navigationTypes';
+import { FeedScreen } from './screens/dealsFeed/screen';
+import { DealInfoScreen } from './screens/dealInfo/screen';
 import {
   FeedGetter,
   localFetchFeed,
   useMakeFeedGetter,
-} from "./global-state/dealsFeed";
-import { Text } from "react-native";
-import { FeedContext } from "./global-state/dealsFeed";
+  FeedContext,
+} from './global-state/dealsFeed';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 function App(): JSX.Element {
   const feedGetter = useMakeFeedGetter(() =>
-    FeedGetter.makeFeedGetter(localFetchFeed)
+    FeedGetter.makeFeedGetter(localFetchFeed),
   );
 
   return feedGetter == null ? (

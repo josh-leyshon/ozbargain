@@ -1,34 +1,35 @@
-import { ReactNode } from "react";
-import { type StyleProp, StyleSheet, View, type ViewStyle } from "react-native";
+import type { ReactNode } from 'react';
+import { StyleSheet, View } from 'react-native';
+import type { StyleProp, ViewStyle } from 'react-native';
 
 type FlexLayoutProps = {
   children: ReactNode;
   /** Default: space-between */
-  justifyContent?: ViewStyle["justifyContent"];
+  justifyContent?: ViewStyle['justifyContent'];
   /** Default: stretch */
-  alignItems?: ViewStyle["alignItems"];
+  alignItems?: ViewStyle['alignItems'];
   /** Default: undefined */
-  shrink?: ViewStyle["flexShrink"];
+  shrink?: ViewStyle['flexShrink'];
   /** Default: undefined */
-  grow?: ViewStyle["flexGrow"];
+  grow?: ViewStyle['flexGrow'];
   /** Default: nowrap */
-  wrap?: ViewStyle["flexWrap"];
+  wrap?: ViewStyle['flexWrap'];
   /** Default: unset */
   gap?: number;
   style?: StyleProp<
     Omit<
       ViewStyle,
-      "justifyContent" | "alignItems" | "flexShrink" | "flexGrow" | "flexWrap"
+      'justifyContent' | 'alignItems' | 'flexShrink' | 'flexGrow' | 'flexWrap'
     >
   >;
 };
 
 export function Row(props: FlexLayoutProps): JSX.Element {
-  return FlexView({ direction: "row", ...props });
+  return FlexView({ direction: 'row', ...props });
 }
 
 export function Column(props: FlexLayoutProps): JSX.Element {
-  return FlexView({ direction: "column", ...props });
+  return FlexView({ direction: 'column', ...props });
 }
 
 function FlexView({
@@ -41,12 +42,12 @@ function FlexView({
   wrap,
   gap,
   style,
-}: FlexLayoutProps & { direction: ViewStyle["flexDirection"] }): JSX.Element {
+}: FlexLayoutProps & { direction: ViewStyle['flexDirection'] }): JSX.Element {
   const styles = StyleSheet.create({
     column: {
       flexDirection: direction,
-      justifyContent: justifyContent ?? "space-between",
-      alignItems: alignItems ?? "stretch",
+      justifyContent: justifyContent ?? 'space-between',
+      alignItems: alignItems ?? 'stretch',
       flexShrink: shrink,
       flexGrow: grow,
       flexWrap: wrap,

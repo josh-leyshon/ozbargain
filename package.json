@@ -7,7 +7,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "eslint --ext .ts,.tsx && prettier -c **/*.ts*",
+    "lint": "eslint src/ --ext .ts,.tsx",
     "lint:types": "tsc",
     "ts-node": "ts-node --files",
     "regen-patches": "patch-package rss-parser --exclude='lib' --include 'package\\.json'",

@@ -1,6 +1,6 @@
-import { Platform, StyleSheet, View } from "react-native";
-import { Button } from "../../base/components/button/button";
-import { Column, Row } from "../../base/layout/flex";
+import { Platform, StyleSheet, View } from 'react-native';
+import { Button } from '../../base/components/button/button';
+import { Column, Row } from '../../base/layout/flex';
 
 type LinkButtonProps = {
   onPressGoToDeal: () => Promise<void>;
@@ -24,7 +24,7 @@ export function LinkButtons({
             onPress={onPressOpenOnOzbargain}
           />
         </View>
-        {Platform.OS !== "web" && (
+        {Platform.OS !== 'web' && (
           <View style={styles.buttonContainer}>
             <Button title="Share" color="orange" onPress={onPressShare} />
           </View>

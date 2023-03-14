@@ -1,36 +1,44 @@
-import type { DealInfoScreenProps } from "../navigationTypes";
-import { DealHeader } from "./dealHeader";
-import { LinkButtons } from "./linkButtons";
-import { Description } from "./description";
-import { Column } from "../../base/layout/flex";
-import { useFeed } from "../../global-state/dealsFeed";
-import { openURL } from "expo-linking";
-import { ScrollView, Share, StyleSheet } from "react-native";
+import { openURL } from 'expo-linking';
+import { ScrollView, Share, StyleSheet } from 'react-native';
+import type { DealInfoScreenProps } from '../navigationTypes';
+import { DealHeader } from './dealHeader';
+import { LinkButtons } from './linkButtons';
+import { Description } from './description';
+import { Column } from '../../base/layout/flex';
+import { useFeed } from '../../global-state/dealsFeed';
 
 export function DealInfoScreen({ route }: DealInfoScreenProps): JSX.Element {
   const { dealId } = route.params;
-  const deal = useFeed().getDealById(dealId);
+  const {
+    title,
+    description,
+    author,
+    thumbnailUrl,
+    postedAt,
+    expiresAt,
+    votes,
+    links,
+  } = useFeed().getDealById(dealId);
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Column gap={16}>
         <DealHeader
-          title={deal.title}
-          description={deal.description}
-          imageUrl={deal.thumbnailUrl}
-          author="some author"
-          postedAt={deal.postedAt}
-          expiresAt={deal.expiresAt}
-          votes={deal.votes}
+          title={title}
+          imageUrl={thumbnailUrl}
+          author={author}
+          postedAt={postedAt}
+          expiresAt={expiresAt}
+          votes={votes}
         />
         <LinkButtons
-          onPressGoToDeal={() => openLink(deal.links.productPage)}
-          onPressOpenOnOzbargain={() => openLink(deal.links.deal)}
+          onPressGoToDeal={() => openLink(links.productPage)}
+          onPressOpenOnOzbargain={() => openLink(links.deal)}
           onPressShare={async () => {
-            await Share.share({ message: deal.links.deal });
+            await Share.share({ message: links.deal });
           }}
         />
-        <Description description={deal.description} />
+        <Description description={description} />
       </Column>
     </ScrollView>
   );
@@ -43,5 +51,5 @@ const styles = StyleSheet.create({
 });
 
 async function openLink(url: string): Promise<void> {
-  openURL(url).catch(() => console.log("User cancelled dialog"));
+  await openURL(url).catch(() => console.log('User cancelled dialog'));
 }

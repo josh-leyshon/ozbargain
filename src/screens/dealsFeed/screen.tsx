@@ -1,7 +1,7 @@
-import { DealsFeed } from "./dealsFeed";
-import type { FeedScreenProps } from "../navigationTypes";
-import { useFeed } from "../../global-state/dealsFeed";
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
+import { DealsFeed } from './dealsFeed';
+import type { FeedScreenProps } from '../navigationTypes';
+import { useFeed } from '../../global-state/dealsFeed';
 
 export function FeedScreen({ navigation }: FeedScreenProps): JSX.Element {
   const deals = useFeed().getDeals();
@@ -9,15 +9,13 @@ export function FeedScreen({ navigation }: FeedScreenProps): JSX.Element {
   return (
     <DealsFeed
       style={styles.container}
-      items={deals.map((deal) => ({
+      items={deals.map(deal => ({
         id: deal.id,
         title: deal.title,
         description: deal.description,
         imageUrl: deal.thumbnailUrl,
       }))}
-      onPressItem={(item) =>
-        navigation.navigate("DealInfo", { dealId: item.id })
-      }
+      onPressItem={item => navigation.navigate('DealInfo', { dealId: item.id })}
     />
   );
 }
