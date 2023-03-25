@@ -5,10 +5,18 @@ import { DealHeader } from './dealHeader';
 import { LinkButtons } from './linkButtons';
 import { Description } from './description';
 import { Column } from '../../base/layout/flex';
-import { useFeed } from '../../global-state/dealsFeed';
+import { useDealsFeed } from '../../global-state/dealsFeed';
 
 export function DealInfoScreen({ route }: DealInfoScreenProps): JSX.Element {
   const { dealId } = route.params;
+  const { dealsFeed } = useDealsFeed();
+
+  if (!dealsFeed) {
+    throw new Error(
+      'Opened DealInfo Screen but dealsFeed is not available. Unable to retrieve deal information.',
+    );
+  }
+
   const {
     title,
     description,
@@ -18,7 +26,7 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): JSX.Element {
     expiresAt,
     votes,
     links,
-  } = useFeed().getDealById(dealId);
+  } = dealsFeed.getDealById(dealId);
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
