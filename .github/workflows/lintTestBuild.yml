@@ -17,6 +17,9 @@ jobs:
         with:
           node-version: '16'
           cache: npm
+      - name: Install deps
+        run: npm ci
+
       - name: 🟣 Eslint
         run: npm run lint
       - name: 🔵 Type Check
@@ -32,6 +35,9 @@ jobs:
         with:
           node-version: '16'
           cache: npm
+      - name: Install deps
+        run: npm ci
+
       - name: Export project with expo
         run: npm run build
       - name: Export project with expo (web)
