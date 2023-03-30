@@ -13,12 +13,16 @@ type DealItemData = DealInfo & DealId;
 export type DealsFeedProps = {
   items: DealItemData[];
   onPressItem: (item: DealItemData) => void;
+  onRefresh: NonNullable<FlatListProps<DealItemData>['onRefresh']>;
+  refreshing: NonNullable<FlatListProps<DealItemData>['refreshing']>;
   style?: FlatListProps<DealItemData>['contentContainerStyle'];
 };
 
 export function DealsFeed({
   items,
   onPressItem,
+  onRefresh,
+  refreshing,
   style,
 }: DealsFeedProps): JSX.Element {
   return (
@@ -35,6 +39,8 @@ export function DealsFeed({
       )}
       ItemSeparatorComponent={FeedItemSeparator}
       contentContainerStyle={style}
+      onRefresh={onRefresh}
+      refreshing={refreshing}
     />
   );
 }
