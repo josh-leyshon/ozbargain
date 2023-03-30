@@ -41,6 +41,7 @@
     ],
     "react/prop-types": 0,
     "react/require-default-props": "off",
+    "react/jsx-props-no-spreading": "off",
     "prettier/prettier": [
       "error",
       {
