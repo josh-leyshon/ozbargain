@@ -4,15 +4,14 @@
   "main": "./src/app.tsx",
   "scripts": {
     "start": "expo start --tunnel",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "eslint src/ --ext .ts,.tsx",
     "lint:types": "tsc",
+    "build": "expo export",
+    "build:web": "expo export:web",
     "ts-node": "ts-node --files",
     "regen-patches": "patch-package rss-parser --exclude='lib' --include 'package\\.json'",
-    "postinstall": "patch-package",
-    "build:android": "expo run:android --device"
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.6",
