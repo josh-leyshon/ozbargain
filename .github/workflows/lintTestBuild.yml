@@ -39,7 +39,7 @@ jobs:
       - name: Install deps
         run: npm ci
 
-      - name: Export project with expo
+      - name: 🏗 Export project with expo
         run: npm run build
 
   build-web:
@@ -56,5 +56,5 @@ jobs:
       - name: Install deps
         run: npm ci
 
-      - name: Export project with expo (web)
+      - name: 🏗 Export project with expo (web)
         run: npm run build:web
