@@ -1,0 +1,38 @@
+name: Lint, test and build
+run-name: ${{ github.workflow }}, requested by @${{github.actor}} (Run \#${{github.run_number}})
+on:
+  pull_request:
+    paths-ignore:
+      - '**.md'
+      - '.vscode/**'
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: ✍ Lint
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: npm
+      - name: 🟣 Eslint
+        run: npm run lint
+      - name: 🔵 Type Check
+        run: npm run lint:types
+  build:
+    runs-on: ubuntu-latest
+    name: 🏗 Build
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: npm
+      - name: Export project with expo
+        run: npm run build
+      - name: Export project with expo (web)
+        run: npm run build:web
