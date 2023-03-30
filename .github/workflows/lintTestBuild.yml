@@ -1,5 +1,5 @@
 name: Lint, test and build
-run-name: '${{ github.workflow }}, requested by @${{github.actor}} (Run #${{github.run_number}})'
+run-name: '${{ github.workflow }} - Requested by @${{github.actor}} (Run #${{github.run_number}})'
 on:
   pull_request:
     paths-ignore:
