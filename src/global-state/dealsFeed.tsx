@@ -20,16 +20,22 @@ export class DealsFeed {
    */
   readonly feed: OzbargainFeed;
 
+  /** The last-fetched page number of the feed. */
+  readonly lastFetchedPage: number;
+
   constructor(
     feed: OzbargainFeed,
     /** Will merge new feed with previous feed. Deals will not be duplicated. */
     previousFeed?: OzbargainFeed,
+    /** Defaults to 0 if unset. */
+    lastFetchedPage?: number,
   ) {
     if (previousFeed) {
       this.feed = DealsFeed.mergeFeeds(previousFeed, feed);
     } else {
       this.feed = feed;
     }
+    this.lastFetchedPage = lastFetchedPage ?? 0;
   }
 
   getDeals(): Deal[] {
@@ -59,7 +65,10 @@ export class DealsFeed {
   }
 }
 
-type FeedFetcher = () => Promise<OzbargainFeed>;
+/**
+ * @param page The feed page to fetch. Default: 0
+ */
+type FeedFetcher = (page?: number) => Promise<OzbargainFeed>;
 
 export const localFetchFeed: FeedFetcher = async () => {
   // Fails to find file if string is extracted to a variable, for some reason.
@@ -83,8 +92,8 @@ export const localFetchFeed: FeedFetcher = async () => {
   return feed;
 };
 
-export const onlineFetchFeed: FeedFetcher = () => {
-  return getOzbargainFeedFromUrl(FEED_URL_NEW_DEALS);
+export const onlineFetchFeed: FeedFetcher = (page = 0) => {
+  return getOzbargainFeedFromUrl(`${FEED_URL_NEW_DEALS}?page=${page}`);
 };
 
 type State =
@@ -126,10 +135,9 @@ function dealsFeedReducer(
   }
 }
 
-async function refreshDealsFeed(
+async function refreshNewFeed(
   fetchFeed: FeedFetcher,
   dispatch: Dispatch,
-  dealsFeed?: DealsFeed,
 ): Promise<void> {
   dispatch({ type: 'refresh' });
 
@@ -137,14 +145,31 @@ async function refreshDealsFeed(
 
   dispatch({
     type: 'set',
-    dealsFeed: dealsFeed
-      ? new DealsFeed(dealsFeed.feed, newFeed)
-      : new DealsFeed(newFeed),
+    dealsFeed: new DealsFeed(newFeed),
+  });
+}
+
+async function loadFeedNextPage(
+  fetchFeed: FeedFetcher,
+  dispatch: Dispatch,
+  dealsFeed: DealsFeed,
+): Promise<void> {
+  dispatch({ type: 'refresh' });
+
+  const { lastFetchedPage } = dealsFeed;
+  const newFeed = await fetchFeed(lastFetchedPage + 1);
+
+  dispatch({
+    type: 'set',
+    dealsFeed: new DealsFeed(dealsFeed.feed, newFeed, lastFetchedPage),
   });
 }
 
 type DealsFeedContextProps = MaybeUninitializedState & {
+  /** Refresh entire feed. */
   refresh: () => void;
+  /** Load the next page in the feed. */
+  loadNextPage: (dealsFeed: DealsFeed) => void;
 };
 const DealsFeedContext = createContext<DealsFeedContextProps | undefined>(
   undefined,
@@ -165,7 +190,13 @@ export function DealsFeedProvider({
       ...state,
       refresh: () => {
         // eslint-disable-next-line @typescript-eslint/no-floating-promises
-        refreshDealsFeed(fetchFeed, dispatch, state.dealsFeed);
+        refreshNewFeed(fetchFeed, dispatch);
+      },
+      // Need to take dealsFeed as param instead of using state.dealsFeed from this function's closure,
+      // because at this point state.dealsFeed may be undefined.
+      loadNextPage: (dealsFeed: DealsFeed) => {
+        // eslint-disable-next-line @typescript-eslint/no-floating-promises
+        loadFeedNextPage(fetchFeed, dispatch, dealsFeed);
       },
     };
   }, [state, dispatch, fetchFeed]);
@@ -177,7 +208,11 @@ export function DealsFeedProvider({
   );
 }
 
-export function useDealsFeed(): Pick<DealsFeedContextProps, 'refresh'> & State {
+export function useDealsFeed(): Omit<
+  DealsFeedContextProps,
+  keyof MaybeUninitializedState
+> &
+  State {
   const context = useContext(DealsFeedContext);
   if (context == null) {
     throw new Error('Could not find DealsFeed Provider');
@@ -194,12 +229,14 @@ export function useDealsFeed(): Pick<DealsFeedContextProps, 'refresh'> & State {
   return context.state === 'uninitialised' || context.state === 'refreshing'
     ? {
         state: 'refreshing',
-        refresh: context.refresh,
         dealsFeed: context.dealsFeed,
+        refresh: context.refresh,
+        loadNextPage: context.loadNextPage,
       }
     : {
         state: 'ready',
-        refresh: context.refresh,
         dealsFeed: context.dealsFeed,
+        refresh: context.refresh,
+        loadNextPage: context.loadNextPage,
       };
 }
