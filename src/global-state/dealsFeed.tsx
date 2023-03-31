@@ -60,7 +60,9 @@ export class DealsFeed {
       meta: feed1.meta,
       deals: feed1.deals
         .filter(d1 => feed2.deals.every(d2 => d1.id !== d2.id))
-        .concat(feed2.deals),
+        .concat(feed2.deals)
+        // Keep deals sorted in highest -> lowest order (newest -> oldest deals)
+        .sort(({ id: idA }, { id: idB }) => idB - idA),
     };
   }
 }
@@ -161,7 +163,7 @@ async function loadFeedNextPage(
 
   dispatch({
     type: 'set',
-    dealsFeed: new DealsFeed(dealsFeed.feed, newFeed, lastFetchedPage),
+    dealsFeed: new DealsFeed(dealsFeed.feed, newFeed, lastFetchedPage + 1),
   });
 }
 
