@@ -42,12 +42,8 @@ export function DealsFeed({
       ItemSeparatorComponent={FeedItemSeparator}
       contentContainerStyle={style}
       onRefresh={onRefresh}
-      onEndReached={() => {
-        // onEndReached will fire when there are 0 items to render (so list length is 0)
-        if (items.length > 0) {
-          loadNextPage();
-        }
-      }}
+      onEndReached={() => loadNextPage()}
+      onEndReachedThreshold={3}
       refreshing={refreshing}
     />
   );
