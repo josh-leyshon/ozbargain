@@ -5,7 +5,7 @@ import { useDealsFeed } from '../../global-state/dealsFeed';
 import { Button } from '../../base/components/button/button';
 
 export function FeedScreen({ navigation }: FeedScreenProps): JSX.Element {
-  const { state, dealsFeed, refresh } = useDealsFeed();
+  const { state, dealsFeed, refresh, loadNextPage } = useDealsFeed();
 
   return (
     <>
@@ -26,6 +26,9 @@ export function FeedScreen({ navigation }: FeedScreenProps): JSX.Element {
           navigation.navigate('DealInfo', { dealId: item.id })
         }
         onRefresh={refresh}
+        loadNextPage={() =>
+          state === 'ready' ? loadNextPage(dealsFeed) : undefined
+        }
         refreshing={state === 'refreshing'}
       />
     </>

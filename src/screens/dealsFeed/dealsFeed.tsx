@@ -14,6 +14,7 @@ export type DealsFeedProps = {
   items: DealItemData[];
   onPressItem: (item: DealItemData) => void;
   onRefresh: NonNullable<FlatListProps<DealItemData>['onRefresh']>;
+  loadNextPage: () => void;
   refreshing: NonNullable<FlatListProps<DealItemData>['refreshing']>;
   style?: FlatListProps<DealItemData>['contentContainerStyle'];
 };
@@ -22,6 +23,7 @@ export function DealsFeed({
   items,
   onPressItem,
   onRefresh,
+  loadNextPage,
   refreshing,
   style,
 }: DealsFeedProps): JSX.Element {
@@ -40,6 +42,12 @@ export function DealsFeed({
       ItemSeparatorComponent={FeedItemSeparator}
       contentContainerStyle={style}
       onRefresh={onRefresh}
+      onEndReached={() => {
+        // onEndReached will fire when there are 0 items to render (so list length is 0)
+        if (items.length > 0) {
+          loadNextPage();
+        }
+      }}
       refreshing={refreshing}
     />
   );
