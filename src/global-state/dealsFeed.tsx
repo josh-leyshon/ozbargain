@@ -94,6 +94,7 @@ export const localFetchFeed: FeedFetcher = async () => {
   return feed;
 };
 
+// Ozbargain feeds seem to have a 20 page limit (0 - 19) before 404ing.
 export const onlineFetchFeed: FeedFetcher = (page = 0) => {
   return getOzbargainFeedFromUrl(`${FEED_URL_NEW_DEALS}?page=${page}`);
 };
