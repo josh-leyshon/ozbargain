@@ -11,6 +11,11 @@ import { UnreachableError } from '../base/unreachableError';
 
 type Deal = OzbargainFeed['deals'][number];
 
+/**
+ * @param page The feed page to fetch. Default: 0
+ */
+type FeedFetcher = (page?: number) => Promise<OzbargainFeed>;
+
 const FEED_URL_NEW_DEALS = 'https://www.ozbargain.com.au/deals/feed';
 
 export class DealsFeed {
@@ -20,20 +25,29 @@ export class DealsFeed {
    */
   readonly feed: OzbargainFeed;
 
-  /** The last-fetched page number of the feed. */
-  readonly lastFetchedPage: number;
+  /**
+   * The FeedFetcher used to initially create this DealsFeed.
+   * More pages will be fetched using this same fetcher.
+   */
+  readonly fetchFeed: FeedFetcher;
 
-  constructor(
-    feed: OzbargainFeed,
-    /** Will merge new feed with previous feed. Deals will not be duplicated. */
-    previousFeed?: OzbargainFeed,
-    /** Defaults to 0 if unset. */
-    lastFetchedPage?: number,
-  ) {
-    if (previousFeed) {
-      this.feed = DealsFeed.mergeFeeds(previousFeed, feed);
+  /** The last-fetched page number of the feed. */
+  private readonly lastFetchedPage: number;
+
+  constructor({
+    feed,
+    lastFetchedPage,
+    ...rest
+  }: { feed: OzbargainFeed; lastFetchedPage?: number } & (
+    | { fetchFeed: FeedFetcher }
+    | { previousDealsFeed: DealsFeed }
+  )) {
+    if ('previousDealsFeed' in rest) {
+      this.feed = DealsFeed.mergeFeeds(rest.previousDealsFeed.feed, feed);
+      this.fetchFeed = rest.previousDealsFeed.fetchFeed;
     } else {
       this.feed = feed;
+      this.fetchFeed = rest.fetchFeed;
     }
     this.lastFetchedPage = lastFetchedPage ?? 0;
   }
@@ -48,6 +62,17 @@ export class DealsFeed {
       throw new Error(`Unable to find deal with ID ${id}`);
     }
     return foundDeal;
+  }
+
+  /** Returns a new DealsFeed with an updated internal feed. */
+  async loadFeedNextPage(): Promise<DealsFeed> {
+    const newFeed = await this.fetchFeed(this.lastFetchedPage + 1);
+
+    return new DealsFeed({
+      feed: newFeed,
+      previousDealsFeed: this,
+      lastFetchedPage: this.lastFetchedPage + 1,
+    });
   }
 
   /** If duplicate deals exist, keeps those in feed2. */
@@ -66,11 +91,6 @@ export class DealsFeed {
     };
   }
 }
-
-/**
- * @param page The feed page to fetch. Default: 0
- */
-type FeedFetcher = (page?: number) => Promise<OzbargainFeed>;
 
 export const localFetchFeed: FeedFetcher = async () => {
   // Fails to find file if string is extracted to a variable, for some reason.
@@ -139,8 +159,8 @@ function dealsFeedReducer(
 }
 
 async function refreshNewFeed(
-  fetchFeed: FeedFetcher,
   dispatch: Dispatch,
+  fetchFeed: FeedFetcher,
 ): Promise<void> {
   dispatch({ type: 'refresh' });
 
@@ -148,23 +168,21 @@ async function refreshNewFeed(
 
   dispatch({
     type: 'set',
-    dealsFeed: new DealsFeed(newFeed),
+    dealsFeed: new DealsFeed({ feed: newFeed, fetchFeed }),
   });
 }
 
 async function loadFeedNextPage(
-  fetchFeed: FeedFetcher,
   dispatch: Dispatch,
   dealsFeed: DealsFeed,
 ): Promise<void> {
   dispatch({ type: 'refresh' });
 
-  const { lastFetchedPage } = dealsFeed;
-  const newFeed = await fetchFeed(lastFetchedPage + 1);
+  const newDealsFeed = await dealsFeed.loadFeedNextPage();
 
   dispatch({
     type: 'set',
-    dealsFeed: new DealsFeed(dealsFeed.feed, newFeed, lastFetchedPage + 1),
+    dealsFeed: newDealsFeed,
   });
 }
 
@@ -193,13 +211,13 @@ export function DealsFeedProvider({
       ...state,
       refresh: () => {
         // eslint-disable-next-line @typescript-eslint/no-floating-promises
-        refreshNewFeed(fetchFeed, dispatch);
+        refreshNewFeed(dispatch, fetchFeed);
       },
       // Need to take dealsFeed as param instead of using state.dealsFeed from this function's closure,
       // because at this point state.dealsFeed may be undefined.
       loadNextPage: (dealsFeed: DealsFeed) => {
         // eslint-disable-next-line @typescript-eslint/no-floating-promises
-        loadFeedNextPage(fetchFeed, dispatch, dealsFeed);
+        loadFeedNextPage(dispatch, dealsFeed);
       },
     };
   }, [state, dispatch, fetchFeed]);
