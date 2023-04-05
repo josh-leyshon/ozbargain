@@ -14,6 +14,7 @@ export type DealsFeedProps = {
   items: DealItemData[];
   onPressItem: (item: DealItemData) => void;
   onRefresh: NonNullable<FlatListProps<DealItemData>['onRefresh']>;
+  loadNextPage: () => void;
   refreshing: NonNullable<FlatListProps<DealItemData>['refreshing']>;
   style?: FlatListProps<DealItemData>['contentContainerStyle'];
 };
@@ -22,6 +23,7 @@ export function DealsFeed({
   items,
   onPressItem,
   onRefresh,
+  loadNextPage,
   refreshing,
   style,
 }: DealsFeedProps): JSX.Element {
@@ -40,6 +42,11 @@ export function DealsFeed({
       ItemSeparatorComponent={FeedItemSeparator}
       contentContainerStyle={style}
       onRefresh={onRefresh}
+      onEndReached={() => loadNextPage()}
+      // This value felt about right, with new deals being fetched a little before reaching the end.
+      // After manual testing, couldn't figure out exactly how this value relates to how many deals are on screen.
+      // So this number might need to change if the size of deal cards changes.
+      onEndReachedThreshold={3}
       refreshing={refreshing}
     />
   );
