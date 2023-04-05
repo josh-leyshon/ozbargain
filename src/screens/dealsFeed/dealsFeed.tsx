@@ -43,6 +43,9 @@ export function DealsFeed({
       contentContainerStyle={style}
       onRefresh={onRefresh}
       onEndReached={() => loadNextPage()}
+      // This value felt about right, with new deals being fetched a little before reaching the end.
+      // After manual testing, couldn't figure out exactly how this value relates to how many deals are on screen.
+      // So this number might need to change if the size of deal cards changes.
       onEndReachedThreshold={3}
       refreshing={refreshing}
     />
