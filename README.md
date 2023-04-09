@@ -4,7 +4,7 @@ This is a React Native / Expo app. It can currently run on web and mobile (via E
 
 Some areas, like the feed-parser fake data, are incomplete / untidy. Will come back to these after making more progress. Also tests don't exist yet.
 
-![Demo video](https://i.imgur.com/D3kAXC9.mp4)
+https://user-images.githubusercontent.com/45578963/230768014-05ff34ff-277b-4840-9f6a-9eaca686dbf4.mp4
 
 ## To run
 
