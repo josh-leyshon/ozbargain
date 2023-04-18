@@ -24,6 +24,23 @@ jobs:
         run: npm run lint
       - name: 🔵 Type Check
         run: npm run lint:types
+  
+  test:
+    runs-on: ubuntu-latest
+    name: 🧪 Test
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: npm
+      - name: Install deps
+        run: npm ci
+
+      - name: 🤡 Jest tests
+        run: npm test
 
   build:
     runs-on: ubuntu-latest
