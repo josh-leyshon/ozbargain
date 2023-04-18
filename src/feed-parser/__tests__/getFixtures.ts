@@ -7,7 +7,7 @@ const VALID_FIXTURES_DIR = `${FIXTURES_DIR}/valid`;
 const INVALID_FIXTURES_DIR = `${FIXTURES_DIR}/invalid`;
 
 type Fixture = {
-  /** Fixture name. */
+  /** Fixture filename without extension. */
   name: string;
   /** String contents of the raw fixture file (in XML format). */
   rawFixture: string;
