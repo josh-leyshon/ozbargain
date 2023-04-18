@@ -94,8 +94,9 @@ export class DealsFeed {
 
 export const localFetchFeed: FeedFetcher = async () => {
   // Fails to find file if string is extracted to a variable, for some reason.
-  // eslint-disable-next-line @typescript-eslint/no-var-requires, global-require, @typescript-eslint/no-unsafe-assignment
-  const feed: OzbargainFeed = require('../feed-parser/tests/fixtures/parsed-ozbargain-rss');
+  // Also fails to load this file if it is within a `__tests__` directory.
+  // eslint-disable-next-line @typescript-eslint/no-var-requires, global-require, @typescript-eslint/no-unsafe-assignment, import/extensions
+  const feed: OzbargainFeed = require('./localAssets/ozbargain-rss.parsed.json');
 
   // Turn date strings back into dates.
   feed.deals = feed.deals.map(deal => ({
