@@ -1,7 +1,7 @@
 import { readFile } from 'fs/promises';
 import type { OzbargainFeed } from '../parser';
 import { convertToOzbargainFeed } from '../parser';
-import { parseRssFeedFromString } from './getFixtures';
+import { parseRssFeedFromString } from './fixtures/getFixtures';
 
 export async function getOzbargainFeedFromFile(
   file: string,

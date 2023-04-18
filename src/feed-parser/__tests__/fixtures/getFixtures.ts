@@ -1,8 +1,8 @@
 import { readFileSync, readdirSync } from 'fs';
-import type { RssFeed } from '../parser';
-import { getRssParser } from '../parser';
+import type { RssFeed } from '../../parser';
+import { getRssParser } from '../../parser';
 
-const FIXTURES_DIR = `${__dirname}/fixtures`;
+const FIXTURES_DIR = `${__dirname}`;
 const VALID_FIXTURES_DIR = `${FIXTURES_DIR}/valid`;
 const INVALID_FIXTURES_DIR = `${FIXTURES_DIR}/invalid`;
 

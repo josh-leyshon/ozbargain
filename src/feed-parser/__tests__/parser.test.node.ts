@@ -3,7 +3,7 @@ import {
   validFixtures,
   invalidFixtures,
   parseRssFeedFromString,
-} from './getFixtures';
+} from './fixtures/getFixtures';
 
 describe('Valid fixtures', () => {
   test.each(validFixtures)(

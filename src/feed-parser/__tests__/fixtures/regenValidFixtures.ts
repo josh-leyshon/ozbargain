@@ -5,10 +5,10 @@
  */
 
 import { writeFile } from 'fs/promises';
-import { convertToOzbargainFeed } from '../parser';
+import { convertToOzbargainFeed } from '../../parser';
 import { parseRssFeedFromString, validFixtures } from './getFixtures';
 
-const VALID_FIXTURES_DIR = `${__dirname}/fixtures/valid`;
+const VALID_FIXTURES_DIR = `${__dirname}/valid`;
 
 // Will overwrite any existing file.
 async function writeFileToDisk(
