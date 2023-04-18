@@ -1,8 +1,8 @@
 import { convertToOzbargainFeed } from '../parser';
-import { fixtures, parseRssFeedFromString } from './getFixtures';
+import { validFixtures, parseRssFeedFromString } from './getFixtures';
 
 describe('Valid fixtures', () => {
-  test.each(fixtures)(
+  test.each(validFixtures)(
     'Fixture: $name',
     async ({ rawFixture, parsedFixture }) => {
       const feed = await parseRssFeedFromString(rawFixture);

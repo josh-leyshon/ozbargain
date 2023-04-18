@@ -3,12 +3,17 @@ import type { RssFeed } from '../parser';
 import { getRssParser } from '../parser';
 
 const FIXTURES_DIR = `${__dirname}/fixtures`;
+const VALID_FIXTURES_DIR = `${FIXTURES_DIR}/valid`;
+const INVALID_FIXTURES_DIR = `${FIXTURES_DIR}/invalid`;
 
 type Fixture = {
   /** Fixture name. */
   name: string;
   /** String contents of the raw fixture file (in XML format). */
   rawFixture: string;
+};
+
+type ValidFixture = Fixture & {
   /** String contents of the parsed fixture file (in parsed JSON format). */
   parsedFixture: string;
 };
@@ -23,8 +28,8 @@ function getParsedFixture(filename: string): string {
   return JSON.stringify(JSON.parse(readFileSync(filename, 'utf-8')));
 }
 
-export const fixtures = (() => {
-  const allFileNames = readdirSync(FIXTURES_DIR, {
+export const validFixtures: ValidFixture[] = (() => {
+  const allFileNames = readdirSync(VALID_FIXTURES_DIR, {
     withFileTypes: true,
   })
     .filter(
@@ -34,7 +39,7 @@ export const fixtures = (() => {
     )
     .map(file => file.name);
 
-  const collectedFixtures: Fixture[] = [];
+  const collectedFixtures: ValidFixture[] = [];
 
   allFileNames
     .filter(file => file.endsWith('.xml'))
@@ -51,9 +56,12 @@ export const fixtures = (() => {
         );
       }
 
-      const rawFixture = readFileSync(`${FIXTURES_DIR}/${rawFile}`, 'utf-8');
+      const rawFixture = readFileSync(
+        `${VALID_FIXTURES_DIR}/${rawFile}`,
+        'utf-8',
+      );
       const parsedFixture = getParsedFixture(
-        `${FIXTURES_DIR}/${parsedFilename}`,
+        `${VALID_FIXTURES_DIR}/${parsedFilename}`,
       );
 
       collectedFixtures.push({
@@ -64,4 +72,17 @@ export const fixtures = (() => {
     });
 
   return collectedFixtures;
+})();
+
+export const invalidFixtures: Fixture[] = (() => {
+  const filenames = readdirSync(VALID_FIXTURES_DIR, {
+    withFileTypes: true,
+  })
+    .filter(item => item.isFile() && item.name.endsWith('.xml'))
+    .map(file => file.name);
+
+  return filenames.map(file => ({
+    name: file.split('.')[0],
+    rawFixture: readFileSync(`${INVALID_FIXTURES_DIR}/${file}`, 'utf-8'),
+  }));
 })();
