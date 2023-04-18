@@ -75,7 +75,7 @@ export const validFixtures: ValidFixture[] = (() => {
 })();
 
 export const invalidFixtures: Fixture[] = (() => {
-  const filenames = readdirSync(VALID_FIXTURES_DIR, {
+  const filenames = readdirSync(INVALID_FIXTURES_DIR, {
     withFileTypes: true,
   })
     .filter(item => item.isFile() && item.name.endsWith('.xml'))

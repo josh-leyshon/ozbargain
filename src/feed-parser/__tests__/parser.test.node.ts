@@ -1,5 +1,9 @@
 import { convertToOzbargainFeed } from '../parser';
-import { validFixtures, parseRssFeedFromString } from './getFixtures';
+import {
+  validFixtures,
+  invalidFixtures,
+  parseRssFeedFromString,
+} from './getFixtures';
 
 describe('Valid fixtures', () => {
   test.each(validFixtures)(
@@ -11,4 +15,11 @@ describe('Valid fixtures', () => {
       expect(JSON.stringify(convertedFeed)).toEqual(parsedFixture);
     },
   );
+});
+
+describe('Invalid fixtures', () => {
+  test.each(invalidFixtures)('Fixture: $name', async ({ rawFixture }) => {
+    const feed = await parseRssFeedFromString(rawFixture);
+    expect(() => convertToOzbargainFeed(feed)).toThrow();
+  });
 });
