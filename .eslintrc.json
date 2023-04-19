@@ -22,7 +22,10 @@
     },
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": "./tsconfig.json"
+    "project": [
+      "./tsconfig.json",
+      "./tsconfig.eslint.json"
+    ]
   },
   "rules": {
     "import/no-unresolved": 0,
@@ -82,5 +85,18 @@
       "error",
       "never"
     ]
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.test.ts",
+        "*.test.tsx"
+      ],
+      "rules": {
+        // Disabled for tests because the return type of `screen.*` methods from `@testing-library/react-native`
+        // is incorrectly `any` inside eslint. Typescript does narrow the type correctly.
+        "@typescript-eslint/no-unsafe-assignment": "off"
+      }
+    }
+  ]
 }
