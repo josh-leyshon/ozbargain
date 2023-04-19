@@ -1,6 +1,8 @@
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { SquareImage } from '../../../base/components/image/squareImage';
 
+export const DEAL_CARD_TEST_ID = 'DEAL_CARD';
+
 export type DealCardProps = {
   title: string;
   description: string;
@@ -15,7 +17,7 @@ export function DealCard({
   imageUrl,
 }: DealCardProps): JSX.Element {
   return (
-    <Pressable onPress={onPress}>
+    <Pressable onPress={onPress} testID={DEAL_CARD_TEST_ID}>
       <View style={styles.card}>
         <TextSection title={title} description={description} />
         {imageUrl != null && (
