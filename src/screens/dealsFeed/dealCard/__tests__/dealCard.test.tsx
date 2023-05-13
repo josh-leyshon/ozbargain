@@ -1,6 +1,18 @@
 import { render, screen, fireEvent } from '@testing-library/react-native';
 import { DealCard, DEAL_CARD_TEST_ID } from '../dealCard';
 
+test('Renders', () => {
+  render(
+    <DealCard
+      title="my title"
+      description="my description"
+      onPress={jest.fn()}
+    />,
+  );
+
+  expect(screen.toJSON()).toMatchSnapshot();
+});
+
 test('Pressing anywhere on the card fires onPress', () => {
   const onPress = jest.fn();
   const descriptionText = 'desc';
