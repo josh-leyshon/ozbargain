@@ -1,28 +1,30 @@
 import { Button as ReactNativeButton, View, StyleSheet } from 'react-native';
 import type { ButtonProps as ReactNativeButtonProps } from 'react-native';
 
-const colors = {
+const buttonColours = {
   orange: '#ffbd59',
   green: '#82f152',
-  lightGreen: '#beffa2',
+  lightGreen: '#a0ff77',
+  veryLightGreen: '#aaff85',
   red: '#f15e5e',
   lightRed: '#ffb7b7',
+  veryLightRed: '#ffcfcf',
 } as const;
 
-type Colors = keyof typeof colors;
+export type ButtonColours = keyof typeof buttonColours;
 
 type ButtonProps = {
   title: ReactNativeButtonProps['title'];
   onPress: ReactNativeButtonProps['onPress'];
-  color: Colors;
+  color: ButtonColours;
 };
 
 export function Button({ color, title, onPress }: ButtonProps): JSX.Element {
-  const buttonColor = colors[color];
+  const buttonColour = buttonColours[color];
   return (
     // TODO: Could use a custom Pressable component to add styles, instead of a Button wrapped in a View.
     <View style={styles.container}>
-      <ReactNativeButton title={title} onPress={onPress} color={buttonColor} />
+      <ReactNativeButton title={title} onPress={onPress} color={buttonColour} />
     </View>
   );
 }
