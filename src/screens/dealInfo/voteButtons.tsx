@@ -20,11 +20,11 @@ export function makeVoteButtons({ votes }: VoteButtonsProps): {
 } {
   return {
     positiveVoteButton: PositiveVoteButton({
-      ...votes,
+      votes: votes.positive,
       onPress: () => submitVote('positive'),
     }),
     negativeVoteButton: NegativeVoteButton({
-      ...votes,
+      votes: votes.negative,
       onPress: () => submitVote('negative'),
     }),
   };
@@ -49,20 +49,22 @@ function getColourForVoteCount(kind: VoteKind, count: number): ButtonColours {
           : 'red';
 }
 
-function PositiveVoteButton({
-  positive,
+/** Exported for testing. */
+export function PositiveVoteButton({
+  votes,
   onPress,
-}: VoteButtonsProps['votes'] & OnPress): JSX.Element {
-  const title = `👍 ${positive}`;
-  const colour = getColourForVoteCount('positive', positive);
+}: { votes: VoteButtonsProps['votes']['positive'] } & OnPress): JSX.Element {
+  const title = `👍 ${votes}`;
+  const colour = getColourForVoteCount('positive', votes);
   return <Button title={title} color={colour} onPress={onPress} />;
 }
 
-function NegativeVoteButton({
-  negative,
+/** Exported for testing. */
+export function NegativeVoteButton({
+  votes,
   onPress,
-}: VoteButtonsProps['votes'] & OnPress): JSX.Element {
-  const title = `👎 ${negative}`;
-  const colour = getColourForVoteCount('negative', negative);
+}: { votes: VoteButtonsProps['votes']['negative'] } & OnPress): JSX.Element {
+  const title = `👎 ${votes}`;
+  const colour = getColourForVoteCount('negative', votes);
   return <Button title={title} color={colour} onPress={onPress} />;
 }
