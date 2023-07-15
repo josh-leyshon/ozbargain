@@ -4,6 +4,8 @@
     "strict": true
   },
   "include": [
-    "src/"
+    "src/",
+    // Lets Typescript/intellisense know about the extra `expect` matchers added.
+    "jest.setup-after-env.ts"
   ]
 }
