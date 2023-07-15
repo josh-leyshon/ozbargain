@@ -1,8 +1,8 @@
-import { Text, StyleSheet, View } from 'react-native';
-import { Button } from '../../base/components/button/button';
+import { Text, StyleSheet } from 'react-native';
 import { SquareImage } from '../../base/components/image/squareImage';
 import { Column, Row } from '../../base/layout/flex';
 import type { OzbargainFeed } from '../../feed-parser/parser';
+import { makeVoteButtons } from './voteButtons';
 
 type DealHeaderProps = {
   title: string;
@@ -21,6 +21,8 @@ export function DealHeader({
   imageUrl,
   votes,
 }: DealHeaderProps): JSX.Element {
+  const { positiveVoteButton, negativeVoteButton } = makeVoteButtons({ votes });
+
   return (
     <Row gap={16}>
       <Column gap={16} shrink={1} grow={1}>
@@ -48,32 +50,13 @@ export function DealHeader({
       <Column gap={16} justifyContent="flex-start">
         <SquareImage source={{ uri: imageUrl }} sizePx={140} />
         <Row gap={16}>
-          <View style={styles.buttonContainer}>
-            <Button
-              title={`👍 ${votes.positive}`}
-              color="green"
-              onPress={() => undefined}
-            />
-          </View>
-          <View style={styles.buttonContainer}>
-            <Button
-              title={`👎 ${votes.negative}`}
-              color="lightred"
-              onPress={() => undefined}
-            />
-          </View>
+          {positiveVoteButton}
+          {negativeVoteButton}
         </Row>
       </Column>
     </Row>
   );
 }
-
-const styles = StyleSheet.create({
-  buttonContainer: {
-    flexBasis: 1,
-    flexGrow: 1,
-  },
-});
 
 const textStyles = StyleSheet.create({
   title: {
