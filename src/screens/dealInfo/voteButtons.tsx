@@ -19,14 +19,12 @@ export function makeVoteButtons({ votes }: VoteButtonsProps): {
   negativeVoteButton: JSX.Element;
 } {
   return {
-    positiveVoteButton: PositiveVoteButton({
-      votes: votes.positive,
-      onPress: submitVote,
-    }),
-    negativeVoteButton: NegativeVoteButton({
-      votes: votes.negative,
-      onPress: submitVote,
-    }),
+    positiveVoteButton: (
+      <PositiveVoteButton votes={votes.positive} onPress={submitVote} />
+    ),
+    negativeVoteButton: (
+      <NegativeVoteButton votes={votes.negative} onPress={submitVote} />
+    ),
   };
 }
 
