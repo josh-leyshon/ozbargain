@@ -1,3 +1,4 @@
+import { assert } from '../base/assert';
 import type { RssFeed } from './parser';
 
 type FeedMeta = {
@@ -28,19 +29,6 @@ type FeedItem = {
     'votes-neg': number;
   };
 };
-
-class AssertionError extends Error {
-  constructor(message?: string) {
-    super(message);
-    this.name = 'AssertionError';
-  }
-}
-
-function assert(value: boolean, message?: string): asserts value {
-  if (!value) {
-    throw new AssertionError(message);
-  }
-}
 
 export function assertFeedMeta(
   feed: RssFeed,
