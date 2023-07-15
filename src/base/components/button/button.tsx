@@ -1,7 +1,8 @@
 import { Button as ReactNativeButton, View, StyleSheet } from 'react-native';
 import type { ButtonProps as ReactNativeButtonProps } from 'react-native';
 
-const buttonColours = {
+/** Exported for testing. */
+export const buttonColours = {
   orange: '#ffbd59',
   green: '#82f152',
   lightGreen: '#a0ff77',
