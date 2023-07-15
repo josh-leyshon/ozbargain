@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react-native';
+import { fireEvent, render, screen } from '@testing-library/react-native';
 import { expectButtonColour } from '../../../base/components/button/__tests__/testHelpers';
 import { NegativeVoteButton, PositiveVoteButton } from '../voteButtons';
 
@@ -35,5 +35,27 @@ describe('Buttons change colour based on amount of votes', () => {
     expectButtonColour(buttons[0], 'veryLightRed');
     expectButtonColour(buttons[1], 'lightRed');
     expectButtonColour(buttons[2], 'red');
+  });
+});
+
+describe('onPress fires with correct vote kind', () => {
+  test('Positive vote button', () => {
+    const onPress = jest.fn();
+    render(<PositiveVoteButton votes={0} onPress={onPress} />);
+
+    const button = screen.getByText('👍', { exact: false });
+    fireEvent.press(button);
+
+    expect(onPress).toHaveBeenCalledWith('positive');
+  });
+
+  test('Negative vote button', () => {
+    const onPress = jest.fn();
+    render(<NegativeVoteButton votes={0} onPress={onPress} />);
+
+    const button = screen.getByText('👎', { exact: false });
+    fireEvent.press(button);
+
+    expect(onPress).toHaveBeenCalledWith('negative');
   });
 });
