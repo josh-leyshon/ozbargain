@@ -5,10 +5,10 @@ import type { OzbargainFeed } from '../../feed-parser/parser';
 type VoteButtonsProps = {
   votes: OzbargainFeed['deals'][number]['votes'];
 };
-type OnPress = {
-  onPress: () => Promise<void>;
-};
 type VoteKind = 'positive' | 'negative';
+type OnPress = {
+  onPress: (kind: VoteKind) => Promise<void>;
+};
 
 // TODO: When the app supports logging in, add API call here to submit a vote.
 // eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/require-await
@@ -21,11 +21,11 @@ export function makeVoteButtons({ votes }: VoteButtonsProps): {
   return {
     positiveVoteButton: PositiveVoteButton({
       votes: votes.positive,
-      onPress: () => submitVote('positive'),
+      onPress: submitVote,
     }),
     negativeVoteButton: NegativeVoteButton({
       votes: votes.negative,
-      onPress: () => submitVote('negative'),
+      onPress: submitVote,
     }),
   };
 }
@@ -56,7 +56,9 @@ export function PositiveVoteButton({
 }: { votes: VoteButtonsProps['votes']['positive'] } & OnPress): JSX.Element {
   const title = `👍 ${votes}`;
   const colour = getColourForVoteCount('positive', votes);
-  return <Button title={title} color={colour} onPress={onPress} />;
+  return (
+    <Button title={title} color={colour} onPress={() => onPress('positive')} />
+  );
 }
 
 /** Exported for testing. */
@@ -66,5 +68,7 @@ export function NegativeVoteButton({
 }: { votes: VoteButtonsProps['votes']['negative'] } & OnPress): JSX.Element {
   const title = `👎 ${votes}`;
   const colour = getColourForVoteCount('negative', votes);
-  return <Button title={title} color={colour} onPress={onPress} />;
+  return (
+    <Button title={title} color={colour} onPress={() => onPress('negative')} />
+  );
 }
