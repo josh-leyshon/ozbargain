@@ -1,4 +1,7 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
-  "jest.jestCommandLine": "npm test --"
+  "jest.jestCommandLine": "npm test --",
+  // The logic in Jest config 'setupFilesAfterEnv' seemed to be lost on automatic (on save) re-runs in the default 'watch' mode. Manually re-running the tests in the plugin would work.
+  // Using this 'on-save' mode specifically seems to re-launch Jest for each run, which solves the issue. But, each test re-run is slower.
+  "jest.autoRun": "on-save"
 }
