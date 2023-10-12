@@ -9,7 +9,7 @@ jobs:
     if: |
       ${{
         github.event.issue.pull_request &&
-        github.event.comment.user.name == 'josh-leyshon' &&
+        github.event.comment.user.login == 'josh-leyshon' &&
         contains(github.event.comment.body, '🏗 build-android-preview')
       }}
     runs-on: ubuntu-latest
