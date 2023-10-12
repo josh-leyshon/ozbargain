@@ -9,6 +9,7 @@
     "lint:types": "tsc",
     "build": "expo export",
     "build:web": "expo export:web",
+    "build:android:preview:local": "npx eas-cli build -p android --profile preview --local",
     "ts-node": "ts-node --files",
     "regen-patches": "patch-package rss-parser --exclude='lib' --include 'package\\.json'",
     "postinstall": "patch-package",
