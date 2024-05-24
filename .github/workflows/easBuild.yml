@@ -1,6 +1,7 @@
 name: EAS Build
 run-name: '${{ github.workflow }} - Requested by @${{github.actor}} (Run #${{github.run_number}})'
 on:
+  workflow_dispatch:
   issue_comment:
     types: [created]
 jobs:
@@ -14,10 +15,32 @@ jobs:
       }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Get PR branch
+        if: github.event_name != 'workflow_dispatch'
+        uses: xt0rted/pull-request-comment-branch@v2
+        id: pr-branch-info
+      
+      - name: Set commit status as pending
+        if: github.event_name != 'workflow_dispatch'
+        uses: myrotvorets/set-commit-status-action@v2.0.1
         with:
-          node-version: 18.x
+          sha: ${{ steps.pr-branch-info.head_sha }}
+          status: pending
+
+      - name: Checkout PR branch
+        uses: actions/checkout@v3
+        with:
+          ref: |
+            ${{
+              github.event_name != 'workflow_dispatch' &&
+              steps.comment-branch.outputs.head_ref ||
+              github.sha
+            }}
+
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.x
           cache: npm
 
       - name: Setup EAS
@@ -32,3 +55,10 @@ jobs:
 
       - name: 🏗 Build on EAS
         run: eas build --platform android --profile preview --non-interactive
+      
+      - name: Set final commit status
+        uses: myrotvorets/set-commit-status-action@v2.0.1
+        if: always() && github.event_name != 'workflow_dispatch'
+        with:
+          sha: ${{ steps.pr-branch-info.head_sha }}
+          status: ${{ job.status }}
