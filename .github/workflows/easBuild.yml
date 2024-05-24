@@ -27,10 +27,10 @@ jobs:
       - name: Checkout PR branch
         uses: actions/checkout@v3
 
-      - name: Setup Node
+      - name: Install Node
         uses: actions/setup-node@v3
         with:
-          node-version: 18.x
+          node-version: 20.x
           cache: npm
 
       - name: Setup EAS
