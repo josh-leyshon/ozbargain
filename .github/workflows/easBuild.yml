@@ -14,8 +14,21 @@ jobs:
       }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Get PR branch
+        uses: xt0rted/pull-request-comment-branch@v2
+        id: pr-branch-info
+      
+      - name: Set commit status as pending
+        uses: myrotvorets/set-commit-status-action@v2.0.1
+        with:
+          sha: ${{ steps.pr-branch-info.head_sha }}
+          status: pending
+
+      - name: Checkout PR branch
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
           node-version: 18.x
           cache: npm
@@ -32,3 +45,10 @@ jobs:
 
       - name: 🏗 Build on EAS
         run: eas build --platform android --profile preview --non-interactive
+      
+      - name: Set final commit status
+        uses: myrotvorets/set-commit-status-action@v2.0.1
+        if: always()
+        with:
+          sha: ${{ steps.pr-branch-info.head_sha }}
+          status: ${{ job.status }}
