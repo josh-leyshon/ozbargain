@@ -28,6 +28,7 @@
       "package": "com.josh_leyshon.ozbargain"
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
     },
     "extra": {
