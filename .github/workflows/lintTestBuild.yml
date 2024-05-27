@@ -5,7 +5,6 @@ on:
     paths-ignore:
       - '**.md'
       - '.vscode/**'
-      - '.nvmrc'
 jobs:
   lint:
     runs-on: ubuntu-latest
@@ -59,20 +58,3 @@ jobs:
 
       - name: 🏗 Export project with expo
         run: npm run build
-
-  build-web:
-    runs-on: ubuntu-latest
-    name: 🏗 Build (web)
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-      - name: Install Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20.x
-          cache: npm
-      - name: Install deps
-        run: npm ci
-
-      - name: 🏗 Export project with expo (web)
-        run: npm run build:web
