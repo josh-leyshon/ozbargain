@@ -59,7 +59,7 @@
     "jest-expo": "~51.0.2",
     "patch-package": "^6.5.1",
     "prettier": "^2.8.6",
-    "ts-node": "^10.9.1",
+    "ts-node": "^10.9.2",
     "typescript": "~5.3.3"
   }
 }
