@@ -3,5 +3,47 @@
   "jest.jestCommandLine": "npm test --",
   // The logic in Jest config 'setupFilesAfterEnv' seemed to be lost on automatic (on save) re-runs in the default 'watch' mode. Manually re-running the tests in the plugin would work.
   // Using this 'on-save' mode specifically seems to re-launch Jest for each run, which solves the issue. But, each test re-run is slower.
-  "jest.autoRun": "on-save"
+  "jest.autoRun": "on-save",
+  "eslint.options": {
+    "flags": [
+      "unstable_ts_config",
+    ],
+  },
+  "dprint.path": "bin/dprint",
+  "[typescript]": {
+    "editor.defaultFormatter": "dprint.dprint",
+    "editor.formatOnSave": true,
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dprint.dprint",
+    "editor.formatOnSave": true,
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dprint.dprint",
+    "editor.formatOnSave": true,
+  },
+  "[css]": {
+    "editor.defaultFormatter": "dprint.dprint",
+    "editor.formatOnSave": true,
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dprint.dprint",
+    "editor.formatOnSave": true,
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "dprint.dprint",
+    "editor.formatOnSave": true,
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "dprint.dprint",
+    "editor.formatOnSave": true,
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "dprint.dprint",
+    "editor.formatOnSave": true,
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "dprint.dprint",
+    "editor.formatOnSave": true,
+  },
 }

@@ -1,0 +1,12 @@
+#! /usr/bin/env nix
+#! nix shell ../#dprint --command bash
+# shellcheck shell=bash
+
+# This binary is a wrapper to launch dprint via the nix flake in the repo.
+# The VSCode dprint extension needs a path to the dprint binary.
+# Since dprint may only be available inside the flake's devShell, this binary wrapper
+# acts as a stable entrypoint for the extension.
+
+set -euo pipefail
+
+dprint "$@"

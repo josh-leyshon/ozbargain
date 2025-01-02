@@ -1,4 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react-native';
+import React from 'react';
 import { expectButtonColour } from '../../../base/components/button/__tests__/testHelpers';
 import { NegativeVoteButton, PositiveVoteButton } from '../voteButtons';
 

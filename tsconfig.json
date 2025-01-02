@@ -1,11 +1,12 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "module": "ESNext",
   },
   "include": [
-    "src/",
-    // Lets Typescript/intellisense know about the extra `expect` matchers added.
-    "jest.setup-after-env.ts"
-  ]
+    "src",
+    "*.ts",
+    "*.js",
+  ],
 }
