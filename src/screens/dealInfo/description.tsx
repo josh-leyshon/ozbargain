@@ -1,11 +1,11 @@
-import { Text, StyleSheet } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 import type { OzbargainFeed } from '../../feed-parser/parser';
 
 type DescriptionProps = {
   description: OzbargainFeed['deals'][number]['description'];
 };
 
-export function Description({ description }: DescriptionProps): JSX.Element {
+export function Description({ description }: DescriptionProps): React.JSX.Element {
   return <Text style={styles.justify}>{description}</Text>;
 }
 

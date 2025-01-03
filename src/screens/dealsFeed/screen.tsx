@@ -5,7 +5,7 @@ import { useDealsFeed } from '../../global-state/dealsFeed';
 import type { FeedScreenProps } from '../navigationTypes';
 import { DealsFeed } from './dealsFeed';
 
-export function FeedScreen({ navigation }: FeedScreenProps): JSX.Element {
+export function FeedScreen({ navigation }: FeedScreenProps): React.JSX.Element {
   const { state, dealsFeed, refresh, loadNextPage } = useDealsFeed();
 
   return (

@@ -1,4 +1,4 @@
-import { View, Image, StyleSheet } from 'react-native';
+import { Image, StyleSheet, View } from 'react-native';
 import type { ImageSourcePropType } from 'react-native';
 
 type SquareImageProps = {
@@ -6,7 +6,7 @@ type SquareImageProps = {
   sizePx: number;
 };
 
-export function SquareImage({ sizePx, source }: SquareImageProps): JSX.Element {
+export function SquareImage({ sizePx, source }: SquareImageProps): React.JSX.Element {
   const { containerSize, imageSize } = StyleSheet.create({
     containerSize: {
       width: sizePx,
@@ -21,7 +21,7 @@ export function SquareImage({ sizePx, source }: SquareImageProps): JSX.Element {
 
   return (
     <View style={[styles.container, containerSize]}>
-      <Image style={imageSize} source={source} resizeMode="center" />
+      <Image style={imageSize} source={source} resizeMode='center' />
     </View>
   );
 }

@@ -81,7 +81,7 @@ export function assertAndParseFeedItem(
 
   // Workaround to remove the incorrect `string[]` type from `item.categories`,
   // before asserting its correct type.
-  // eslint-disable-next-line prefer-destructuring
+   
   const categories: unknown = item.categories;
   assertItemCategories(categories);
 

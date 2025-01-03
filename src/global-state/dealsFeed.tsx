@@ -1,13 +1,7 @@
-import {
-  createContext,
-  useContext,
-  useEffect,
-  useMemo,
-  useReducer,
-} from 'react';
+import { createContext, useContext, useEffect, useMemo, useReducer } from 'react';
+import { UnreachableError } from '../base/unreachableError';
 import { getOzbargainFeedFromUrl } from '../feed-parser/parser';
 import type { OzbargainFeed } from '../feed-parser/parser';
-import { UnreachableError } from '../base/unreachableError';
 
 type Deal = OzbargainFeed['deals'][number];
 
@@ -38,10 +32,13 @@ export class DealsFeed {
     feed,
     lastFetchedPage,
     ...rest
-  }: { feed: OzbargainFeed; lastFetchedPage?: number } & (
-    | { fetchFeed: FeedFetcher }
-    | { previousDealsFeed: DealsFeed }
-  )) {
+  }:
+    & { feed: OzbargainFeed; lastFetchedPage?: number }
+    & (
+      | { fetchFeed: FeedFetcher }
+      | { previousDealsFeed: DealsFeed }
+    ))
+  {
     if ('previousDealsFeed' in rest) {
       this.feed = DealsFeed.mergeFeeds(rest.previousDealsFeed.feed, feed);
       this.fetchFeed = rest.previousDealsFeed.fetchFeed;
@@ -95,7 +92,7 @@ export class DealsFeed {
 export const localFetchFeed: FeedFetcher = async () => {
   // Fails to find file if string is extracted to a variable, for some reason.
   // Also fails to load this file if it is within a `__tests__` directory.
-  // eslint-disable-next-line @typescript-eslint/no-var-requires, global-require, @typescript-eslint/no-unsafe-assignment, import/extensions
+  // eslint-disable-next-line @typescript-eslint/no-require-imports, @typescript-eslint/no-unsafe-assignment
   const feed: OzbargainFeed = require('./localAssets/ozbargain-rss.parsed.json');
 
   // Turn date strings back into dates.
@@ -107,8 +104,8 @@ export const localFetchFeed: FeedFetcher = async () => {
 
   // Simulate loading time over the network.
   const sleep = (millis: number) =>
-    new Promise(res => {
-      setTimeout(() => res(null), millis);
+    new Promise(resolve => {
+      setTimeout(() => resolve(null), millis);
     });
   await sleep(1500);
 
@@ -122,27 +119,27 @@ export const onlineFetchFeed: FeedFetcher = (page = 0) => {
 
 type State =
   | {
-      state: 'refreshing';
-      dealsFeed?: DealsFeed;
-    }
+    state: 'refreshing';
+    dealsFeed?: DealsFeed;
+  }
   | {
-      state: 'ready';
-      dealsFeed: DealsFeed;
-    };
+    state: 'ready';
+    dealsFeed: DealsFeed;
+  };
 type MaybeUninitializedState =
   | State
   | {
-      state: 'uninitialised';
-      dealsFeed?: DealsFeed;
-    };
+    state: 'uninitialised';
+    dealsFeed?: DealsFeed;
+  };
 type Action =
   | {
-      type: 'refresh';
-    }
+    type: 'refresh';
+  }
   | {
-      type: 'set';
-      dealsFeed: DealsFeed;
-    };
+    type: 'set';
+    dealsFeed: DealsFeed;
+  };
 type Dispatch = (action: Action) => void;
 
 function dealsFeedReducer(
@@ -202,7 +199,7 @@ export function DealsFeedProvider({
   fetchFeed,
 }: React.PropsWithChildren<{
   fetchFeed: FeedFetcher;
-}>): JSX.Element {
+}>): React.JSX.Element {
   const [state, dispatch] = useReducer(dealsFeedReducer, {
     state: 'uninitialised',
   });
@@ -230,11 +227,13 @@ export function DealsFeedProvider({
   );
 }
 
-export function useDealsFeed(): Omit<
-  DealsFeedContextProps,
-  keyof MaybeUninitializedState
-> &
-  State {
+export function useDealsFeed():
+  & Omit<
+    DealsFeedContextProps,
+    keyof MaybeUninitializedState
+  >
+  & State
+{
   const context = useContext(DealsFeedContext);
   if (context == null) {
     throw new Error('Could not find DealsFeed Provider');
@@ -250,15 +249,15 @@ export function useDealsFeed(): Omit<
   // Had type errors with assigning `state` when trying to make this smaller using `...context`.
   return context.state === 'uninitialised' || context.state === 'refreshing'
     ? {
-        state: 'refreshing',
-        dealsFeed: context.dealsFeed,
-        refresh: context.refresh,
-        loadNextPage: context.loadNextPage,
-      }
+      state: 'refreshing',
+      dealsFeed: context.dealsFeed,
+      refresh: context.refresh,
+      loadNextPage: context.loadNextPage,
+    }
     : {
-        state: 'ready',
-        dealsFeed: context.dealsFeed,
-        refresh: context.refresh,
-        loadNextPage: context.loadNextPage,
-      };
+      state: 'ready',
+      dealsFeed: context.dealsFeed,
+      refresh: context.refresh,
+      loadNextPage: context.loadNextPage,
+    };
 }

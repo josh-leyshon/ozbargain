@@ -1,4 +1,4 @@
-import { Button as ReactNativeButton, View, StyleSheet } from 'react-native';
+import { Button as ReactNativeButton, StyleSheet, View } from 'react-native';
 import type { ButtonProps as ReactNativeButtonProps } from 'react-native';
 
 /** Exported for testing. */
@@ -20,7 +20,7 @@ type ButtonProps = {
   color: ButtonColours;
 };
 
-export function Button({ color, title, onPress }: ButtonProps): JSX.Element {
+export function Button({ color, title, onPress }: ButtonProps): React.JSX.Element {
   const buttonColour = buttonColours[color];
   return (
     // TODO: Could use a custom Pressable component to add styles, instead of a Button wrapped in a View.

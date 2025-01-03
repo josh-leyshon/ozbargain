@@ -1,13 +1,13 @@
 import { openURL } from 'expo-linking';
 import { ScrollView, Share, StyleSheet } from 'react-native';
-import type { DealInfoScreenProps } from '../navigationTypes';
-import { DealHeader } from './dealHeader';
-import { LinkButtons } from './linkButtons';
-import { Description } from './description';
 import { Column } from '../../base/layout/flex';
 import { useDealsFeed } from '../../global-state/dealsFeed';
+import type { DealInfoScreenProps } from '../navigationTypes';
+import { DealHeader } from './dealHeader';
+import { Description } from './description';
+import { LinkButtons } from './linkButtons';
 
-export function DealInfoScreen({ route }: DealInfoScreenProps): JSX.Element {
+export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Element {
   const { dealId } = route.params;
   const { dealsFeed } = useDealsFeed();
 

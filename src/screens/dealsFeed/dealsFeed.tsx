@@ -1,8 +1,8 @@
 import { FlatList, StyleSheet, View } from 'react-native';
 import type { FlatListProps } from 'react-native';
+import type { OzbargainFeed } from '../../feed-parser/parser';
 import { DealCard } from './dealCard/dealCard';
 import type { DealCardProps } from './dealCard/dealCard';
-import type { OzbargainFeed } from '../../feed-parser/parser';
 
 type DealId = {
   id: OzbargainFeed['deals'][number]['id'];
@@ -26,7 +26,7 @@ export function DealsFeed({
   loadNextPage,
   refreshing,
   style,
-}: DealsFeedProps): JSX.Element {
+}: DealsFeedProps): React.JSX.Element {
   return (
     <FlatList
       data={items}
@@ -52,7 +52,7 @@ export function DealsFeed({
   );
 }
 
-function FeedItemSeparator(): JSX.Element {
+function FeedItemSeparator(): React.JSX.Element {
   return <View style={styles.separator} />;
 }
 

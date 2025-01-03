@@ -1,5 +1,5 @@
-import { ArcIcon } from './icons/arc';
 import { Spinner } from '../spinner/spinner';
+import { ArcIcon } from './icons/arc';
 
 const sizeToScale = {
   small: 1,
@@ -12,7 +12,7 @@ type LoadingProps = {
   size?: keyof typeof sizeToScale;
 };
 
-export function Loading({ size }: LoadingProps): JSX.Element {
+export function Loading({ size }: LoadingProps): React.JSX.Element {
   return (
     <Spinner>
       <ArcIcon scaleSize={sizeToScale[size ?? 'medium']} />

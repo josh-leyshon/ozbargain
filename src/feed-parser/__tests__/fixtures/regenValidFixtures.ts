@@ -4,11 +4,12 @@
  * and matching .parsed.json files will be written to disk.
  */
 
-import { writeFile } from 'fs/promises';
+import { writeFile } from 'node:fs/promises';
+import { join } from 'node:path';
 import { convertToOzbargainFeed } from '../../parser';
 import { parseRssFeedFromString, validFixtures } from './getFixtures';
 
-const VALID_FIXTURES_DIR = `${__dirname}/valid`;
+const VALID_FIXTURES_DIR = join(import.meta.dirname, 'valid');
 
 // Will overwrite any existing file.
 async function writeFileToDisk(
@@ -43,7 +44,7 @@ async function main() {
       writeFileToDisk(
         JSON.stringify(convertedFeed),
         `${VALID_FIXTURES_DIR}/${filename}.parsed.json`,
-      ),
+      )
     ),
   );
 }

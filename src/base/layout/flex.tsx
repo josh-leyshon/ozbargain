@@ -24,11 +24,11 @@ type FlexLayoutProps = {
   >;
 };
 
-export function Row(props: FlexLayoutProps): JSX.Element {
+export function Row(props: FlexLayoutProps): React.JSX.Element {
   return FlexView({ direction: 'row', ...props });
 }
 
-export function Column(props: FlexLayoutProps): JSX.Element {
+export function Column(props: FlexLayoutProps): React.JSX.Element {
   return FlexView({ direction: 'column', ...props });
 }
 
@@ -42,7 +42,7 @@ function FlexView({
   wrap,
   gap,
   style,
-}: FlexLayoutProps & { direction: ViewStyle['flexDirection'] }): JSX.Element {
+}: FlexLayoutProps & { direction: ViewStyle['flexDirection'] }): React.JSX.Element {
   const styles = StyleSheet.create({
     column: {
       flexDirection: direction,

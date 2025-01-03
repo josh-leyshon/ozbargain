@@ -9,7 +9,7 @@ import type { RootStackParamList } from './screens/navigationTypes';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
-function App(): JSX.Element {
+function App(): React.JSX.Element {
   return (
     <NavigationContainer>
       <StatusBar />

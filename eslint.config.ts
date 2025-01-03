@@ -27,6 +27,13 @@ const tsEslintConfig = createConfig(
       'no-void': ['error', {
         allowAsStatement: true,
       }],
+      '@typescript-eslint/restrict-template-expressions': ['error', {
+        allowBoolean: true,
+        allowNumber: true,
+      }],
+      '@typescript-eslint/no-misused-promises': ['error', {
+        checksVoidReturn: false,
+      }],
     },
   },
   {

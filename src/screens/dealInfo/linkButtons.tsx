@@ -12,21 +12,21 @@ export function LinkButtons({
   onPressGoToDeal,
   onPressOpenOnOzbargain,
   onPressShare,
-}: LinkButtonProps): JSX.Element {
+}: LinkButtonProps): React.JSX.Element {
   return (
     <Column gap={16}>
-      <Button title="Go to deal" color="orange" onPress={onPressGoToDeal} />
+      <Button title='Go to deal' color='orange' onPress={onPressGoToDeal} />
       <Row gap={16}>
         <View style={styles.buttonContainer}>
           <Button
-            title="Open on Ozbargain"
-            color="orange"
+            title='Open on Ozbargain'
+            color='orange'
             onPress={onPressOpenOnOzbargain}
           />
         </View>
         {Platform.OS !== 'web' && (
           <View style={styles.buttonContainer}>
-            <Button title="Share" color="orange" onPress={onPressShare} />
+            <Button title='Share' color='orange' onPress={onPressShare} />
           </View>
         )}
       </Row>

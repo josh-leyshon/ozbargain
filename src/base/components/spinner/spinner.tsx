@@ -1,5 +1,5 @@
-import { Animated, Easing, Platform, StyleSheet } from 'react-native';
 import { useEffect, useRef } from 'react';
+import { Animated, Easing, Platform, StyleSheet } from 'react-native';
 
 type SpinnerProps = React.PropsWithChildren<{
   /** Revolutions to spin per second. Default: 1 */
@@ -12,7 +12,7 @@ type SpinnerProps = React.PropsWithChildren<{
 export function Spinner({
   children,
   revsPerSecond,
-}: SpinnerProps): JSX.Element {
+}: SpinnerProps): React.JSX.Element {
   const rotationValue = useRef(new Animated.Value(0)).current;
 
   // Start animation inside useEffect because we only want to re-start it when the value is re-set,
