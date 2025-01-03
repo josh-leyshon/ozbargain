@@ -4,7 +4,7 @@
   "main": "./src/app.tsx",
   "private": true,
   "scripts": {
-    "start": "expo start --tunnel",
+    "start": "expo start",
     "web": "expo start --web",
     "lint": "eslint --flag unstable_ts_config",
     "format": "dprint fmt",
