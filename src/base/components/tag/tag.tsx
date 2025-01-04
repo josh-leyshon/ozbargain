@@ -4,7 +4,7 @@ import { colours } from '../../colours/colours';
 import { Row } from '../../layout/flex';
 import { UnreachableError } from '../../unreachableError';
 
-type TagColour = 'orange' | 'white';
+type TagColour = 'orange' | 'green' | 'yellow' | 'red' | 'grey';
 
 type TagProps = {
   icon?: ReactNode;
@@ -26,9 +26,15 @@ export function Tag({ icon, children, colour }: TagProps): React.JSX.Element {
 function getColourStyle(colour: TagColour) {
   switch (colour) {
     case 'orange':
-      return styles.colourOrange;
-    case 'white':
-      return styles.colourWhite;
+      return colourStyles.orange;
+    case 'green':
+      return colourStyles.green;
+    case 'yellow':
+      return colourStyles.yellow;
+    case 'red':
+      return colourStyles.red;
+    case 'grey':
+      return colourStyles.grey;
     default:
       throw new UnreachableError(colour);
   }
@@ -36,21 +42,31 @@ function getColourStyle(colour: TagColour) {
 
 const styles = StyleSheet.create({
   tag: {
-    padding: 4,
-    borderRadius: 8,
-    borderStyle: 'solid',
-    borderWidth: 1,
+    paddingBlock: 4,
+    paddingInline: 8,
+    borderRadius: 6,
     fontSize: 12,
   },
   tagContent: {
     fontSize: 12,
+    color: colours.copy,
   },
-  colourOrange: {
-    borderColor: colours.light.secondary,
-    backgroundColor: colours.light.tertiary,
+});
+
+const colourStyles = StyleSheet.create({
+  orange: {
+    backgroundColor: colours.primaryLight,
   },
-  colourWhite: {
-    borderColor: 'rgb(215, 215, 215)',
-    backgroundColor: 'rgb(255, 255, 255)',
+  green: {
+    backgroundColor: colours.success,
+  },
+  yellow: {
+    backgroundColor: colours.warning,
+  },
+  red: {
+    backgroundColor: colours.error,
+  },
+  grey: {
+    backgroundColor: colours.background,
   },
 });

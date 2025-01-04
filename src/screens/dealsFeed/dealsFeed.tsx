@@ -32,7 +32,7 @@ export function DealsFeed({
           onPress={() => onPressItem(deal)}
         />
       )}
-      ItemSeparatorComponent={FeedItemSeparator}
+      ItemSeparatorComponent={() => <View style={styles.separator} />}
       contentContainerStyle={style}
       onRefresh={onRefresh}
       onEndReached={() => loadNextPage()}
@@ -43,10 +43,6 @@ export function DealsFeed({
       refreshing={refreshing}
     />
   );
-}
-
-function FeedItemSeparator(): React.JSX.Element {
-  return <View style={styles.separator} />;
 }
 
 const styles = StyleSheet.create({
