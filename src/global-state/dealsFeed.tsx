@@ -3,7 +3,7 @@ import { UnreachableError } from '../base/unreachableError';
 import { getOzbargainFeedFromUrl } from '../feed-parser/parser';
 import type { OzbargainFeed } from '../feed-parser/parser';
 
-type Deal = OzbargainFeed['deals'][number];
+export type Deal = OzbargainFeed['deals'][number];
 
 /**
  * @param page The feed page to fetch. Default: 0

@@ -1,26 +1,19 @@
 import { FlatList, StyleSheet, View } from 'react-native';
 import type { FlatListProps } from 'react-native';
-import type { OzbargainFeed } from '../../feed-parser/parser';
-import { DealCard } from './dealCard/dealCard';
-import type { DealCardProps } from './dealCard/dealCard';
-
-type DealId = {
-  id: OzbargainFeed['deals'][number]['id'];
-};
-type DealInfo = Omit<DealCardProps, 'onPress'>;
-type DealItemData = DealInfo & DealId;
+import type { Deal } from '../../global-state/dealsFeed';
+import { DealCard, DealMeta } from './dealCard/dealCard';
 
 export type DealsFeedProps = {
-  items: DealItemData[];
-  onPressItem: (item: DealItemData) => void;
-  onRefresh: NonNullable<FlatListProps<DealItemData>['onRefresh']>;
+  deals: Deal[];
+  onPressItem: (item: Deal) => void;
+  onRefresh: NonNullable<FlatListProps<Deal>['onRefresh']>;
   loadNextPage: () => void;
-  refreshing: NonNullable<FlatListProps<DealItemData>['refreshing']>;
-  style?: FlatListProps<DealItemData>['contentContainerStyle'];
+  refreshing: NonNullable<FlatListProps<Deal>['refreshing']>;
+  style?: FlatListProps<Deal>['contentContainerStyle'];
 };
 
 export function DealsFeed({
-  items,
+  deals,
   onPressItem,
   onRefresh,
   loadNextPage,
@@ -29,14 +22,14 @@ export function DealsFeed({
 }: DealsFeedProps): React.JSX.Element {
   return (
     <FlatList
-      data={items}
-      renderItem={({ item }) => (
+      data={deals}
+      renderItem={({ item: deal }) => (
         <DealCard
-          title={item.title}
-          description={item.description}
-          imageUrl={item.imageUrl}
-          onPress={() => onPressItem(item)}
-          key={item.id}
+          key={deal.id}
+          title={deal.title}
+          dealMeta={<DealMeta {...deal} />}
+          imageUrl={deal.thumbnailUrl}
+          onPress={() => onPressItem(deal)}
         />
       )}
       ItemSeparatorComponent={FeedItemSeparator}
