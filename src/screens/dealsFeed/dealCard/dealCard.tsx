@@ -1,3 +1,4 @@
+import Icon from '@expo/vector-icons/MaterialIcons';
 import type React from 'react';
 import type { ReactNode } from 'react';
 import { Pressable, StyleSheet } from 'react-native';
@@ -6,6 +7,7 @@ import { Tag, type TagProps } from '../../../base/components/tag/tag';
 import { Text } from '../../../base/components/text/text';
 import { colours } from '../../../base/constants/colours';
 import { sizes } from '../../../base/constants/sizes';
+import { fontSizes } from '../../../base/constants/text';
 import { Column, Row } from '../../../base/layout/flex';
 import { getVotesIntensity } from '../../../base/votes/votesIntensity';
 import type { Deal } from '../../../global-state/dealsFeed';
@@ -62,25 +64,23 @@ export function DealMeta({ author, expiresAt, commentCount, votes }: DealMetaPro
 
   return (
     <Column shrink={1} gap='medium' justifyContent='flex-start' alignItems='flex-start'>
-      <Tag icon={<TempTagEmojiIcon emoji='⏰' />} colour='primary'>
+      <Tag icon={<Icon name='alarm' />} colour='primary'>
         {expiresAt ? formatShortDate(expiresAt) : 'Unknown'}
       </Tag>
-      <Tag icon={<TempTagEmojiIcon emoji='🧑' />} colour='normal'>{author}</Tag>
+      <Tag icon={<Icon name='person' size={fontSizes.medium} />} colour='normal'>{author}</Tag>
       <Row gap='medium' justifyContent='flex-start' wrap='wrap'>
-        <Tag icon={<TempTagEmojiIcon emoji='💬' />} colour='normal'>{commentCount}</Tag>
-        <Tag icon={<TempTagEmojiIcon emoji='👍' />} colour={positiveVotesColour}>{votes.positive}</Tag>
-        <Tag icon={<TempTagEmojiIcon emoji='👎' />} colour={negativeVotesColour}>{votes.negative}</Tag>
+        <Tag icon={<Icon name='comment' />} colour='normal'>{commentCount}</Tag>
+        <Tag
+          icon={<Icon name='thumb-up' color={positiveVotesColour === 'success' ? colours.successContent : undefined} />}
+          colour={positiveVotesColour}
+        >
+          {votes.positive}
+        </Tag>
+        <Tag icon={<Icon name='thumb-down' />} colour={negativeVotesColour}>{votes.negative}</Tag>
       </Row>
     </Column>
   );
 }
-
-// Just so that emojis are properly rendered inside <Text>. Can delete when using actual icons.
-const TempTagEmojiIcon = ({ emoji }: { emoji: string }) => (
-  <Text size='small'>
-    {emoji}
-  </Text>
-);
 
 const cardImageSizePx = 96;
 // Roughly adds enough space for at least a line of text;
@@ -91,10 +91,5 @@ const styles = StyleSheet.create({
     borderRadius: sizes.medium,
     backgroundColor: colours.foreground,
     boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px',
-  },
-  title: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: colours.copy,
   },
 });

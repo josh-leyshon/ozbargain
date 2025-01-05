@@ -2,7 +2,6 @@ import type { ReactNode } from 'react';
 import { StyleSheet } from 'react-native';
 import { colours } from '../../constants/colours';
 import { sizes } from '../../constants/sizes';
-import { fontSizes } from '../../constants/text';
 import { Row } from '../../layout/flex';
 import { UnreachableError } from '../../unreachableError';
 import { StatusText, Text } from '../text/text';
@@ -24,7 +23,7 @@ export function Tag({ icon, children, colour }: TagProps): React.JSX.Element {
     : null;
 
   return (
-    <Row justifyContent='flex-start' alignItems='center' gap='extraSmall' style={[styles.tag, colourStyle]}>
+    <Row justifyContent='flex-start' alignItems='center' gap='small' style={[styles.tag, colourStyle]}>
       {icon}
       {content}
     </Row>
@@ -53,7 +52,6 @@ const styles = StyleSheet.create({
     paddingBlock: sizes.small,
     paddingInline: sizes.medium,
     borderRadius: sizes.small * 1.5,
-    fontSize: fontSizes.small,
   },
 });
 
