@@ -3,11 +3,13 @@ import type { ButtonColours } from '../../base/components/button/button';
 import { Button } from '../../base/components/button/button';
 import type { OzbargainFeed } from '../../feed-parser/parser';
 
-type VoteButtonsProps = {
-  votes: OzbargainFeed['deals'][number]['votes'];
+type Votes = OzbargainFeed['deals'][number]['votes'];
+
+export type VoteButtonsProps = {
+  votes: Votes;
 };
-type VoteKind = 'positive' | 'negative';
-type OnPress = {
+export type VoteKind = keyof Votes;
+export type OnPress = {
   onPress: (kind: VoteKind) => Promise<void>;
 };
 

@@ -5,6 +5,7 @@ import { colours } from '../../../base/colours/colours';
 import { SquareImage } from '../../../base/components/image/squareImage';
 import { Tag } from '../../../base/components/tag/tag';
 import { Column, Row } from '../../../base/layout/flex';
+import { getVotesIntensity } from '../../../base/votes/votesIntensity';
 import type { Deal } from '../../../global-state/dealsFeed';
 
 export const DEAL_CARD_TEST_ID = 'DEAL_CARD';
@@ -57,21 +58,25 @@ const formatDate: Intl.DateTimeFormat['format'] = date =>
 type DealMetaProps = Pick<Deal, 'author' | 'expiresAt' | 'commentCount' | 'votes'>;
 
 export function DealMeta({ author, expiresAt, commentCount, votes }: DealMetaProps): React.JSX.Element {
+  const votesIntensity = getVotesIntensity(votes);
+  const positiveVotesColour = votesIntensity.positive === 'intense' ? 'green' : 'grey';
+  const negativeVotesColour = votesIntensity.negative === 'intense' ? 'red' : 'grey';
+
   return (
     <Column shrink={1} gap={8} justifyContent='flex-start' alignItems='flex-start'>
-      <Tag icon={<TempTagEmjiIcon emoji='⏰' />} colour='orange'>{expiresAt ? formatDate(expiresAt) : 'Unknown'}</Tag>
-      <Tag icon={<TempTagEmjiIcon emoji='🧑' />} colour='grey'>{author}</Tag>
+      <Tag icon={<TempTagEmojiIcon emoji='⏰' />} colour='orange'>{expiresAt ? formatDate(expiresAt) : 'Unknown'}</Tag>
+      <Tag icon={<TempTagEmojiIcon emoji='🧑' />} colour='grey'>{author}</Tag>
       <Row gap={8} justifyContent='flex-start' wrap='wrap'>
-        <Tag icon={<TempTagEmjiIcon emoji='💬' />} colour='grey'>{commentCount}</Tag>
-        <Tag icon={<TempTagEmjiIcon emoji='👍' />} colour='grey'>{votes.positive}</Tag>
-        <Tag icon={<TempTagEmjiIcon emoji='👎' />} colour='grey'>{votes.negative}</Tag>
+        <Tag icon={<TempTagEmojiIcon emoji='💬' />} colour='grey'>{commentCount}</Tag>
+        <Tag icon={<TempTagEmojiIcon emoji='👍' />} colour={positiveVotesColour}>{votes.positive}</Tag>
+        <Tag icon={<TempTagEmojiIcon emoji='👎' />} colour={negativeVotesColour}>{votes.negative}</Tag>
       </Row>
     </Column>
   );
 }
 
 // Just so that emojis are properly rendered inside <Text>. Can delete when using actual icons.
-const TempTagEmjiIcon = ({ emoji }: { emoji: string }) => (
+const TempTagEmojiIcon = ({ emoji }: { emoji: string }) => (
   <Text
     style={{
       fontSize: 12,
