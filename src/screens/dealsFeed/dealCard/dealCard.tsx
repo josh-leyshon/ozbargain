@@ -63,20 +63,27 @@ export function DealMeta({ author, expiresAt, commentCount, votes }: DealMetaPro
   const negativeVotesColour: TagProps['colour'] = votesIntensity.negative === 'intense' ? 'error' : 'normal';
 
   return (
-    <Column shrink={1} gap='medium' justifyContent='flex-start' alignItems='flex-start'>
+    <Column shrink={1} gap='medium' justifyContent='flex-end' alignItems='flex-start'>
       <Tag icon={<Icon name='alarm' />} colour='primary'>
         {expiresAt ? formatShortDate(expiresAt) : 'Unknown'}
       </Tag>
-      <Tag icon={<Icon name='person' size={fontSizes.medium} />} colour='normal'>{author}</Tag>
+      <Tag
+        // The person icon appears a bit smaller than the others.
+        icon={<Icon name='person' size={fontSizes.medium} />}
+        colour='normal'
+      >
+        {author}
+      </Tag>
       <Row gap='medium' justifyContent='flex-start' wrap='wrap'>
-        <Tag icon={<Icon name='comment' />} colour='normal'>{commentCount}</Tag>
-        <Tag
-          icon={<Icon name='thumb-up' color={positiveVotesColour === 'success' ? colours.successContent : undefined} />}
-          colour={positiveVotesColour}
-        >
+        <Tag icon={<Icon name='comment' />} colour='normal'>
+          {commentCount}
+        </Tag>
+        <Tag icon={<Icon name='thumb-up' />} colour={positiveVotesColour}>
           {votes.positive}
         </Tag>
-        <Tag icon={<Icon name='thumb-down' />} colour={negativeVotesColour}>{votes.negative}</Tag>
+        <Tag icon={<Icon name='thumb-down' />} colour={negativeVotesColour}>
+          {votes.negative}
+        </Tag>
       </Row>
     </Column>
   );
