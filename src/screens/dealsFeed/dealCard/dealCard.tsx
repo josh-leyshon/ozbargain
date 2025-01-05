@@ -1,8 +1,9 @@
 import type React from 'react';
 import type { ReactNode } from 'react';
-import { Pressable, StyleSheet, Text } from 'react-native';
+import { Pressable, StyleSheet } from 'react-native';
 import { SquareImage } from '../../../base/components/image/squareImage';
 import { Tag } from '../../../base/components/tag/tag';
+import { Text } from '../../../base/components/text/text';
 import { colours } from '../../../base/constants/colours';
 import { sizes } from '../../../base/constants/sizes';
 import { Column, Row } from '../../../base/layout/flex';
@@ -29,7 +30,7 @@ export function DealCard({
   return (
     <Pressable onPress={onPress} testID={DEAL_CARD_TEST_ID}>
       <Column justifyContent='space-between' gap='medium' padding='large' style={[styles.card, { minHeight }]}>
-        <Text style={styles.title} numberOfLines={12}>
+        <Text size='large' weight='bold' numberOfLines={12}>
           {title}
         </Text>
         <Row justifyContent='space-between' gap='medium'>
@@ -78,12 +79,7 @@ export function DealMeta({ author, expiresAt, commentCount, votes }: DealMetaPro
 
 // Just so that emojis are properly rendered inside <Text>. Can delete when using actual icons.
 const TempTagEmojiIcon = ({ emoji }: { emoji: string }) => (
-  <Text
-    style={{
-      fontSize: 12,
-      color: colours.copy,
-    }}
-  >
+  <Text size='small'>
     {emoji}
   </Text>
 );

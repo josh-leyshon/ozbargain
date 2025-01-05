@@ -1,4 +1,5 @@
-import { StyleSheet, Text } from 'react-native';
+import { StyleSheet } from 'react-native';
+import { Text } from '../../base/components/text/text';
 import type { OzbargainFeed } from '../../feed-parser/parser';
 
 type DescriptionProps = {

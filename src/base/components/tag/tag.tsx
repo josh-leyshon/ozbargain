@@ -1,9 +1,11 @@
 import type { ReactNode } from 'react';
-import { StyleSheet, Text } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { colours } from '../../constants/colours';
 import { sizes } from '../../constants/sizes';
+import { fontSizes } from '../../constants/text';
 import { Row } from '../../layout/flex';
 import { UnreachableError } from '../../unreachableError';
+import { Text } from '../text/text';
 
 type TagColour = 'orange' | 'green' | 'yellow' | 'red' | 'grey';
 
@@ -19,7 +21,7 @@ export function Tag({ icon, children, colour }: TagProps): React.JSX.Element {
   return (
     <Row justifyContent='flex-start' alignItems='center' gap='extraSmall' style={[styles.tag, colourStyle]}>
       {icon}
-      {children !== undefined && <Text style={styles.tagContent}>{children}</Text>}
+      {children !== undefined && <Text size='small'>{children}</Text>}
     </Row>
   );
 }
@@ -46,11 +48,7 @@ const styles = StyleSheet.create({
     paddingBlock: sizes.small,
     paddingInline: sizes.medium,
     borderRadius: sizes.small * 1.5,
-    fontSize: 12,
-  },
-  tagContent: {
-    fontSize: 12,
-    color: colours.copy,
+    fontSize: fontSizes.small,
   },
 });
 
