@@ -24,7 +24,7 @@ export const colours = {
   copyLighter: 'rgb(149, 143, 132)',
 
   success: 'rgb(129, 234, 129)',
-  warning: 'rgb(238, 238, 122)',
+  warning: 'rgb(251, 251, 129)',
   error: 'rgb(249, 119, 119)',
   successContent: 'rgb(7, 64, 7)',
   warningContent: 'rgb(64, 64, 7)',
