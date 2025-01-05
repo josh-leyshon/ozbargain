@@ -1,9 +1,9 @@
+import type { JestNativeMatchers } from '@testing-library/jest-native/extend-expect';
 import { Platform } from 'react-native';
 import type { ReactTestInstance } from 'react-test-renderer';
-import type { JestNativeMatchers } from '@testing-library/jest-native/extend-expect';
+import { assert } from '../../../assert';
 import type { ButtonColours } from '../button';
 import { buttonColours } from '../button';
-import { assert } from '../../../assert';
 
 type ToHaveStyleParam = Parameters<JestNativeMatchers<void>['toHaveStyle']>[0];
 

@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from 'fs';
+import { readdirSync, readFileSync } from 'fs';
 import type { RssFeed } from '../../parser';
 import { getRssParser } from '../../parser';
 
@@ -34,8 +34,8 @@ export const validFixtures: ValidFixture[] = (() => {
   })
     .filter(
       item =>
-        item.isFile() &&
-        (item.name.endsWith('.xml') || item.name.endsWith('.parsed.json')),
+        item.isFile()
+        && (item.name.endsWith('.xml') || item.name.endsWith('.parsed.json')),
     )
     .map(file => file.name);
 
@@ -46,8 +46,8 @@ export const validFixtures: ValidFixture[] = (() => {
     .forEach(rawFile => {
       const parsedFilename = allFileNames.find(
         file =>
-          file.endsWith('.parsed.json') &&
-          file.split('.')[0] === rawFile.split('.')[0],
+          file.endsWith('.parsed.json')
+          && file.split('.')[0] === rawFile.split('.')[0],
       );
 
       if (!parsedFilename) {

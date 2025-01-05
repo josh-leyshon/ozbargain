@@ -1,9 +1,5 @@
 import { convertToOzbargainFeed } from '../parser';
-import {
-  validFixtures,
-  invalidFixtures,
-  parseRssFeedFromString,
-} from './fixtures/getFixtures';
+import { invalidFixtures, parseRssFeedFromString, validFixtures } from './fixtures/getFixtures';
 
 describe('Valid fixtures', () => {
   test.each(validFixtures)(
