@@ -2,7 +2,8 @@ import { FlatList, StyleSheet, View } from 'react-native';
 import type { FlatListProps } from 'react-native';
 import { sizes } from '../../base/constants/sizes';
 import type { Deal } from '../../global-state/dealsFeed';
-import { DealCard, DealMeta } from './dealCard/dealCard';
+import { DealCard } from './dealCard/dealCard';
+import { DealMeta, makeDefaultExpiryFormatter } from './dealCard/dealMeta';
 
 export type DealsFeedProps = {
   deals: Deal[];
@@ -28,7 +29,7 @@ export function DealsFeed({
         <DealCard
           key={deal.id}
           title={deal.title}
-          dealMeta={<DealMeta {...deal} />}
+          dealMeta={<DealMeta {...deal} expiryFormatter={makeDefaultExpiryFormatter(new Date())} />}
           imageUrl={deal.thumbnailUrl}
           onPress={() => onPressItem(deal)}
         />
