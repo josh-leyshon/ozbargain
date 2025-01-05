@@ -2,7 +2,7 @@ import type React from 'react';
 import type { ReactNode } from 'react';
 import { Pressable, StyleSheet } from 'react-native';
 import { SquareImage } from '../../../base/components/image/squareImage';
-import { Tag } from '../../../base/components/tag/tag';
+import { Tag, type TagProps } from '../../../base/components/tag/tag';
 import { Text } from '../../../base/components/text/text';
 import { colours } from '../../../base/constants/colours';
 import { sizes } from '../../../base/constants/sizes';
@@ -57,17 +57,17 @@ type DealMetaProps = Pick<Deal, 'author' | 'expiresAt' | 'commentCount' | 'votes
 
 export function DealMeta({ author, expiresAt, commentCount, votes }: DealMetaProps): React.JSX.Element {
   const votesIntensity = getVotesIntensity(votes);
-  const positiveVotesColour = votesIntensity.positive === 'intense' ? 'green' : 'grey';
-  const negativeVotesColour = votesIntensity.negative === 'intense' ? 'red' : 'grey';
+  const positiveVotesColour: TagProps['colour'] = votesIntensity.positive === 'intense' ? 'success' : 'normal';
+  const negativeVotesColour: TagProps['colour'] = votesIntensity.negative === 'intense' ? 'error' : 'normal';
 
   return (
     <Column shrink={1} gap='medium' justifyContent='flex-start' alignItems='flex-start'>
-      <Tag icon={<TempTagEmojiIcon emoji='⏰' />} colour='orange'>
+      <Tag icon={<TempTagEmojiIcon emoji='⏰' />} colour='primary'>
         {expiresAt ? formatShortDate(expiresAt) : 'Unknown'}
       </Tag>
-      <Tag icon={<TempTagEmojiIcon emoji='🧑' />} colour='grey'>{author}</Tag>
+      <Tag icon={<TempTagEmojiIcon emoji='🧑' />} colour='normal'>{author}</Tag>
       <Row gap='medium' justifyContent='flex-start' wrap='wrap'>
-        <Tag icon={<TempTagEmojiIcon emoji='💬' />} colour='grey'>{commentCount}</Tag>
+        <Tag icon={<TempTagEmojiIcon emoji='💬' />} colour='normal'>{commentCount}</Tag>
         <Tag icon={<TempTagEmojiIcon emoji='👍' />} colour={positiveVotesColour}>{votes.positive}</Tag>
         <Tag icon={<TempTagEmojiIcon emoji='👎' />} colour={negativeVotesColour}>{votes.negative}</Tag>
       </Row>

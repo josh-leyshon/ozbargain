@@ -5,11 +5,11 @@ import { sizes } from '../../constants/sizes';
 import { fontSizes } from '../../constants/text';
 import { Row } from '../../layout/flex';
 import { UnreachableError } from '../../unreachableError';
-import { Text } from '../text/text';
+import { StatusText, Text } from '../text/text';
 
-type TagColour = 'orange' | 'green' | 'yellow' | 'red' | 'grey';
+type TagColour = 'primary' | 'normal' | 'success' | 'warning' | 'error';
 
-type TagProps = {
+export type TagProps = {
   icon?: ReactNode;
   children?: string | number;
   colour: TagColour;
@@ -17,27 +17,32 @@ type TagProps = {
 
 export function Tag({ icon, children, colour }: TagProps): React.JSX.Element {
   const colourStyle = getColourStyle(colour);
+  const content = children != null
+    ? (colour === 'success' || colour === 'warning' || colour === 'error')
+      ? <StatusText colour={colour} size='small'>{children}</StatusText>
+      : <Text size='small'>{children}</Text>
+    : null;
 
   return (
     <Row justifyContent='flex-start' alignItems='center' gap='extraSmall' style={[styles.tag, colourStyle]}>
       {icon}
-      {children !== undefined && <Text size='small'>{children}</Text>}
+      {content}
     </Row>
   );
 }
 
 function getColourStyle(colour: TagColour) {
   switch (colour) {
-    case 'orange':
-      return colourStyles.orange;
-    case 'green':
-      return colourStyles.green;
-    case 'yellow':
-      return colourStyles.yellow;
-    case 'red':
-      return colourStyles.red;
-    case 'grey':
-      return colourStyles.grey;
+    case 'primary':
+      return colourStyles.primary;
+    case 'normal':
+      return colourStyles.normal;
+    case 'success':
+      return colourStyles.success;
+    case 'warning':
+      return colourStyles.warning;
+    case 'error':
+      return colourStyles.error;
     default:
       throw new UnreachableError(colour);
   }
@@ -53,19 +58,19 @@ const styles = StyleSheet.create({
 });
 
 const colourStyles = StyleSheet.create({
-  orange: {
+  primary: {
     backgroundColor: colours.primaryLight,
   },
-  green: {
+  normal: {
+    backgroundColor: colours.background,
+  },
+  success: {
     backgroundColor: colours.success,
   },
-  yellow: {
+  warning: {
     backgroundColor: colours.warning,
   },
-  red: {
+  error: {
     backgroundColor: colours.error,
-  },
-  grey: {
-    backgroundColor: colours.background,
   },
 });

@@ -27,7 +27,29 @@ export type TextProps = {
   >;
 } & Omit<RNTextProps, 'style' | 'children'>;
 
-export function Text({ size, weight, colour, children, style, ...props }: TextProps): React.JSX.Element {
+type StatusTextColour = 'success' | 'warning' | 'error';
+type StatusTextProps = Omit<TextProps, 'colour'> & { colour: StatusTextColour };
+
+type InternalTextProps = TextProps | StatusTextProps;
+
+/**
+ * Use for all regular text displayed in the app.
+ */
+export function Text(props: TextProps): React.JSX.Element {
+  return <InternalText {...props} />;
+}
+
+/**
+ * Use only for text that is displaying over a 'status' background colour.
+ * Otherwise use the base `<Text>`.
+ */
+export function StatusText(props: StatusTextProps): React.JSX.Element {
+  return <InternalText {...props} />;
+}
+
+function InternalText(
+  { size, weight, colour, children, style, ...props }: InternalTextProps,
+): React.JSX.Element {
   const styles = StyleSheet.create({
     container: {
       fontSize: getFontSize(size ?? 'medium'),
@@ -65,7 +87,7 @@ function getFontWeight(weight: FontWeight): TextStyle['fontWeight'] {
   }
 }
 
-function getTextColour(colour: TextColour): TextStyle['color'] {
+function getTextColour(colour: TextColour | StatusTextColour): TextStyle['color'] {
   switch (colour) {
     case 'normal':
       return colours.copy;
@@ -73,6 +95,12 @@ function getTextColour(colour: TextColour): TextStyle['color'] {
       return colours.copyLight;
     case 'veryLight':
       return colours.copyLighter;
+    case 'success':
+      return colours.successContent;
+    case 'warning':
+      return colours.warningContent;
+    case 'error':
+      return colours.errorContent;
     default:
       throw new UnreachableError(colour);
   }
