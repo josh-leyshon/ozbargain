@@ -1,9 +1,9 @@
 import type React from 'react';
 import type { ReactNode } from 'react';
 import { Pressable, StyleSheet, Text } from 'react-native';
-import { colours } from '../../../base/colours/colours';
 import { SquareImage } from '../../../base/components/image/squareImage';
 import { Tag } from '../../../base/components/tag/tag';
+import { colours } from '../../../base/constants/colours';
 import { sizes } from '../../../base/constants/sizes';
 import { Column, Row } from '../../../base/layout/flex';
 import { getVotesIntensity } from '../../../base/votes/votesIntensity';

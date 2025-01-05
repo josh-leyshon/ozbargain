@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { colours } from '../../base/colours/colours';
+import { colours } from '../../base/constants/colours';
 import { sizes } from '../../base/constants/sizes';
 import { useDealsFeed } from '../../global-state/dealsFeed';
 import type { FeedScreenProps } from '../navigationTypes';

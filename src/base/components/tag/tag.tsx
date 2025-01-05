@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { StyleSheet, Text } from 'react-native';
-import { colours } from '../../colours/colours';
+import { colours } from '../../constants/colours';
 import { sizes } from '../../constants/sizes';
 import { Row } from '../../layout/flex';
 import { UnreachableError } from '../../unreachableError';
