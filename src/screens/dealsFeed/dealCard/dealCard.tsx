@@ -35,7 +35,7 @@ export function DealCard({
         <Text size='large' weight='bold' numberOfLines={12}>
           {title}
         </Text>
-        <Row justifyContent='space-between' gap='medium'>
+        <Row justifyContent='space-between' gap='medium' wrap='wrap'>
           {dealMeta}
           {imageUrl != null && (
             <SquareImage
