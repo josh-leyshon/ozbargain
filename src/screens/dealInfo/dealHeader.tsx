@@ -1,5 +1,5 @@
-import { StyleSheet, Text } from 'react-native';
 import { SquareImage } from '../../base/components/image/squareImage';
+import { Text } from '../../base/components/text/text';
 import { Column, Row } from '../../base/layout/flex';
 import type { OzbargainFeed } from '../../feed-parser/parser';
 import { makeVoteButtons } from './voteButtons';
@@ -24,13 +24,13 @@ export function DealHeader({
   const { positiveVoteButton, negativeVoteButton } = makeVoteButtons({ votes });
 
   return (
-    <Row gap={16}>
-      <Column gap={16} shrink={1} grow={1}>
-        <Text style={textStyles.title}>{title}</Text>
-        <Row gap={16} alignItems='flex-end' wrap='wrap'>
+    <Row gap='large'>
+      <Column gap='large' shrink={1} grow={1}>
+        <Text size='large'>{title}</Text>
+        <Row gap='large' alignItems='flex-end' wrap='wrap'>
           <Column>
-            <Text style={textStyles.light}>Posted by @{author}</Text>
-            <Text style={textStyles.light}>
+            <Text colour='light'>Posted by @{author}</Text>
+            <Text colour='light'>
               {postedAt.toLocaleDateString(undefined, {
                 dateStyle: 'medium',
               })} {postedAt.toLocaleTimeString(undefined, {
@@ -38,7 +38,7 @@ export function DealHeader({
               })}
             </Text>
           </Column>
-          <Text style={textStyles.light}>
+          <Text colour='light'>
             {'Expires:\n'}
             {expiresAt?.toLocaleDateString(undefined, {
               dateStyle: 'medium',
@@ -46,9 +46,9 @@ export function DealHeader({
           </Text>
         </Row>
       </Column>
-      <Column gap={16} justifyContent='flex-start'>
+      <Column gap='large' justifyContent='flex-start'>
         <SquareImage source={{ uri: imageUrl }} sizePx={140} />
-        <Row gap={16}>
+        <Row gap='large'>
           {positiveVoteButton}
           {negativeVoteButton}
         </Row>
@@ -56,12 +56,3 @@ export function DealHeader({
     </Row>
   );
 }
-
-const textStyles = StyleSheet.create({
-  title: {
-    fontSize: 16,
-  },
-  light: {
-    color: 'grey',
-  },
-});

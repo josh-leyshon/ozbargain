@@ -1,88 +1,57 @@
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import type React from 'react';
+import type { ReactNode } from 'react';
+import { Pressable, StyleSheet } from 'react-native';
 import { SquareImage } from '../../../base/components/image/squareImage';
+import { Text } from '../../../base/components/text/text';
+import { colours } from '../../../base/constants/colours';
+import { sizes } from '../../../base/constants/sizes';
+import { Column, Row } from '../../../base/layout/flex';
 
 export const DEAL_CARD_TEST_ID = 'DEAL_CARD';
 
 export type DealCardProps = {
   title: string;
-  description: string;
+  dealMeta: ReactNode;
   imageUrl?: string;
   onPress: () => void;
 };
 
 export function DealCard({
-  description,
-  onPress,
   title,
+  dealMeta,
   imageUrl,
+  onPress,
 }: DealCardProps): React.JSX.Element {
+  const minHeight = cardMinHeightPx;
+
   return (
     <Pressable onPress={onPress} testID={DEAL_CARD_TEST_ID}>
-      <View style={styles.card}>
-        <TextSection title={title} description={description} />
-        {imageUrl != null && (
-          <SquareImage
-            source={{ uri: imageUrl }}
-            sizePx={cardContentHeightPx}
-          />
-        )}
-      </View>
+      <Column justifyContent='space-between' gap='medium' padding='large' style={[styles.card, { minHeight }]}>
+        <Text size='large' weight='bold' numberOfLines={12}>
+          {title}
+        </Text>
+        <Row justifyContent='space-between' gap='medium' wrap='wrap'>
+          {dealMeta}
+          {imageUrl != null && (
+            <SquareImage
+              source={{ uri: imageUrl }}
+              sizePx={cardImageSizePx}
+            />
+          )}
+        </Row>
+      </Column>
     </Pressable>
   );
 }
 
-function TextSection({
-  title,
-  description,
-}: {
-  title: string;
-  description: string;
-}): React.JSX.Element {
-  // This mix of lines leaves a tiny space between description text and start of card padding.
-  return (
-    <View style={styles.textSection}>
-      <Text style={styles.title} numberOfLines={4} ellipsizeMode='tail'>
-        {title}
-      </Text>
-      <Text style={styles.description} numberOfLines={3} ellipsizeMode='tail'>
-        {description}
-      </Text>
-    </View>
-  );
-}
-
-const cardBorderThickness = 2;
-const cardContentHeightPx = 128;
-const cardPaddingPx = 16;
-const cardMaxHeightPx = cardContentHeightPx + 2 * cardPaddingPx + 2 * cardBorderThickness;
-
-const veryLightGrey = 'rgb(244, 244, 244)';
+const cardImageSizePx = 96;
+// Roughly adds enough space for at least a line of text;
+const cardMinHeightPx = cardImageSizePx + 32;
 
 const styles = StyleSheet.create({
   card: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    gap: cardPaddingPx,
-
-    height: cardMaxHeightPx,
-    maxHeight: cardMaxHeightPx,
-    padding: cardPaddingPx,
-
-    borderColor: 'orange',
-    borderWidth: 2,
-    borderRadius: 8,
-
-    backgroundColor: veryLightGrey,
-  },
-  textSection: {
-    flexShrink: 1,
-  },
-  title: {
-    fontSize: 14,
-    fontWeight: 'bold',
-    marginBottom: 8,
-  },
-  description: {
-    fontSize: 11,
+    borderRadius: sizes.medium,
+    backgroundColor: colours.foreground,
+    boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px',
   },
 });
