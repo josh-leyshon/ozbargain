@@ -13,16 +13,16 @@ export function ArcIcon({ scaleSize, ...props }: SvgProps & ScaleProps) {
     <Svg
       width={(scaleSize ?? 1) * 16}
       height={(scaleSize ?? 1) * 16}
-      viewBox="-0.5 -0.5 16 16"
+      viewBox='-0.5 -0.5 16 16'
       {...props}
     >
       <Path
-        d="M13.24 3.65A7.067 7.067 0 0 0 7.03 0 7.063 7.063 0 0 0 .85 3.7"
-        fill="none"
-        stroke="#000"
+        d='M13.24 3.65A7.067 7.067 0 0 0 7.03 0 7.063 7.063 0 0 0 .85 3.7'
+        fill='none'
+        stroke='#000'
         strokeWidth={0.88}
-        strokeLinejoin="round"
-        strokeLinecap="round"
+        strokeLinejoin='round'
+        strokeLinecap='round'
         strokeMiterlimit={10}
       />
     </Svg>

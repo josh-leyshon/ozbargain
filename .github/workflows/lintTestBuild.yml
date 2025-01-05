@@ -1,14 +1,14 @@
 name: Lint, test and build
-run-name: '${{ github.workflow }} - Requested by @${{github.actor}} (Run #${{github.run_number}})'
+run-name: "${{ github.workflow }} - Requested by @${{github.actor}} (Run #${{github.run_number}})"
 on:
   pull_request:
     paths-ignore:
-      - '**.md'
-      - '.vscode/**'
+      - "**.md"
+      - ".vscode/**"
 jobs:
   lint:
     runs-on: ubuntu-latest
-    name: ✍ Lint
+    name: ✍ Lint, format, types
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -20,11 +20,13 @@ jobs:
       - name: Install deps
         run: npm ci
 
-      - name: 🟣 Eslint
+      - name: 🟣 Lint
         run: npm run lint
+      - name: 🟠 Format
+        run: npx --yes dprint@0.48.0 check
       - name: 🔵 Type Check
-        run: npm run lint:types
-  
+        run: npx tsc --noEmit
+
   test:
     runs-on: ubuntu-latest
     name: 🧪 Test

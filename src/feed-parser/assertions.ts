@@ -41,18 +41,18 @@ function assertItemCategories(
   categories: unknown,
 ): asserts categories is { _: string; $: { domain: string } }[] {
   assert(
-    Array.isArray(categories) &&
-      categories.every(
+    Array.isArray(categories)
+      && categories.every(
         (category: unknown) =>
-          category &&
-          typeof category === 'object' &&
-          '_' in category &&
-          typeof category._ === 'string' &&
-          '$' in category &&
-          category.$ &&
-          typeof category.$ === 'object' &&
-          'domain' in category.$ &&
-          typeof category.$.domain === 'string',
+          category
+          && typeof category === 'object'
+          && '_' in category
+          && typeof category._ === 'string'
+          && '$' in category
+          && category.$
+          && typeof category.$ === 'object'
+          && 'domain' in category.$
+          && typeof category.$.domain === 'string',
       ),
   );
 }
@@ -81,7 +81,7 @@ export function assertAndParseFeedItem(
 
   // Workaround to remove the incorrect `string[]` type from `item.categories`,
   // before asserting its correct type.
-   
+
   const categories: unknown = item.categories;
   assertItemCategories(categories);
 

@@ -1,11 +1,11 @@
-import { render, screen, fireEvent } from '@testing-library/react-native';
-import { DealCard, DEAL_CARD_TEST_ID } from '../dealCard';
+import { fireEvent, render, screen } from '@testing-library/react-native';
+import { DEAL_CARD_TEST_ID, DealCard } from '../dealCard';
 
 test('Renders', () => {
   render(
     <DealCard
-      title="my title"
-      description="my description"
+      title='my title'
+      description='my description'
       onPress={jest.fn()}
     />,
   );
@@ -18,7 +18,7 @@ test('Pressing anywhere on the card fires onPress', () => {
   const descriptionText = 'desc';
 
   render(
-    <DealCard title="title" description={descriptionText} onPress={onPress} />,
+    <DealCard title='title' description={descriptionText} onPress={onPress} />,
   );
 
   // TODO: Figure out how to get the image to click on as well.
