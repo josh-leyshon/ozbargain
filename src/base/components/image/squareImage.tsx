@@ -1,5 +1,6 @@
 import { Image, StyleSheet, View } from 'react-native';
 import type { ImageSourcePropType } from 'react-native';
+import { sizes } from '../../constants/sizes';
 
 type SquareImageProps = {
   source: ImageSourcePropType;
@@ -26,7 +27,7 @@ export function SquareImage({ sizePx, source }: SquareImageProps): React.JSX.Ele
   );
 }
 
-const borderRadius = 8;
+const borderRadius = sizes.medium;
 
 const styles = StyleSheet.create({
   container: {

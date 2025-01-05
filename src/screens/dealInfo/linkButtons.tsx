@@ -14,9 +14,9 @@ export function LinkButtons({
   onPressShare,
 }: LinkButtonProps): React.JSX.Element {
   return (
-    <Column gap={16}>
+    <Column gap='large'>
       <Button title='Go to deal' color='orange' onPress={onPressGoToDeal} />
-      <Row gap={16}>
+      <Row gap='large'>
         <View style={styles.buttonContainer}>
           <Button
             title='Open on Ozbargain'

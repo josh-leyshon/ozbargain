@@ -4,6 +4,7 @@ import { Pressable, StyleSheet, Text } from 'react-native';
 import { colours } from '../../../base/colours/colours';
 import { SquareImage } from '../../../base/components/image/squareImage';
 import { Tag } from '../../../base/components/tag/tag';
+import { sizes } from '../../../base/constants/sizes';
 import { Column, Row } from '../../../base/layout/flex';
 import { getVotesIntensity } from '../../../base/votes/votesIntensity';
 import type { Deal } from '../../../global-state/dealsFeed';
@@ -27,11 +28,11 @@ export function DealCard({
 
   return (
     <Pressable onPress={onPress} testID={DEAL_CARD_TEST_ID}>
-      <Column justifyContent='space-between' gap={cardItemGapPx} style={[styles.card, { minHeight }]}>
+      <Column justifyContent='space-between' gap='medium' padding='large' style={[styles.card, { minHeight }]}>
         <Text style={styles.title} numberOfLines={12}>
           {title}
         </Text>
-        <Row justifyContent='space-between' gap={cardItemGapPx}>
+        <Row justifyContent='space-between' gap='medium'>
           {dealMeta}
           {imageUrl != null && (
             <SquareImage
@@ -63,10 +64,10 @@ export function DealMeta({ author, expiresAt, commentCount, votes }: DealMetaPro
   const negativeVotesColour = votesIntensity.negative === 'intense' ? 'red' : 'grey';
 
   return (
-    <Column shrink={1} gap={8} justifyContent='flex-start' alignItems='flex-start'>
+    <Column shrink={1} gap='medium' justifyContent='flex-start' alignItems='flex-start'>
       <Tag icon={<TempTagEmojiIcon emoji='⏰' />} colour='orange'>{expiresAt ? formatDate(expiresAt) : 'Unknown'}</Tag>
       <Tag icon={<TempTagEmojiIcon emoji='🧑' />} colour='grey'>{author}</Tag>
-      <Row gap={8} justifyContent='flex-start' wrap='wrap'>
+      <Row gap='medium' justifyContent='flex-start' wrap='wrap'>
         <Tag icon={<TempTagEmojiIcon emoji='💬' />} colour='grey'>{commentCount}</Tag>
         <Tag icon={<TempTagEmojiIcon emoji='👍' />} colour={positiveVotesColour}>{votes.positive}</Tag>
         <Tag icon={<TempTagEmojiIcon emoji='👎' />} colour={negativeVotesColour}>{votes.negative}</Tag>
@@ -88,15 +89,12 @@ const TempTagEmojiIcon = ({ emoji }: { emoji: string }) => (
 );
 
 const cardImageSizePx = 96;
-const cardPaddingPx = 16;
-const cardItemGapPx = cardPaddingPx / 2;
 // Roughly adds enough space for at least a line of text;
 const cardMinHeightPx = cardImageSizePx + 32;
 
 const styles = StyleSheet.create({
   card: {
-    padding: cardPaddingPx,
-    borderRadius: 8,
+    borderRadius: sizes.medium,
     backgroundColor: colours.foreground,
     boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px',
   },

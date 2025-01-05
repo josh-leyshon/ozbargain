@@ -24,10 +24,10 @@ export function DealHeader({
   const { positiveVoteButton, negativeVoteButton } = makeVoteButtons({ votes });
 
   return (
-    <Row gap={16}>
-      <Column gap={16} shrink={1} grow={1}>
+    <Row gap='large'>
+      <Column gap='large' shrink={1} grow={1}>
         <Text style={textStyles.title}>{title}</Text>
-        <Row gap={16} alignItems='flex-end' wrap='wrap'>
+        <Row gap='large' alignItems='flex-end' wrap='wrap'>
           <Column>
             <Text style={textStyles.light}>Posted by @{author}</Text>
             <Text style={textStyles.light}>
@@ -46,9 +46,9 @@ export function DealHeader({
           </Text>
         </Row>
       </Column>
-      <Column gap={16} justifyContent='flex-start'>
+      <Column gap='large' justifyContent='flex-start'>
         <SquareImage source={{ uri: imageUrl }} sizePx={140} />
-        <Row gap={16}>
+        <Row gap='large'>
           {positiveVoteButton}
           {negativeVoteButton}
         </Row>

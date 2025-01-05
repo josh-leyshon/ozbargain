@@ -1,5 +1,6 @@
 import { openURL } from 'expo-linking';
 import { ScrollView, Share, StyleSheet } from 'react-native';
+import { sizes } from '../../base/constants/sizes';
 import { Column } from '../../base/layout/flex';
 import { useDealsFeed } from '../../global-state/dealsFeed';
 import type { DealInfoScreenProps } from '../navigationTypes';
@@ -30,7 +31,7 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Column gap={16}>
+      <Column gap='large'>
         <DealHeader
           title={title}
           imageUrl={thumbnailUrl}
@@ -54,7 +55,7 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
 
 const styles = StyleSheet.create({
   container: {
-    padding: 16,
+    padding: sizes.large,
   },
 });
 

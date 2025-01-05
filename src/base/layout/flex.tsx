@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { StyleSheet, View } from 'react-native';
 import type { StyleProp, ViewStyle } from 'react-native';
+import { type Size, sizes } from '../constants/sizes';
 
 type FlexLayoutProps = {
   children: ReactNode;
@@ -15,11 +16,31 @@ type FlexLayoutProps = {
   /** Default: nowrap */
   wrap?: ViewStyle['flexWrap'];
   /** Default: unset */
-  gap?: number;
+  gap?: Size;
+  /** Default: unset */
+  padding?: Size;
+  /**
+   * Has priority over `padding`.
+   * Default: unset
+   */
+  paddingInline?: Size;
+  /**
+   * Has priority over `padding`.
+   * Default: unset
+   */
+  paddingBlock?: Size;
   style?: StyleProp<
     Omit<
       ViewStyle,
-      'justifyContent' | 'alignItems' | 'flexShrink' | 'flexGrow' | 'flexWrap'
+      | 'justifyContent'
+      | 'alignItems'
+      | 'flexShrink'
+      | 'flexGrow'
+      | 'flexWrap'
+      | 'gap'
+      | 'padding'
+      | 'paddingInline'
+      | 'paddingBlock'
     >
   >;
 };
@@ -41,19 +62,25 @@ function FlexView({
   grow,
   wrap,
   gap,
+  padding,
+  paddingInline,
+  paddingBlock,
   style,
 }: FlexLayoutProps & { direction: ViewStyle['flexDirection'] }): React.JSX.Element {
   const styles = StyleSheet.create({
-    column: {
+    container: {
       flexDirection: direction,
       justifyContent: justifyContent ?? 'space-between',
       alignItems: alignItems ?? 'stretch',
       flexShrink: shrink,
       flexGrow: grow,
       flexWrap: wrap,
-      gap,
+      ...(gap && { gap: sizes[gap] }),
+      ...(padding && { padding: sizes[padding] }),
+      ...(paddingInline && { paddingInline: sizes[paddingInline] }),
+      ...(paddingBlock && { paddingBlock: sizes[paddingBlock] }),
     },
   });
 
-  return <View style={[styles.column, style]}>{children}</View>;
+  return <View style={[styles.container, style]}>{children}</View>;
 }

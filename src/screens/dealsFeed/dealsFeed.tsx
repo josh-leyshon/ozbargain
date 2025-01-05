@@ -1,5 +1,6 @@
 import { FlatList, StyleSheet, View } from 'react-native';
 import type { FlatListProps } from 'react-native';
+import { sizes } from '../../base/constants/sizes';
 import type { Deal } from '../../global-state/dealsFeed';
 import { DealCard, DealMeta } from './dealCard/dealCard';
 
@@ -47,6 +48,6 @@ export function DealsFeed({
 
 const styles = StyleSheet.create({
   separator: {
-    padding: 4,
+    padding: sizes.small,
   },
 });

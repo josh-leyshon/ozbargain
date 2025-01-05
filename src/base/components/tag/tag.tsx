@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { StyleSheet, Text } from 'react-native';
 import { colours } from '../../colours/colours';
+import { sizes } from '../../constants/sizes';
 import { Row } from '../../layout/flex';
 import { UnreachableError } from '../../unreachableError';
 
@@ -16,7 +17,7 @@ export function Tag({ icon, children, colour }: TagProps): React.JSX.Element {
   const colourStyle = getColourStyle(colour);
 
   return (
-    <Row justifyContent='flex-start' alignItems='center' gap={2} style={[styles.tag, colourStyle]}>
+    <Row justifyContent='flex-start' alignItems='center' gap='extraSmall' style={[styles.tag, colourStyle]}>
       {icon}
       {children !== undefined && <Text style={styles.tagContent}>{children}</Text>}
     </Row>
@@ -42,9 +43,9 @@ function getColourStyle(colour: TagColour) {
 
 const styles = StyleSheet.create({
   tag: {
-    paddingBlock: 4,
-    paddingInline: 8,
-    borderRadius: 6,
+    paddingBlock: sizes.small,
+    paddingInline: sizes.medium,
+    borderRadius: sizes.small * 1.5,
     fontSize: 12,
   },
   tagContent: {
