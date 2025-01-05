@@ -58,30 +58,40 @@ const formatShortDate: Intl.DateTimeFormat['format'] = date =>
 type DealMetaProps = Pick<Deal, 'author' | 'expiresAt' | 'commentCount' | 'votes'>;
 
 export function DealMeta({ author, expiresAt, commentCount, votes }: DealMetaProps): React.JSX.Element {
+  const now = new Date();
+  const expiresAtColour: TagProps['colour'] = expiresAt != null
+    ? expiresAt < now
+      ? 'error'
+      : (expiresAt < (new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1)))
+      ? 'warning'
+      : 'normal'
+    : 'normal';
+  const expiresAtText = expiresAtColour === 'error'
+    ? 'Expired'
+    : expiresAtColour === 'warning'
+    ? 'Today'
+    : expiresAt
+    ? formatShortDate(expiresAt)
+    : 'Unknown';
+
   const votesIntensity = getVotesIntensity(votes);
   const positiveVotesColour: TagProps['colour'] = votesIntensity.positive === 'intense' ? 'success' : 'normal';
   const negativeVotesColour: TagProps['colour'] = votesIntensity.negative === 'intense' ? 'error' : 'normal';
 
   return (
     <Column shrink={1} gap='medium' justifyContent='flex-end' alignItems='flex-start'>
-      <Tag icon={<Icon name='alarm' />} colour='primary'>
-        {expiresAt ? formatShortDate(expiresAt) : 'Unknown'}
-      </Tag>
+      <Tag icon={<Icon name='alarm' size={fontSizes.medium} />} colour={expiresAtColour}>{expiresAtText}</Tag>
       <Tag
         // The person icon appears a bit smaller than the others.
-        icon={<Icon name='person' size={fontSizes.medium} />}
+        icon={<Icon name='person' size={fontSizes.large} />}
         colour='normal'
       >
         {author}
       </Tag>
       <Row gap='medium' justifyContent='flex-start' wrap='wrap'>
-        <Tag icon={<Icon name='comment' />} colour='normal'>
-          {commentCount}
-        </Tag>
-        <Tag icon={<Icon name='thumb-up' />} colour={positiveVotesColour}>
-          {votes.positive}
-        </Tag>
-        <Tag icon={<Icon name='thumb-down' />} colour={negativeVotesColour}>
+        <Tag icon={<Icon name='comment' size={fontSizes.medium} />} colour='normal'>{commentCount}</Tag>
+        <Tag icon={<Icon name='thumb-up' size={fontSizes.medium} />} colour={positiveVotesColour}>{votes.positive}</Tag>
+        <Tag icon={<Icon name='thumb-down' size={fontSizes.medium} />} colour={negativeVotesColour}>
           {votes.negative}
         </Tag>
       </Row>

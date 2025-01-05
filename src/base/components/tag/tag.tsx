@@ -18,8 +18,8 @@ export function Tag({ icon, children, colour }: TagProps): React.JSX.Element {
   const colourStyle = getColourStyle(colour);
   const content = children != null
     ? (colour === 'success' || colour === 'warning' || colour === 'error')
-      ? <StatusText colour={colour} size='small'>{children}</StatusText>
-      : <Text size='small'>{children}</Text>
+      ? <StatusText colour={colour}>{children}</StatusText>
+      : <Text>{children}</Text>
     : null;
 
   return (
