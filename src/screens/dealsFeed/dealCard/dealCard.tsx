@@ -47,14 +47,10 @@ export function DealCard({
   );
 }
 
-const formatDate: Intl.DateTimeFormat['format'] = date =>
+const formatShortDate: Intl.DateTimeFormat['format'] = date =>
   new Intl.DateTimeFormat(undefined, {
     day: 'numeric',
-    month: 'numeric',
-    year: '2-digit',
-    hourCycle: 'h23',
-    hour: '2-digit',
-    minute: '2-digit',
+    month: 'short',
   }).format(date);
 
 type DealMetaProps = Pick<Deal, 'author' | 'expiresAt' | 'commentCount' | 'votes'>;
@@ -66,7 +62,9 @@ export function DealMeta({ author, expiresAt, commentCount, votes }: DealMetaPro
 
   return (
     <Column shrink={1} gap='medium' justifyContent='flex-start' alignItems='flex-start'>
-      <Tag icon={<TempTagEmojiIcon emoji='⏰' />} colour='orange'>{expiresAt ? formatDate(expiresAt) : 'Unknown'}</Tag>
+      <Tag icon={<TempTagEmojiIcon emoji='⏰' />} colour='orange'>
+        {expiresAt ? formatShortDate(expiresAt) : 'Unknown'}
+      </Tag>
       <Tag icon={<TempTagEmojiIcon emoji='🧑' />} colour='grey'>{author}</Tag>
       <Row gap='medium' justifyContent='flex-start' wrap='wrap'>
         <Tag icon={<TempTagEmojiIcon emoji='💬' />} colour='grey'>{commentCount}</Tag>
