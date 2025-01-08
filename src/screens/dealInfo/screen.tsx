@@ -40,7 +40,7 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
       <Column gap='medium'>
         <Card gap='large' padding='large'>
           <DealCardInfo
-            title={deal.title.text}
+            title={deal.title}
             imageUrl={deal.thumbnailUrl}
             dealMeta={<DealMeta {...deal} expiryFormatter={makeDefaultExpiryFormatter(new Date())} />}
           />
