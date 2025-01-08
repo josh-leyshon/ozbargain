@@ -14,15 +14,15 @@ export function LinkButtons({
 }: LinkButtonProps): React.JSX.Element {
   return (
     <Column gap='medium'>
-      <Button title='Go to deal' color='orange' onPress={onPressGoToDeal} />
+      <Button title='Go to deal' colour='primary' onPress={onPressGoToDeal} />
       <Row gap='medium'>
         <Button
           title='Open on Ozbargain'
-          color='orange'
+          colour='primary'
           onPress={onPressOpenOnOzbargain}
           fitContent
         />
-        <Button title='Share' color='orange' onPress={onPressShare} fitContent />
+        <Button title='Share' colour='primary' onPress={onPressShare} fitContent />
       </Row>
     </Column>
   );
