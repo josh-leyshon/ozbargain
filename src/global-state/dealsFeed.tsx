@@ -1,9 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useReducer } from 'react';
 import { UnreachableError } from '../base/unreachableError';
 import { getOzbargainFeedFromUrl } from '../feed-parser/parser';
-import type { OzbargainFeed } from '../feed-parser/parser';
-
-export type Deal = OzbargainFeed['deals'][number];
+import type { Deal, OzbargainFeed } from '../feed-parser/parser';
 
 /**
  * @param page The feed page to fetch. Default: 0

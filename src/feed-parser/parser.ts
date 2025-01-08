@@ -1,34 +1,36 @@
 import RssParser from 'rss-parser';
 import { assertAndParseFeedItem, assertFeedMeta } from './assertions';
 
+export type Deal = {
+  title: string;
+  description: string;
+  author: string;
+  postedAt: Date;
+  expiresAt?: Date;
+  id: number;
+  links: {
+    deal: string;
+    comments: string;
+    productPage: string;
+  };
+  votes: {
+    positive: number;
+    negative: number;
+  };
+  commentCount: number;
+  thumbnailUrl?: string;
+  categories: {
+    name: string;
+    link: string;
+  }[];
+};
+
 export type OzbargainFeed = {
   meta: {
     feedTitle: string;
     feedLink: string;
   };
-  deals: {
-    title: string;
-    description: string;
-    author: string;
-    postedAt: Date;
-    expiresAt?: Date;
-    id: number;
-    links: {
-      deal: string;
-      comments: string;
-      productPage: string;
-    };
-    votes: {
-      positive: number;
-      negative: number;
-    };
-    commentCount: number;
-    thumbnailUrl?: string;
-    categories: {
-      name: string;
-      link: string;
-    }[];
-  }[];
+  deals: Deal[];
 };
 
 // Note: New fields must be optional because otherwise the rss-parser types incorrectly assume these fields will always be present.
