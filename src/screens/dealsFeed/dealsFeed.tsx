@@ -1,4 +1,5 @@
-import { FlatList, StyleSheet, View } from 'react-native';
+import type React from 'react';
+import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import type { FlatListProps } from 'react-native';
 import { sizes } from '../../base/constants/sizes';
 import type { Deal } from '../../global-state/dealsFeed';
@@ -26,13 +27,14 @@ export function DealsFeed({
     <FlatList
       data={deals}
       renderItem={({ item: deal }) => (
-        <DealCard
-          key={deal.id}
-          title={deal.title}
-          dealMeta={<DealMeta {...deal} expiryFormatter={makeDefaultExpiryFormatter(new Date())} />}
-          imageUrl={deal.thumbnailUrl}
-          onPress={() => onPressItem(deal)}
-        />
+        <Pressable onPress={() => onPressItem(deal)}>
+          <DealCard
+            key={deal.id}
+            title={deal.title}
+            dealMeta={<DealMeta {...deal} expiryFormatter={makeDefaultExpiryFormatter(new Date())} />}
+            imageUrl={deal.thumbnailUrl}
+          />
+        </Pressable>
       )}
       ItemSeparatorComponent={() => <View style={styles.separator} />}
       contentContainerStyle={style}
