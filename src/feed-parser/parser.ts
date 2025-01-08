@@ -1,8 +1,9 @@
 import RssParser from 'rss-parser';
 import { assertAndParseFeedItem, assertFeedMeta } from './assertions';
+import { type PartedText, partText } from './textParts';
 
 export type Deal = {
-  title: string;
+  title: PartedText;
   description: string;
   author: string;
   postedAt: Date;
@@ -69,8 +70,8 @@ export function convertToOzbargainFeed(feed: RssFeed): OzbargainFeed {
     deals: feed.items.map(item => {
       const feedItem = assertAndParseFeedItem(item);
 
-      const ozbargainFeed: OzbargainFeed['deals'][number] = {
-        title: feedItem.title,
+      return {
+        title: partText(feedItem.title),
         description: feedItem.contentSnippet,
         author: feedItem.creator,
         postedAt: feedItem.isoDate,
@@ -86,15 +87,9 @@ export function convertToOzbargainFeed(feed: RssFeed): OzbargainFeed {
         },
         commentCount: feedItem.meta['comment-count'],
         categories: feedItem.categories,
+        ...(feedItem.meta.expiry != null && { expiresAt: feedItem.meta.expiry }),
+        ...(feedItem.meta.image != null && { thumbnailUrl: feedItem.meta.image }),
       };
-      if (feedItem.meta.expiry != null) {
-        ozbargainFeed.expiresAt = feedItem.meta.expiry;
-      }
-      if (feedItem.meta.image != null) {
-        ozbargainFeed.thumbnailUrl = feedItem.meta.image;
-      }
-
-      return ozbargainFeed;
     }),
   };
 }

@@ -31,7 +31,7 @@ export function DealsFeed({
         <Pressable onPress={() => onPressItem(deal)} key={deal.id}>
           <Card padding='large'>
             <DealCardInfo
-              title={deal.title}
+              title={deal.title.text}
               imageUrl={deal.thumbnailUrl}
               dealMeta={<DealMeta {...deal} expiryFormatter={makeDefaultExpiryFormatter(new Date())} />}
             />

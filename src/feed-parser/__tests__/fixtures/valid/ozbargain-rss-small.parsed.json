@@ -5,7 +5,19 @@
   },
   "deals": [
     {
-      "title": "Razer DeathAdder V2 Ergonomic Wired Gaming Mouse $37 @ eBay with Code",
+      "title": {
+        "text": "Razer DeathAdder V2 Ergonomic Wired Gaming Mouse $37 @ eBay with Code",
+        "parts": [
+          {
+            "type": "normal",
+            "text": "Razer DeathAdder V2 Ergonomic Wired Gaming Mouse ",
+            "startIndex": 0,
+            "endIndex": 49
+          },
+          { "type": "price", "text": "$37", "startIndex": 49, "endIndex": 52 },
+          { "type": "normal", "text": " @ eBay with Code", "startIndex": 52, "endIndex": 69 }
+        ]
+      },
       "description": "Original Coupon Deal\nCurrently $69 at JBHIFI, $63 at Amazon. Previously was $34 not too long ago\nPretty solid mouse for the price. I'm using one now and haven't had any major disagreements over it",
       "author": "outlander",
       "postedAt": "2023-01-16T22:45:13.000Z",
@@ -30,7 +42,19 @@
       "thumbnailUrl": "https://files.ozbargain.com.au/n/76/751576l.jpg?h=86e2ccde"
     },
     {
-      "title": "Fissler Original-Profi Collection Frypan, Stainless Steel, 24cm/2.0L $174.57 Delivered @ Amazon Germany via Amazon AU",
+      "title": {
+        "text": "Fissler Original-Profi Collection Frypan, Stainless Steel, 24cm/2.0L $174.57 Delivered @ Amazon Germany via Amazon AU",
+        "parts": [
+          {
+            "type": "normal",
+            "text": "Fissler Original-Profi Collection Frypan, Stainless Steel, 24cm/2.0L ",
+            "startIndex": 0,
+            "endIndex": 69
+          },
+          { "type": "price", "text": "$174.57", "startIndex": 69, "endIndex": 76 },
+          { "type": "normal", "text": " Delivered @ Amazon Germany via Amazon AU", "startIndex": 76, "endIndex": 117 }
+        ]
+      },
       "description": "About this item\nThe perfectly fitting cookstar all-stove base ensures optimal absorption, distribution and storage of heat and thus helps to save energy - with every type of stove.\nThe pot is suitable for cleaning in the dishwasher.\nThe wide pouring rim facilitates precise pouring and decanting without any annoying dripping.\nWith the integrated measuring scale, liquid ingredients can be dosed without a measuring cup.\nBecause the handy cold metal handles made of stainless steel do not get hot when cooking on the electric stove, you can also hold them without potholders.\n\n$272@myer",
       "author": "Buffet Squirrel",
       "postedAt": "2023-01-16T17:47:31.000Z",
