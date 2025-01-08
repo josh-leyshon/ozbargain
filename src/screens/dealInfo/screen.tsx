@@ -2,13 +2,13 @@ import { openURL } from 'expo-linking';
 import type React from 'react';
 import { Platform, ScrollView, Share, StyleSheet } from 'react-native';
 import { Card } from '../../base/components/card/card';
+import { Text } from '../../base/components/text/text';
 import { sizes } from '../../base/constants/sizes';
 import { Column } from '../../base/layout/flex';
 import { useDealsFeed } from '../../global-state/dealsFeed';
 import { DealCardInfo } from '../dealsFeed/dealCard/dealCard';
 import { DealMeta, makeDefaultExpiryFormatter } from '../dealsFeed/dealCard/dealMeta';
 import type { DealInfoScreenProps } from '../navigationTypes';
-import { Description } from './description';
 import { LinkButtons } from './linkButtons';
 
 async function openLink(url: string): Promise<void> {
@@ -51,7 +51,7 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
           />
         </Card>
         <Card padding='large'>
-          <Description description={deal.description} />
+          <Text>{deal.description}</Text>
         </Card>
       </Column>
     </ScrollView>
