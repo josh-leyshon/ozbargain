@@ -34,7 +34,7 @@ export type OzbargainFeed = {
 };
 
 // Note: New fields must be optional because otherwise the rss-parser types incorrectly assume these fields will always be present.
-// Compare this to the other built-in fields that rss-parser supports, which are optionl by default.
+// Compare this to the other built-in fields that rss-parser supports, which are optional by default.
 type RssParserCustomItemFields = {
   comments?: string;
   'ozb:meta'?: {
