@@ -3,6 +3,7 @@
 // and the secondary colour's hue being at 210 degrees.
 // 'foreground' was manually lightened to pure white because it needs to blend in
 // with deal image backgrounds, which are white.
+// 'copy' was darkened to black for contrast on the new 'foreground'.
 // 'success', 'warning' and 'error' were manually softened/lightened a bit from the generated colours.
 export const colours = {
   primary: 'rgb(237, 188, 89)',
@@ -19,7 +20,7 @@ export const colours = {
   foreground: 'rgb(255, 255, 255)',
   border: 'rgb(226, 224, 221)',
 
-  copy: 'rgb(41, 39, 35)',
+  copy: 'rgb(0, 0, 0)',
   copyLight: 'rgb(110, 105, 94)',
   copyLighter: 'rgb(149, 143, 132)',
 
