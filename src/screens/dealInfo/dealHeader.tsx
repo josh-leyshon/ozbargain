@@ -1,24 +1,17 @@
 import { SquareImage } from '../../base/components/image/squareImage';
 import { Text } from '../../base/components/text/text';
 import { Column, Row } from '../../base/layout/flex';
-import type { OzbargainFeed } from '../../feed-parser/parser';
+import type { Deal } from '../../global-state/dealsFeed';
 import { makeVoteButtons } from './voteButtons';
 
-type DealHeaderProps = {
-  title: string;
-  imageUrl?: string;
-  author: string;
-  postedAt: Date;
-  expiresAt?: Date;
-  votes: OzbargainFeed['deals'][number]['votes'];
-};
+type DealHeaderProps = Pick<Deal, 'title' | 'author' | 'thumbnailUrl' | 'postedAt' | 'expiresAt' | 'votes'>;
 
 export function DealHeader({
   title,
   author,
   postedAt,
   expiresAt,
-  imageUrl,
+  thumbnailUrl,
   votes,
 }: DealHeaderProps): React.JSX.Element {
   const { positiveVoteButton, negativeVoteButton } = makeVoteButtons({ votes });
@@ -47,7 +40,7 @@ export function DealHeader({
         </Row>
       </Column>
       <Column gap='large' justifyContent='flex-start'>
-        <SquareImage source={{ uri: imageUrl }} sizePx={140} />
+        <SquareImage source={{ uri: thumbnailUrl }} sizePx={140} />
         <Row gap='large'>
           {positiveVoteButton}
           {negativeVoteButton}

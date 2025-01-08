@@ -1,5 +1,6 @@
-import { Button as ReactNativeButton, StyleSheet, View } from 'react-native';
+import { Button as ReactNativeButton, StyleSheet } from 'react-native';
 import type { ButtonProps as ReactNativeButtonProps } from 'react-native';
+import { Column } from '../../layout/flex';
 
 /** Exported for testing. */
 export const buttonColours = {
@@ -18,23 +19,30 @@ type ButtonProps = {
   title: ReactNativeButtonProps['title'];
   onPress: ReactNativeButtonProps['onPress'];
   color: ButtonColours;
+  /**
+   * Whether the button width should grow to fit it's content
+   * when sharing a flex container with other buttons.
+   * @default false
+   */
+  fitContent?: boolean;
 };
 
-export function Button({ color, title, onPress }: ButtonProps): React.JSX.Element {
+export function Button({ title, onPress, color, fitContent = false }: ButtonProps): React.JSX.Element {
   const buttonColour = buttonColours[color];
   return (
-    // TODO: Could use a custom Pressable component to add styles, instead of a Button wrapped in a View.
-    <View style={styles.container}>
+    // Buttons are wrapped in a flex column so they can always expand horizontally
+    // to the width of their container.
+    <Column style={[styles.container, fitContent ? styles.fitContent : undefined]}>
       <ReactNativeButton title={title} onPress={onPress} color={buttonColour} />
-    </View>
+    </Column>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    // Buttons should expand to fill available container space by default.
-    // Larger buttons are better for mobile touch targets.
-    flexBasis: 1,
-    flexGrow: 1,
+    flex: 1,
+  },
+  fitContent: {
+    flexBasis: 'auto',
   },
 });
