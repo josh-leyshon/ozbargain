@@ -22,11 +22,9 @@ export function DealCard({
   imageUrl,
   onPress,
 }: DealCardProps): React.JSX.Element {
-  const minHeight = cardMinHeightPx;
-
   return (
     <Pressable onPress={onPress} testID={DEAL_CARD_TEST_ID}>
-      <Column justifyContent='space-between' gap='medium' padding='large' style={[styles.card, { minHeight }]}>
+      <Column justifyContent='space-between' gap='medium' padding='large' style={[styles.card]}>
         <Text size='large' weight='bold' numberOfLines={12}>
           {title}
         </Text>
@@ -45,8 +43,6 @@ export function DealCard({
 }
 
 const cardImageSizePx = 96;
-// Roughly adds enough space for at least a line of text;
-const cardMinHeightPx = cardImageSizePx + 32;
 
 const styles = StyleSheet.create({
   card: {
