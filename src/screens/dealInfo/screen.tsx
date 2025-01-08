@@ -49,6 +49,6 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
 
 const styles = StyleSheet.create({
   container: {
-    padding: sizes.large,
+    padding: sizes.medium,
   },
 });
