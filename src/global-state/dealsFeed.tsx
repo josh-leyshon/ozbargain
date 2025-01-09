@@ -20,45 +20,45 @@ const NEW_DEALS_FEED_URL = 'https://www.ozbargain.com.au/deals/feed';
 
 type DealsFeed2ConstructorArgs = {
   topDeals: {
-    feed: OzbargainFeed;
+    feed?: OzbargainFeed;
     fetcher: FeedFetcher;
     lastFetchedPage?: number;
   };
   newDeals: {
-    feed: OzbargainFeed;
+    feed?: OzbargainFeed;
     fetcher: FeedFetcher;
     lastFetchedPage?: number;
   };
 };
 
 export class DealsFeed2 {
-  readonly topDeals: {
-    feed: OzbargainFeed;
-    fetcher: FeedFetcher;
-    lastFetchedPage: number;
-  };
+  readonly topDeals: DealsFeed2ConstructorArgs['topDeals'];
 
-  readonly newDeals: {
-    feed: OzbargainFeed;
-    fetcher: FeedFetcher;
-    lastFetchedPage: number;
-  };
+  readonly newDeals: DealsFeed2ConstructorArgs['newDeals'];
 
   constructor({ topDeals, newDeals }: DealsFeed2ConstructorArgs) {
-    this.topDeals = { ...topDeals, lastFetchedPage: topDeals.lastFetchedPage ?? -1 };
-    this.newDeals = { ...newDeals, lastFetchedPage: newDeals.lastFetchedPage ?? -1 };
+    this.topDeals = topDeals;
+    this.newDeals = newDeals;
   }
 
   getTopDeals(): Deal[] {
-    return this.topDeals.feed.deals;
+    const deals = this.topDeals.feed?.deals;
+    if (!deals) {
+      throw new Error('No top deals feed exists.');
+    }
+    return deals;
   }
 
   getNewDeals(): Deal[] {
-    return this.newDeals.feed.deals;
+    const deals = this.newDeals.feed?.deals;
+    if (!deals) {
+      throw new Error('No new deals feed exists.');
+    }
+    return deals;
   }
 
   getDealById(id: Deal['id']): Deal {
-    const allDeals = [...this.topDeals.feed.deals, ...this.newDeals.feed.deals];
+    const allDeals = [...this.getTopDeals(), ...this.getNewDeals()];
     const deal = allDeals.find(deal => deal.id === id);
     if (!deal) {
       throw new Error(`Unable to find deal with ID ${id}`);
@@ -68,7 +68,7 @@ export class DealsFeed2 {
 
   /** Returns a new DealsFeed with an updated internal state. */
   async loadTopDealsFeedNextPage(): Promise<DealsFeed2> {
-    const nextPageNumber = this.topDeals.lastFetchedPage + 1;
+    const nextPageNumber = (this.topDeals.lastFetchedPage ?? -1) + 1;
     const nextPageFeed = await this.topDeals.fetcher(nextPageNumber);
 
     return new DealsFeed2({
@@ -77,7 +77,9 @@ export class DealsFeed2 {
       },
       topDeals: {
         ...this.topDeals,
-        feed: DealsFeed2.mergeFeeds(this.topDeals.feed, nextPageFeed, DealsFeed2.topDealsSorter),
+        feed: this.topDeals.feed
+          ? DealsFeed2.mergeFeeds(this.topDeals.feed, nextPageFeed, DealsFeed2.topDealsSorter)
+          : nextPageFeed,
         lastFetchedPage: nextPageNumber,
       },
     });
@@ -85,13 +87,15 @@ export class DealsFeed2 {
 
   /** Returns a new DealsFeed with an updated internal state. */
   async loadNewDealsFeedNextPage(): Promise<DealsFeed2> {
-    const nextPageNumber = this.newDeals.lastFetchedPage + 1;
+    const nextPageNumber = (this.newDeals.lastFetchedPage ?? -1) + 1;
     const nextPageFeed = await this.newDeals.fetcher(nextPageNumber);
 
     return new DealsFeed2({
       newDeals: {
         ...this.newDeals,
-        feed: DealsFeed2.mergeFeeds(this.newDeals.feed, nextPageFeed, DealsFeed2.newDealsSorter),
+        feed: this.newDeals.feed
+          ? DealsFeed2.mergeFeeds(this.newDeals.feed, nextPageFeed, DealsFeed2.newDealsSorter)
+          : nextPageFeed,
         lastFetchedPage: nextPageNumber,
       },
       topDeals: {
@@ -233,17 +237,18 @@ export const onlineNewDealsFetchFeed: FeedFetcher = (page = 0) => {
 type State =
   | {
     state: 'refreshing';
-    dealsFeed?: DealsFeed;
+    dealsFeed?: DealsFeed2;
   }
   | {
     state: 'ready';
-    dealsFeed: DealsFeed;
+    dealsFeed: DealsFeed2;
   };
 type MaybeUninitializedState =
   | State
   | {
     state: 'uninitialised';
-    dealsFeed?: DealsFeed;
+    dealsFeed?: DealsFeed2;
+    emptyDealsFeed: DealsFeed2;
   };
 type Action =
   | {
@@ -251,9 +256,8 @@ type Action =
   }
   | {
     type: 'set';
-    dealsFeed: DealsFeed;
+    dealsFeed: DealsFeed2;
   };
-type Dispatch = (action: Action) => void;
 
 function dealsFeedReducer(
   state: MaybeUninitializedState,
@@ -269,69 +273,103 @@ function dealsFeedReducer(
   }
 }
 
-async function refreshNewFeed(
-  dispatch: Dispatch,
-  fetchFeed: FeedFetcher,
-): Promise<void> {
-  dispatch({ type: 'refresh' });
-
-  const newFeed = await fetchFeed();
-
-  dispatch({
-    type: 'set',
-    dealsFeed: new DealsFeed({ feed: newFeed, fetchFeed }),
-  });
-}
-
-async function loadFeedNextPage(
-  dispatch: Dispatch,
-  dealsFeed: DealsFeed,
-): Promise<void> {
-  dispatch({ type: 'refresh' });
-
-  const newDealsFeed = await dealsFeed.loadFeedNextPage();
-
-  dispatch({
-    type: 'set',
-    dealsFeed: newDealsFeed,
-  });
-}
-
 type DealsFeedContextProps = MaybeUninitializedState & {
   /** Refresh entire feed. */
-  refresh: () => void;
+  refreshTopDeals: (dealsFeed: DealsFeed2) => void;
+  /** Refresh entire feed. */
+  refreshNewDeals: (dealsFeed: DealsFeed2) => void;
   /** Load the next page in the feed. */
-  loadNextPage: (dealsFeed: DealsFeed) => void;
+  loadTopDealsNextPage: (dealsFeed: DealsFeed2) => void;
+  /** Load the next page in the feed. */
+  loadNewDealsNextPage: (dealsFeed: DealsFeed2) => void;
 };
-const DealsFeedContext = createContext<DealsFeedContextProps | undefined>(
-  undefined,
-);
+const DealsFeedContext = createContext<DealsFeedContextProps | undefined>(undefined);
 
 export function DealsFeedProvider({
   children,
-  fetchFeed,
+  topDealsFetchFeed,
+  newDealsFetchFeed,
 }: React.PropsWithChildren<{
-  fetchFeed: FeedFetcher;
+  topDealsFetchFeed: FeedFetcher;
+  newDealsFetchFeed: FeedFetcher;
 }>): React.JSX.Element {
   const [state, dispatch] = useReducer(dealsFeedReducer, {
     state: 'uninitialised',
+    emptyDealsFeed: new DealsFeed2({
+      topDeals: {
+        fetcher: topDealsFetchFeed,
+      },
+      newDeals: {
+        fetcher: newDealsFetchFeed,
+      },
+    }),
   });
 
-  const value: DealsFeedContextProps = useMemo(() => {
+  const value = useMemo<DealsFeedContextProps>(() => {
     return {
       ...state,
-      refresh: () => {
-        // eslint-disable-next-line @typescript-eslint/no-floating-promises
-        refreshNewFeed(dispatch, fetchFeed);
-      },
       // Need to take dealsFeed as param instead of using state.dealsFeed from this function's closure,
       // because at this point state.dealsFeed may be undefined.
-      loadNextPage: (dealsFeed: DealsFeed) => {
-        // eslint-disable-next-line @typescript-eslint/no-floating-promises
-        loadFeedNextPage(dispatch, dealsFeed);
+      refreshTopDeals: async dealsFeed => {
+        dispatch({ type: 'refresh' });
+
+        const newFeed = await dealsFeed.topDeals.fetcher(0);
+
+        dispatch({
+          type: 'set',
+          dealsFeed: new DealsFeed2({
+            topDeals: {
+              ...dealsFeed.topDeals,
+              feed: newFeed,
+              lastFetchedPage: 0,
+            },
+            newDeals: {
+              ...dealsFeed.newDeals,
+            },
+          }),
+        });
+      },
+      refreshNewDeals: async dealsFeed => {
+        dispatch({ type: 'refresh' });
+
+        const newFeed = await dealsFeed.newDeals.fetcher(0);
+
+        dispatch({
+          type: 'set',
+          dealsFeed: new DealsFeed2({
+            topDeals: {
+              ...dealsFeed.topDeals,
+            },
+            newDeals: {
+              ...dealsFeed.newDeals,
+              feed: newFeed,
+              lastFetchedPage: 0,
+            },
+          }),
+        });
+      },
+      loadTopDealsNextPage: async dealsFeed => {
+        dispatch({ type: 'refresh' });
+
+        const newDealsFeed = await dealsFeed.loadTopDealsFeedNextPage();
+
+        dispatch({
+          type: 'set',
+          dealsFeed: newDealsFeed,
+        });
+      },
+      loadNewDealsNextPage: async dealsFeed => {
+        dispatch({ type: 'refresh' });
+
+        const newDealsFeed = await dealsFeed.loadNewDealsFeedNextPage();
+
+        dispatch({
+          type: 'set',
+          dealsFeed: newDealsFeed,
+        });
       },
     };
-  }, [state, dispatch, fetchFeed]);
+  }, [state, dispatch, topDealsFetchFeed, newDealsFetchFeed]);
 
   return (
     <DealsFeedContext.Provider value={value}>
@@ -355,7 +393,8 @@ export function useDealsFeed():
   // Assuming the app runs single-threaded, this should only occur once.
   useEffect(() => {
     if (context.state === 'uninitialised') {
-      context.refresh();
+      context.refreshTopDeals(context.emptyDealsFeed);
+      context.refreshNewDeals(context.emptyDealsFeed);
     }
   }, [context]);
 
@@ -364,13 +403,17 @@ export function useDealsFeed():
     ? {
       state: 'refreshing',
       dealsFeed: context.dealsFeed,
-      refresh: context.refresh,
-      loadNextPage: context.loadNextPage,
+      refreshNewDeals: context.refreshNewDeals,
+      refreshTopDeals: context.refreshTopDeals,
+      loadNewDealsNextPage: context.loadNewDealsNextPage,
+      loadTopDealsNextPage: context.loadTopDealsNextPage,
     }
     : {
       state: 'ready',
       dealsFeed: context.dealsFeed,
-      refresh: context.refresh,
-      loadNextPage: context.loadNextPage,
+      refreshNewDeals: context.refreshNewDeals,
+      refreshTopDeals: context.refreshTopDeals,
+      loadNewDealsNextPage: context.loadNewDealsNextPage,
+      loadTopDealsNextPage: context.loadTopDealsNextPage,
     };
 }
