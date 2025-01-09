@@ -6,6 +6,7 @@ export type Deal = {
   id: string;
   title: PartedText;
   description: string;
+  partedDescription: PartedText;
   author: string;
   postedAt: Date;
   expiresAt?: Date;
@@ -69,10 +70,12 @@ export function convertToOzbargainFeed(feed: RssFeed): OzbargainFeed {
     },
     deals: feed.items.map(item => {
       const feedItem = assertAndParseFeedItem(item);
+      const partedDescription = partText(feedItem.content);
 
       return {
         title: partText(feedItem.title),
         description: feedItem.contentSnippet,
+        partedDescription,
         author: feedItem.creator,
         postedAt: feedItem.isoDate,
         id: feedItem.id,
