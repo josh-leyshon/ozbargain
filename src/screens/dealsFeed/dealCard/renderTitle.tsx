@@ -12,7 +12,7 @@ export function renderDealCardTitle(text: PartedText): React.JSX.Element {
           weight='bold'
           colour={part.type === 'price' ? 'primaryDark' : 'normal'}
         >
-          {part.text}
+          {part.rawText}
         </Text>
       ))}
     </Text>

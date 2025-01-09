@@ -10,38 +10,57 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "Razer DeathAdder V2 Ergonomic Wired Gaming Mouse ",
             "text": "Razer DeathAdder V2 Ergonomic Wired Gaming Mouse ",
             "startIndex": 0,
             "endIndex": 49
           },
-          { "type": "price", "text": "$37", "startIndex": 49, "endIndex": 52 },
-          { "type": "normal", "text": " @ eBay with Code", "startIndex": 52, "endIndex": 69 }
+          { "type": "price", "rawText": "$37", "text": "$37", "startIndex": 49, "endIndex": 52 },
+          {
+            "type": "normal",
+            "rawText": " @ eBay with Code",
+            "text": " @ eBay with Code",
+            "startIndex": 52,
+            "endIndex": 69
+          }
         ]
       },
       "description": "Original Coupon Deal\nCurrently $69 at JBHIFI, $63 at Amazon. Previously was $34 not too long ago\nPretty solid mouse for the price. I'm using one now and haven't had any major disagreements over it",
       "partedDescription": {
         "text": "<div style=\"float:right;margin:0 0 1ex 1ex\"><a href=\"/node/751576\" rel=\"noopener nofollow\" title=\"Link: https://www.ebay.com.au/itm/363026206750\"><img src=\"https://files.ozbargain.com.au/n/76/751576.jpg?h=86e2ccde\" alt=\"Razer DeathAdder V2 Ergonomic Wired Gaming Mouse $37 @ eBay with Code\"/></a></div><p><a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a></p>\n\n<p>Currently $69 at JBHIFI, $63 at Amazon. Previously was $34 <a href=\"/node/743700\" class=\"internal inline\">not too long ago</a></p>\n\n<p>Pretty solid mouse for the price. I&#039;m using one now and haven&#039;t had any major disagreements over it</p>\n",
         "parts": [
-          { "type": "normal", "text": "<p>", "startIndex": 302, "endIndex": 305 },
+          { "type": "normal", "rawText": "<p>", "text": "", "startIndex": 302, "endIndex": 305 },
           {
             "type": "link",
-            "text": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
+            "rawText": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
             "startIndex": 305,
             "endIndex": 376,
             "url": "https://ozbargain.com.au/node/750992",
             "linkText": "Original Coupon Deal",
             "linkType": "deal"
           },
-          { "type": "normal", "text": "</p>\n\n<p>Currently ", "startIndex": 376, "endIndex": 395 },
-          { "type": "price", "text": "$69", "startIndex": 395, "endIndex": 398 },
-          { "type": "normal", "text": " at JBHIFI, ", "startIndex": 398, "endIndex": 410 },
-          { "type": "price", "text": "$63", "startIndex": 410, "endIndex": 413 },
-          { "type": "normal", "text": " at Amazon. Previously was ", "startIndex": 413, "endIndex": 440 },
-          { "type": "price", "text": "$34", "startIndex": 440, "endIndex": 443 },
-          { "type": "normal", "text": " ", "startIndex": 443, "endIndex": 444 },
+          {
+            "type": "normal",
+            "rawText": "</p>\n\n<p>Currently ",
+            "text": "\n\nCurrently ",
+            "startIndex": 376,
+            "endIndex": 395
+          },
+          { "type": "price", "rawText": "$69", "text": "$69", "startIndex": 395, "endIndex": 398 },
+          { "type": "normal", "rawText": " at JBHIFI, ", "text": " at JBHIFI, ", "startIndex": 398, "endIndex": 410 },
+          { "type": "price", "rawText": "$63", "text": "$63", "startIndex": 410, "endIndex": 413 },
+          {
+            "type": "normal",
+            "rawText": " at Amazon. Previously was ",
+            "text": " at Amazon. Previously was ",
+            "startIndex": 413,
+            "endIndex": 440
+          },
+          { "type": "price", "rawText": "$34", "text": "$34", "startIndex": 440, "endIndex": 443 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 443, "endIndex": 444 },
           {
             "type": "link",
-            "text": "<a href=\"/node/743700\" class=\"internal inline\">not too long ago</a>",
+            "rawText": "<a href=\"/node/743700\" class=\"internal inline\">not too long ago</a>",
             "startIndex": 444,
             "endIndex": 511,
             "url": "https://ozbargain.com.au/node/743700",
@@ -50,7 +69,8 @@
           },
           {
             "type": "normal",
-            "text": "</p>\n\n<p>Pretty solid mouse for the price. I&#039;m using one now and haven&#039;t had any major disagreements over it</p>\n",
+            "rawText": "</p>\n\n<p>Pretty solid mouse for the price. I&#039;m using one now and haven&#039;t had any major disagreements over it</p>\n",
+            "text": "\n\nPretty solid mouse for the price. I&#039;m using one now and haven&#039;t had any major disagreements over it\n",
             "startIndex": 511,
             "endIndex": 634
           }
@@ -82,11 +102,23 @@
       "title": {
         "text": "Sharp 70\" 4k UHD TV 4T-C70CK3X, $899 + $55 Delivery @ The Good Guys",
         "parts": [
-          { "type": "normal", "text": "Sharp 70\" 4k UHD TV 4T-C70CK3X, ", "startIndex": 0, "endIndex": 32 },
-          { "type": "price", "text": "$899", "startIndex": 32, "endIndex": 36 },
-          { "type": "normal", "text": " + ", "startIndex": 36, "endIndex": 39 },
-          { "type": "price", "text": "$55", "startIndex": 39, "endIndex": 42 },
-          { "type": "normal", "text": " Delivery @ The Good Guys", "startIndex": 42, "endIndex": 67 }
+          {
+            "type": "normal",
+            "rawText": "Sharp 70\" 4k UHD TV 4T-C70CK3X, ",
+            "text": "Sharp 70\" 4k UHD TV 4T-C70CK3X, ",
+            "startIndex": 0,
+            "endIndex": 32
+          },
+          { "type": "price", "rawText": "$899", "text": "$899", "startIndex": 32, "endIndex": 36 },
+          { "type": "normal", "rawText": " + ", "text": " + ", "startIndex": 36, "endIndex": 39 },
+          { "type": "price", "rawText": "$55", "text": "$55", "startIndex": 39, "endIndex": 42 },
+          {
+            "type": "normal",
+            "rawText": " Delivery @ The Good Guys",
+            "text": " Delivery @ The Good Guys",
+            "startIndex": 42,
+            "endIndex": 67
+          }
         ]
       },
       "description": "Seems to be a cheaper price for the recent Sharp TV deal (https://www.ozbargain.com.au/node/748383). I believe the panel is made in Japan. Reviews seem good. Apparently this version of Sharp is is high quality, and not a cheapo generic brand.\nPlease let me know if my post is missing anything!",
@@ -95,13 +127,14 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Seems to be a cheaper price for the recent Sharp TV deal (",
+            "rawText": "<p>Seems to be a cheaper price for the recent Sharp TV deal (",
+            "text": "Seems to be a cheaper price for the recent Sharp TV deal (",
             "startIndex": 455,
             "endIndex": 516
           },
           {
             "type": "link",
-            "text": "<a href=\"/node/748383\" class=\"internal\">https://www.ozbargain.com.au/node/748383</a>",
+            "rawText": "<a href=\"/node/748383\" class=\"internal\">https://www.ozbargain.com.au/node/748383</a>",
             "startIndex": 516,
             "endIndex": 600,
             "url": "https://ozbargain.com.au/node/748383",
@@ -110,7 +143,8 @@
           },
           {
             "type": "normal",
-            "text": "). I believe the panel is made in Japan. Reviews seem good. Apparently this version of Sharp is is high quality, and not a cheapo generic brand.</p>\n\n<p>Please let me know if my post is missing anything!</p>\n",
+            "rawText": "). I believe the panel is made in Japan. Reviews seem good. Apparently this version of Sharp is is high quality, and not a cheapo generic brand.</p>\n\n<p>Please let me know if my post is missing anything!</p>\n",
+            "text": "). I believe the panel is made in Japan. Reviews seem good. Apparently this version of Sharp is is high quality, and not a cheapo generic brand.\n\nPlease let me know if my post is missing anything!\n",
             "startIndex": 600,
             "endIndex": 808
           }
@@ -138,12 +172,19 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "Electric Massage Chair Zero Gravity Recliner Shiatsu Back Heating Massager ",
             "text": "Electric Massage Chair Zero Gravity Recliner Shiatsu Back Heating Massager ",
             "startIndex": 0,
             "endIndex": 75
           },
-          { "type": "price", "text": "$146.95", "startIndex": 75, "endIndex": 82 },
-          { "type": "normal", "text": " + Delivery @ New Aim via Bunnings", "startIndex": 82, "endIndex": 116 }
+          { "type": "price", "rawText": "$146.95", "text": "$146.95", "startIndex": 75, "endIndex": 82 },
+          {
+            "type": "normal",
+            "rawText": " + Delivery @ New Aim via Bunnings",
+            "text": " + Delivery @ New Aim via Bunnings",
+            "startIndex": 82,
+            "endIndex": 116
+          }
         ]
       },
       "description": "Looks like a price error to me.\nRoller with deep tissue massage\nSophisticated SL-track design\nSpace-saving design\n4 targeted massage modes\nAdvanced body scan system\nIncorporating the latest smart massage technology, our Decima Electric Massage Chair is designed to deliver a truly exceptional massage experience synonymous with the human touch. Among its many technological advancement is an extended SL track that provides full-body massage coverage from your head right to your hamstring muscles. The roller track actually follows the curvature of your spine and extends beyond to your thighs to ensure that all parts of your body can experience the soothing massages. At the touch of a button, the chair can automatically change to the optimised zero-gravity position to provide you with the most relaxing and refreshing massage. With six signature full-body automatic massage programs, four targeted partial programs and multiple complex massage techniques, you are certainly not lacking in choice. Best of all, you can easily adjust massage mode, heat, intensity, speed and width using the connected remote control for a completely customised massage experience. Important: Any individual who has a medical condition or physical injury or is under a doctor's care should consult with a medical professional before using a massaging device designed for home use",
@@ -152,7 +193,8 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Looks like a price error to me.<br />\nRoller with deep tissue massage<br />\nSophisticated SL-track design<br />\nSpace-saving design<br />\n4 targeted massage modes<br />\nAdvanced body scan system<br />\nIncorporating the latest smart massage technology, our Decima Electric Massage Chair is designed to deliver a truly exceptional massage experience synonymous with the human touch. Among its many technological advancement is an extended SL track that provides full-body massage coverage from your head right to your hamstring muscles. The roller track actually follows the curvature of your spine and extends beyond to your thighs to ensure that all parts of your body can experience the soothing massages. At the touch of a button, the chair can automatically change to the optimised zero-gravity position to provide you with the most relaxing and refreshing massage. With six signature full-body automatic massage programs, four targeted partial programs and multiple complex massage techniques, you are certainly not lacking in choice. Best of all, you can easily adjust massage mode, heat, intensity, speed and width using the connected remote control for a completely customised massage experience. Important: Any individual who has a medical condition or physical injury or is under a doctor&#039;s care should consult with a medical professional before using a massaging device designed for home use</p>\n",
+            "rawText": "<p>Looks like a price error to me.<br />\nRoller with deep tissue massage<br />\nSophisticated SL-track design<br />\nSpace-saving design<br />\n4 targeted massage modes<br />\nAdvanced body scan system<br />\nIncorporating the latest smart massage technology, our Decima Electric Massage Chair is designed to deliver a truly exceptional massage experience synonymous with the human touch. Among its many technological advancement is an extended SL track that provides full-body massage coverage from your head right to your hamstring muscles. The roller track actually follows the curvature of your spine and extends beyond to your thighs to ensure that all parts of your body can experience the soothing massages. At the touch of a button, the chair can automatically change to the optimised zero-gravity position to provide you with the most relaxing and refreshing massage. With six signature full-body automatic massage programs, four targeted partial programs and multiple complex massage techniques, you are certainly not lacking in choice. Best of all, you can easily adjust massage mode, heat, intensity, speed and width using the connected remote control for a completely customised massage experience. Important: Any individual who has a medical condition or physical injury or is under a doctor&#039;s care should consult with a medical professional before using a massaging device designed for home use</p>\n",
+            "text": "Looks like a price error to me.\nRoller with deep tissue massage\nSophisticated SL-track design\nSpace-saving design\n4 targeted massage modes\nAdvanced body scan system\nIncorporating the latest smart massage technology, our Decima Electric Massage Chair is designed to deliver a truly exceptional massage experience synonymous with the human touch. Among its many technological advancement is an extended SL track that provides full-body massage coverage from your head right to your hamstring muscles. The roller track actually follows the curvature of your spine and extends beyond to your thighs to ensure that all parts of your body can experience the soothing massages. At the touch of a button, the chair can automatically change to the optimised zero-gravity position to provide you with the most relaxing and refreshing massage. With six signature full-body automatic massage programs, four targeted partial programs and multiple complex massage techniques, you are certainly not lacking in choice. Best of all, you can easily adjust massage mode, heat, intensity, speed and width using the connected remote control for a completely customised massage experience. Important: Any individual who has a medical condition or physical injury or is under a doctor&#039;s care should consult with a medical professional before using a massaging device designed for home use\n",
             "startIndex": 420,
             "endIndex": 1834
           }
@@ -181,12 +223,19 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "[PC, Steam] Command & Conquer Remastered Collection ",
             "text": "[PC, Steam] Command & Conquer Remastered Collection ",
             "startIndex": 0,
             "endIndex": 52
           },
-          { "type": "price", "text": "$4.49", "startIndex": 52, "endIndex": 57 },
-          { "type": "normal", "text": " (85% off) @ Steam", "startIndex": 57, "endIndex": 75 }
+          { "type": "price", "rawText": "$4.49", "text": "$4.49", "startIndex": 52, "endIndex": 57 },
+          {
+            "type": "normal",
+            "rawText": " (85% off) @ Steam",
+            "text": " (85% off) @ Steam",
+            "startIndex": 57,
+            "endIndex": 75
+          }
         ]
       },
       "description": "Remasters of the classic RTS games Command & Conquer as well as Red Alert by Westwood Studios, at a historic low of 85% off (A$4.49).",
@@ -195,12 +244,13 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Remasters of the classic RTS games Command &amp; Conquer as well as Red Alert by Westwood Studios, at a historic low of 85% off (A",
+            "rawText": "<p>Remasters of the classic RTS games Command &amp; Conquer as well as Red Alert by Westwood Studios, at a historic low of 85% off (A",
+            "text": "Remasters of the classic RTS games Command &amp; Conquer as well as Red Alert by Westwood Studios, at a historic low of 85% off (A",
             "startIndex": 354,
             "endIndex": 487
           },
-          { "type": "price", "text": "$4.49", "startIndex": 487, "endIndex": 492 },
-          { "type": "normal", "text": ").</p>\n", "startIndex": 492, "endIndex": 499 }
+          { "type": "price", "rawText": "$4.49", "text": "$4.49", "startIndex": 487, "endIndex": 492 },
+          { "type": "normal", "rawText": ").</p>\n", "text": ").\n", "startIndex": 492, "endIndex": 499 }
         ]
       },
       "author": "Ventak",
@@ -236,12 +286,19 @@
       "title": {
         "text": "[PS4, PS5, XSX, Switch] Sonic Frontiers $48 + Delivery ($0 C&C/ in-Store) @ Harvey Norman / Delivered @ Amazon AU",
         "parts": [
-          { "type": "normal", "text": "[PS4, PS5, XSX, Switch] Sonic Frontiers ", "startIndex": 0, "endIndex": 40 },
-          { "type": "price", "text": "$48", "startIndex": 40, "endIndex": 43 },
-          { "type": "normal", "text": " + Delivery (", "startIndex": 43, "endIndex": 56 },
-          { "type": "price", "text": "$0", "startIndex": 56, "endIndex": 58 },
           {
             "type": "normal",
+            "rawText": "[PS4, PS5, XSX, Switch] Sonic Frontiers ",
+            "text": "[PS4, PS5, XSX, Switch] Sonic Frontiers ",
+            "startIndex": 0,
+            "endIndex": 40
+          },
+          { "type": "price", "rawText": "$48", "text": "$48", "startIndex": 40, "endIndex": 43 },
+          { "type": "normal", "rawText": " + Delivery (", "text": " + Delivery (", "startIndex": 43, "endIndex": 56 },
+          { "type": "price", "rawText": "$0", "text": "$0", "startIndex": 56, "endIndex": 58 },
+          {
+            "type": "normal",
+            "rawText": " C&C/ in-Store) @ Harvey Norman / Delivered @ Amazon AU",
             "text": " C&C/ in-Store) @ Harvey Norman / Delivered @ Amazon AU",
             "startIndex": 58,
             "endIndex": 113
@@ -254,47 +311,61 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Choose your poison, Harvey or Bezos. Amazon has price matched Harvey Norman.</p>\n\n<p>",
+            "rawText": "<p>Choose your poison, Harvey or Bezos. Amazon has price matched Harvey Norman.</p>\n\n<p>",
+            "text": "Choose your poison, Harvey or Bezos. Amazon has price matched Harvey Norman.\n\n",
             "startIndex": 381,
             "endIndex": 469
           },
           {
             "type": "link",
-            "text": "<a href=\"https://www.amazon.com.au/SEGA-Sonic-Frontiers-Nintendo-Switch/dp/B0BBYQSC6L/\" class=\"external inline\" rel=\"noopener nofollow\">Amazon Link</a>",
+            "rawText": "<a href=\"https://www.amazon.com.au/SEGA-Sonic-Frontiers-Nintendo-Switch/dp/B0BBYQSC6L/\" class=\"external inline\" rel=\"noopener nofollow\">Amazon Link</a>",
             "startIndex": 469,
             "endIndex": 620,
             "url": "https://www.amazon.com.au/SEGA-Sonic-Frontiers-Nintendo-Switch/dp/B0BBYQSC6L/",
             "linkText": "Amazon Link",
             "linkType": "external"
           },
-          { "type": "normal", "text": "</p>\n\n", "startIndex": 620, "endIndex": 626 },
+          { "type": "normal", "rawText": "</p>\n\n", "text": "\n\n", "startIndex": 620, "endIndex": 626 },
           {
             "type": "blockquote",
-            "text": "<blockquote>\n  <p>Experience Sonic like never before!<br />\n  Worlds are colliding in Sonic the Hedgehog’s newest high-speed adventure! In search of the missing Chaos emeralds, Sonic becomes stranded on an ancient island teeming with unusual creatures. Battle hordes of powerful enemies as you explore a breathtaking world of action, adventure, and mystery. Accelerate to new heights and experience the thrill of high-velocity, open-zone platforming freedom as you race across the five massive Starfall Islands. Jump into adventure, wield the power of the Ancients, and fight to stop these new mysterious foes. Welcome to the evolution of Sonic games!</p>\n</blockquote>",
+            "rawText": "<blockquote>\n  <p>Experience Sonic like never before!<br />\n  Worlds are colliding in Sonic the Hedgehog’s newest high-speed adventure! In search of the missing Chaos emeralds, Sonic becomes stranded on an ancient island teeming with unusual creatures. Battle hordes of powerful enemies as you explore a breathtaking world of action, adventure, and mystery. Accelerate to new heights and experience the thrill of high-velocity, open-zone platforming freedom as you race across the five massive Starfall Islands. Jump into adventure, wield the power of the Ancients, and fight to stop these new mysterious foes. Welcome to the evolution of Sonic games!</p>\n</blockquote>",
+            "text": "\n  Experience Sonic like never before!\n  Worlds are colliding in Sonic the Hedgehog’s newest high-speed adventure! In search of the missing Chaos emeralds, Sonic becomes stranded on an ancient island teeming with unusual creatures. Battle hordes of powerful enemies as you explore a breathtaking world of action, adventure, and mystery. Accelerate to new heights and experience the thrill of high-velocity, open-zone platforming freedom as you race across the five massive Starfall Islands. Jump into adventure, wield the power of the Ancients, and fight to stop these new mysterious foes. Welcome to the evolution of Sonic games!\n",
             "startIndex": 626,
             "endIndex": 1295
           },
-          { "type": "normal", "text": "\n\n<p>Critic reviews: ", "startIndex": 1295, "endIndex": 1316 },
+          {
+            "type": "normal",
+            "rawText": "\n\n<p>Critic reviews: ",
+            "text": "\n\nCritic reviews: ",
+            "startIndex": 1295,
+            "endIndex": 1316
+          },
           {
             "type": "link",
-            "text": "<a href=\"https://www.metacritic.com/search/all/sonic%20frontiers/results\" class=\"external inline\" rel=\"noopener nofollow\">61 to 75 out of 100 depending on format</a>",
+            "rawText": "<a href=\"https://www.metacritic.com/search/all/sonic%20frontiers/results\" class=\"external inline\" rel=\"noopener nofollow\">61 to 75 out of 100 depending on format</a>",
             "startIndex": 1316,
             "endIndex": 1481,
             "url": "https://www.metacritic.com/search/all/sonic%20frontiers/results",
             "linkText": "61 to 75 out of 100 depending on format",
             "linkType": "external"
           },
-          { "type": "normal", "text": "<br />\nLength: ", "startIndex": 1481, "endIndex": 1496 },
+          {
+            "type": "normal",
+            "rawText": "<br />\nLength: ",
+            "text": "\nLength: ",
+            "startIndex": 1481,
+            "endIndex": 1496
+          },
           {
             "type": "link",
-            "text": "<a href=\"https://howlongtobeat.com/game/101251\" class=\"external inline\" rel=\"noopener nofollow\">Main + Sides = 20.5 hours</a>",
+            "rawText": "<a href=\"https://howlongtobeat.com/game/101251\" class=\"external inline\" rel=\"noopener nofollow\">Main + Sides = 20.5 hours</a>",
             "startIndex": 1496,
             "endIndex": 1621,
             "url": "https://howlongtobeat.com/game/101251",
             "linkText": "Main + Sides = 20.5 hours",
             "linkType": "external"
           },
-          { "type": "normal", "text": "</p>\n", "startIndex": 1621, "endIndex": 1626 }
+          { "type": "normal", "rawText": "</p>\n", "text": "\n", "startIndex": 1621, "endIndex": 1626 }
         ]
       },
       "author": "sween64",
@@ -324,15 +395,39 @@
       "title": {
         "text": "SINGAPORE AIRLINES: Delhi Return from $732, Mumbai Return $746, Bangalore Return $804, Chennai Return $785 @IWTF",
         "parts": [
-          { "type": "normal", "text": "SINGAPORE AIRLINES: Delhi Return from ", "startIndex": 0, "endIndex": 38 },
-          { "type": "price", "text": "$732", "startIndex": 38, "endIndex": 42 },
-          { "type": "normal", "text": ", Mumbai Return ", "startIndex": 42, "endIndex": 58 },
-          { "type": "price", "text": "$746", "startIndex": 58, "endIndex": 62 },
-          { "type": "normal", "text": ", Bangalore Return ", "startIndex": 62, "endIndex": 81 },
-          { "type": "price", "text": "$804", "startIndex": 81, "endIndex": 85 },
-          { "type": "normal", "text": ", Chennai Return ", "startIndex": 85, "endIndex": 102 },
-          { "type": "price", "text": "$785", "startIndex": 102, "endIndex": 106 },
-          { "type": "normal", "text": " @IWTF", "startIndex": 106, "endIndex": 112 }
+          {
+            "type": "normal",
+            "rawText": "SINGAPORE AIRLINES: Delhi Return from ",
+            "text": "SINGAPORE AIRLINES: Delhi Return from ",
+            "startIndex": 0,
+            "endIndex": 38
+          },
+          { "type": "price", "rawText": "$732", "text": "$732", "startIndex": 38, "endIndex": 42 },
+          {
+            "type": "normal",
+            "rawText": ", Mumbai Return ",
+            "text": ", Mumbai Return ",
+            "startIndex": 42,
+            "endIndex": 58
+          },
+          { "type": "price", "rawText": "$746", "text": "$746", "startIndex": 58, "endIndex": 62 },
+          {
+            "type": "normal",
+            "rawText": ", Bangalore Return ",
+            "text": ", Bangalore Return ",
+            "startIndex": 62,
+            "endIndex": 81
+          },
+          { "type": "price", "rawText": "$804", "text": "$804", "startIndex": 81, "endIndex": 85 },
+          {
+            "type": "normal",
+            "rawText": ", Chennai Return ",
+            "text": ", Chennai Return ",
+            "startIndex": 85,
+            "endIndex": 102
+          },
+          { "type": "price", "rawText": "$785", "text": "$785", "startIndex": 102, "endIndex": 106 },
+          { "type": "normal", "rawText": " @IWTF", "text": " @IWTF", "startIndex": 106, "endIndex": 112 }
         ]
       },
       "description": "Singapore Airlines are having a sale on flights to Delhi, Mumbai, Bangalore and Chennai. Travel in July - August/23. Prices listed include checked bags and meals.\n$732 Return Perth to Delhi Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  25/Jul\n  08/Aug\n  $732\n  View Flight\n\n\n  22/Jul\n  05/Aug\n  $735\n  View Flight\n\n\n  23/Jul\n  06/Aug\n  $735\n  View Flight\n\n\n  26/Jul\n  09/Aug\n  $736\n  View Flight\n\n\n  27/Jul\n  10/Aug\n  $736\n  View Flight\n\n\n  28/Jul\n  11/Aug\n  $736\n  View Flight\n\n\n  24/Jul\n  07/Aug\n  $736\n  View Flight\n\n\n  30/Jul\n  13/Aug\n  $736\n  View Flight\n\n\n  07/Aug\n  21/Aug\n  $736\n  View Flight\n\n\n  29/Jul\n  12/Aug\n  $766\n  View Flight\n\n\n\n$848 Return Melbourne to Delhi Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  17/Jul\n  31/Jul\n  $848\n  View Flight\n\n\n  17/Jul\n  01/Aug\n  $848\n  View Flight\n\n\n  13/Jul\n  26/Jul\n  $852\n  View Flight\n\n\n  18/Jul\n  01/Aug\n  $852\n  View Flight\n\n\n  16/Jul\n  30/Jul\n  $852\n  View Flight\n\n\n  12/Jul\n  26/Jul\n  $852\n  View Flight\n\n\n  15/Jul\n  29/Jul\n  $852\n  View Flight\n\n\n  17/Jul\n  02/Aug\n  $852\n  View Flight\n\n\n  19/Jul\n  02/Aug\n  $882\n  View Flight\n\n\n  22/Jul\n  05/Aug\n  $882\n  View Flight\n\n\n\n$861 Return Sydney to Delhi Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  10/Jul\n  24/Jul\n  $861\n  View Flight\n\n\n  11/Jul\n  25/Jul\n  $861\n  View Flight\n\n\n  16/Jul\n  30/Jul\n  $862\n  View Flight\n\n\n  17/Jul\n  31/Jul\n  $892\n  View Flight\n\n\n  18/Jul\n  01/Aug\n  $892\n  View Flight\n\n\n  19/Jul\n  02/Aug\n  $892\n  View Flight\n\n\n  20/Jul\n  03/Aug\n  $892\n  View Flight\n\n\n  21/Jul\n  04/Aug\n  $892\n  View Flight\n\n\n  22/Jul\n  05/Aug\n  $892\n  View Flight\n\n\n  23/Jul\n  06/Aug\n  $892\n  View Flight\n\n\n\n$871 Return Adelaide to Delhi Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  31/Jul\n  14/Aug\n  $871\n  View Flight\n\n\n  01/Aug\n  15/Aug\n  $871\n  View Flight\n\n\n  04/Aug\n  18/Aug\n  $871\n  View Flight\n\n\n  05/Aug\n  19/Aug\n  $871\n  View Flight\n\n\n  02/Aug\n  16/Aug\n  $871\n  View Flight\n\n\n  03/Aug\n  17/Aug\n  $872\n  View Flight\n\n\n  30/Jul\n  13/Aug\n  $872\n  View Flight\n\n\n  06/Aug\n  20/Aug\n  $900\n  View Flight\n\n\n  07/Aug\n  21/Aug\n  $900\n  View Flight\n\n\n  08/Aug\n  22/Aug\n  $900\n  View Flight\n\n\n\n$894 Return Brisbane to Delhi Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  25/Jul\n  08/Aug\n  $894\n  View Flight\n\n\n  22/Jul\n  05/Aug\n  $922\n  View Flight\n\n\n  23/Jul\n  06/Aug\n  $922\n  View Flight\n\n\n  24/Jul\n  07/Aug\n  $922\n  View Flight\n\n\n  26/Jul\n  09/Aug\n  $922\n  View Flight\n\n\n  27/Jul\n  10/Aug\n  $922\n  View Flight\n\n\n  28/Jul\n  11/Aug\n  $922\n  View Flight\n\n\n  29/Jul\n  12/Aug\n  $922\n  View Flight\n\n\n  30/Jul\n  13/Aug\n  $922\n  View Flight\n\n\n  31/Jul\n  14/Aug\n  $922\n  View Flight\n\n\n\n$945 Return Cairns to Delhi Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  25/Jul\n  08/Aug\n  $945\n  View Flight\n\n\n  29/Jul\n  12/Aug\n  $945\n  View Flight\n\n\n  30/Jul\n  13/Aug\n  $945\n  View Flight\n\n\n  01/Aug\n  15/Aug\n  $945\n  View Flight\n\n\n  27/Jul\n  10/Aug\n  $946\n  View Flight\n\n\n  03/Aug\n  17/Aug\n  $994\n  View Flight\n\n\n  05/Aug\n  19/Aug\n  $994\n  View Flight\n\n\n  17/Aug\n  31/Aug\n  $994\n  View Flight\n\n\n  20/Aug\n  03/Sep\n  $994\n  View Flight\n\n\n  19/Jul\n  02/Aug\n  $996\n  View Flight\n\n\n\n$991 Return Canberra to Delhi Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  02/May\n  16/May\n  $991\n  View Flight\n\n\n  03/May\n  17/May\n  $991\n  View Flight\n\n\n  07/May\n  21/May\n  $991\n  View Flight\n\n\n  06/May\n  20/May\n  $991\n  View Flight\n\n\n  01/May\n  15/May\n  $1023\n  View Flight\n\n\n  08/May\n  22/May\n  $1037\n  View Flight\n\n\n  10/May\n  24/May\n  $1037\n  View Flight\n\n\n  14/May\n  28/May\n  $1037\n  View Flight\n\n\n  15/May\n  29/May\n  $1037\n  View Flight\n\n\n  16/May\n  30/May\n  $1037\n  View Flight\n\n\n\n$746 Return Perth to Mumbai Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  22/Jul\n  05/Aug\n  $746\n  View Flight\n\n\n  27/Jul\n  10/Aug\n  $746\n  View Flight\n\n\n  28/Jul\n  11/Aug\n  $746\n  View Flight\n\n\n  07/Aug\n  21/Aug\n  $747\n  View Flight\n\n\n  29/Jul\n  12/Aug\n  $750\n  View Flight\n\n\n  30/Jul\n  13/Aug\n  $750\n  View Flight\n\n\n  25/Jul\n  08/Aug\n  $750\n  View Flight\n\n\n  26/Jul\n  09/Aug\n  $750\n  View Flight\n\n\n  05/Sep\n  19/Sep\n  $823\n  View Flight\n\n\n\n$863 Return Melbourne to Mumbai Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  18/Jul\n  01/Aug\n  $863\n  View Flight\n\n\n  18/Jul\n  18/Aug\n  $866\n  View Flight\n\n\n  13/Jul\n  26/Jul\n  $866\n  View Flight\n\n\n  16/Jul\n  30/Jul\n  $866\n  View Flight\n\n\n  18/Jul\n  02/Aug\n  $867\n  View Flight\n\n\n  11/Jul\n  25/Jul\n  $901\n  View Flight\n\n\n\n$873 Return Sydney to Mumbai Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  21/Jul\n  04/Aug\n  $873\n  View Flight\n\n\n  19/Jul\n  02/Aug\n  $873\n  View Flight\n\n\n  10/Jul\n  24/Jul\n  $876\n  View Flight\n\n\n  16/Jul\n  30/Jul\n  $877\n  View Flight\n\n\n  18/Jul\n  01/Aug\n  $877\n  View Flight\n\n\n  22/Jul\n  05/Aug\n  $877\n  View Flight\n\n\n  02/Jun\n  22/Jun\n  $968\n  View Flight\n\n\n  01/Jun\n  21/Jun\n  $968\n  View Flight\n\n\n\n$886 Return Adelaide to Mumbai Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  01/Aug\n  15/Aug\n  $886\n  View Flight\n\n\n  03/Aug\n  17/Aug\n  $886\n  View Flight\n\n\n  04/Aug\n  18/Aug\n  $886\n  View Flight\n\n\n  05/Aug\n  19/Aug\n  $886\n  View Flight\n\n\n  07/Aug\n  21/Aug\n  $886\n  View Flight\n\n\n  08/Aug\n  22/Aug\n  $887\n  View Flight\n\n\n\n$961 Return Cairns to Mumbai Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  05/Aug\n  19/Aug\n  $961\n  View Flight\n\n\n  19/Jul\n  02/Aug\n  $964\n  View Flight\n\n\n\n$1007 Return Canberra to Mumbai Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  06/May\n  20/May\n  $1007\n  View Flight\n\n\n\n$804 Return Perth to Bangalore Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  22/Jul\n  05/Aug\n  $804\n  View Flight\n\n\n  26/Jul\n  09/Aug\n  $804\n  View Flight\n\n\n  27/Jul\n  10/Aug\n  $804\n  View Flight\n\n\n  24/Jul\n  07/Aug\n  $808\n  View Flight\n\n\n  30/Jul\n  13/Aug\n  $808\n  View Flight\n\n\n  28/Jul\n  11/Aug\n  $808\n  View Flight\n\n\n  07/Aug\n  21/Aug\n  $808\n  View Flight\n\n\n\n$925 Return Adelaide to Bangalore Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  31/Jul\n  14/Aug\n  $925\n  View Flight\n\n\n  02/Aug\n  16/Aug\n  $925\n  View Flight\n\n\n  03/Aug\n  17/Aug\n  $925\n  View Flight\n\n\n  05/Aug\n  19/Aug\n  $925\n  View Flight\n\n\n  07/Aug\n  21/Aug\n  $925\n  View Flight\n\n\n  30/Jul\n  13/Aug\n  $925\n  View Flight\n\n\n  01/Aug\n  15/Aug\n  $925\n  View Flight\n\n\n  08/Aug\n  22/Aug\n  $925\n  View Flight\n\n\n\n$926 Return Sydney to Bangalore Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  16/Jul\n  30/Jul\n  $926\n  View Flight\n\n\n  21/Jul\n  04/Aug\n  $926\n  View Flight\n\n\n  17/Jul\n  31/Jul\n  $926\n  View Flight\n\n\n  18/Jul\n  01/Aug\n  $926\n  View Flight\n\n\n\n$929 Return Melbourne to Bangalore Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  17/Jul\n  31/Jul\n  $929\n  View Flight\n\n\n  22/Jul\n  05/Aug\n  $929\n  View Flight\n\n\n  19/Jul\n  01/Aug\n  $933\n  View Flight\n\n\n  16/Jul\n  30/Jul\n  $933\n  View Flight\n\n\n  18/Jul\n  01/Aug\n  $934\n  View Flight\n\n\n  23/Jul\n  06/Aug\n  $934\n  View Flight\n\n\n  15/Jul\n  29/Jul\n  $936\n  View Flight\n\n\n\n$1019 Return Cairns to Bangalore Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  25/Jul\n  08/Aug\n  $1019\n  View Flight\n\n\n  29/Jul\n  12/Aug\n  $1019\n  View Flight\n\n\n  05/Aug\n  19/Aug\n  $1021\n  View Flight\n\n\n  17/Aug\n  31/Aug\n  $1021\n  View Flight\n\n\n  20/Aug\n  03/Sep\n  $1021\n  View Flight\n\n\n\n$1064 Return Canberra to Bangalore Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  07/May\n  21/May\n  $1064\n  View Flight\n\n\n  02/May\n  16/May\n  $1064\n  View Flight\n\n\n  06/May\n  20/May\n  $1064\n  View Flight\n\n\n\n$785 Return Perth to Chennai Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  23/Jul\n  06/Aug\n  $785\n  View Flight\n\n\n  27/Jul\n  10/Aug\n  $785\n  View Flight\n\n\n  26/Jul\n  09/Aug\n  $785\n  View Flight\n\n\n  07/Aug\n  21/Aug\n  $785\n  View Flight\n\n\n  22/Jul\n  05/Aug\n  $789\n  View Flight\n\n\n  24/Jul\n  07/Aug\n  $789\n  View Flight\n\n\n  25/Jul\n  08/Aug\n  $789\n  View Flight\n\n\n  28/Jul\n  11/Aug\n  $789\n  View Flight\n\n\n  29/Jul\n  12/Aug\n  $789\n  View Flight\n\n\n  30/Jul\n  13/Aug\n  $789\n  View Flight\n\n\n\n$913 Return Melbourne to Chennai Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  15/Jul\n  29/Jul\n  $913\n  View Flight\n\n\n  16/Jul\n  30/Jul\n  $913\n  View Flight\n\n\n  19/Jul\n  02/Aug\n  $913\n  View Flight\n\n\n  17/Jul\n  31/Jul\n  $915\n  View Flight\n\n\n  22/Jul\n  05/Aug\n  $917\n  View Flight\n\n\n  11/Jul\n  25/Jul\n  $951\n  View Flight\n\n\n  12/Jul\n  26/Jul\n  $1059\n  View Flight\n\n\n\n$925 Return Sydney to Chennai Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  21/Jul\n  04/Aug\n  $925\n  View Flight\n\n\n  16/Jul\n  30/Jul\n  $927\n  View Flight\n\n\n  10/Jul\n  24/Jul\n  $962\n  View Flight\n\n\n  11/Jul\n  25/Jul\n  $962\n  View Flight\n\n\n  15/Jul\n  29/Jul\n  $962\n  View Flight\n\n\n\n$926 Return Adelaide to Chennai Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  05/Aug\n  19/Aug\n  $926\n  View Flight\n\n\n  31/Jul\n  14/Aug\n  $926\n  View Flight\n\n\n  07/Aug\n  21/Aug\n  $926\n  View Flight\n\n\n  30/Jul\n  13/Aug\n  $926\n  View Flight\n\n\n\n$997 Return Canberra to Chennai Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  06/May\n  20/May\n  $997\n  View Flight\n\n\n  03/May\n  17/May\n  $999\n  View Flight\n\n\n\n$1002 Return Cairns to Chennai Flights.\n\n\n\n  .Depart.\n  .Return.\n  .Price.\n  \n\n\n\n\n  30/Jul\n  13/Aug\n  $1002\n  View Flight\n\n\n  01/Aug\n  15/Aug\n  $1002\n  View Flight\n\n\n  05/Aug\n  19/Aug\n  $1002\n  View Flight\n\n\n  17/Aug\n  31/Aug\n  $1002\n  View Flight\n\n\n  20/Aug\n  03/Sep\n  $1002\n  View Flight\n\n\n  19/Jul\n  02/Aug\n  $1038\n  View Flight\n\n\n\nCan I use my own dates? Yes - just click the link closest to your preferred dates and then change the dates once the search has completed.\nFor this airfare and more, check out our deals site http://iknowthepilot.com.au/",
@@ -341,303 +436,304 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Singapore Airlines are having a sale on flights to Delhi, Mumbai, Bangalore and Chennai. Travel in July - August/23. Prices listed include checked bags and meals.</p>\n\n<h4>",
+            "rawText": "<p>Singapore Airlines are having a sale on flights to Delhi, Mumbai, Bangalore and Chennai. Travel in July - August/23. Prices listed include checked bags and meals.</p>\n\n<h4>",
+            "text": "Singapore Airlines are having a sale on flights to Delhi, Mumbai, Bangalore and Chennai. Travel in July - August/23. Prices listed include checked bags and meals.\n\n",
             "startIndex": 410,
             "endIndex": 585
           },
-          { "type": "price", "text": "$732", "startIndex": 585, "endIndex": 589 },
-          { "type": "normal", "text": " Return ", "startIndex": 589, "endIndex": 597 },
+          { "type": "price", "rawText": "$732", "text": "$732", "startIndex": 585, "endIndex": 589 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 589, "endIndex": 597 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2PERDEL-Flights-from-Perth-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Perth to Delhi Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2PERDEL-Flights-from-Perth-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Perth to Delhi Flights</a>",
             "startIndex": 597,
             "endIndex": 815,
             "url": "https://iwantthatflight.com.au/x2PERDEL-Flights-from-Perth-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Perth to Delhi Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 3897, "endIndex": 3903 },
-          { "type": "price", "text": "$848", "startIndex": 3903, "endIndex": 3907 },
-          { "type": "normal", "text": " Return ", "startIndex": 3907, "endIndex": 3915 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 3897, "endIndex": 3903 },
+          { "type": "price", "rawText": "$848", "text": "$848", "startIndex": 3903, "endIndex": 3907 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 3907, "endIndex": 3915 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2MELDEL-Flights-from-Melbourne-Tullamarine-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Melbourne to Delhi Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2MELDEL-Flights-from-Melbourne-Tullamarine-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Melbourne to Delhi Flights</a>",
             "startIndex": 3915,
             "endIndex": 4153,
             "url": "https://iwantthatflight.com.au/x2MELDEL-Flights-from-Melbourne-Tullamarine-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Melbourne to Delhi Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 7235, "endIndex": 7241 },
-          { "type": "price", "text": "$861", "startIndex": 7241, "endIndex": 7245 },
-          { "type": "normal", "text": " Return ", "startIndex": 7245, "endIndex": 7253 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 7235, "endIndex": 7241 },
+          { "type": "price", "rawText": "$861", "text": "$861", "startIndex": 7241, "endIndex": 7245 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 7245, "endIndex": 7253 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2SYDDEL-Flights-from-Sydney-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Sydney to Delhi Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2SYDDEL-Flights-from-Sydney-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Sydney to Delhi Flights</a>",
             "startIndex": 7253,
             "endIndex": 7473,
             "url": "https://iwantthatflight.com.au/x2SYDDEL-Flights-from-Sydney-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Sydney to Delhi Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 10555, "endIndex": 10561 },
-          { "type": "price", "text": "$871", "startIndex": 10561, "endIndex": 10565 },
-          { "type": "normal", "text": " Return ", "startIndex": 10565, "endIndex": 10573 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 10555, "endIndex": 10561 },
+          { "type": "price", "rawText": "$871", "text": "$871", "startIndex": 10561, "endIndex": 10565 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 10565, "endIndex": 10573 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2ADLDEL-Flights-from-Adelaide-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Adelaide to Delhi Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2ADLDEL-Flights-from-Adelaide-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Adelaide to Delhi Flights</a>",
             "startIndex": 10573,
             "endIndex": 10797,
             "url": "https://iwantthatflight.com.au/x2ADLDEL-Flights-from-Adelaide-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Adelaide to Delhi Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 13879, "endIndex": 13885 },
-          { "type": "price", "text": "$894", "startIndex": 13885, "endIndex": 13889 },
-          { "type": "normal", "text": " Return ", "startIndex": 13889, "endIndex": 13897 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 13879, "endIndex": 13885 },
+          { "type": "price", "rawText": "$894", "text": "$894", "startIndex": 13885, "endIndex": 13889 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 13889, "endIndex": 13897 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2BNEDEL-Flights-from-Brisbane-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Brisbane to Delhi Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2BNEDEL-Flights-from-Brisbane-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Brisbane to Delhi Flights</a>",
             "startIndex": 13897,
             "endIndex": 14121,
             "url": "https://iwantthatflight.com.au/x2BNEDEL-Flights-from-Brisbane-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Brisbane to Delhi Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 17203, "endIndex": 17209 },
-          { "type": "price", "text": "$945", "startIndex": 17209, "endIndex": 17213 },
-          { "type": "normal", "text": " Return ", "startIndex": 17213, "endIndex": 17221 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 17203, "endIndex": 17209 },
+          { "type": "price", "rawText": "$945", "text": "$945", "startIndex": 17209, "endIndex": 17213 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 17213, "endIndex": 17221 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2CNSDEL-Flights-from-Cairns-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Cairns to Delhi Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2CNSDEL-Flights-from-Cairns-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Cairns to Delhi Flights</a>",
             "startIndex": 17221,
             "endIndex": 17441,
             "url": "https://iwantthatflight.com.au/x2CNSDEL-Flights-from-Cairns-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Cairns to Delhi Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 20523, "endIndex": 20529 },
-          { "type": "price", "text": "$991", "startIndex": 20529, "endIndex": 20533 },
-          { "type": "normal", "text": " Return ", "startIndex": 20533, "endIndex": 20541 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 20523, "endIndex": 20529 },
+          { "type": "price", "rawText": "$991", "text": "$991", "startIndex": 20529, "endIndex": 20533 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 20533, "endIndex": 20541 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2CBRDEL-Flights-from-Canberra-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Canberra to Delhi Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2CBRDEL-Flights-from-Canberra-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Canberra to Delhi Flights</a>",
             "startIndex": 20541,
             "endIndex": 20765,
             "url": "https://iwantthatflight.com.au/x2CBRDEL-Flights-from-Canberra-to-Delhi.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Canberra to Delhi Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 23853, "endIndex": 23859 },
-          { "type": "price", "text": "$746", "startIndex": 23859, "endIndex": 23863 },
-          { "type": "normal", "text": " Return ", "startIndex": 23863, "endIndex": 23871 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 23853, "endIndex": 23859 },
+          { "type": "price", "rawText": "$746", "text": "$746", "startIndex": 23859, "endIndex": 23863 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 23863, "endIndex": 23871 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2PERBOM-Flights-from-Perth-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Perth to Mumbai Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2PERBOM-Flights-from-Perth-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Perth to Mumbai Flights</a>",
             "startIndex": 23871,
             "endIndex": 24091,
             "url": "https://iwantthatflight.com.au/x2PERBOM-Flights-from-Perth-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Perth to Mumbai Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 26883, "endIndex": 26889 },
-          { "type": "price", "text": "$863", "startIndex": 26889, "endIndex": 26893 },
-          { "type": "normal", "text": " Return ", "startIndex": 26893, "endIndex": 26901 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 26883, "endIndex": 26889 },
+          { "type": "price", "rawText": "$863", "text": "$863", "startIndex": 26889, "endIndex": 26893 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 26893, "endIndex": 26901 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2MELBOM-Flights-from-Melbourne-Tullamarine-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Melbourne to Mumbai Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2MELBOM-Flights-from-Melbourne-Tullamarine-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Melbourne to Mumbai Flights</a>",
             "startIndex": 26901,
             "endIndex": 27141,
             "url": "https://iwantthatflight.com.au/x2MELBOM-Flights-from-Melbourne-Tullamarine-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Melbourne to Mumbai Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 29063, "endIndex": 29069 },
-          { "type": "price", "text": "$873", "startIndex": 29069, "endIndex": 29073 },
-          { "type": "normal", "text": " Return ", "startIndex": 29073, "endIndex": 29081 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 29063, "endIndex": 29069 },
+          { "type": "price", "rawText": "$873", "text": "$873", "startIndex": 29069, "endIndex": 29073 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 29073, "endIndex": 29081 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2SYDBOM-Flights-from-Sydney-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Sydney to Mumbai Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2SYDBOM-Flights-from-Sydney-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Sydney to Mumbai Flights</a>",
             "startIndex": 29081,
             "endIndex": 29303,
             "url": "https://iwantthatflight.com.au/x2SYDBOM-Flights-from-Sydney-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Sydney to Mumbai Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 31805, "endIndex": 31811 },
-          { "type": "price", "text": "$886", "startIndex": 31811, "endIndex": 31815 },
-          { "type": "normal", "text": " Return ", "startIndex": 31815, "endIndex": 31823 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 31805, "endIndex": 31811 },
+          { "type": "price", "rawText": "$886", "text": "$886", "startIndex": 31811, "endIndex": 31815 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 31815, "endIndex": 31823 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2ADLBOM-Flights-from-Adelaide-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Adelaide to Mumbai Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2ADLBOM-Flights-from-Adelaide-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Adelaide to Mumbai Flights</a>",
             "startIndex": 31823,
             "endIndex": 32049,
             "url": "https://iwantthatflight.com.au/x2ADLBOM-Flights-from-Adelaide-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Adelaide to Mumbai Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 33971, "endIndex": 33977 },
-          { "type": "price", "text": "$961", "startIndex": 33977, "endIndex": 33981 },
-          { "type": "normal", "text": " Return ", "startIndex": 33981, "endIndex": 33989 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 33971, "endIndex": 33977 },
+          { "type": "price", "rawText": "$961", "text": "$961", "startIndex": 33977, "endIndex": 33981 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 33981, "endIndex": 33989 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2CNSBOM-Flights-from-Cairns-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Cairns to Mumbai Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2CNSBOM-Flights-from-Cairns-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Cairns to Mumbai Flights</a>",
             "startIndex": 33989,
             "endIndex": 34211,
             "url": "https://iwantthatflight.com.au/x2CNSBOM-Flights-from-Cairns-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Cairns to Mumbai Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 34973, "endIndex": 34979 },
-          { "type": "price", "text": "$1007", "startIndex": 34979, "endIndex": 34984 },
-          { "type": "normal", "text": " Return ", "startIndex": 34984, "endIndex": 34992 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 34973, "endIndex": 34979 },
+          { "type": "price", "rawText": "$1007", "text": "$1007", "startIndex": 34979, "endIndex": 34984 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 34984, "endIndex": 34992 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2CBRBOM-Flights-from-Canberra-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Canberra to Mumbai Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2CBRBOM-Flights-from-Canberra-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Canberra to Mumbai Flights</a>",
             "startIndex": 34992,
             "endIndex": 35218,
             "url": "https://iwantthatflight.com.au/x2CBRBOM-Flights-from-Canberra-to-Mumbai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Canberra to Mumbai Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 35691, "endIndex": 35697 },
-          { "type": "price", "text": "$804", "startIndex": 35697, "endIndex": 35701 },
-          { "type": "normal", "text": " Return ", "startIndex": 35701, "endIndex": 35709 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 35691, "endIndex": 35697 },
+          { "type": "price", "rawText": "$804", "text": "$804", "startIndex": 35697, "endIndex": 35701 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 35701, "endIndex": 35709 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2PERBLR-Flights-from-Perth-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Perth to Bangalore Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2PERBLR-Flights-from-Perth-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Perth to Bangalore Flights</a>",
             "startIndex": 35709,
             "endIndex": 35935,
             "url": "https://iwantthatflight.com.au/x2PERBLR-Flights-from-Perth-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Perth to Bangalore Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 38147, "endIndex": 38153 },
-          { "type": "price", "text": "$925", "startIndex": 38153, "endIndex": 38157 },
-          { "type": "normal", "text": " Return ", "startIndex": 38157, "endIndex": 38165 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 38147, "endIndex": 38153 },
+          { "type": "price", "rawText": "$925", "text": "$925", "startIndex": 38153, "endIndex": 38157 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 38157, "endIndex": 38165 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2ADLBLR-Flights-from-Adelaide-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Adelaide to Bangalore Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2ADLBLR-Flights-from-Adelaide-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Adelaide to Bangalore Flights</a>",
             "startIndex": 38165,
             "endIndex": 38397,
             "url": "https://iwantthatflight.com.au/x2ADLBLR-Flights-from-Adelaide-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Adelaide to Bangalore Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 40899, "endIndex": 40905 },
-          { "type": "price", "text": "$926", "startIndex": 40905, "endIndex": 40909 },
-          { "type": "normal", "text": " Return ", "startIndex": 40909, "endIndex": 40917 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 40899, "endIndex": 40905 },
+          { "type": "price", "rawText": "$926", "text": "$926", "startIndex": 40905, "endIndex": 40909 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 40909, "endIndex": 40917 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2SYDBLR-Flights-from-Sydney-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Sydney to Bangalore Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2SYDBLR-Flights-from-Sydney-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Sydney to Bangalore Flights</a>",
             "startIndex": 40917,
             "endIndex": 41145,
             "url": "https://iwantthatflight.com.au/x2SYDBLR-Flights-from-Sydney-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Sydney to Bangalore Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 42487, "endIndex": 42493 },
-          { "type": "price", "text": "$929", "startIndex": 42493, "endIndex": 42497 },
-          { "type": "normal", "text": " Return ", "startIndex": 42497, "endIndex": 42505 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 42487, "endIndex": 42493 },
+          { "type": "price", "rawText": "$929", "text": "$929", "startIndex": 42493, "endIndex": 42497 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 42497, "endIndex": 42505 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2MELBLR-Flights-from-Melbourne-Tullamarine-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Melbourne to Bangalore Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2MELBLR-Flights-from-Melbourne-Tullamarine-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Melbourne to Bangalore Flights</a>",
             "startIndex": 42505,
             "endIndex": 42751,
             "url": "https://iwantthatflight.com.au/x2MELBLR-Flights-from-Melbourne-Tullamarine-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Melbourne to Bangalore Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 44963, "endIndex": 44969 },
-          { "type": "price", "text": "$1019", "startIndex": 44969, "endIndex": 44974 },
-          { "type": "normal", "text": " Return ", "startIndex": 44974, "endIndex": 44982 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 44963, "endIndex": 44969 },
+          { "type": "price", "rawText": "$1019", "text": "$1019", "startIndex": 44969, "endIndex": 44974 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 44974, "endIndex": 44982 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2CNSBLR-Flights-from-Cairns-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Cairns to Bangalore Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2CNSBLR-Flights-from-Cairns-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Cairns to Bangalore Flights</a>",
             "startIndex": 44982,
             "endIndex": 45210,
             "url": "https://iwantthatflight.com.au/x2CNSBLR-Flights-from-Cairns-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Cairns to Bangalore Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 46847, "endIndex": 46853 },
-          { "type": "price", "text": "$1064", "startIndex": 46853, "endIndex": 46858 },
-          { "type": "normal", "text": " Return ", "startIndex": 46858, "endIndex": 46866 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 46847, "endIndex": 46853 },
+          { "type": "price", "rawText": "$1064", "text": "$1064", "startIndex": 46853, "endIndex": 46858 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 46858, "endIndex": 46866 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2CBRBLR-Flights-from-Canberra-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Canberra to Bangalore Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2CBRBLR-Flights-from-Canberra-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Canberra to Bangalore Flights</a>",
             "startIndex": 46866,
             "endIndex": 47098,
             "url": "https://iwantthatflight.com.au/x2CBRBLR-Flights-from-Canberra-to-Bangalore.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Canberra to Bangalore Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 48153, "endIndex": 48159 },
-          { "type": "price", "text": "$785", "startIndex": 48159, "endIndex": 48163 },
-          { "type": "normal", "text": " Return ", "startIndex": 48163, "endIndex": 48171 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 48153, "endIndex": 48159 },
+          { "type": "price", "rawText": "$785", "text": "$785", "startIndex": 48159, "endIndex": 48163 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 48163, "endIndex": 48171 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2PERMAA-Flights-from-Perth-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Perth to Chennai Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2PERMAA-Flights-from-Perth-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Perth to Chennai Flights</a>",
             "startIndex": 48171,
             "endIndex": 48393,
             "url": "https://iwantthatflight.com.au/x2PERMAA-Flights-from-Perth-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Perth to Chennai Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 51475, "endIndex": 51481 },
-          { "type": "price", "text": "$913", "startIndex": 51481, "endIndex": 51485 },
-          { "type": "normal", "text": " Return ", "startIndex": 51485, "endIndex": 51493 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 51475, "endIndex": 51481 },
+          { "type": "price", "rawText": "$913", "text": "$913", "startIndex": 51481, "endIndex": 51485 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 51485, "endIndex": 51493 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2MELMAA-Flights-from-Melbourne-Tullamarine-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Melbourne to Chennai Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2MELMAA-Flights-from-Melbourne-Tullamarine-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Melbourne to Chennai Flights</a>",
             "startIndex": 51493,
             "endIndex": 51735,
             "url": "https://iwantthatflight.com.au/x2MELMAA-Flights-from-Melbourne-Tullamarine-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Melbourne to Chennai Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 53948, "endIndex": 53954 },
-          { "type": "price", "text": "$925", "startIndex": 53954, "endIndex": 53958 },
-          { "type": "normal", "text": " Return ", "startIndex": 53958, "endIndex": 53966 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 53948, "endIndex": 53954 },
+          { "type": "price", "rawText": "$925", "text": "$925", "startIndex": 53954, "endIndex": 53958 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 53958, "endIndex": 53966 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2SYDMAA-Flights-from-Sydney-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Sydney to Chennai Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2SYDMAA-Flights-from-Sydney-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Sydney to Chennai Flights</a>",
             "startIndex": 53966,
             "endIndex": 54190,
             "url": "https://iwantthatflight.com.au/x2SYDMAA-Flights-from-Sydney-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Sydney to Chennai Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 55822, "endIndex": 55828 },
-          { "type": "price", "text": "$926", "startIndex": 55828, "endIndex": 55832 },
-          { "type": "normal", "text": " Return ", "startIndex": 55832, "endIndex": 55840 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 55822, "endIndex": 55828 },
+          { "type": "price", "rawText": "$926", "text": "$926", "startIndex": 55828, "endIndex": 55832 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 55832, "endIndex": 55840 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2ADLMAA-Flights-from-Adelaide-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Adelaide to Chennai Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2ADLMAA-Flights-from-Adelaide-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Adelaide to Chennai Flights</a>",
             "startIndex": 55840,
             "endIndex": 56068,
             "url": "https://iwantthatflight.com.au/x2ADLMAA-Flights-from-Adelaide-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Adelaide to Chennai Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 57410, "endIndex": 57416 },
-          { "type": "price", "text": "$997", "startIndex": 57416, "endIndex": 57420 },
-          { "type": "normal", "text": " Return ", "startIndex": 57420, "endIndex": 57428 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 57410, "endIndex": 57416 },
+          { "type": "price", "rawText": "$997", "text": "$997", "startIndex": 57416, "endIndex": 57420 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 57420, "endIndex": 57428 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2CBRMAA-Flights-from-Canberra-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Canberra to Chennai Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2CBRMAA-Flights-from-Canberra-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Canberra to Chennai Flights</a>",
             "startIndex": 57428,
             "endIndex": 57656,
             "url": "https://iwantthatflight.com.au/x2CBRMAA-Flights-from-Canberra-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
             "linkText": "Canberra to Chennai Flights",
             "linkType": "external"
           },
-          { "type": "normal", "text": "\n\n<h4>", "startIndex": 58418, "endIndex": 58424 },
-          { "type": "price", "text": "$1002", "startIndex": 58424, "endIndex": 58429 },
-          { "type": "normal", "text": " Return ", "startIndex": 58429, "endIndex": 58437 },
+          { "type": "normal", "rawText": "\n\n<h4>", "text": "\n\n", "startIndex": 58418, "endIndex": 58424 },
+          { "type": "price", "rawText": "$1002", "text": "$1002", "startIndex": 58424, "endIndex": 58429 },
+          { "type": "normal", "rawText": " Return ", "text": " Return ", "startIndex": 58429, "endIndex": 58437 },
           {
             "type": "link",
-            "text": "<a href=\"https://iwantthatflight.com.au/x2CNSMAA-Flights-from-Cairns-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Cairns to Chennai Flights</a>",
+            "rawText": "<a href=\"https://iwantthatflight.com.au/x2CNSMAA-Flights-from-Cairns-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70\" class=\"external inline\" rel=\"noopener nofollow\">Cairns to Chennai Flights</a>",
             "startIndex": 58437,
             "endIndex": 58661,
             "url": "https://iwantthatflight.com.au/x2CNSMAA-Flights-from-Cairns-to-Chennai.aspx?po=all&amp;includeairlines=SQ,VA&amp;dealid=12558&amp;ozb=70",
@@ -646,20 +742,21 @@
           },
           {
             "type": "normal",
-            "text": "\n\n<p>Can I use my own dates? Yes - just click the link closest to your preferred dates and then change the dates once the search has completed.</p>\n\n<p>For this airfare and more, check out our deals site ",
+            "rawText": "\n\n<p>Can I use my own dates? Yes - just click the link closest to your preferred dates and then change the dates once the search has completed.</p>\n\n<p>For this airfare and more, check out our deals site ",
+            "text": "\n\nCan I use my own dates? Yes - just click the link closest to your preferred dates and then change the dates once the search has completed.\n\nFor this airfare and more, check out our deals site ",
             "startIndex": 60589,
             "endIndex": 60793
           },
           {
             "type": "link",
-            "text": "<a href=\"http://iknowthepilot.com.au/\" class=\"external\" rel=\"noopener nofollow\">http://iknowthepilot.com.au/</a>",
+            "rawText": "<a href=\"http://iknowthepilot.com.au/\" class=\"external\" rel=\"noopener nofollow\">http://iknowthepilot.com.au/</a>",
             "startIndex": 60793,
             "endIndex": 60905,
             "url": "http://iknowthepilot.com.au/",
             "linkText": "http://iknowthepilot.com.au/",
             "linkType": "external"
           },
-          { "type": "normal", "text": "</p>\n", "startIndex": 60905, "endIndex": 60910 }
+          { "type": "normal", "rawText": "</p>\n", "text": "\n", "startIndex": 60905, "endIndex": 60910 }
         ]
       },
       "author": "IWantThatFlight",
@@ -686,12 +783,19 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "Microsoft Surface Laptop 4 15\", R7, 16GB RAM, 512GB, Black ",
             "text": "Microsoft Surface Laptop 4 15\", R7, 16GB RAM, 512GB, Black ",
             "startIndex": 0,
             "endIndex": 59
           },
-          { "type": "price", "text": "$1448", "startIndex": 59, "endIndex": 64 },
-          { "type": "normal", "text": " Delivered @ Microsoft eBay", "startIndex": 64, "endIndex": 91 }
+          { "type": "price", "rawText": "$1448", "text": "$1448", "startIndex": 59, "endIndex": 64 },
+          {
+            "type": "normal",
+            "rawText": " Delivered @ Microsoft eBay",
+            "text": " Delivered @ Microsoft eBay",
+            "startIndex": 64,
+            "endIndex": 91
+          }
         ]
       },
       "description": "Obviously Microsoft trying to clear out the Surface Laptop 4 now that the 5 is out, however, this is a decent price for these specs.\nOriginal Coupon Deal",
@@ -700,20 +804,21 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Obviously Microsoft trying to clear out the Surface Laptop 4 now that the 5 is out, however, this is a decent price for these specs.</p>\n\n<p>",
+            "rawText": "<p>Obviously Microsoft trying to clear out the Surface Laptop 4 now that the 5 is out, however, this is a decent price for these specs.</p>\n\n<p>",
+            "text": "Obviously Microsoft trying to clear out the Surface Laptop 4 now that the 5 is out, however, this is a decent price for these specs.\n\n",
             "startIndex": 329,
             "endIndex": 473
           },
           {
             "type": "link",
-            "text": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
+            "rawText": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
             "startIndex": 473,
             "endIndex": 544,
             "url": "https://ozbargain.com.au/node/750992",
             "linkText": "Original Coupon Deal",
             "linkType": "deal"
           },
-          { "type": "normal", "text": "</p>\n", "startIndex": 544, "endIndex": 549 }
+          { "type": "normal", "rawText": "</p>\n", "text": "\n", "startIndex": 544, "endIndex": 549 }
         ]
       },
       "author": "DooDah",
@@ -745,14 +850,21 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "Razer BlackWidow V3 Mechanical RGB Gaming Keyboard - HALO Infinite Edition ",
             "text": "Razer BlackWidow V3 Mechanical RGB Gaming Keyboard - HALO Infinite Edition ",
             "startIndex": 0,
             "endIndex": 75
           },
-          { "type": "price", "text": "$159.20", "startIndex": 75, "endIndex": 82 },
-          { "type": "normal", "text": " (", "startIndex": 82, "endIndex": 84 },
-          { "type": "price", "text": "$124.18", "startIndex": 84, "endIndex": 91 },
-          { "type": "normal", "text": " eBay Plus) Delivered @ Razer eBay", "startIndex": 91, "endIndex": 125 }
+          { "type": "price", "rawText": "$159.20", "text": "$159.20", "startIndex": 75, "endIndex": 82 },
+          { "type": "normal", "rawText": " (", "text": " (", "startIndex": 82, "endIndex": 84 },
+          { "type": "price", "rawText": "$124.18", "text": "$124.18", "startIndex": 84, "endIndex": 91 },
+          {
+            "type": "normal",
+            "rawText": " eBay Plus) Delivered @ Razer eBay",
+            "text": " eBay Plus) Delivered @ Razer eBay",
+            "startIndex": 91,
+            "endIndex": 125
+          }
         ]
       },
       "description": "honestly not a bad keyboard for the price i use it daily and dont have any complaints. razer also has the upgraded key caps on special i bought a set this morning\nhttps://www.ebay.com.au/itm/363610447453",
@@ -761,20 +873,21 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>honestly not a bad keyboard for the price i use it daily and dont have any complaints. razer also has the upgraded key caps on special i bought a set this morning</p>\n\n<p>",
+            "rawText": "<p>honestly not a bad keyboard for the price i use it daily and dont have any complaints. razer also has the upgraded key caps on special i bought a set this morning</p>\n\n<p>",
+            "text": "honestly not a bad keyboard for the price i use it daily and dont have any complaints. razer also has the upgraded key caps on special i bought a set this morning\n\n",
             "startIndex": 358,
             "endIndex": 532
           },
           {
             "type": "link",
-            "text": "<a href=\"https://www.ebay.com.au/itm/363610447453\" class=\"external\" rel=\"noopener nofollow\">https://www.ebay.com.au/itm/363610447453</a>",
+            "rawText": "<a href=\"https://www.ebay.com.au/itm/363610447453\" class=\"external\" rel=\"noopener nofollow\">https://www.ebay.com.au/itm/363610447453</a>",
             "startIndex": 532,
             "endIndex": 668,
             "url": "https://www.ebay.com.au/itm/363610447453",
             "linkText": "https://www.ebay.com.au/itm/363610447453",
             "linkType": "external"
           },
-          { "type": "normal", "text": "</p>\n", "startIndex": 668, "endIndex": 673 }
+          { "type": "normal", "rawText": "</p>\n", "text": "\n", "startIndex": 668, "endIndex": 673 }
         ]
       },
       "author": "bob98",
@@ -802,11 +915,23 @@
       "title": {
         "text": "Vornado 533 Air Circulator Fan $119 + Delivery ($0 with Kogan First) @ Kogan",
         "parts": [
-          { "type": "normal", "text": "Vornado 533 Air Circulator Fan ", "startIndex": 0, "endIndex": 31 },
-          { "type": "price", "text": "$119", "startIndex": 31, "endIndex": 35 },
-          { "type": "normal", "text": " + Delivery (", "startIndex": 35, "endIndex": 48 },
-          { "type": "price", "text": "$0", "startIndex": 48, "endIndex": 50 },
-          { "type": "normal", "text": " with Kogan First) @ Kogan", "startIndex": 50, "endIndex": 76 }
+          {
+            "type": "normal",
+            "rawText": "Vornado 533 Air Circulator Fan ",
+            "text": "Vornado 533 Air Circulator Fan ",
+            "startIndex": 0,
+            "endIndex": 31
+          },
+          { "type": "price", "rawText": "$119", "text": "$119", "startIndex": 31, "endIndex": 35 },
+          { "type": "normal", "rawText": " + Delivery (", "text": " + Delivery (", "startIndex": 35, "endIndex": 48 },
+          { "type": "price", "rawText": "$0", "text": "$0", "startIndex": 48, "endIndex": 50 },
+          {
+            "type": "normal",
+            "rawText": " with Kogan First) @ Kogan",
+            "text": " with Kogan First) @ Kogan",
+            "startIndex": 50,
+            "endIndex": 76
+          }
         ]
       },
       "description": "Clearance, so I'm not sure how much stock they have. Great fan, ok model. Consider upgrading to DC model which has adjustable speed and energy efficient.",
@@ -815,7 +940,8 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Clearance, so I&#039;m not sure how much stock they have. Great fan, ok model. Consider upgrading to DC model which has adjustable speed and energy efficient.</p>\n",
+            "rawText": "<p>Clearance, so I&#039;m not sure how much stock they have. Great fan, ok model. Consider upgrading to DC model which has adjustable speed and energy efficient.</p>\n",
+            "text": "Clearance, so I&#039;m not sure how much stock they have. Great fan, ok model. Consider upgrading to DC model which has adjustable speed and energy efficient.\n",
             "startIndex": 340,
             "endIndex": 506
           }
@@ -844,12 +970,19 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "Fissler Original-Profi Collection Frypan, Stainless Steel, 24cm/2.0L ",
             "text": "Fissler Original-Profi Collection Frypan, Stainless Steel, 24cm/2.0L ",
             "startIndex": 0,
             "endIndex": 69
           },
-          { "type": "price", "text": "$174.57", "startIndex": 69, "endIndex": 76 },
-          { "type": "normal", "text": " Delivered @ Amazon Germany via Amazon AU", "startIndex": 76, "endIndex": 117 }
+          { "type": "price", "rawText": "$174.57", "text": "$174.57", "startIndex": 69, "endIndex": 76 },
+          {
+            "type": "normal",
+            "rawText": " Delivered @ Amazon Germany via Amazon AU",
+            "text": " Delivered @ Amazon Germany via Amazon AU",
+            "startIndex": 76,
+            "endIndex": 117
+          }
         ]
       },
       "description": "About this item\nThe perfectly fitting cookstar all-stove base ensures optimal absorption, distribution and storage of heat and thus helps to save energy - with every type of stove.\nThe pot is suitable for cleaning in the dishwasher.\nThe wide pouring rim facilitates precise pouring and decanting without any annoying dripping.\nWith the integrated measuring scale, liquid ingredients can be dosed without a measuring cup.\nBecause the handy cold metal handles made of stainless steel do not get hot when cooking on the electric stove, you can also hold them without potholders.\n\n$272@myer",
@@ -858,12 +991,13 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>About this item</p>\n\n<pre><code>The perfectly fitting cookstar all-stove base ensures optimal absorption, distribution and storage of heat and thus helps to save energy - with every type of stove.\nThe pot is suitable for cleaning in the dishwasher.\nThe wide pouring rim facilitates precise pouring and decanting without any annoying dripping.\nWith the integrated measuring scale, liquid ingredients can be dosed without a measuring cup.\nBecause the handy cold metal handles made of stainless steel do not get hot when cooking on the electric stove, you can also hold them without potholders.\n</code></pre>\n\n<p>",
+            "rawText": "<p>About this item</p>\n\n<pre><code>The perfectly fitting cookstar all-stove base ensures optimal absorption, distribution and storage of heat and thus helps to save energy - with every type of stove.\nThe pot is suitable for cleaning in the dishwasher.\nThe wide pouring rim facilitates precise pouring and decanting without any annoying dripping.\nWith the integrated measuring scale, liquid ingredients can be dosed without a measuring cup.\nBecause the handy cold metal handles made of stainless steel do not get hot when cooking on the electric stove, you can also hold them without potholders.\n</code></pre>\n\n<p>",
+            "text": "About this item\n\nThe perfectly fitting cookstar all-stove base ensures optimal absorption, distribution and storage of heat and thus helps to save energy - with every type of stove.\nThe pot is suitable for cleaning in the dishwasher.\nThe wide pouring rim facilitates precise pouring and decanting without any annoying dripping.\nWith the integrated measuring scale, liquid ingredients can be dosed without a measuring cup.\nBecause the handy cold metal handles made of stainless steel do not get hot when cooking on the electric stove, you can also hold them without potholders.\n\n\n",
             "startIndex": 366,
             "endIndex": 979
           },
-          { "type": "price", "text": "$272", "startIndex": 979, "endIndex": 983 },
-          { "type": "normal", "text": "@myer</p>\n", "startIndex": 983, "endIndex": 993 }
+          { "type": "price", "rawText": "$272", "text": "$272", "startIndex": 979, "endIndex": 983 },
+          { "type": "normal", "rawText": "@myer</p>\n", "text": "@myer\n", "startIndex": 983, "endIndex": 993 }
         ]
       },
       "author": "Buffet Squirrel",
@@ -888,31 +1022,51 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "Wusthof Classic Ikon Cook's Knife, 20cm, Black ",
             "text": "Wusthof Classic Ikon Cook's Knife, 20cm, Black ",
             "startIndex": 0,
             "endIndex": 47
           },
-          { "type": "price", "text": "$163.21", "startIndex": 47, "endIndex": 54 },
-          { "type": "normal", "text": " Delivered @ Amazon Germany via Amazon AU", "startIndex": 54, "endIndex": 95 }
+          { "type": "price", "rawText": "$163.21", "text": "$163.21", "startIndex": 47, "endIndex": 54 },
+          {
+            "type": "normal",
+            "rawText": " Delivered @ Amazon Germany via Amazon AU",
+            "text": " Delivered @ Amazon Germany via Amazon AU",
+            "startIndex": 54,
+            "endIndex": 95
+          }
         ]
       },
       "description": "They are usually over $200 when on sale, at least $220 every where on boxing day.\nhere\nI have never used it but it seems everyone praised it on raddit.",
       "partedDescription": {
         "text": "<div style=\"float:right;margin:0 0 1ex 1ex\"><a href=\"/node/751554\" rel=\"noopener nofollow\" title=\"Link: https://www.amazon.com.au/dp/B0862VYM6W?m=A3P6X2GIMA114Z\"><img src=\"https://files.ozbargain.com.au/n/54/751554.jpg?h=6df9bfdf\" alt=\"Wusthof Classic Ikon Cook&#039;s Knife, 20cm, Black $163.21 Delivered @ Amazon Germany via Amazon AU\"/></a></div><p>They are usually over $200 when on sale, at least $220 every where on boxing day.<br />\nOther Wusthof ikon knives are <a href=\"https://www.amazon.com.au/s?k=knife+ikon&amp;me=A3P6X2GIMA114Z&amp;ref=nb_sb_noss\" class=\"external inline\" rel=\"noopener nofollow\">here</a></p>\n\n<p>I have never used it but it seems everyone praised it on raddit.</p>\n",
         "parts": [
-          { "type": "normal", "text": "<p>They are usually over ", "startIndex": 349, "endIndex": 374 },
-          { "type": "price", "text": "$200", "startIndex": 374, "endIndex": 378 },
-          { "type": "normal", "text": " when on sale, at least ", "startIndex": 378, "endIndex": 402 },
-          { "type": "price", "text": "$220", "startIndex": 402, "endIndex": 406 },
           {
             "type": "normal",
-            "text": " every where on boxing day.<br />\nOther Wusthof ikon knives are ",
+            "rawText": "<p>They are usually over ",
+            "text": "They are usually over ",
+            "startIndex": 349,
+            "endIndex": 374
+          },
+          { "type": "price", "rawText": "$200", "text": "$200", "startIndex": 374, "endIndex": 378 },
+          {
+            "type": "normal",
+            "rawText": " when on sale, at least ",
+            "text": " when on sale, at least ",
+            "startIndex": 378,
+            "endIndex": 402
+          },
+          { "type": "price", "rawText": "$220", "text": "$220", "startIndex": 402, "endIndex": 406 },
+          {
+            "type": "normal",
+            "rawText": " every where on boxing day.<br />\nOther Wusthof ikon knives are ",
+            "text": " every where on boxing day.\nOther Wusthof ikon knives are ",
             "startIndex": 406,
             "endIndex": 470
           },
           {
             "type": "link",
-            "text": "<a href=\"https://www.amazon.com.au/s?k=knife+ikon&amp;me=A3P6X2GIMA114Z&amp;ref=nb_sb_noss\" class=\"external inline\" rel=\"noopener nofollow\">here</a>",
+            "rawText": "<a href=\"https://www.amazon.com.au/s?k=knife+ikon&amp;me=A3P6X2GIMA114Z&amp;ref=nb_sb_noss\" class=\"external inline\" rel=\"noopener nofollow\">here</a>",
             "startIndex": 470,
             "endIndex": 618,
             "url": "https://www.amazon.com.au/s?k=knife+ikon&amp;me=A3P6X2GIMA114Z&amp;ref=nb_sb_noss",
@@ -921,7 +1075,8 @@
           },
           {
             "type": "normal",
-            "text": "</p>\n\n<p>I have never used it but it seems everyone praised it on raddit.</p>\n",
+            "rawText": "</p>\n\n<p>I have never used it but it seems everyone praised it on raddit.</p>\n",
+            "text": "\n\nI have never used it but it seems everyone praised it on raddit.\n",
             "startIndex": 618,
             "endIndex": 696
           }
@@ -947,11 +1102,23 @@
       "title": {
         "text": "Rapid Antigen Test, Face Shield, Mask $0 each + $9.90 Delivery @ Tobe",
         "parts": [
-          { "type": "normal", "text": "Rapid Antigen Test, Face Shield, Mask ", "startIndex": 0, "endIndex": 38 },
-          { "type": "price", "text": "$0", "startIndex": 38, "endIndex": 40 },
-          { "type": "normal", "text": " each + ", "startIndex": 40, "endIndex": 48 },
-          { "type": "price", "text": "$9.90", "startIndex": 48, "endIndex": 53 },
-          { "type": "normal", "text": " Delivery @ Tobe", "startIndex": 53, "endIndex": 69 }
+          {
+            "type": "normal",
+            "rawText": "Rapid Antigen Test, Face Shield, Mask ",
+            "text": "Rapid Antigen Test, Face Shield, Mask ",
+            "startIndex": 0,
+            "endIndex": 38
+          },
+          { "type": "price", "rawText": "$0", "text": "$0", "startIndex": 38, "endIndex": 40 },
+          { "type": "normal", "rawText": " each + ", "text": " each + ", "startIndex": 40, "endIndex": 48 },
+          { "type": "price", "rawText": "$9.90", "text": "$9.90", "startIndex": 48, "endIndex": 53 },
+          {
+            "type": "normal",
+            "rawText": " Delivery @ Tobe",
+            "text": " Delivery @ Tobe",
+            "startIndex": 53,
+            "endIndex": 69
+          }
         ]
       },
       "description": "Found a great deal while trying to look for face masks for my kids. The vendor is on a Clearance sale and offers some of their medical products completely free.\nHowever, there is a shipping fee at the checkout and varies from product to product as to how much it will cost. Nonetheless, it is still a great deal especially if you wanted to buy bulk or wholesale quantity. They offer antigen test kits, face masks, and face shields for kids and for adults for FREE.\nAlthough there is no indicator as to when will the sale be closed, it is still a good opportunity to grab this limited-time offer until the supplies last.",
@@ -960,7 +1127,8 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Found a great deal while trying to look for face masks for my kids. The vendor is on a Clearance sale and offers some of their medical products completely free.</p>\n\n<p>However, there is a shipping fee at the checkout and varies from product to product as to how much it will cost. Nonetheless, it is still a great deal especially if you wanted to buy bulk or wholesale quantity. They offer antigen test kits, face masks, and face shields for kids and for adults for FREE.</p>\n\n<p>Although there is no indicator as to when will the sale be closed, it is still a good opportunity to grab this limited-time offer until the supplies last.</p>\n",
+            "rawText": "<p>Found a great deal while trying to look for face masks for my kids. The vendor is on a Clearance sale and offers some of their medical products completely free.</p>\n\n<p>However, there is a shipping fee at the checkout and varies from product to product as to how much it will cost. Nonetheless, it is still a great deal especially if you wanted to buy bulk or wholesale quantity. They offer antigen test kits, face masks, and face shields for kids and for adults for FREE.</p>\n\n<p>Although there is no indicator as to when will the sale be closed, it is still a good opportunity to grab this limited-time offer until the supplies last.</p>\n",
+            "text": "Found a great deal while trying to look for face masks for my kids. The vendor is on a Clearance sale and offers some of their medical products completely free.\n\nHowever, there is a shipping fee at the checkout and varies from product to product as to how much it will cost. Nonetheless, it is still a great deal especially if you wanted to buy bulk or wholesale quantity. They offer antigen test kits, face masks, and face shields for kids and for adults for FREE.\n\nAlthough there is no indicator as to when will the sale be closed, it is still a good opportunity to grab this limited-time offer until the supplies last.\n",
             "startIndex": 299,
             "endIndex": 942
           }
@@ -989,11 +1157,23 @@
       "title": {
         "text": "Kmart Air Fryer, Oven and Grill $129 (Was $179) Delivered @Kmart",
         "parts": [
-          { "type": "normal", "text": "Kmart Air Fryer, Oven and Grill ", "startIndex": 0, "endIndex": 32 },
-          { "type": "price", "text": "$129", "startIndex": 32, "endIndex": 36 },
-          { "type": "normal", "text": " (Was ", "startIndex": 36, "endIndex": 42 },
-          { "type": "price", "text": "$179", "startIndex": 42, "endIndex": 46 },
-          { "type": "normal", "text": ") Delivered @Kmart", "startIndex": 46, "endIndex": 64 }
+          {
+            "type": "normal",
+            "rawText": "Kmart Air Fryer, Oven and Grill ",
+            "text": "Kmart Air Fryer, Oven and Grill ",
+            "startIndex": 0,
+            "endIndex": 32
+          },
+          { "type": "price", "rawText": "$129", "text": "$129", "startIndex": 32, "endIndex": 36 },
+          { "type": "normal", "rawText": " (Was ", "text": " (Was ", "startIndex": 36, "endIndex": 42 },
+          { "type": "price", "rawText": "$179", "text": "$179", "startIndex": 42, "endIndex": 46 },
+          {
+            "type": "normal",
+            "rawText": ") Delivered @Kmart",
+            "text": ") Delivered @Kmart",
+            "startIndex": 46,
+            "endIndex": 64
+          }
         ]
       },
       "description": "Product Details\n1 x grill rack, 1 x baking tray and 1 x pizza tray\nCapacity:\n    Oven capacity: 15L\n    Water tank capacity: 500ml\nDimensions/Size: 44cm (H) x 44.1cm (W) x 39cm (W)\nPower source:\n    Oven:1635W\n    Steam cooker: 985W\n    Electrical rating: 220-240V~50Hz\nProduct weight: 8.5kg\nColour: Black\n\nFeatures\nMulti function 3-in-1 maximises countertop space\n8 pre-set functions for easy use\n    Steam cook\n    Steam + convection\n    Air fry\n    French fries\n    Chicken wing\n    Barbecue\n    Pizza\n    Cake\n80-200 deg. C variable temperature adjustment\nSteam function to help retain additional moisture during cooking\n60-minute timer\nControl panel with touch control\nLamp for cavity interior lighting",
@@ -1002,7 +1182,8 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Product Details</p>\n\n<pre><code>1 x grill rack, 1 x baking tray and 1 x pizza tray\nCapacity:\n    Oven capacity: 15L\n    Water tank capacity: 500ml\nDimensions/Size: 44cm (H) x 44.1cm (W) x 39cm (W)\nPower source:\n    Oven:1635W\n    Steam cooker: 985W\n    Electrical rating: 220-240V~50Hz\nProduct weight: 8.5kg\nColour: Black\n</code></pre>\n\n<p>Features</p>\n\n<pre><code>Multi function 3-in-1 maximises countertop space\n8 pre-set functions for easy use\n    Steam cook\n    Steam + convection\n    Air fry\n    French fries\n    Chicken wing\n    Barbecue\n    Pizza\n    Cake\n80-200 deg. C variable temperature adjustment\nSteam function to help retain additional moisture during cooking\n60-minute timer\nControl panel with touch control\nLamp for cavity interior lighting\n</code></pre>\n",
+            "rawText": "<p>Product Details</p>\n\n<pre><code>1 x grill rack, 1 x baking tray and 1 x pizza tray\nCapacity:\n    Oven capacity: 15L\n    Water tank capacity: 500ml\nDimensions/Size: 44cm (H) x 44.1cm (W) x 39cm (W)\nPower source:\n    Oven:1635W\n    Steam cooker: 985W\n    Electrical rating: 220-240V~50Hz\nProduct weight: 8.5kg\nColour: Black\n</code></pre>\n\n<p>Features</p>\n\n<pre><code>Multi function 3-in-1 maximises countertop space\n8 pre-set functions for easy use\n    Steam cook\n    Steam + convection\n    Air fry\n    French fries\n    Chicken wing\n    Barbecue\n    Pizza\n    Cake\n80-200 deg. C variable temperature adjustment\nSteam function to help retain additional moisture during cooking\n60-minute timer\nControl panel with touch control\nLamp for cavity interior lighting\n</code></pre>\n",
+            "text": "Product Details\n\n1 x grill rack, 1 x baking tray and 1 x pizza tray\nCapacity:\n    Oven capacity: 15L\n    Water tank capacity: 500ml\nDimensions/Size: 44cm (H) x 44.1cm (W) x 39cm (W)\nPower source:\n    Oven:1635W\n    Steam cooker: 985W\n    Electrical rating: 220-240V~50Hz\nProduct weight: 8.5kg\nColour: Black\n\n\nFeatures\n\nMulti function 3-in-1 maximises countertop space\n8 pre-set functions for easy use\n    Steam cook\n    Steam + convection\n    Air fry\n    French fries\n    Chicken wing\n    Barbecue\n    Pizza\n    Cake\n80-200 deg. C variable temperature adjustment\nSteam function to help retain additional moisture during cooking\n60-minute timer\nControl panel with touch control\nLamp for cavity interior lighting\n\n",
             "startIndex": 330,
             "endIndex": 1104
           }
@@ -1031,20 +1212,39 @@
       "title": {
         "text": "Sofirn IF22A Flashlight $43.35 Delivered @ Sofirn via Amazon AU",
         "parts": [
-          { "type": "normal", "text": "Sofirn IF22A Flashlight ", "startIndex": 0, "endIndex": 24 },
-          { "type": "price", "text": "$43.35", "startIndex": 24, "endIndex": 30 },
-          { "type": "normal", "text": " Delivered @ Sofirn via Amazon AU", "startIndex": 30, "endIndex": 63 }
+          {
+            "type": "normal",
+            "rawText": "Sofirn IF22A Flashlight ",
+            "text": "Sofirn IF22A Flashlight ",
+            "startIndex": 0,
+            "endIndex": 24
+          },
+          { "type": "price", "rawText": "$43.35", "text": "$43.35", "startIndex": 24, "endIndex": 30 },
+          {
+            "type": "normal",
+            "rawText": " Delivered @ Sofirn via Amazon AU",
+            "text": " Delivered @ Sofirn via Amazon AU",
+            "startIndex": 30,
+            "endIndex": 63
+          }
         ]
       },
       "description": "Sofirn IF22A is currently only $43.35 delivered on amazon, promotion code applied during checkout.\nLowest price yet according to camel",
       "partedDescription": {
         "text": "<div style=\"float:right;margin:0 0 1ex 1ex\"><a href=\"/node/751549\" rel=\"noopener nofollow\" title=\"Link: https://www.amazon.com.au/dp/B09JNW9TVP\"><img src=\"https://files.ozbargain.com.au/n/49/751549.jpg?h=3cff8cd7\" alt=\"Sofirn IF22A Flashlight $43.35 Delivered @ Sofirn via Amazon AU\"/></a></div><p>Sofirn IF22A is currently only $43.35 delivered on amazon, promotion code applied during checkout.</p>\n\n<p>Lowest price yet according to camel</p>\n",
         "parts": [
-          { "type": "normal", "text": "<p>Sofirn IF22A is currently only ", "startIndex": 295, "endIndex": 329 },
-          { "type": "price", "text": "$43.35", "startIndex": 329, "endIndex": 335 },
           {
             "type": "normal",
-            "text": " delivered on amazon, promotion code applied during checkout.</p>\n\n<p>Lowest price yet according to camel</p>\n",
+            "rawText": "<p>Sofirn IF22A is currently only ",
+            "text": "Sofirn IF22A is currently only ",
+            "startIndex": 295,
+            "endIndex": 329
+          },
+          { "type": "price", "rawText": "$43.35", "text": "$43.35", "startIndex": 329, "endIndex": 335 },
+          {
+            "type": "normal",
+            "rawText": " delivered on amazon, promotion code applied during checkout.</p>\n\n<p>Lowest price yet according to camel</p>\n",
+            "text": " delivered on amazon, promotion code applied during checkout.\n\nLowest price yet according to camel\n",
             "startIndex": 335,
             "endIndex": 445
           }
@@ -1072,11 +1272,23 @@
       "title": {
         "text": "Delsey Clavel 55cm Small Hand Carry Luggage $134.50 (RRP $269) Delivered @ David Jones",
         "parts": [
-          { "type": "normal", "text": "Delsey Clavel 55cm Small Hand Carry Luggage ", "startIndex": 0, "endIndex": 44 },
-          { "type": "price", "text": "$134.50", "startIndex": 44, "endIndex": 51 },
-          { "type": "normal", "text": " (RRP ", "startIndex": 51, "endIndex": 57 },
-          { "type": "price", "text": "$269", "startIndex": 57, "endIndex": 61 },
-          { "type": "normal", "text": ") Delivered @ David Jones", "startIndex": 61, "endIndex": 86 }
+          {
+            "type": "normal",
+            "rawText": "Delsey Clavel 55cm Small Hand Carry Luggage ",
+            "text": "Delsey Clavel 55cm Small Hand Carry Luggage ",
+            "startIndex": 0,
+            "endIndex": 44
+          },
+          { "type": "price", "rawText": "$134.50", "text": "$134.50", "startIndex": 44, "endIndex": 51 },
+          { "type": "normal", "rawText": " (RRP ", "text": " (RRP ", "startIndex": 51, "endIndex": 57 },
+          { "type": "price", "rawText": "$269", "text": "$269", "startIndex": 57, "endIndex": 61 },
+          {
+            "type": "normal",
+            "rawText": ") Delivered @ David Jones",
+            "text": ") Delivered @ David Jones",
+            "startIndex": 61,
+            "endIndex": 86
+          }
         ]
       },
       "description": "Delsey Clavel 55cm Carry On Luggage (50% off RRP of $269, $134.50 postage included)\nA stylish suitcase with multi-position trolley system enable comfort rolling\nEquipped with ultra-security closure system: SECURITECH, 3 times stronger than normal zip. \nRecycle inner lining CLAVEL offers the perfect balance between lightness and durability. Its components are carefully selected to ensure an exceptionally lightweight. \n4 sets of maneuverable and silent double wheels enhance smooth rolling. They are specially designed to ensure ease of movement. \nTSA combination locks allow the Transportation Security Administration (TSA) to check your suitcase using a special key. \nThis lightweight suitcase includes an expander. It allows you to increase the volume of your suitcase at any time.",
@@ -1085,16 +1297,18 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<h4>Delsey Clavel 55cm Carry On Luggage (50% off RRP of ",
+            "rawText": "<h4>Delsey Clavel 55cm Carry On Luggage (50% off RRP of ",
+            "text": "Delsey Clavel 55cm Carry On Luggage (50% off RRP of ",
             "startIndex": 394,
             "endIndex": 450
           },
-          { "type": "price", "text": "$269", "startIndex": 450, "endIndex": 454 },
-          { "type": "normal", "text": ", ", "startIndex": 454, "endIndex": 456 },
-          { "type": "price", "text": "$134.50", "startIndex": 456, "endIndex": 463 },
+          { "type": "price", "rawText": "$269", "text": "$269", "startIndex": 450, "endIndex": 454 },
+          { "type": "normal", "rawText": ", ", "text": ", ", "startIndex": 454, "endIndex": 456 },
+          { "type": "price", "rawText": "$134.50", "text": "$134.50", "startIndex": 456, "endIndex": 463 },
           {
             "type": "normal",
-            "text": " postage included)</h4>\n\n<ul>\n<li>A stylish suitcase with multi-position trolley system enable comfort rolling</li>\n<li>Equipped with ultra-security closure system: SECURITECH, 3 times stronger than normal zip. </li>\n<li>Recycle inner lining CLAVEL offers the perfect balance between lightness and durability. Its components are carefully selected to ensure an exceptionally lightweight. </li>\n<li>4 sets of maneuverable and silent double wheels enhance smooth rolling. They are specially designed to ensure ease of movement. </li>\n<li>TSA combination locks allow the Transportation Security Administration (TSA) to check your suitcase using a special key. </li>\n<li>This lightweight suitcase includes an expander. It allows you to increase the volume of your suitcase at any time.</li>\n</ul>\n",
+            "rawText": " postage included)</h4>\n\n<ul>\n<li>A stylish suitcase with multi-position trolley system enable comfort rolling</li>\n<li>Equipped with ultra-security closure system: SECURITECH, 3 times stronger than normal zip. </li>\n<li>Recycle inner lining CLAVEL offers the perfect balance between lightness and durability. Its components are carefully selected to ensure an exceptionally lightweight. </li>\n<li>4 sets of maneuverable and silent double wheels enhance smooth rolling. They are specially designed to ensure ease of movement. </li>\n<li>TSA combination locks allow the Transportation Security Administration (TSA) to check your suitcase using a special key. </li>\n<li>This lightweight suitcase includes an expander. It allows you to increase the volume of your suitcase at any time.</li>\n</ul>\n",
+            "text": " postage included)\n\n\nA stylish suitcase with multi-position trolley system enable comfort rolling\nEquipped with ultra-security closure system: SECURITECH, 3 times stronger than normal zip. \nRecycle inner lining CLAVEL offers the perfect balance between lightness and durability. Its components are carefully selected to ensure an exceptionally lightweight. \n4 sets of maneuverable and silent double wheels enhance smooth rolling. They are specially designed to ensure ease of movement. \nTSA combination locks allow the Transportation Security Administration (TSA) to check your suitcase using a special key. \nThis lightweight suitcase includes an expander. It allows you to increase the volume of your suitcase at any time.\n\n",
             "startIndex": 463,
             "endIndex": 1256
           }
@@ -1123,14 +1337,21 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "Razer Opus X Quartz Noise Cancelling Bluetooth Headphones ",
             "text": "Razer Opus X Quartz Noise Cancelling Bluetooth Headphones ",
             "startIndex": 0,
             "endIndex": 58
           },
-          { "type": "price", "text": "$55.2", "startIndex": 58, "endIndex": 63 },
-          { "type": "normal", "text": " (", "startIndex": 63, "endIndex": 65 },
-          { "type": "price", "text": "$53.82", "startIndex": 65, "endIndex": 71 },
-          { "type": "normal", "text": " eBay Plus) Delivered @ Razer AU eBay", "startIndex": 71, "endIndex": 108 }
+          { "type": "price", "rawText": "$55.2", "text": "$55.2", "startIndex": 58, "endIndex": 63 },
+          { "type": "normal", "rawText": " (", "text": " (", "startIndex": 63, "endIndex": 65 },
+          { "type": "price", "rawText": "$53.82", "text": "$53.82", "startIndex": 65, "endIndex": 71 },
+          {
+            "type": "normal",
+            "rawText": " eBay Plus) Delivered @ Razer AU eBay",
+            "text": " eBay Plus) Delivered @ Razer AU eBay",
+            "startIndex": 71,
+            "endIndex": 108
+          }
         ]
       },
       "description": "I was looking for a new over the head noise cancelling headphones. These have very good reviews. Still $169.95 on Razer’s website. They are discounted everywhere online, but on eBay they are the cheapest. You can get the green ones for $10 more.\nActive noise cancellation (ANC) technology\nOriginal Coupon Deal",
@@ -1139,34 +1360,37 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>I was looking for a new over the head noise cancelling headphones. These have very good reviews. Still ",
+            "rawText": "<p>I was looking for a new over the head noise cancelling headphones. These have very good reviews. Still ",
+            "text": "I was looking for a new over the head noise cancelling headphones. These have very good reviews. Still ",
             "startIndex": 341,
             "endIndex": 447
           },
-          { "type": "price", "text": "$169.95", "startIndex": 447, "endIndex": 454 },
+          { "type": "price", "rawText": "$169.95", "text": "$169.95", "startIndex": 447, "endIndex": 454 },
           {
             "type": "normal",
+            "rawText": " on Razer’s website. They are discounted everywhere online, but on eBay they are the cheapest. You can get the green ones for ",
             "text": " on Razer’s website. They are discounted everywhere online, but on eBay they are the cheapest. You can get the green ones for ",
             "startIndex": 454,
             "endIndex": 580
           },
-          { "type": "price", "text": "$10", "startIndex": 580, "endIndex": 583 },
+          { "type": "price", "rawText": "$10", "text": "$10", "startIndex": 580, "endIndex": 583 },
           {
             "type": "normal",
-            "text": " more.</p>\n\n<p>Active noise cancellation (ANC) technology<br />\nBluetooth 5.0<br />\n60ms low latency connection</p>\n\n<p>",
+            "rawText": " more.</p>\n\n<p>Active noise cancellation (ANC) technology<br />\nBluetooth 5.0<br />\n60ms low latency connection</p>\n\n<p>",
+            "text": " more.\n\nActive noise cancellation (ANC) technology\nBluetooth 5.0\n60ms low latency connection\n\n",
             "startIndex": 583,
             "endIndex": 703
           },
           {
             "type": "link",
-            "text": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
+            "rawText": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
             "startIndex": 703,
             "endIndex": 774,
             "url": "https://ozbargain.com.au/node/750992",
             "linkText": "Original Coupon Deal",
             "linkType": "deal"
           },
-          { "type": "normal", "text": "</p>\n", "startIndex": 774, "endIndex": 779 }
+          { "type": "normal", "rawText": "</p>\n", "text": "\n", "startIndex": 774, "endIndex": 779 }
         ]
       },
       "author": "fozzie",
@@ -1197,12 +1421,25 @@
       "title": {
         "text": "7% off Eligible Items, $30 Minimum Spend, $300 Discount Cap, up to 5 Uses Per Account @ eBay Australia",
         "parts": [
-          { "type": "normal", "text": "7% off Eligible Items, ", "startIndex": 0, "endIndex": 23 },
-          { "type": "price", "text": "$30", "startIndex": 23, "endIndex": 26 },
-          { "type": "normal", "text": " Minimum Spend, ", "startIndex": 26, "endIndex": 42 },
-          { "type": "price", "text": "$300", "startIndex": 42, "endIndex": 46 },
           {
             "type": "normal",
+            "rawText": "7% off Eligible Items, ",
+            "text": "7% off Eligible Items, ",
+            "startIndex": 0,
+            "endIndex": 23
+          },
+          { "type": "price", "rawText": "$30", "text": "$30", "startIndex": 23, "endIndex": 26 },
+          {
+            "type": "normal",
+            "rawText": " Minimum Spend, ",
+            "text": " Minimum Spend, ",
+            "startIndex": 26,
+            "endIndex": 42
+          },
+          { "type": "price", "rawText": "$300", "text": "$300", "startIndex": 42, "endIndex": 46 },
+          {
+            "type": "normal",
+            "rawText": " Discount Cap, up to 5 Uses Per Account @ eBay Australia",
             "text": " Discount Cap, up to 5 Uses Per Account @ eBay Australia",
             "startIndex": 46,
             "endIndex": 102
@@ -1215,13 +1452,14 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>So the creative eBay marketing people switched the letters of the ",
+            "rawText": "<p>So the creative eBay marketing people switched the letters of the ",
+            "text": "So the creative eBay marketing people switched the letters of the ",
             "startIndex": 347,
             "endIndex": 416
           },
           {
             "type": "link",
-            "text": "<a href=\"/node/748865\" class=\"internal inline\">previous expired 7% off promo</a>",
+            "rawText": "<a href=\"/node/748865\" class=\"internal inline\">previous expired 7% off promo</a>",
             "startIndex": 416,
             "endIndex": 496,
             "url": "https://ozbargain.com.au/node/748865",
@@ -1230,7 +1468,8 @@
           },
           {
             "type": "normal",
-            "text": " to create a replacement. I trialled several private sellers, it seems to work on different private sellers to the previous promo.</p>\n",
+            "rawText": " to create a replacement. I trialled several private sellers, it seems to work on different private sellers to the previous promo.</p>\n",
+            "text": " to create a replacement. I trialled several private sellers, it seems to work on different private sellers to the previous promo.\n",
             "startIndex": 496,
             "endIndex": 631
           }
@@ -1258,14 +1497,21 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "Alldocube iPlay 50 Pro (10.4\" 2K, Android 12, 8GB/128GB, 4G) US",
             "text": "Alldocube iPlay 50 Pro (10.4\" 2K, Android 12, 8GB/128GB, 4G) US",
             "startIndex": 0,
             "endIndex": 63
           },
-          { "type": "price", "text": "$146.19", "startIndex": 63, "endIndex": 70 },
-          { "type": "normal", "text": " (~A", "startIndex": 70, "endIndex": 74 },
-          { "type": "price", "text": "$211.44", "startIndex": 74, "endIndex": 81 },
-          { "type": "normal", "text": ") Delivered @ Alldocube Official AliExpress", "startIndex": 81, "endIndex": 124 }
+          { "type": "price", "rawText": "$146.19", "text": "$146.19", "startIndex": 63, "endIndex": 70 },
+          { "type": "normal", "rawText": " (~A", "text": " (~A", "startIndex": 70, "endIndex": 74 },
+          { "type": "price", "rawText": "$211.44", "text": "$211.44", "startIndex": 74, "endIndex": 81 },
+          {
+            "type": "normal",
+            "rawText": ") Delivered @ Alldocube Official AliExpress",
+            "text": ") Delivered @ Alldocube Official AliExpress",
+            "startIndex": 81,
+            "endIndex": 124
+          }
         ]
       },
       "description": "On sale is Alldocube's latest tablet which is an improvement over both the iPlay 50 and iPlay 50S tablets. The main big improvement is that they've replaced the budget UNISOC T618 CPU with the MediaTek Helio G99 CPU that was released in 2022 and offers much better performance. Making it a lot better for gaming and overall snappyness Plus it scores about 40% higher in AnTuTu benchmarks.\nFeaturing Android 12 with Google Play, 10.4\" 2000x1200 IPS display, 8GB RAM, 128GB UFS 2.1 storage (microSD support up to 2TB), MediaTek MT6789 Helio G99 Octa-core CPU, 6000mAh battery with 18W fast charging, USB-C, 4G LTE with B28 & Dual SIM, 5MP front camera, WiFi ac, Bluetooth 5.2, GPS, 3.5mm audio jack, dual speakers and GPS\nA downside of this tablet is that it doesn't have Widevine L1 so there will be no Netflix or Prime HD.\nApply coupons 4WB6GL25F2XO and loved10\nFurther US$9 discount at checkout\nAU$ based on current Mastercard rate, GST inclusive and stacks with cashback.\nOriginal coupon deal",
@@ -1274,23 +1520,24 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>On sale is Alldocube&#039;s latest tablet which is an improvement over both the ",
+            "rawText": "<p>On sale is Alldocube&#039;s latest tablet which is an improvement over both the ",
+            "text": "On sale is Alldocube&#039;s latest tablet which is an improvement over both the ",
             "startIndex": 375,
             "endIndex": 458
           },
           {
             "type": "link",
-            "text": "<a href=\"/product/alldocube-iplay-50\" class=\"internal inline\">iPlay 50</a>",
+            "rawText": "<a href=\"/product/alldocube-iplay-50\" class=\"internal inline\">iPlay 50</a>",
             "startIndex": 458,
             "endIndex": 532,
             "url": "https://ozbargain.com.au/product/alldocube-iplay-50",
             "linkText": "iPlay 50",
             "linkType": "deal"
           },
-          { "type": "normal", "text": " and ", "startIndex": 532, "endIndex": 537 },
+          { "type": "normal", "rawText": " and ", "text": " and ", "startIndex": 532, "endIndex": 537 },
           {
             "type": "link",
-            "text": "<a href=\"/product/alldocube-iplay-50s\" class=\"internal inline\">iPlay 50S</a>",
+            "rawText": "<a href=\"/product/alldocube-iplay-50s\" class=\"internal inline\">iPlay 50S</a>",
             "startIndex": 537,
             "endIndex": 613,
             "url": "https://ozbargain.com.au/product/alldocube-iplay-50s",
@@ -1299,32 +1546,35 @@
           },
           {
             "type": "normal",
-            "text": " tablets. The main big improvement is that they&#039;ve replaced the budget UNISOC T618 CPU with the MediaTek Helio G99 CPU that was released in 2022 and offers much better performance. Making it a lot better for gaming and overall snappyness Plus it scores about 40% higher in AnTuTu benchmarks.</p>\n\n<p>Featuring Android 12 with Google Play, 10.4&quot; 2000x1200 IPS display, 8GB RAM, 128GB UFS 2.1 storage (microSD support up to 2TB), MediaTek MT6789 Helio G99 Octa-core CPU, 6000mAh battery with 18W fast charging, USB-C, 4G LTE with B28 &amp; Dual SIM, 5MP front camera, WiFi ac, Bluetooth 5.2, GPS, 3.5mm audio jack, dual speakers and GPS</p>\n\n<p>A downside of this tablet is that it doesn&#039;t have Widevine L1 so there will be no Netflix or Prime HD.</p>\n\n",
+            "rawText": " tablets. The main big improvement is that they&#039;ve replaced the budget UNISOC T618 CPU with the MediaTek Helio G99 CPU that was released in 2022 and offers much better performance. Making it a lot better for gaming and overall snappyness Plus it scores about 40% higher in AnTuTu benchmarks.</p>\n\n<p>Featuring Android 12 with Google Play, 10.4&quot; 2000x1200 IPS display, 8GB RAM, 128GB UFS 2.1 storage (microSD support up to 2TB), MediaTek MT6789 Helio G99 Octa-core CPU, 6000mAh battery with 18W fast charging, USB-C, 4G LTE with B28 &amp; Dual SIM, 5MP front camera, WiFi ac, Bluetooth 5.2, GPS, 3.5mm audio jack, dual speakers and GPS</p>\n\n<p>A downside of this tablet is that it doesn&#039;t have Widevine L1 so there will be no Netflix or Prime HD.</p>\n\n",
+            "text": " tablets. The main big improvement is that they&#039;ve replaced the budget UNISOC T618 CPU with the MediaTek Helio G99 CPU that was released in 2022 and offers much better performance. Making it a lot better for gaming and overall snappyness Plus it scores about 40% higher in AnTuTu benchmarks.\n\nFeaturing Android 12 with Google Play, 10.4&quot; 2000x1200 IPS display, 8GB RAM, 128GB UFS 2.1 storage (microSD support up to 2TB), MediaTek MT6789 Helio G99 Octa-core CPU, 6000mAh battery with 18W fast charging, USB-C, 4G LTE with B28 &amp; Dual SIM, 5MP front camera, WiFi ac, Bluetooth 5.2, GPS, 3.5mm audio jack, dual speakers and GPS\n\nA downside of this tablet is that it doesn&#039;t have Widevine L1 so there will be no Netflix or Prime HD.\n\n",
             "startIndex": 613,
             "endIndex": 1379
           },
           {
             "type": "blockquote",
-            "text": "<blockquote>\n  <ul>\n  <li>Apply coupons <strong>4WB6GL25F2XO</strong> and <strong>loved10</strong></li>\n  <li>Further US$9 discount at checkout</li>\n  </ul>\n</blockquote>",
+            "rawText": "<blockquote>\n  <ul>\n  <li>Apply coupons <strong>4WB6GL25F2XO</strong> and <strong>loved10</strong></li>\n  <li>Further US$9 discount at checkout</li>\n  </ul>\n</blockquote>",
+            "text": "\n  \n  Apply coupons 4WB6GL25F2XO and loved10\n  Further US$9 discount at checkout\n  \n",
             "startIndex": 1379,
             "endIndex": 1549
           },
           {
             "type": "normal",
-            "text": "\n\n<p>AU$ based on current Mastercard rate, GST inclusive and stacks with cashback.</p>\n\n<p>",
+            "rawText": "\n\n<p>AU$ based on current Mastercard rate, GST inclusive and stacks with cashback.</p>\n\n<p>",
+            "text": "\n\nAU$ based on current Mastercard rate, GST inclusive and stacks with cashback.\n\n",
             "startIndex": 1549,
             "endIndex": 1640
           },
           {
             "type": "link",
-            "text": "<a href=\"/node/751537\" class=\"internal inline\">Original coupon deal</a>",
+            "rawText": "<a href=\"/node/751537\" class=\"internal inline\">Original coupon deal</a>",
             "startIndex": 1640,
             "endIndex": 1711,
             "url": "https://ozbargain.com.au/node/751537",
             "linkText": "Original coupon deal",
             "linkType": "deal"
           },
-          { "type": "normal", "text": "</p>\n", "startIndex": 1711, "endIndex": 1716 }
+          { "type": "normal", "rawText": "</p>\n", "text": "\n", "startIndex": 1711, "endIndex": 1716 }
         ]
       },
       "author": "Clear",
@@ -1349,9 +1599,21 @@
       "title": {
         "text": "Crucial MX500 4TB 2.5\" SATA SSD $383.89 Delivered @ Amazon US via AU",
         "parts": [
-          { "type": "normal", "text": "Crucial MX500 4TB 2.5\" SATA SSD ", "startIndex": 0, "endIndex": 32 },
-          { "type": "price", "text": "$383.89", "startIndex": 32, "endIndex": 39 },
-          { "type": "normal", "text": " Delivered @ Amazon US via AU", "startIndex": 39, "endIndex": 68 }
+          {
+            "type": "normal",
+            "rawText": "Crucial MX500 4TB 2.5\" SATA SSD ",
+            "text": "Crucial MX500 4TB 2.5\" SATA SSD ",
+            "startIndex": 0,
+            "endIndex": 32
+          },
+          { "type": "price", "rawText": "$383.89", "text": "$383.89", "startIndex": 32, "endIndex": 39 },
+          {
+            "type": "normal",
+            "rawText": " Delivered @ Amazon US via AU",
+            "text": " Delivered @ Amazon US via AU",
+            "startIndex": 39,
+            "endIndex": 68
+          }
         ]
       },
       "description": "Cheapest ever price for this popular drive, will taste great in a sandwich with cheese",
@@ -1360,7 +1622,8 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Cheapest ever price for this popular drive, will taste great in a sandwich with cheese</p>\n",
+            "rawText": "<p>Cheapest ever price for this popular drive, will taste great in a sandwich with cheese</p>\n",
+            "text": "Cheapest ever price for this popular drive, will taste great in a sandwich with cheese\n",
             "startIndex": 305,
             "endIndex": 399
           }
@@ -1390,11 +1653,23 @@
       "title": {
         "text": "Bundesliga Brillant APS 2021/22 Soccer Ball $125 + $20 Delivery @Onsidesports",
         "parts": [
-          { "type": "normal", "text": "Bundesliga Brillant APS 2021/22 Soccer Ball ", "startIndex": 0, "endIndex": 44 },
-          { "type": "price", "text": "$125", "startIndex": 44, "endIndex": 48 },
-          { "type": "normal", "text": " + ", "startIndex": 48, "endIndex": 51 },
-          { "type": "price", "text": "$20", "startIndex": 51, "endIndex": 54 },
-          { "type": "normal", "text": " Delivery @Onsidesports", "startIndex": 54, "endIndex": 77 }
+          {
+            "type": "normal",
+            "rawText": "Bundesliga Brillant APS 2021/22 Soccer Ball ",
+            "text": "Bundesliga Brillant APS 2021/22 Soccer Ball ",
+            "startIndex": 0,
+            "endIndex": 44
+          },
+          { "type": "price", "rawText": "$125", "text": "$125", "startIndex": 44, "endIndex": 48 },
+          { "type": "normal", "rawText": " + ", "text": " + ", "startIndex": 48, "endIndex": 51 },
+          { "type": "price", "rawText": "$20", "text": "$20", "startIndex": 51, "endIndex": 54 },
+          {
+            "type": "normal",
+            "rawText": " Delivery @Onsidesports",
+            "text": " Delivery @Onsidesports",
+            "startIndex": 54,
+            "endIndex": 77
+          }
         ]
       },
       "description": "Half price Soccer ball that's supposed to be Gold Standard.\nDescription\nCONSTRUCTION:Optimal aerodynamic characteristics and lasting roundness through the construction from 32 panels.PRODUCTION:Hand-sewn to ensure flexibility and durable seams.MATERIAL:Shiny high-tech PU microfiber of outstanding quality with diamond structure on entire material surface. Extreme white panels ensure a very good visibility, especially in LED lighting.BLADDER:Zero-wing bladder made of natural latex for an optimal round shape and lively bounce.FEATURES:\nExtremely soft ball contact.\nPrecise flight behavior and lively bounce.\nOptimal, lasting roundness and particularly durable.\nRelated Products",
@@ -1403,7 +1678,8 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Half price Soccer ball that&#039;s supposed to be Gold Standard.</p>\n\n<p>Description<br />\nOfficial Bundesliga and Bundesliga 2 match ball. Hand-stitched. FIFA QUALITY PRO.</p>\n\n<p>CONSTRUCTION:Optimal aerodynamic characteristics and lasting roundness through the construction from 32 panels.PRODUCTION:Hand-sewn to ensure flexibility and durable seams.MATERIAL:Shiny high-tech PU microfiber of outstanding quality with diamond structure on entire material surface. Extreme white panels ensure a very good visibility, especially in LED lighting.BLADDER:Zero-wing bladder made of natural latex for an optimal round shape and lively bounce.FEATURES:</p>\n\n<p>Extremely soft ball contact.<br />\nPrecise flight behavior and lively bounce.<br />\nOptimal, lasting roundness and particularly durable.<br />\nRelated Products</p>\n",
+            "rawText": "<p>Half price Soccer ball that&#039;s supposed to be Gold Standard.</p>\n\n<p>Description<br />\nOfficial Bundesliga and Bundesliga 2 match ball. Hand-stitched. FIFA QUALITY PRO.</p>\n\n<p>CONSTRUCTION:Optimal aerodynamic characteristics and lasting roundness through the construction from 32 panels.PRODUCTION:Hand-sewn to ensure flexibility and durable seams.MATERIAL:Shiny high-tech PU microfiber of outstanding quality with diamond structure on entire material surface. Extreme white panels ensure a very good visibility, especially in LED lighting.BLADDER:Zero-wing bladder made of natural latex for an optimal round shape and lively bounce.FEATURES:</p>\n\n<p>Extremely soft ball contact.<br />\nPrecise flight behavior and lively bounce.<br />\nOptimal, lasting roundness and particularly durable.<br />\nRelated Products</p>\n",
+            "text": "Half price Soccer ball that&#039;s supposed to be Gold Standard.\n\nDescription\nOfficial Bundesliga and Bundesliga 2 match ball. Hand-stitched. FIFA QUALITY PRO.\n\nCONSTRUCTION:Optimal aerodynamic characteristics and lasting roundness through the construction from 32 panels.PRODUCTION:Hand-sewn to ensure flexibility and durable seams.MATERIAL:Shiny high-tech PU microfiber of outstanding quality with diamond structure on entire material surface. Extreme white panels ensure a very good visibility, especially in LED lighting.BLADDER:Zero-wing bladder made of natural latex for an optimal round shape and lively bounce.FEATURES:\n\nExtremely soft ball contact.\nPrecise flight behavior and lively bounce.\nOptimal, lasting roundness and particularly durable.\nRelated Products\n",
             "startIndex": 330,
             "endIndex": 1153
           }
@@ -1426,20 +1702,21 @@
       "title": {
         "text": "US$2 off US$20, US$5 off US$50, US$10 off US$100 on Love Delivers Event Products @ AliExpress",
         "parts": [
-          { "type": "normal", "text": "US", "startIndex": 0, "endIndex": 2 },
-          { "type": "price", "text": "$2", "startIndex": 2, "endIndex": 4 },
-          { "type": "normal", "text": " off US", "startIndex": 4, "endIndex": 11 },
-          { "type": "price", "text": "$20", "startIndex": 11, "endIndex": 14 },
-          { "type": "normal", "text": ", US", "startIndex": 14, "endIndex": 18 },
-          { "type": "price", "text": "$5", "startIndex": 18, "endIndex": 20 },
-          { "type": "normal", "text": " off US", "startIndex": 20, "endIndex": 27 },
-          { "type": "price", "text": "$50", "startIndex": 27, "endIndex": 30 },
-          { "type": "normal", "text": ", US", "startIndex": 30, "endIndex": 34 },
-          { "type": "price", "text": "$10", "startIndex": 34, "endIndex": 37 },
-          { "type": "normal", "text": " off US", "startIndex": 37, "endIndex": 44 },
-          { "type": "price", "text": "$100", "startIndex": 44, "endIndex": 48 },
+          { "type": "normal", "rawText": "US", "text": "US", "startIndex": 0, "endIndex": 2 },
+          { "type": "price", "rawText": "$2", "text": "$2", "startIndex": 2, "endIndex": 4 },
+          { "type": "normal", "rawText": " off US", "text": " off US", "startIndex": 4, "endIndex": 11 },
+          { "type": "price", "rawText": "$20", "text": "$20", "startIndex": 11, "endIndex": 14 },
+          { "type": "normal", "rawText": ", US", "text": ", US", "startIndex": 14, "endIndex": 18 },
+          { "type": "price", "rawText": "$5", "text": "$5", "startIndex": 18, "endIndex": 20 },
+          { "type": "normal", "rawText": " off US", "text": " off US", "startIndex": 20, "endIndex": 27 },
+          { "type": "price", "rawText": "$50", "text": "$50", "startIndex": 27, "endIndex": 30 },
+          { "type": "normal", "rawText": ", US", "text": ", US", "startIndex": 30, "endIndex": 34 },
+          { "type": "price", "rawText": "$10", "text": "$10", "startIndex": 34, "endIndex": 37 },
+          { "type": "normal", "rawText": " off US", "text": " off US", "startIndex": 37, "endIndex": 44 },
+          { "type": "price", "rawText": "$100", "text": "$100", "startIndex": 44, "endIndex": 48 },
           {
             "type": "normal",
+            "rawText": " on Love Delivers Event Products @ AliExpress",
             "text": " on Love Delivers Event Products @ AliExpress",
             "startIndex": 48,
             "endIndex": 93
@@ -1449,7 +1726,7 @@
       "description": "Another AliExpress sale has kicked off and this time it's called \"Love Delivers\" in anticipation for Valentines Day. Products in the sale will have a \"Love Delivers\" banner and the coupons should be valid on them.\nCoupons are 1 per account and minimum spend excludes GST and shipping.\n\n\n\n  Discount\n  Min Spend\n  Coupon Code\n\n\n\n\n  $2\n  $20\n  loved2\n\n\n  $5\n  $50\n  loved5\n\n\n  $10\n  $100\n  loved10",
       "partedDescription": {
         "text": "<div style=\"float:right;margin:0 0 1ex 1ex\"><a href=\"/node/751537\" rel=\"noopener nofollow\" title=\"Link: https://campaign.aliexpress.com/wow/gcp-plus/300000309/Big-discounts\"><img src=\"https://files.ozbargain.com.au/n/37/751537.jpg?h=3d0b1f24\" alt=\"US$2 off US$20, US$5 off US$50, US$10 off US$100 on Love Delivers Event Products @ AliExpress\"/></a></div><p>Another AliExpress sale has kicked off and this time it&#039;s called &quot;Love Delivers&quot; in anticipation for Valentines Day. Products in the sale will have a &quot;Love Delivers&quot; banner and the coupons should be valid on them.</p>\n\n<p>Coupons are 1 per account and minimum spend excludes GST and shipping.</p>\n\n<div class=\"tablewrap\"><table class=\"data\">\n<thead>\n<tr>\n  <th>Discount</th>\n  <th>Min Spend</th>\n  <th>Coupon Code</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>$2</td>\n  <td>$20</td>\n  <td>loved2</td>\n</tr>\n<tr>\n  <td>$5</td>\n  <td>$50</td>\n  <td>loved5</td>\n</tr>\n<tr>\n  <td>$10</td>\n  <td>$100</td>\n  <td>loved10</td>\n</tr>\n</tbody>\n</table></div>\n",
-        "parts": [{ "type": "normal", "text": "\n", "startIndex": 1024, "endIndex": 1025 }]
+        "parts": [{ "type": "normal", "rawText": "\n", "text": "\n", "startIndex": 1024, "endIndex": 1025 }]
       },
       "author": "Clear",
       "postedAt": "2023-01-16T11:46:19.000Z",
@@ -1469,9 +1746,21 @@
       "title": {
         "text": "Bodum Electric Coffee Grinder $105.25 Delivered (First Online Order Only) @ Bodum",
         "parts": [
-          { "type": "normal", "text": "Bodum Electric Coffee Grinder ", "startIndex": 0, "endIndex": 30 },
-          { "type": "price", "text": "$105.25", "startIndex": 30, "endIndex": 37 },
-          { "type": "normal", "text": " Delivered (First Online Order Only) @ Bodum", "startIndex": 37, "endIndex": 81 }
+          {
+            "type": "normal",
+            "rawText": "Bodum Electric Coffee Grinder ",
+            "text": "Bodum Electric Coffee Grinder ",
+            "startIndex": 0,
+            "endIndex": 30
+          },
+          { "type": "price", "rawText": "$105.25", "text": "$105.25", "startIndex": 30, "endIndex": 37 },
+          {
+            "type": "normal",
+            "rawText": " Delivered (First Online Order Only) @ Bodum",
+            "text": " Delivered (First Online Order Only) @ Bodum",
+            "startIndex": 37,
+            "endIndex": 81
+          }
         ]
       },
       "description": "Bodum Electric Coffee Grinder, use first time online order coupon for a final price of $105.25\nOriginal coupon deal",
@@ -1480,27 +1769,29 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Bodum Electric Coffee Grinder, use first time online order coupon for a final price of ",
+            "rawText": "<p>Bodum Electric Coffee Grinder, use first time online order coupon for a final price of ",
+            "text": "Bodum Electric Coffee Grinder, use first time online order coupon for a final price of ",
             "startIndex": 322,
             "endIndex": 412
           },
-          { "type": "price", "text": "$105.25", "startIndex": 412, "endIndex": 419 },
+          { "type": "price", "rawText": "$105.25", "text": "$105.25", "startIndex": 412, "endIndex": 419 },
           {
             "type": "normal",
-            "text": "<br />\nCoffee lovers know that many things contribute to the taste of their favorite cup of joe, such as the method and temperature of brewing. But it’s the freshness of the beans that’s most important. Unlock the potential of your coffee beans with the BISTRO burr coffee grinder.</p>\n\n<p>",
+            "rawText": "<br />\nCoffee lovers know that many things contribute to the taste of their favorite cup of joe, such as the method and temperature of brewing. But it’s the freshness of the beans that’s most important. Unlock the potential of your coffee beans with the BISTRO burr coffee grinder.</p>\n\n<p>",
+            "text": "\nCoffee lovers know that many things contribute to the taste of their favorite cup of joe, such as the method and temperature of brewing. But it’s the freshness of the beans that’s most important. Unlock the potential of your coffee beans with the BISTRO burr coffee grinder.\n\n",
             "startIndex": 419,
             "endIndex": 709
           },
           {
             "type": "link",
-            "text": "<a href=\"/node/638763\" class=\"internal inline\">Original coupon deal</a>",
+            "rawText": "<a href=\"/node/638763\" class=\"internal inline\">Original coupon deal</a>",
             "startIndex": 709,
             "endIndex": 780,
             "url": "https://ozbargain.com.au/node/638763",
             "linkText": "Original coupon deal",
             "linkType": "deal"
           },
-          { "type": "normal", "text": "</p>\n", "startIndex": 780, "endIndex": 785 }
+          { "type": "normal", "rawText": "</p>\n", "text": "\n", "startIndex": 780, "endIndex": 785 }
         ]
       },
       "author": "bodumaustralia",
@@ -1526,12 +1817,19 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "Baseus 15W Qi Fast Charging Wireless Charger Pad Transparent ",
             "text": "Baseus 15W Qi Fast Charging Wireless Charger Pad Transparent ",
             "startIndex": 0,
             "endIndex": 61
           },
-          { "type": "price", "text": "$11.62", "startIndex": 61, "endIndex": 67 },
-          { "type": "normal", "text": " Delivered @ eBay baseus_officialstore_au", "startIndex": 67, "endIndex": 108 }
+          { "type": "price", "rawText": "$11.62", "text": "$11.62", "startIndex": 61, "endIndex": 67 },
+          {
+            "type": "normal",
+            "rawText": " Delivered @ eBay baseus_officialstore_au",
+            "text": " Delivered @ eBay baseus_officialstore_au",
+            "startIndex": 67,
+            "endIndex": 108
+          }
         ]
       },
       "description": "Baseus 15W Qi Fast Charging Wireless Charger Pad Transparent $11.62 @ eBay baseus_officialstore_au\nAdditional 10% off should you purchase 4 or more\nUnboxing/Review\nOriginal Coupon Deal",
@@ -1540,37 +1838,39 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Baseus 15W Qi Fast Charging Wireless Charger Pad Transparent ",
+            "rawText": "<p>Baseus 15W Qi Fast Charging Wireless Charger Pad Transparent ",
+            "text": "Baseus 15W Qi Fast Charging Wireless Charger Pad Transparent ",
             "startIndex": 358,
             "endIndex": 422
           },
-          { "type": "price", "text": "$11.62", "startIndex": 422, "endIndex": 428 },
+          { "type": "price", "rawText": "$11.62", "text": "$11.62", "startIndex": 422, "endIndex": 428 },
           {
             "type": "normal",
-            "text": " @ eBay baseus_officialstore_au</p>\n\n<p>Additional 10% off should you purchase 4 or more</p>\n\n<p>",
+            "rawText": " @ eBay baseus_officialstore_au</p>\n\n<p>Additional 10% off should you purchase 4 or more</p>\n\n<p>",
+            "text": " @ eBay baseus_officialstore_au\n\nAdditional 10% off should you purchase 4 or more\n\n",
             "startIndex": 428,
             "endIndex": 525
           },
           {
             "type": "link",
-            "text": "<a href=\"https://www.youtube.com/watch?v=ZJh5AAn1h_c\" class=\"external inline\" rel=\"noopener nofollow\">Unboxing/Review</a>",
+            "rawText": "<a href=\"https://www.youtube.com/watch?v=ZJh5AAn1h_c\" class=\"external inline\" rel=\"noopener nofollow\">Unboxing/Review</a>",
             "startIndex": 525,
             "endIndex": 646,
             "url": "https://www.youtube.com/watch?v=ZJh5AAn1h_c",
             "linkText": "Unboxing/Review",
             "linkType": "external"
           },
-          { "type": "normal", "text": "</p>\n\n<p>", "startIndex": 646, "endIndex": 655 },
+          { "type": "normal", "rawText": "</p>\n\n<p>", "text": "\n\n", "startIndex": 646, "endIndex": 655 },
           {
             "type": "link",
-            "text": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
+            "rawText": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
             "startIndex": 655,
             "endIndex": 726,
             "url": "https://ozbargain.com.au/node/750992",
             "linkText": "Original Coupon Deal",
             "linkType": "deal"
           },
-          { "type": "normal", "text": "</p>\n", "startIndex": 726, "endIndex": 731 }
+          { "type": "normal", "rawText": "</p>\n", "text": "\n", "startIndex": 726, "endIndex": 731 }
         ]
       },
       "author": "deal junkie",
@@ -1595,9 +1895,21 @@
       "title": {
         "text": "Roasted Coffee Beans 1kg + 1kg $69.99 & Free Delivery @ Agro Beans Australia",
         "parts": [
-          { "type": "normal", "text": "Roasted Coffee Beans 1kg + 1kg ", "startIndex": 0, "endIndex": 31 },
-          { "type": "price", "text": "$69.99", "startIndex": 31, "endIndex": 37 },
-          { "type": "normal", "text": " & Free Delivery @ Agro Beans Australia", "startIndex": 37, "endIndex": 76 }
+          {
+            "type": "normal",
+            "rawText": "Roasted Coffee Beans 1kg + 1kg ",
+            "text": "Roasted Coffee Beans 1kg + 1kg ",
+            "startIndex": 0,
+            "endIndex": 31
+          },
+          { "type": "price", "rawText": "$69.99", "text": "$69.99", "startIndex": 31, "endIndex": 37 },
+          {
+            "type": "normal",
+            "rawText": " & Free Delivery @ Agro Beans Australia",
+            "text": " & Free Delivery @ Agro Beans Australia",
+            "startIndex": 37,
+            "endIndex": 76
+          }
         ]
       },
       "description": "HAPPY NEW YEAR!!!!!\nBuy 2kg coffee beans @ $69.99 only. Special deals for Agro Beans coffee lovers. It includes all of our blends available.\nAll Beans are Freshly Roasted.\nEnjoy Free delivery throughout Australia.",
@@ -1606,14 +1918,16 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>HAPPY NEW YEAR!!!!!</p>\n\n<p>Buy 2kg coffee beans @ ",
+            "rawText": "<p>HAPPY NEW YEAR!!!!!</p>\n\n<p>Buy 2kg coffee beans @ ",
+            "text": "HAPPY NEW YEAR!!!!!\n\nBuy 2kg coffee beans @ ",
             "startIndex": 343,
             "endIndex": 397
           },
-          { "type": "price", "text": "$69.99", "startIndex": 397, "endIndex": 403 },
+          { "type": "price", "rawText": "$69.99", "text": "$69.99", "startIndex": 397, "endIndex": 403 },
           {
             "type": "normal",
-            "text": " only. Special deals for Agro Beans coffee lovers. It includes all of our blends available.</p>\n\n<p>All Beans are Freshly Roasted.</p>\n\n<p>Enjoy Free delivery throughout Australia.</p>\n",
+            "rawText": " only. Special deals for Agro Beans coffee lovers. It includes all of our blends available.</p>\n\n<p>All Beans are Freshly Roasted.</p>\n\n<p>Enjoy Free delivery throughout Australia.</p>\n",
+            "text": " only. Special deals for Agro Beans coffee lovers. It includes all of our blends available.\n\nAll Beans are Freshly Roasted.\n\nEnjoy Free delivery throughout Australia.\n",
             "startIndex": 403,
             "endIndex": 588
           }
@@ -1641,12 +1955,13 @@
       "title": {
         "text": "Insta360 X3 $664.68 ($648.06 with eBay Plus) Delivered @nofrillssydney eBay",
         "parts": [
-          { "type": "normal", "text": "Insta360 X3 ", "startIndex": 0, "endIndex": 12 },
-          { "type": "price", "text": "$664.68", "startIndex": 12, "endIndex": 19 },
-          { "type": "normal", "text": " (", "startIndex": 19, "endIndex": 21 },
-          { "type": "price", "text": "$648.06", "startIndex": 21, "endIndex": 28 },
+          { "type": "normal", "rawText": "Insta360 X3 ", "text": "Insta360 X3 ", "startIndex": 0, "endIndex": 12 },
+          { "type": "price", "rawText": "$664.68", "text": "$664.68", "startIndex": 12, "endIndex": 19 },
+          { "type": "normal", "rawText": " (", "text": " (", "startIndex": 19, "endIndex": 21 },
+          { "type": "price", "rawText": "$648.06", "text": "$648.06", "startIndex": 21, "endIndex": 28 },
           {
             "type": "normal",
+            "rawText": " with eBay Plus) Delivered @nofrillssydney eBay",
             "text": " with eBay Plus) Delivered @nofrillssydney eBay",
             "startIndex": 28,
             "endIndex": 75
@@ -1659,20 +1974,21 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Original price jacked but with the eBay 20%/22% off brings it back down to a somewhat reasonable level given recent pricing.</p>\n\n<p>",
+            "rawText": "<p>Original price jacked but with the eBay 20%/22% off brings it back down to a somewhat reasonable level given recent pricing.</p>\n\n<p>",
+            "text": "Original price jacked but with the eBay 20%/22% off brings it back down to a somewhat reasonable level given recent pricing.\n\n",
             "startIndex": 428,
             "endIndex": 564
           },
           {
             "type": "link",
-            "text": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
+            "rawText": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
             "startIndex": 564,
             "endIndex": 635,
             "url": "https://ozbargain.com.au/node/750992",
             "linkText": "Original Coupon Deal",
             "linkType": "deal"
           },
-          { "type": "normal", "text": "</p>\n", "startIndex": 635, "endIndex": 640 }
+          { "type": "normal", "rawText": "</p>\n", "text": "\n", "startIndex": 635, "endIndex": 640 }
         ]
       },
       "author": "Peon",
@@ -1700,12 +2016,19 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "[eBay Plus] Ardbeg Distillery Uigeadail 700ml ",
             "text": "[eBay Plus] Ardbeg Distillery Uigeadail 700ml ",
             "startIndex": 0,
             "endIndex": 46
           },
-          { "type": "price", "text": "$124.72", "startIndex": 46, "endIndex": 53 },
-          { "type": "normal", "text": " Delivered @ Boozebud eBay", "startIndex": 53, "endIndex": 79 }
+          { "type": "price", "rawText": "$124.72", "text": "$124.72", "startIndex": 46, "endIndex": 53 },
+          {
+            "type": "normal",
+            "rawText": " Delivered @ Boozebud eBay",
+            "text": " Delivered @ Boozebud eBay",
+            "startIndex": 53,
+            "endIndex": 79
+          }
         ]
       },
       "description": "One of my keepers - excellent dram at a reasonable price\nIf you're like many and enjoy a little something sweet after a good meal Ardbeg Distillery Uigeadail will have you leaving the table early instead of waiting for dessert. It has the deep smokey peatiness that you expect in an Islay single malt scotch but is more reminiscent of a Christmas pudding cooked over an open fire. Aging in old ex-Sherry casks gives it raisiny tones with edges of chocolate fudge topped with caramel, roasted walnuts and currants and it finishes with sweet tingly spices, olives and honey barbecue. A sweeter symphony was never written.\nA special vatting that marries Ardbeg’s traditional deep, smoky notes with luscious, raisiny tones of old ex-Sherry casks. It's non chill-filtered at high strength, which retains maximum flavour and gives more body and added depth. In 2009, Jim Murray’s Whisky Bible named Ardbeg Uigeadail ‘World Whisky of the Year’ – in praise of its “utter silky brilliance” and “complexity on a level only a handful of distilleries in the world can even dream of reaching.”\nRegion: Islay, Scotland\nOriginal Coupon Deal",
@@ -1714,27 +2037,29 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>One of my keepers - excellent dram at a reasonable price</p>\n\n",
+            "rawText": "<p>One of my keepers - excellent dram at a reasonable price</p>\n\n",
+            "text": "One of my keepers - excellent dram at a reasonable price\n\n",
             "startIndex": 418,
             "endIndex": 483
           },
           {
             "type": "blockquote",
-            "text": "<blockquote>\n  <p>If you&#039;re like many and enjoy a little something sweet after a good meal Ardbeg Distillery Uigeadail will have you leaving the table early instead of waiting for dessert. It has the deep smokey peatiness that you expect in an Islay single malt scotch but is more reminiscent of a Christmas pudding cooked over an open fire. Aging in old ex-Sherry casks gives it raisiny tones with edges of chocolate fudge topped with caramel, roasted walnuts and currants and it finishes with sweet tingly spices, olives and honey barbecue. A sweeter symphony was never written.</p>\n  \n  <p>A special vatting that marries Ardbeg’s traditional deep, smoky notes with luscious, raisiny tones of old ex-Sherry casks. It&#039;s non chill-filtered at high strength, which retains maximum flavour and gives more body and added depth. In 2009, Jim Murray’s Whisky Bible named Ardbeg Uigeadail ‘World Whisky of the Year’ – in praise of its “utter silky brilliance” and “complexity on a level only a handful of distilleries in the world can even dream of reaching.”</p>\n  \n  <p>Region: Islay, Scotland<br />\n  Style: Single Malt Whiskys, Whiskys<br />\n  Size: 700mL<br />\n  Alcohol: 54.2%</p>\n</blockquote>",
+            "rawText": "<blockquote>\n  <p>If you&#039;re like many and enjoy a little something sweet after a good meal Ardbeg Distillery Uigeadail will have you leaving the table early instead of waiting for dessert. It has the deep smokey peatiness that you expect in an Islay single malt scotch but is more reminiscent of a Christmas pudding cooked over an open fire. Aging in old ex-Sherry casks gives it raisiny tones with edges of chocolate fudge topped with caramel, roasted walnuts and currants and it finishes with sweet tingly spices, olives and honey barbecue. A sweeter symphony was never written.</p>\n  \n  <p>A special vatting that marries Ardbeg’s traditional deep, smoky notes with luscious, raisiny tones of old ex-Sherry casks. It&#039;s non chill-filtered at high strength, which retains maximum flavour and gives more body and added depth. In 2009, Jim Murray’s Whisky Bible named Ardbeg Uigeadail ‘World Whisky of the Year’ – in praise of its “utter silky brilliance” and “complexity on a level only a handful of distilleries in the world can even dream of reaching.”</p>\n  \n  <p>Region: Islay, Scotland<br />\n  Style: Single Malt Whiskys, Whiskys<br />\n  Size: 700mL<br />\n  Alcohol: 54.2%</p>\n</blockquote>",
+            "text": "\n  If you&#039;re like many and enjoy a little something sweet after a good meal Ardbeg Distillery Uigeadail will have you leaving the table early instead of waiting for dessert. It has the deep smokey peatiness that you expect in an Islay single malt scotch but is more reminiscent of a Christmas pudding cooked over an open fire. Aging in old ex-Sherry casks gives it raisiny tones with edges of chocolate fudge topped with caramel, roasted walnuts and currants and it finishes with sweet tingly spices, olives and honey barbecue. A sweeter symphony was never written.\n  \n  A special vatting that marries Ardbeg’s traditional deep, smoky notes with luscious, raisiny tones of old ex-Sherry casks. It&#039;s non chill-filtered at high strength, which retains maximum flavour and gives more body and added depth. In 2009, Jim Murray’s Whisky Bible named Ardbeg Uigeadail ‘World Whisky of the Year’ – in praise of its “utter silky brilliance” and “complexity on a level only a handful of distilleries in the world can even dream of reaching.”\n  \n  Region: Islay, Scotland\n  Style: Single Malt Whiskys, Whiskys\n  Size: 700mL\n  Alcohol: 54.2%\n",
             "startIndex": 483,
             "endIndex": 1687
           },
-          { "type": "normal", "text": "\n\n<p>", "startIndex": 1687, "endIndex": 1692 },
+          { "type": "normal", "rawText": "\n\n<p>", "text": "\n\n", "startIndex": 1687, "endIndex": 1692 },
           {
             "type": "link",
-            "text": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
+            "rawText": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
             "startIndex": 1692,
             "endIndex": 1763,
             "url": "https://ozbargain.com.au/node/750992",
             "linkText": "Original Coupon Deal",
             "linkType": "deal"
           },
-          { "type": "normal", "text": "</p>\n", "startIndex": 1763, "endIndex": 1768 }
+          { "type": "normal", "rawText": "</p>\n", "text": "\n", "startIndex": 1763, "endIndex": 1768 }
         ]
       },
       "author": "Optimus Prime",
@@ -1763,6 +2088,7 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "Recharge before The 4th of April and Receive Uncapped Speeds for up to 12 Months @ Boost Mobile",
             "text": "Recharge before The 4th of April and Receive Uncapped Speeds for up to 12 Months @ Boost Mobile",
             "startIndex": 0,
             "endIndex": 95
@@ -1775,7 +2101,8 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>I noticed on the Boost website that it now states that 5g will now be permanent - the stipulation is that speeds may be limited depending on what recharge you have.</p>\n\n<p>The website also states that if you have a current recharge, your speeds will be uncapped until your next recharge. So, if you&#039;re thinking about activating or recharging your Boost account, it might be a good idea to do so before the 4th of April since that&#039;s when the capped speeds kicks in.</p>\n",
+            "rawText": "<p>I noticed on the Boost website that it now states that 5g will now be permanent - the stipulation is that speeds may be limited depending on what recharge you have.</p>\n\n<p>The website also states that if you have a current recharge, your speeds will be uncapped until your next recharge. So, if you&#039;re thinking about activating or recharging your Boost account, it might be a good idea to do so before the 4th of April since that&#039;s when the capped speeds kicks in.</p>\n",
+            "text": "I noticed on the Boost website that it now states that 5g will now be permanent - the stipulation is that speeds may be limited depending on what recharge you have.\n\nThe website also states that if you have a current recharge, your speeds will be uncapped until your next recharge. So, if you&#039;re thinking about activating or recharging your Boost account, it might be a good idea to do so before the 4th of April since that&#039;s when the capped speeds kicks in.\n",
             "startIndex": 341,
             "endIndex": 824
           }
@@ -1804,15 +2131,17 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "Redeem Shure SM7B With Purchase of  2 x KRK V6 ",
             "text": "Redeem Shure SM7B With Purchase of  2 x KRK V6 ",
             "startIndex": 0,
             "endIndex": 47
           },
-          { "type": "price", "text": "$1650", "startIndex": 47, "endIndex": 52 },
-          { "type": "normal", "text": " or V8 ", "startIndex": 52, "endIndex": 59 },
-          { "type": "price", "text": "$1980", "startIndex": 59, "endIndex": 64 },
+          { "type": "price", "rawText": "$1650", "text": "$1650", "startIndex": 47, "endIndex": 52 },
+          { "type": "normal", "rawText": " or V8 ", "text": " or V8 ", "startIndex": 52, "endIndex": 59 },
+          { "type": "price", "rawText": "$1980", "text": "$1980", "startIndex": 59, "endIndex": 64 },
           {
             "type": "normal",
+            "rawText": " (or Shure MV7 + 2 x KRK V4) + Delivery @ VideoPro",
             "text": " (or Shure MV7 + 2 x KRK V4) + Delivery @ VideoPro",
             "startIndex": 64,
             "endIndex": 114
@@ -1823,45 +2152,65 @@
       "partedDescription": {
         "text": "<div style=\"float:right;margin:0 0 1ex 1ex\"><a href=\"/node/751519\" rel=\"noopener nofollow\" title=\"Link: https://www.videopro.com.au/promotions/generic-sales/krkmicrophoneredemption/\"><img src=\"https://files.ozbargain.com.au/n/19/751519.jpg?h=08f057c9\" alt=\"Redeem Shure SM7B With Purchase of  2 x KRK V6 $1650 or V8 $1980 (or Shure MV7 + 2 x KRK V4) + Delivery @ VideoPro\"/></a></div><p>VideoPro has the V6 for $825 each and V8 $990 each and you can claim the free Shure mic via redemption.</p>\n\n<p>From <a href=\"https://www.jands.com.au/krk-v-series-free-microphone-redemption\" class=\"external inline\" rel=\"noopener nofollow\">Jands website</a>:</p>\n\n<blockquote>\n  <ol>\n  <li>Purchase a pair of KRK V4 and receive a FREE Shure MV7 Microphone OR Purchase a pair of KRK V6 or V8 and receive a FREE Shure SM7B Microphone. Purchase should be made from a KRK Australian retailer (excluding Amazon) between 9.00am AEST, 16/01/23 - 11:59pm AEST, 16/03/23. </li>\n  <li>Complete &amp; submit the claim form below, no later than 31/03/23.</li>\n  <li>You must include proof of purchase in your Microphone redemption claim (a copy of purchase or receipt).</li>\n  <li>Your purchase must be paid for in full. Layby &amp; rental purchases are not accepted.</li>\n  <li>You must agree to the Terms &amp; Conditions on the online redemption form.</li>\n  </ol>\n</blockquote>\n\n<p>Came via Videopro ad <a href=\"https://www.videopro.com.au/promotions/generic-sales/krkmicrophoneredemption\" class=\"external\" rel=\"noopener nofollow\">https://www.videopro.com.au/promotions/generic-sales/krkmicr...</a>, e.g. $1650 + Delivery for a pair of KRK V6.</p>\n",
         "parts": [
-          { "type": "normal", "text": "<p>VideoPro has the V6 for ", "startIndex": 384, "endIndex": 411 },
-          { "type": "price", "text": "$825", "startIndex": 411, "endIndex": 415 },
-          { "type": "normal", "text": " each and V8 ", "startIndex": 415, "endIndex": 428 },
-          { "type": "price", "text": "$990", "startIndex": 428, "endIndex": 432 },
           {
             "type": "normal",
-            "text": " each and you can claim the free Shure mic via redemption.</p>\n\n<p>From ",
+            "rawText": "<p>VideoPro has the V6 for ",
+            "text": "VideoPro has the V6 for ",
+            "startIndex": 384,
+            "endIndex": 411
+          },
+          { "type": "price", "rawText": "$825", "text": "$825", "startIndex": 411, "endIndex": 415 },
+          { "type": "normal", "rawText": " each and V8 ", "text": " each and V8 ", "startIndex": 415, "endIndex": 428 },
+          { "type": "price", "rawText": "$990", "text": "$990", "startIndex": 428, "endIndex": 432 },
+          {
+            "type": "normal",
+            "rawText": " each and you can claim the free Shure mic via redemption.</p>\n\n<p>From ",
+            "text": " each and you can claim the free Shure mic via redemption.\n\nFrom ",
             "startIndex": 432,
             "endIndex": 504
           },
           {
             "type": "link",
-            "text": "<a href=\"https://www.jands.com.au/krk-v-series-free-microphone-redemption\" class=\"external inline\" rel=\"noopener nofollow\">Jands website</a>",
+            "rawText": "<a href=\"https://www.jands.com.au/krk-v-series-free-microphone-redemption\" class=\"external inline\" rel=\"noopener nofollow\">Jands website</a>",
             "startIndex": 504,
             "endIndex": 644,
             "url": "https://www.jands.com.au/krk-v-series-free-microphone-redemption",
             "linkText": "Jands website",
             "linkType": "external"
           },
-          { "type": "normal", "text": ":</p>\n\n", "startIndex": 644, "endIndex": 651 },
+          { "type": "normal", "rawText": ":</p>\n\n", "text": ":\n\n", "startIndex": 644, "endIndex": 651 },
           {
             "type": "blockquote",
-            "text": "<blockquote>\n  <ol>\n  <li>Purchase a pair of KRK V4 and receive a FREE Shure MV7 Microphone OR Purchase a pair of KRK V6 or V8 and receive a FREE Shure SM7B Microphone. Purchase should be made from a KRK Australian retailer (excluding Amazon) between 9.00am AEST, 16/01/23 - 11:59pm AEST, 16/03/23. </li>\n  <li>Complete &amp; submit the claim form below, no later than 31/03/23.</li>\n  <li>You must include proof of purchase in your Microphone redemption claim (a copy of purchase or receipt).</li>\n  <li>Your purchase must be paid for in full. Layby &amp; rental purchases are not accepted.</li>\n  <li>You must agree to the Terms &amp; Conditions on the online redemption form.</li>\n  </ol>\n</blockquote>",
+            "rawText": "<blockquote>\n  <ol>\n  <li>Purchase a pair of KRK V4 and receive a FREE Shure MV7 Microphone OR Purchase a pair of KRK V6 or V8 and receive a FREE Shure SM7B Microphone. Purchase should be made from a KRK Australian retailer (excluding Amazon) between 9.00am AEST, 16/01/23 - 11:59pm AEST, 16/03/23. </li>\n  <li>Complete &amp; submit the claim form below, no later than 31/03/23.</li>\n  <li>You must include proof of purchase in your Microphone redemption claim (a copy of purchase or receipt).</li>\n  <li>Your purchase must be paid for in full. Layby &amp; rental purchases are not accepted.</li>\n  <li>You must agree to the Terms &amp; Conditions on the online redemption form.</li>\n  </ol>\n</blockquote>",
+            "text": "\n  \n  Purchase a pair of KRK V4 and receive a FREE Shure MV7 Microphone OR Purchase a pair of KRK V6 or V8 and receive a FREE Shure SM7B Microphone. Purchase should be made from a KRK Australian retailer (excluding Amazon) between 9.00am AEST, 16/01/23 - 11:59pm AEST, 16/03/23. \n  Complete &amp; submit the claim form below, no later than 31/03/23.\n  You must include proof of purchase in your Microphone redemption claim (a copy of purchase or receipt).\n  Your purchase must be paid for in full. Layby &amp; rental purchases are not accepted.\n  You must agree to the Terms &amp; Conditions on the online redemption form.\n  \n",
             "startIndex": 651,
             "endIndex": 1356
           },
-          { "type": "normal", "text": "\n\n<p>Came via Videopro ad ", "startIndex": 1356, "endIndex": 1382 },
+          {
+            "type": "normal",
+            "rawText": "\n\n<p>Came via Videopro ad ",
+            "text": "\n\nCame via Videopro ad ",
+            "startIndex": 1356,
+            "endIndex": 1382
+          },
           {
             "type": "link",
-            "text": "<a href=\"https://www.videopro.com.au/promotions/generic-sales/krkmicrophoneredemption\" class=\"external\" rel=\"noopener nofollow\">https://www.videopro.com.au/promotions/generic-sales/krkmicr...</a>",
+            "rawText": "<a href=\"https://www.videopro.com.au/promotions/generic-sales/krkmicrophoneredemption\" class=\"external\" rel=\"noopener nofollow\">https://www.videopro.com.au/promotions/generic-sales/krkmicr...</a>",
             "startIndex": 1382,
             "endIndex": 1577,
             "url": "https://www.videopro.com.au/promotions/generic-sales/krkmicrophoneredemption",
             "linkText": "https://www.videopro.com.au/promotions/generic-sales/krkmicr...",
             "linkType": "external"
           },
-          { "type": "normal", "text": ", e.g. ", "startIndex": 1577, "endIndex": 1584 },
-          { "type": "price", "text": "$1650", "startIndex": 1584, "endIndex": 1589 },
-          { "type": "normal", "text": " + Delivery for a pair of KRK V6.</p>\n", "startIndex": 1589, "endIndex": 1627 }
+          { "type": "normal", "rawText": ", e.g. ", "text": ", e.g. ", "startIndex": 1577, "endIndex": 1584 },
+          { "type": "price", "rawText": "$1650", "text": "$1650", "startIndex": 1584, "endIndex": 1589 },
+          {
+            "type": "normal",
+            "rawText": " + Delivery for a pair of KRK V6.</p>\n",
+            "text": " + Delivery for a pair of KRK V6.\n",
+            "startIndex": 1589,
+            "endIndex": 1627
+          }
         ]
       },
       "author": "jeozb",
@@ -1886,12 +2235,19 @@
         "parts": [
           {
             "type": "normal",
+            "rawText": "Sea to Summit Camp Plus SI Sleeping Mat, Reg. Wide Rectangle ",
             "text": "Sea to Summit Camp Plus SI Sleeping Mat, Reg. Wide Rectangle ",
             "startIndex": 0,
             "endIndex": 61
           },
-          { "type": "price", "text": "$139.90", "startIndex": 61, "endIndex": 68 },
-          { "type": "normal", "text": " delivered (17% off) @ Snowys", "startIndex": 68, "endIndex": 97 }
+          { "type": "price", "rawText": "$139.90", "text": "$139.90", "startIndex": 61, "endIndex": 68 },
+          {
+            "type": "normal",
+            "rawText": " delivered (17% off) @ Snowys",
+            "text": " delivered (17% off) @ Snowys",
+            "startIndex": 68,
+            "endIndex": 97
+          }
         ]
       },
       "description": "Your fat ass will be floating in the air and not touching the ground. Priceless.\nWHAT ARE THE DIFFERENCES BETWEEN THE CAMP PLUS SI AND THE COMFORT PLUS SI MATS?\nWith versatility and comfort paramount all year round, you can’t go wrong with the Camp Plus SI Mat from Sea to Summit.\nASTM F3340-18 R-Value: 4.3\n7.5cm of height\nDesigned for year-round use\nAbrasion-resistant 75D polyester with laminated TPU\nMulti-functional high flow rate reversible valve for easy inflation/deflation\nHorizontal delta coring reduces the bulk and weight\nPillowLock ™ system to keep separately available pillow secure\nSelf-adhesive puncture repair kit included",
@@ -1900,13 +2256,14 @@
         "parts": [
           {
             "type": "normal",
-            "text": "<p>Your fat ass will be floating in the air and not touching the ground. Priceless.</p>\n\n<p>",
+            "rawText": "<p>Your fat ass will be floating in the air and not touching the ground. Priceless.</p>\n\n<p>",
+            "text": "Your fat ass will be floating in the air and not touching the ground. Priceless.\n\n",
             "startIndex": 341,
             "endIndex": 433
           },
           {
             "type": "link",
-            "text": "<a href=\"https://support.seatosummitusa.com/hc/en-us/articles/5429907241236-What-are-the-differences-between-the-Camp-Plus-SI-and-the-Comfort-Plus-SI-mats-\" class=\"external inline\" rel=\"noopener nofollow\">WHAT ARE THE DIFFERENCES BETWEEN THE CAMP PLUS SI AND THE COMFORT PLUS SI MATS?</a>",
+            "rawText": "<a href=\"https://support.seatosummitusa.com/hc/en-us/articles/5429907241236-What-are-the-differences-between-the-Camp-Plus-SI-and-the-Comfort-Plus-SI-mats-\" class=\"external inline\" rel=\"noopener nofollow\">WHAT ARE THE DIFFERENCES BETWEEN THE CAMP PLUS SI AND THE COMFORT PLUS SI MATS?</a>",
             "startIndex": 433,
             "endIndex": 721,
             "url": "https://support.seatosummitusa.com/hc/en-us/articles/5429907241236-What-are-the-differences-between-the-Camp-Plus-SI-and-the-Comfort-Plus-SI-mats-",
@@ -1915,7 +2272,8 @@
           },
           {
             "type": "normal",
-            "text": "</p>\n\n<p>With versatility and comfort paramount all year round, you can’t go wrong with the Camp Plus SI Mat from Sea to Summit.</p>\n\n<ul>\n<li>ASTM F3340-18 R-Value: 4.3</li>\n<li><strong>7.5cm of height</strong></li>\n<li>Designed for year-round use</li>\n<li>Abrasion-resistant 75D polyester with laminated TPU</li>\n<li>Multi-functional high flow rate reversible valve for easy inflation/deflation</li>\n<li>Horizontal delta coring reduces the bulk and weight</li>\n<li>PillowLock ™ system to keep separately available pillow secure</li>\n<li>Self-adhesive puncture repair kit included</li>\n</ul>\n",
+            "rawText": "</p>\n\n<p>With versatility and comfort paramount all year round, you can’t go wrong with the Camp Plus SI Mat from Sea to Summit.</p>\n\n<ul>\n<li>ASTM F3340-18 R-Value: 4.3</li>\n<li><strong>7.5cm of height</strong></li>\n<li>Designed for year-round use</li>\n<li>Abrasion-resistant 75D polyester with laminated TPU</li>\n<li>Multi-functional high flow rate reversible valve for easy inflation/deflation</li>\n<li>Horizontal delta coring reduces the bulk and weight</li>\n<li>PillowLock ™ system to keep separately available pillow secure</li>\n<li>Self-adhesive puncture repair kit included</li>\n</ul>\n",
+            "text": "\n\nWith versatility and comfort paramount all year round, you can’t go wrong with the Camp Plus SI Mat from Sea to Summit.\n\n\nASTM F3340-18 R-Value: 4.3\n7.5cm of height\nDesigned for year-round use\nAbrasion-resistant 75D polyester with laminated TPU\nMulti-functional high flow rate reversible valve for easy inflation/deflation\nHorizontal delta coring reduces the bulk and weight\nPillowLock ™ system to keep separately available pillow secure\nSelf-adhesive puncture repair kit included\n\n",
             "startIndex": 721,
             "endIndex": 1314
           }
@@ -1942,19 +2300,31 @@
       "title": {
         "text": "Lenovo 510 FHD Webcam $71.20 Delivered @ Lenovo Store eBay",
         "parts": [
-          { "type": "normal", "text": "Lenovo 510 FHD Webcam ", "startIndex": 0, "endIndex": 22 },
-          { "type": "price", "text": "$71.20", "startIndex": 22, "endIndex": 28 },
-          { "type": "normal", "text": " Delivered @ Lenovo Store eBay", "startIndex": 28, "endIndex": 58 }
+          {
+            "type": "normal",
+            "rawText": "Lenovo 510 FHD Webcam ",
+            "text": "Lenovo 510 FHD Webcam ",
+            "startIndex": 0,
+            "endIndex": 22
+          },
+          { "type": "price", "rawText": "$71.20", "text": "$71.20", "startIndex": 22, "endIndex": 28 },
+          {
+            "type": "normal",
+            "rawText": " Delivered @ Lenovo Store eBay",
+            "text": " Delivered @ Lenovo Store eBay",
+            "startIndex": 28,
+            "endIndex": 58
+          }
         ]
       },
       "description": "Original Coupon Deal\nThe cheapest windows hello solution!\nFrom now on I don't have to enter my password to access win10 anymore. LOL",
       "partedDescription": {
         "text": "<div style=\"float:right;margin:0 0 1ex 1ex\"><a href=\"/node/751517\" rel=\"noopener nofollow\" title=\"Link: https://www.ebay.com.au/itm/404022634182\"><img src=\"https://files.ozbargain.com.au/n/17/751517.jpg?h=dacae4e2\" alt=\"Lenovo 510 FHD Webcam $71.20 Delivered @ Lenovo Store eBay\"/></a></div><p><a href=\"/node/750756\" class=\"internal inline\">Original Coupon Deal</a></p>\n\n<p>The cheapest windows hello solution!</p>\n\n<p>From now on I don&#039;t have to enter my password to access win10 anymore. LOL</p>\n",
         "parts": [
-          { "type": "normal", "text": "<p>", "startIndex": 291, "endIndex": 294 },
+          { "type": "normal", "rawText": "<p>", "text": "", "startIndex": 291, "endIndex": 294 },
           {
             "type": "link",
-            "text": "<a href=\"/node/750756\" class=\"internal inline\">Original Coupon Deal</a>",
+            "rawText": "<a href=\"/node/750756\" class=\"internal inline\">Original Coupon Deal</a>",
             "startIndex": 294,
             "endIndex": 365,
             "url": "https://ozbargain.com.au/node/750756",
@@ -1963,7 +2333,8 @@
           },
           {
             "type": "normal",
-            "text": "</p>\n\n<p>The cheapest windows hello solution!</p>\n\n<p>From now on I don&#039;t have to enter my password to access win10 anymore. LOL</p>\n",
+            "rawText": "</p>\n\n<p>The cheapest windows hello solution!</p>\n\n<p>From now on I don&#039;t have to enter my password to access win10 anymore. LOL</p>\n",
+            "text": "\n\nThe cheapest windows hello solution!\n\nFrom now on I don&#039;t have to enter my password to access win10 anymore. LOL\n",
             "startIndex": 365,
             "endIndex": 503
           }

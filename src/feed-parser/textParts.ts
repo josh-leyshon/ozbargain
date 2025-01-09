@@ -15,7 +15,7 @@ type LinkTextPart = {
 type TextPart =
   & {
     /** Raw text of this Part. */
-    text: string;
+    rawText: string;
     /** Index of the entire string that this Part starts on, inclusive. */
     startIndex: number;
     /** Index of the entire string that this Part ends on, exclusive. */
@@ -23,13 +23,15 @@ type TextPart =
   }
   & ({
     type: Exclude<TextPartType, 'link'>;
+    /** Text with HTML tags stripped out. */
+    text: string;
   } | LinkTextPart);
 
 /**
  * Text that has been parsed into interesting parts, in the order they appeared.
  */
 export type PartedText = {
-  text: string;
+  rawText: string;
   parts: TextPart[];
 };
 
@@ -87,7 +89,8 @@ export function partText(input: string): PartedText {
 
     const textPartBeforeThisMatch = {
       type: 'normal',
-      text: input.slice(endIndexOfLastMatch, matchStartIndex),
+      rawText: input.slice(endIndexOfLastMatch, matchStartIndex),
+      text: stripHtml(input.slice(endIndexOfLastMatch, matchStartIndex)),
       startIndex: endIndexOfLastMatch,
       endIndex: matchStartIndex,
     } satisfies TextPart;
@@ -110,7 +113,8 @@ export function partText(input: string): PartedText {
 
   const remainingTextPart = {
     type: 'normal',
-    text: input.slice(endIndexOfLastMatch),
+    rawText: input.slice(endIndexOfLastMatch),
+    text: stripHtml(input.slice(endIndexOfLastMatch)),
     startIndex: endIndexOfLastMatch,
     endIndex: input.length,
   } satisfies TextPart;
@@ -118,7 +122,7 @@ export function partText(input: string): PartedText {
   parts.push(remainingTextPart);
 
   return {
-    text: input,
+    rawText: input,
     parts,
   };
 }
@@ -134,7 +138,7 @@ function parsePart(
       return linkParts
         ? {
           type,
-          text: match[0],
+          rawText: match[0],
           startIndex: indexes.start,
           endIndex: indexes.end,
           ...linkParts,
@@ -145,7 +149,8 @@ function parsePart(
     case 'blockquote':
       return {
         type,
-        text: match[0],
+        rawText: match[0],
+        text: stripHtml(match[0]),
         startIndex: indexes.start,
         endIndex: indexes.end,
       };
@@ -174,4 +179,8 @@ function parseLink(text: string): Omit<LinkTextPart, 'type'> | undefined {
     linkText,
     linkType,
   };
+}
+
+function stripHtml(text: string): string {
+  return text.replaceAll(/(<([^>]+)>)/g, '');
 }
