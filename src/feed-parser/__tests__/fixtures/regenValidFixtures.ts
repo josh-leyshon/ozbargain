@@ -9,7 +9,8 @@ import { join } from 'node:path';
 import { convertToOzbargainFeed } from '../../parser';
 import { parseRssFeedFromString, validFixtures } from './getFixtures';
 
-const VALID_FIXTURES_DIR = join(import.meta.dirname, 'valid');
+// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+const VALID_FIXTURES_DIR = join(import.meta.dirname ?? __dirname, 'valid');
 
 // Will overwrite any existing file.
 async function writeFileToDisk(

@@ -2,7 +2,7 @@ import type { JestNativeMatchers } from '@testing-library/jest-native/extend-exp
 import { Platform } from 'react-native';
 import type { ReactTestInstance } from 'react-test-renderer';
 import { assert } from '../../../assert';
-import type { ButtonColours } from '../button';
+import type { ButtonColour } from '../button';
 import { buttonColours } from '../button';
 
 type ToHaveStyleParam = Parameters<JestNativeMatchers<void>['toHaveStyle']>[0];
@@ -14,7 +14,7 @@ type ToHaveStyleParam = Parameters<JestNativeMatchers<void>['toHaveStyle']>[0];
  */
 export function expectButtonColour(
   buttonTextElement: ReactTestInstance,
-  colour: ButtonColours,
+  colour: ButtonColour,
 ): void {
   const button = Platform.select({
     ios: buttonTextElement,

@@ -1,40 +1,40 @@
-import { Button as ReactNativeButton, StyleSheet, View } from 'react-native';
 import type { ButtonProps as ReactNativeButtonProps } from 'react-native';
+import { Button as ReactNativeButton } from 'react-native';
+import { colours } from '../../constants/colours';
+import { Column } from '../../layout/flex';
 
 /** Exported for testing. */
 export const buttonColours = {
-  orange: '#ffbd59',
-  green: '#82f152',
-  lightGreen: '#a0ff77',
-  veryLightGreen: '#aaff85',
-  red: '#f15e5e',
-  lightRed: '#ffb7b7',
-  veryLightRed: '#ffcfcf',
+  primary: colours.primary,
+  secondary: colours.secondary,
 } as const;
 
-export type ButtonColours = keyof typeof buttonColours;
+export type ButtonColour = keyof typeof buttonColours;
 
 type ButtonProps = {
   title: ReactNativeButtonProps['title'];
   onPress: ReactNativeButtonProps['onPress'];
-  color: ButtonColours;
+  colour: ButtonColour;
+  /**
+   * Whether the button width should grow to fit it's content
+   * when sharing a flex container with other buttons.
+   * @default false
+   */
+  fitContent?: boolean;
 };
 
-export function Button({ color, title, onPress }: ButtonProps): React.JSX.Element {
-  const buttonColour = buttonColours[color];
+export function Button({ title, onPress, colour, fitContent = false }: ButtonProps): React.JSX.Element {
+  const buttonColour = buttonColours[colour];
   return (
-    // TODO: Could use a custom Pressable component to add styles, instead of a Button wrapped in a View.
-    <View style={styles.container}>
+    // Buttons are wrapped in a flex column so they can always expand horizontally
+    // to the width of their container.
+    <Column
+      {...(fitContent && {
+        grow: 1,
+        shrink: 1,
+      })}
+    >
       <ReactNativeButton title={title} onPress={onPress} color={buttonColour} />
-    </View>
+    </Column>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    // Buttons should expand to fill available container space by default.
-    // Larger buttons are better for mobile touch targets.
-    flexBasis: 1,
-    flexGrow: 1,
-  },
-});

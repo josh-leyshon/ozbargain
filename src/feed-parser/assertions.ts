@@ -7,13 +7,13 @@ type FeedMeta = {
 };
 
 type FeedItem = {
+  id: string;
   title: string;
   content: string;
   /** Has HTML stripped. */
   contentSnippet: string;
   creator: string;
   isoDate: Date;
-  id: number;
   link: string;
   comments: string;
   categories: {
@@ -72,12 +72,11 @@ export function assertAndParseFeedItem(
   assert(typeof item.comments === 'string');
 
   assert(item.guid != null);
-  const idStr = item.guid.match(/\d+/)?.[0];
+  const id = item.guid.match(/\d+/)?.[0];
   assert(
-    idStr != null,
+    id != null,
     `Could not extract deal number in guid string: ${item.guid}`,
   );
-  const id = Number.parseInt(idStr, 10);
 
   // Workaround to remove the incorrect `string[]` type from `item.categories`,
   // before asserting its correct type.

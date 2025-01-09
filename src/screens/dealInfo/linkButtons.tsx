@@ -1,11 +1,10 @@
-import { Platform, StyleSheet, View } from 'react-native';
 import { Button } from '../../base/components/button/button';
 import { Column, Row } from '../../base/layout/flex';
 
 type LinkButtonProps = {
-  onPressGoToDeal: () => Promise<void>;
-  onPressOpenOnOzbargain: () => Promise<void>;
-  onPressShare: () => Promise<void>;
+  onPressGoToDeal: () => void;
+  onPressOpenOnOzbargain: () => void;
+  onPressShare: () => void;
 };
 
 export function LinkButtons({
@@ -14,29 +13,17 @@ export function LinkButtons({
   onPressShare,
 }: LinkButtonProps): React.JSX.Element {
   return (
-    <Column gap='large'>
-      <Button title='Go to deal' color='orange' onPress={onPressGoToDeal} />
-      <Row gap='large'>
-        <View style={styles.buttonContainer}>
-          <Button
-            title='Open on Ozbargain'
-            color='orange'
-            onPress={onPressOpenOnOzbargain}
-          />
-        </View>
-        {Platform.OS !== 'web' && (
-          <View style={styles.buttonContainer}>
-            <Button title='Share' color='orange' onPress={onPressShare} />
-          </View>
-        )}
+    <Column gap='medium'>
+      <Button title='Go to deal' colour='primary' onPress={onPressGoToDeal} />
+      <Row gap='medium'>
+        <Button
+          title='Open on Ozbargain'
+          colour='primary'
+          onPress={onPressOpenOnOzbargain}
+          fitContent
+        />
+        <Button title='Share' colour='primary' onPress={onPressShare} fitContent />
       </Row>
     </Column>
   );
 }
-
-const styles = StyleSheet.create({
-  buttonContainer: {
-    flexBasis: 1,
-    flexGrow: 1,
-  },
-});

@@ -1,12 +1,19 @@
-import { openURL } from 'expo-linking';
-import { ScrollView, Share, StyleSheet } from 'react-native';
+import type React from 'react';
+import { Platform, ScrollView, Share, StyleSheet } from 'react-native';
+import { Card } from '../../base/components/card/card';
 import { sizes } from '../../base/constants/sizes';
 import { Column } from '../../base/layout/flex';
+import { openLink } from '../../base/links/openLink';
 import { useDealsFeed } from '../../global-state/dealsFeed';
+import { DealCardInfo } from '../dealsFeed/dealCard/dealCard';
+import { DealMeta, makeDefaultExpiryFormatter } from '../dealsFeed/dealCard/dealMeta';
 import type { DealInfoScreenProps } from '../navigationTypes';
-import { DealHeader } from './dealHeader';
-import { Description } from './description';
 import { LinkButtons } from './linkButtons';
+import { Description } from './renderDescription';
+
+function shareWeb(): void {
+  console.warn('Sharing is not available on web');
+}
 
 export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Element {
   const { dealId } = route.params;
@@ -18,36 +25,30 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
     );
   }
 
-  const {
-    title,
-    description,
-    author,
-    thumbnailUrl,
-    postedAt,
-    expiresAt,
-    votes,
-    links,
-  } = dealsFeed.getDealById(dealId);
+  const deal = dealsFeed.getDealById(dealId);
+
+  const onPressShare = Platform.OS === 'web' ? shareWeb : async () => {
+    await Share.share({ message: deal.links.deal });
+  };
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Column gap='large'>
-        <DealHeader
-          title={title}
-          imageUrl={thumbnailUrl}
-          author={author}
-          postedAt={postedAt}
-          expiresAt={expiresAt}
-          votes={votes}
-        />
-        <LinkButtons
-          onPressGoToDeal={() => openLink(links.productPage)}
-          onPressOpenOnOzbargain={() => openLink(links.deal)}
-          onPressShare={async () => {
-            await Share.share({ message: links.deal });
-          }}
-        />
-        <Description description={description} />
+      <Column gap='medium'>
+        <Card gap='large' padding='large'>
+          <DealCardInfo
+            title={deal.title}
+            imageUrl={deal.thumbnailUrl}
+            dealMeta={<DealMeta {...deal} expiryFormatter={makeDefaultExpiryFormatter(new Date())} />}
+          />
+          <LinkButtons
+            onPressGoToDeal={() => openLink(deal.links.productPage)}
+            onPressOpenOnOzbargain={() => openLink(deal.links.deal)}
+            onPressShare={onPressShare}
+          />
+        </Card>
+        <Card padding='large'>
+          <Description description={deal.description} />
+        </Card>
       </Column>
     </ScrollView>
   );
@@ -55,10 +56,6 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
 
 const styles = StyleSheet.create({
   container: {
-    padding: sizes.large,
+    padding: sizes.medium,
   },
 });
-
-async function openLink(url: string): Promise<void> {
-  await openURL(url).catch(() => console.log('User cancelled dialog'));
-}

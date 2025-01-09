@@ -9,6 +9,10 @@
       "unstable_ts_config",
     ],
   },
+  "eslint.codeActionsOnSave.mode": "problems",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+  },
   "dprint.path": "bin/dprint",
   "[typescript]": {
     "editor.defaultFormatter": "dprint.dprint",

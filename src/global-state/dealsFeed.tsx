@@ -1,9 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useReducer } from 'react';
 import { UnreachableError } from '../base/unreachableError';
 import { getOzbargainFeedFromUrl } from '../feed-parser/parser';
-import type { OzbargainFeed } from '../feed-parser/parser';
-
-export type Deal = OzbargainFeed['deals'][number];
+import type { Deal, OzbargainFeed } from '../feed-parser/parser';
 
 /**
  * @param page The feed page to fetch. Default: 0
@@ -84,7 +82,7 @@ export class DealsFeed {
         .filter(d1 => feed2.deals.every(d2 => d1.id !== d2.id))
         .concat(feed2.deals)
         // Keep deals sorted in highest -> lowest order (newest -> oldest deals)
-        .sort(({ id: idA }, { id: idB }) => idB - idA),
+        .sort(({ postedAt: postedAtA }, { postedAt: postedAtB }) => postedAtB.getTime() - postedAtA.getTime()),
     };
   }
 }

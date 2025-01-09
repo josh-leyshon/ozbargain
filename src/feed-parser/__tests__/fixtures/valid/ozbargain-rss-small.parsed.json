@@ -5,11 +5,79 @@
   },
   "deals": [
     {
-      "title": "Razer DeathAdder V2 Ergonomic Wired Gaming Mouse $37 @ eBay with Code",
-      "description": "Original Coupon Deal\nCurrently $69 at JBHIFI, $63 at Amazon. Previously was $34 not too long ago\nPretty solid mouse for the price. I'm using one now and haven't had any major disagreements over it",
+      "title": {
+        "rawText": "Razer DeathAdder V2 Ergonomic Wired Gaming Mouse $37 @ eBay with Code",
+        "parts": [
+          {
+            "type": "normal",
+            "rawText": "Razer DeathAdder V2 Ergonomic Wired Gaming Mouse ",
+            "text": "Razer DeathAdder V2 Ergonomic Wired Gaming Mouse ",
+            "startIndex": 0,
+            "endIndex": 49
+          },
+          { "type": "price", "rawText": "$37", "text": "$37", "startIndex": 49, "endIndex": 52 },
+          {
+            "type": "normal",
+            "rawText": " @ eBay with Code",
+            "text": " @ eBay with Code",
+            "startIndex": 52,
+            "endIndex": 69
+          }
+        ]
+      },
+      "description": {
+        "rawText": "<div style=\"float:right;margin:0 0 1ex 1ex\"><a href=\"/node/751576\" rel=\"noopener nofollow\" title=\"Link: https://www.ebay.com.au/itm/363026206750\"><img src=\"https://files.ozbargain.com.au/n/76/751576.jpg?h=86e2ccde\" alt=\"Razer DeathAdder V2 Ergonomic Wired Gaming Mouse $37 @ eBay with Code\"/></a></div><p><a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a></p>\n\n<p>Currently $69 at JBHIFI, $63 at Amazon. Previously was $34 <a href=\"/node/743700\" class=\"internal inline\">not too long ago</a></p>\n\n<p>Pretty solid mouse for the price. I&#039;m using one now and haven&#039;t had any major disagreements over it</p>\n",
+        "parts": [
+          { "type": "normal", "rawText": "<p>", "text": "", "startIndex": 302, "endIndex": 305 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"/node/750992\" class=\"internal inline\">Original Coupon Deal</a>",
+            "startIndex": 305,
+            "endIndex": 376,
+            "url": "https://ozbargain.com.au/node/750992",
+            "text": "Original Coupon Deal",
+            "linkType": "deal"
+          },
+          {
+            "type": "normal",
+            "rawText": "</p>\n\n<p>Currently ",
+            "text": "\n\nCurrently ",
+            "startIndex": 376,
+            "endIndex": 395
+          },
+          { "type": "price", "rawText": "$69", "text": "$69", "startIndex": 395, "endIndex": 398 },
+          { "type": "normal", "rawText": " at JBHIFI, ", "text": " at JBHIFI, ", "startIndex": 398, "endIndex": 410 },
+          { "type": "price", "rawText": "$63", "text": "$63", "startIndex": 410, "endIndex": 413 },
+          {
+            "type": "normal",
+            "rawText": " at Amazon. Previously was ",
+            "text": " at Amazon. Previously was ",
+            "startIndex": 413,
+            "endIndex": 440
+          },
+          { "type": "price", "rawText": "$34", "text": "$34", "startIndex": 440, "endIndex": 443 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 443, "endIndex": 444 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"/node/743700\" class=\"internal inline\">not too long ago</a>",
+            "startIndex": 444,
+            "endIndex": 511,
+            "url": "https://ozbargain.com.au/node/743700",
+            "text": "not too long ago",
+            "linkType": "deal"
+          },
+          {
+            "type": "normal",
+            "rawText": "</p>\n\n<p>Pretty solid mouse for the price. I&#039;m using one now and haven&#039;t had any major disagreements over it</p>\n",
+            "text": "\n\nPretty solid mouse for the price. I'm using one now and haven't had any major disagreements over it\n",
+            "startIndex": 511,
+            "endIndex": 634
+          }
+        ]
+      },
       "author": "outlander",
       "postedAt": "2023-01-16T22:45:13.000Z",
-      "id": 751576,
+      "id": "751576",
       "links": {
         "deal": "https://www.ozbargain.com.au/node/751576",
         "comments": "https://www.ozbargain.com.au/node/751576#comment",
@@ -30,11 +98,43 @@
       "thumbnailUrl": "https://files.ozbargain.com.au/n/76/751576l.jpg?h=86e2ccde"
     },
     {
-      "title": "Fissler Original-Profi Collection Frypan, Stainless Steel, 24cm/2.0L $174.57 Delivered @ Amazon Germany via Amazon AU",
-      "description": "About this item\nThe perfectly fitting cookstar all-stove base ensures optimal absorption, distribution and storage of heat and thus helps to save energy - with every type of stove.\nThe pot is suitable for cleaning in the dishwasher.\nThe wide pouring rim facilitates precise pouring and decanting without any annoying dripping.\nWith the integrated measuring scale, liquid ingredients can be dosed without a measuring cup.\nBecause the handy cold metal handles made of stainless steel do not get hot when cooking on the electric stove, you can also hold them without potholders.\n\n$272@myer",
+      "title": {
+        "rawText": "Fissler Original-Profi Collection Frypan, Stainless Steel, 24cm/2.0L $174.57 Delivered @ Amazon Germany via Amazon AU",
+        "parts": [
+          {
+            "type": "normal",
+            "rawText": "Fissler Original-Profi Collection Frypan, Stainless Steel, 24cm/2.0L ",
+            "text": "Fissler Original-Profi Collection Frypan, Stainless Steel, 24cm/2.0L ",
+            "startIndex": 0,
+            "endIndex": 69
+          },
+          { "type": "price", "rawText": "$174.57", "text": "$174.57", "startIndex": 69, "endIndex": 76 },
+          {
+            "type": "normal",
+            "rawText": " Delivered @ Amazon Germany via Amazon AU",
+            "text": " Delivered @ Amazon Germany via Amazon AU",
+            "startIndex": 76,
+            "endIndex": 117
+          }
+        ]
+      },
+      "description": {
+        "rawText": "<div style=\"float:right;margin:0 0 1ex 1ex\"><a href=\"/node/751555\" rel=\"noopener nofollow\" title=\"Link: https://www.amazon.com.au/dp/B09CG7C8D4?m=A3P6X2GIMA114Z\"><img src=\"https://files.ozbargain.com.au/n/55/751555.jpg?h=ed8d2bea\" alt=\"Fissler Original-Profi Collection Frypan, Stainless Steel, 24cm/2.0L $174.57 Delivered @ Amazon Germany via Amazon AU\"/></a></div><p>About this item</p>\n\n<pre><code>The perfectly fitting cookstar all-stove base ensures optimal absorption, distribution and storage of heat and thus helps to save energy - with every type of stove.\nThe pot is suitable for cleaning in the dishwasher.\nThe wide pouring rim facilitates precise pouring and decanting without any annoying dripping.\nWith the integrated measuring scale, liquid ingredients can be dosed without a measuring cup.\nBecause the handy cold metal handles made of stainless steel do not get hot when cooking on the electric stove, you can also hold them without potholders.\n</code></pre>\n\n<p>$272@myer</p>\n",
+        "parts": [
+          {
+            "type": "normal",
+            "rawText": "<p>About this item</p>\n\n<pre><code>The perfectly fitting cookstar all-stove base ensures optimal absorption, distribution and storage of heat and thus helps to save energy - with every type of stove.\nThe pot is suitable for cleaning in the dishwasher.\nThe wide pouring rim facilitates precise pouring and decanting without any annoying dripping.\nWith the integrated measuring scale, liquid ingredients can be dosed without a measuring cup.\nBecause the handy cold metal handles made of stainless steel do not get hot when cooking on the electric stove, you can also hold them without potholders.\n</code></pre>\n\n<p>",
+            "text": "About this item\n\nThe perfectly fitting cookstar all-stove base ensures optimal absorption, distribution and storage of heat and thus helps to save energy - with every type of stove.\nThe pot is suitable for cleaning in the dishwasher.\nThe wide pouring rim facilitates precise pouring and decanting without any annoying dripping.\nWith the integrated measuring scale, liquid ingredients can be dosed without a measuring cup.\nBecause the handy cold metal handles made of stainless steel do not get hot when cooking on the electric stove, you can also hold them without potholders.\n\n\n",
+            "startIndex": 366,
+            "endIndex": 979
+          },
+          { "type": "price", "rawText": "$272", "text": "$272", "startIndex": 979, "endIndex": 983 },
+          { "type": "normal", "rawText": "@myer</p>\n", "text": "@myer\n", "startIndex": 983, "endIndex": 993 }
+        ]
+      },
       "author": "Buffet Squirrel",
       "postedAt": "2023-01-16T17:47:31.000Z",
-      "id": 751555,
+      "id": "751555",
       "links": {
         "deal": "https://www.ozbargain.com.au/node/751555",
         "comments": "https://www.ozbargain.com.au/node/751555#comment",

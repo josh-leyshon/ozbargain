@@ -7,7 +7,11 @@ import type { FontSize, FontWeight } from '../../constants/text';
 import { fontSizes, fontWeights } from '../../constants/text';
 import { UnreachableError } from '../../unreachableError';
 
-type TextColour = 'normal' | 'light' | 'veryLight';
+type TextColour =
+  | 'normal'
+  | 'light'
+  | 'veryLight'
+  | keyof Pick<typeof colours, 'primaryDark' | 'primaryLight' | 'secondaryDark'>;
 
 export type TextProps = {
   /** Default: medium */
@@ -27,7 +31,7 @@ export type TextProps = {
   >;
 } & Omit<RNTextProps, 'style' | 'children'>;
 
-type StatusTextColour = 'success' | 'warning' | 'error';
+type StatusTextColour = keyof Pick<typeof colours, 'success' | 'warning' | 'error'>;
 type StatusTextProps = Omit<TextProps, 'colour'> & { colour: StatusTextColour };
 
 type InternalTextProps = TextProps | StatusTextProps;
@@ -95,6 +99,12 @@ function getTextColour(colour: TextColour | StatusTextColour): TextStyle['color'
       return colours.copyLight;
     case 'veryLight':
       return colours.copyLighter;
+    case 'primaryDark':
+      return colours.primaryDark;
+    case 'primaryLight':
+      return colours.primaryLight;
+    case 'secondaryDark':
+      return colours.secondaryDark;
     case 'success':
       return colours.successContent;
     case 'warning':

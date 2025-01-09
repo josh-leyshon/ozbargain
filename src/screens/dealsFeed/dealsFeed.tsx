@@ -1,8 +1,10 @@
-import { FlatList, StyleSheet, View } from 'react-native';
+import type React from 'react';
+import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import type { FlatListProps } from 'react-native';
+import { Card } from '../../base/components/card/card';
 import { sizes } from '../../base/constants/sizes';
-import type { Deal } from '../../global-state/dealsFeed';
-import { DealCard } from './dealCard/dealCard';
+import type { Deal } from '../../feed-parser/parser';
+import { DealCardInfo } from './dealCard/dealCard';
 import { DealMeta, makeDefaultExpiryFormatter } from './dealCard/dealMeta';
 
 export type DealsFeedProps = {
@@ -26,15 +28,17 @@ export function DealsFeed({
     <FlatList
       data={deals}
       renderItem={({ item: deal }) => (
-        <DealCard
-          key={deal.id}
-          title={deal.title}
-          dealMeta={<DealMeta {...deal} expiryFormatter={makeDefaultExpiryFormatter(new Date())} />}
-          imageUrl={deal.thumbnailUrl}
-          onPress={() => onPressItem(deal)}
-        />
+        <Pressable onPress={() => onPressItem(deal)} key={deal.id}>
+          <Card padding='large'>
+            <DealCardInfo
+              title={deal.title}
+              imageUrl={deal.thumbnailUrl}
+              dealMeta={<DealMeta {...deal} expiryFormatter={makeDefaultExpiryFormatter(new Date())} />}
+            />
+          </Card>
+        </Pressable>
       )}
-      ItemSeparatorComponent={() => <View style={styles.separator} />}
+      ItemSeparatorComponent={EmptyGap}
       contentContainerStyle={style}
       onRefresh={onRefresh}
       onEndReached={() => loadNextPage()}
@@ -45,6 +49,10 @@ export function DealsFeed({
       refreshing={refreshing}
     />
   );
+}
+
+function EmptyGap(): React.JSX.Element {
+  return <View style={styles.separator} />;
 }
 
 const styles = StyleSheet.create({

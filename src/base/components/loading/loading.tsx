@@ -12,10 +12,10 @@ type LoadingProps = {
   size?: keyof typeof sizeToScale;
 };
 
-export function Loading({ size }: LoadingProps): React.JSX.Element {
+export function Loading({ size = 'medium' }: LoadingProps): React.JSX.Element {
   return (
     <Spinner>
-      <ArcIcon scaleSize={sizeToScale[size ?? 'medium']} />
+      <ArcIcon scaleSize={sizeToScale[size]} />
     </Spinner>
   );
 }

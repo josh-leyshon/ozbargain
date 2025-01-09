@@ -1,38 +1,41 @@
 import RssParser from 'rss-parser';
 import { assertAndParseFeedItem, assertFeedMeta } from './assertions';
+import { type PartedText, partText } from './textParts';
+
+export type Deal = {
+  id: string;
+  title: PartedText;
+  description: PartedText;
+  author: string;
+  postedAt: Date;
+  expiresAt?: Date;
+  links: {
+    deal: string;
+    comments: string;
+    productPage: string;
+  };
+  votes: {
+    positive: number;
+    negative: number;
+  };
+  commentCount: number;
+  thumbnailUrl?: string;
+  categories: {
+    name: string;
+    link: string;
+  }[];
+};
 
 export type OzbargainFeed = {
   meta: {
     feedTitle: string;
     feedLink: string;
   };
-  deals: {
-    title: string;
-    description: string;
-    author: string;
-    postedAt: Date;
-    expiresAt?: Date;
-    id: number;
-    links: {
-      deal: string;
-      comments: string;
-      productPage: string;
-    };
-    votes: {
-      positive: number;
-      negative: number;
-    };
-    commentCount: number;
-    thumbnailUrl?: string;
-    categories: {
-      name: string;
-      link: string;
-    }[];
-  }[];
+  deals: Deal[];
 };
 
 // Note: New fields must be optional because otherwise the rss-parser types incorrectly assume these fields will always be present.
-// Compare this to the other built-in fields that rss-parser supports, which are optionl by default.
+// Compare this to the other built-in fields that rss-parser supports, which are optional by default.
 type RssParserCustomItemFields = {
   comments?: string;
   'ozb:meta'?: {
@@ -67,9 +70,9 @@ export function convertToOzbargainFeed(feed: RssFeed): OzbargainFeed {
     deals: feed.items.map(item => {
       const feedItem = assertAndParseFeedItem(item);
 
-      const ozbargainFeed: OzbargainFeed['deals'][number] = {
-        title: feedItem.title,
-        description: feedItem.contentSnippet,
+      return {
+        title: partText(feedItem.title),
+        description: partText(feedItem.content),
         author: feedItem.creator,
         postedAt: feedItem.isoDate,
         id: feedItem.id,
@@ -84,15 +87,9 @@ export function convertToOzbargainFeed(feed: RssFeed): OzbargainFeed {
         },
         commentCount: feedItem.meta['comment-count'],
         categories: feedItem.categories,
+        ...(feedItem.meta.expiry != null && { expiresAt: feedItem.meta.expiry }),
+        ...(feedItem.meta.image != null && { thumbnailUrl: feedItem.meta.image }),
       };
-      if (feedItem.meta.expiry != null) {
-        ozbargainFeed.expiresAt = feedItem.meta.expiry;
-      }
-      if (feedItem.meta.image != null) {
-        ozbargainFeed.thumbnailUrl = feedItem.meta.image;
-      }
-
-      return ozbargainFeed;
     }),
   };
 }
