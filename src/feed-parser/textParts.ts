@@ -7,7 +7,7 @@ type LinkTextPart = {
   type: 'link';
   url: string;
   /** The text that should be displayed as the link. */
-  linkText: string;
+  text: string;
   /** Whether this link is for another Ozbargain deal, or just a link to an external site. */
   linkType: 'deal' | 'external';
 };
@@ -176,7 +176,7 @@ function parseLink(text: string): Omit<LinkTextPart, 'type'> | undefined {
 
   return {
     url,
-    linkText,
+    text: linkText,
     linkType,
   };
 }

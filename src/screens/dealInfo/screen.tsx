@@ -2,7 +2,6 @@ import { openURL } from 'expo-linking';
 import type React from 'react';
 import { Platform, ScrollView, Share, StyleSheet } from 'react-native';
 import { Card } from '../../base/components/card/card';
-import { Text } from '../../base/components/text/text';
 import { sizes } from '../../base/constants/sizes';
 import { Column } from '../../base/layout/flex';
 import { useDealsFeed } from '../../global-state/dealsFeed';
@@ -10,6 +9,7 @@ import { DealCardInfo } from '../dealsFeed/dealCard/dealCard';
 import { DealMeta, makeDefaultExpiryFormatter } from '../dealsFeed/dealCard/dealMeta';
 import type { DealInfoScreenProps } from '../navigationTypes';
 import { LinkButtons } from './linkButtons';
+import { renderDealDescription } from './renderDescription';
 
 async function openLink(url: string): Promise<void> {
   await openURL(url).catch(() => console.log('User cancelled dialog'));
@@ -51,12 +51,7 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
           />
         </Card>
         <Card padding='large'>
-          <Text>
-            {
-              // Doubling newlines helps distinguish paragraphs from just wrapped text.
-              deal.description.replaceAll('\n', '\n\n')
-            }
-          </Text>
+          {renderDealDescription(deal.description)}
         </Card>
       </Column>
     </ScrollView>
