@@ -1,5 +1,5 @@
 import type { ButtonProps as ReactNativeButtonProps } from 'react-native';
-import { Button as ReactNativeButton, StyleSheet } from 'react-native';
+import { Button as ReactNativeButton } from 'react-native';
 import { colours } from '../../constants/colours';
 import { Column } from '../../layout/flex';
 
@@ -28,17 +28,13 @@ export function Button({ title, onPress, colour, fitContent = false }: ButtonPro
   return (
     // Buttons are wrapped in a flex column so they can always expand horizontally
     // to the width of their container.
-    <Column style={[styles.container, fitContent ? styles.fitContent : undefined]}>
+    <Column
+      {...(fitContent && {
+        grow: 1,
+        shrink: 1,
+      })}
+    >
       <ReactNativeButton title={title} onPress={onPress} color={buttonColour} />
     </Column>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  fitContent: {
-    flexBasis: 'auto',
-  },
-});
