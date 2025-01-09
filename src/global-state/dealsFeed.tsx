@@ -82,7 +82,7 @@ export class DealsFeed {
         .filter(d1 => feed2.deals.every(d2 => d1.id !== d2.id))
         .concat(feed2.deals)
         // Keep deals sorted in highest -> lowest order (newest -> oldest deals)
-        .sort(({ id: idA }, { id: idB }) => idB - idA),
+        .sort(({ postedAt: postedAtA }, { postedAt: postedAtB }) => postedAtB.getTime() - postedAtA.getTime()),
     };
   }
 }

@@ -3,12 +3,12 @@ import { assertAndParseFeedItem, assertFeedMeta } from './assertions';
 import { type PartedText, partText } from './textParts';
 
 export type Deal = {
+  id: string;
   title: PartedText;
   description: string;
   author: string;
   postedAt: Date;
   expiresAt?: Date;
-  id: number;
   links: {
     deal: string;
     comments: string;
