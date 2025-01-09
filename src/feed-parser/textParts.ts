@@ -90,7 +90,7 @@ export function partText(input: string): PartedText {
     const textPartBeforeThisMatch = {
       type: 'normal',
       rawText: input.slice(endIndexOfLastMatch, matchStartIndex),
-      text: stripHtml(input.slice(endIndexOfLastMatch, matchStartIndex)),
+      text: stripAndUnescapeHtml(input.slice(endIndexOfLastMatch, matchStartIndex)),
       startIndex: endIndexOfLastMatch,
       endIndex: matchStartIndex,
     } satisfies TextPart;
@@ -114,7 +114,7 @@ export function partText(input: string): PartedText {
   const remainingTextPart = {
     type: 'normal',
     rawText: input.slice(endIndexOfLastMatch),
-    text: stripHtml(input.slice(endIndexOfLastMatch)),
+    text: stripAndUnescapeHtml(input.slice(endIndexOfLastMatch)),
     startIndex: endIndexOfLastMatch,
     endIndex: input.length,
   } satisfies TextPart;
@@ -150,7 +150,7 @@ function parsePart(
       return {
         type,
         rawText: match[0],
-        text: stripHtml(match[0]),
+        text: stripAndUnescapeHtml(match[0]),
         startIndex: indexes.start,
         endIndex: indexes.end,
       };
@@ -181,6 +181,14 @@ function parseLink(text: string): Omit<LinkTextPart, 'type'> | undefined {
   };
 }
 
-function stripHtml(text: string): string {
-  return text.replaceAll(/(<([^>]+)>)/g, '');
+function stripAndUnescapeHtml(text: string): string {
+  return text
+    // Remove HTML tags from given text, returning just the content text.
+    .replaceAll(/(<([^>]+)>)/g, '')
+    // Return escaped chars like `&amp;` to their normal forms (like `&`).
+    .replaceAll('&amp;', '&')
+    .replaceAll('&lt;', '<')
+    .replaceAll('&gt;', '>')
+    .replaceAll('&quot;', '"')
+    .replaceAll('&#039;', "'");
 }
