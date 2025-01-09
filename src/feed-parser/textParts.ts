@@ -38,8 +38,8 @@ export type PartedText = {
 const costRegex = /(\$(?:\d+(?:\.\d+)?))/;
 const costRegexBeginsWith = '$';
 
-const descriptionMetaDivRegex = /(?:<div .+?<\/div>)/;
-const descriptionMetaDivBeginsWith = '<div ';
+const descriptionMetaDivRegex = /(?:<div style="float:right;.+?<\/div>)/;
+const descriptionMetaDivBeginsWith = '<div style="float:right';
 
 const linkRegex = /(<a .+?>.+?<\/a>)/;
 const linkRegexBeginsWith = '<a ';
