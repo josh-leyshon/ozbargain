@@ -7,8 +7,119 @@ import type { Deal, OzbargainFeed } from '../feed-parser/parser';
  * @param page The feed page to fetch. Default: 0
  */
 type FeedFetcher = (page?: number) => Promise<OzbargainFeed>;
+/**
+ * Same behaviour as the default array .sort() method (copy/pasted below).
+ *
+ * It is expected to return a negative value if the first argument is less than the second argument,
+ * zero if they're equal, and a positive value otherwise.
+ */
+type DealsSorter = (deal1: Deal, deal2: Deal) => number;
 
-const FEED_URL_NEW_DEALS = 'https://www.ozbargain.com.au/deals/feed';
+const TOP_DEALS_FEED_URL = 'https://www.ozbargain.com.au/feed';
+const NEW_DEALS_FEED_URL = 'https://www.ozbargain.com.au/deals/feed';
+
+type DealsFeed2ConstructorArgs = {
+  topDeals: {
+    feed: OzbargainFeed;
+    fetcher: FeedFetcher;
+    lastFetchedPage?: number;
+  };
+  newDeals: {
+    feed: OzbargainFeed;
+    fetcher: FeedFetcher;
+    lastFetchedPage?: number;
+  };
+};
+
+export class DealsFeed2 {
+  readonly topDeals: {
+    feed: OzbargainFeed;
+    fetcher: FeedFetcher;
+    lastFetchedPage: number;
+  };
+
+  readonly newDeals: {
+    feed: OzbargainFeed;
+    fetcher: FeedFetcher;
+    lastFetchedPage: number;
+  };
+
+  constructor({ topDeals, newDeals }: DealsFeed2ConstructorArgs) {
+    this.topDeals = { ...topDeals, lastFetchedPage: topDeals.lastFetchedPage ?? -1 };
+    this.newDeals = { ...newDeals, lastFetchedPage: newDeals.lastFetchedPage ?? -1 };
+  }
+
+  getTopDeals(): Deal[] {
+    return this.topDeals.feed.deals;
+  }
+
+  getNewDeals(): Deal[] {
+    return this.newDeals.feed.deals;
+  }
+
+  getDealById(id: Deal['id']): Deal {
+    const allDeals = [...this.topDeals.feed.deals, ...this.newDeals.feed.deals];
+    const deal = allDeals.find(deal => deal.id === id);
+    if (!deal) {
+      throw new Error(`Unable to find deal with ID ${id}`);
+    }
+    return deal;
+  }
+
+  /** Returns a new DealsFeed with an updated internal state. */
+  async loadTopDealsFeedNextPage(): Promise<DealsFeed2> {
+    const nextPageNumber = this.topDeals.lastFetchedPage + 1;
+    const nextPageFeed = await this.topDeals.fetcher(nextPageNumber);
+
+    return new DealsFeed2({
+      newDeals: {
+        ...this.newDeals,
+      },
+      topDeals: {
+        ...this.topDeals,
+        feed: DealsFeed2.mergeFeeds(this.topDeals.feed, nextPageFeed, DealsFeed2.topDealsSorter),
+        lastFetchedPage: nextPageNumber,
+      },
+    });
+  }
+
+  /** Returns a new DealsFeed with an updated internal state. */
+  async loadNewDealsFeedNextPage(): Promise<DealsFeed2> {
+    const nextPageNumber = this.newDeals.lastFetchedPage + 1;
+    const nextPageFeed = await this.newDeals.fetcher(nextPageNumber);
+
+    return new DealsFeed2({
+      newDeals: {
+        ...this.newDeals,
+        feed: DealsFeed2.mergeFeeds(this.newDeals.feed, nextPageFeed, DealsFeed2.newDealsSorter),
+        lastFetchedPage: nextPageNumber,
+      },
+      topDeals: {
+        ...this.topDeals,
+      },
+    });
+  }
+
+  /** If duplicate deals exist, keeps those in feed2. */
+  private static mergeFeeds(
+    feed1: OzbargainFeed,
+    feed2: OzbargainFeed,
+    sorter: DealsSorter,
+  ): OzbargainFeed {
+    return {
+      // Assumes both feeds are from the same source
+      meta: feed1.meta,
+      deals: feed1.deals
+        .filter(d1 => feed2.deals.every(d2 => d1.id !== d2.id))
+        .concat(feed2.deals)
+        .sort(sorter),
+    };
+  }
+
+  // TODO: How are top deals sorted?
+  private static topDealsSorter: DealsSorter = (deal1, deal2) => 0;
+  private static newDealsSorter: DealsSorter = (deal1, deal2) => deal1.postedAt.getTime() - deal2.postedAt.getTime();
+}
 
 export class DealsFeed {
   /**
@@ -111,8 +222,12 @@ export const localFetchFeed: FeedFetcher = async () => {
 };
 
 // Ozbargain feeds seem to have a 20 page limit (0 - 19) before 404ing.
-export const onlineFetchFeed: FeedFetcher = (page = 0) => {
-  return getOzbargainFeedFromUrl(`${FEED_URL_NEW_DEALS}?page=${page}`);
+export const onlineTopDealsFetchFeed: FeedFetcher = (page = 0) => {
+  return getOzbargainFeedFromUrl(`${TOP_DEALS_FEED_URL}?page=${page}`);
+};
+// Ozbargain feeds seem to have a 20 page limit (0 - 19) before 404ing.
+export const onlineNewDealsFetchFeed: FeedFetcher = (page = 0) => {
+  return getOzbargainFeedFromUrl(`${NEW_DEALS_FEED_URL}?page=${page}`);
 };
 
 type State =
