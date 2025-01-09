@@ -7,7 +7,7 @@ import { openLink } from '../../base/links/openLink';
 import { useDealsFeed } from '../../global-state/dealsFeed';
 import { DealCardInfo } from '../dealsFeed/dealCard/dealCard';
 import { DealMeta, makeDefaultExpiryFormatter } from '../dealsFeed/dealCard/dealMeta';
-import type { DealInfoScreenProps } from '../navigationTypes';
+import type { DealInfoScreenProps } from '../navigationRoutes';
 import { LinkButtons } from './linkButtons';
 import { Description } from './renderDescription';
 

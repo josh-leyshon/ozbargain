@@ -1,12 +1,13 @@
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import { colours } from '../../base/constants/colours';
 import { sizes } from '../../base/constants/sizes';
 import { useDealsFeed } from '../../global-state/dealsFeed';
-import type { FeedScreenProps } from '../navigationTypes';
 import { DealsFeed } from './dealsFeed';
 
-export function FeedScreen({ navigation }: FeedScreenProps): React.JSX.Element {
+export function FeedScreen(): React.JSX.Element {
+  const navigation = useNavigation();
   const { state, dealsFeed, refresh, loadNextPage } = useDealsFeed();
 
   return (
