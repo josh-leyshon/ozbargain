@@ -13,7 +13,12 @@ export type DealInfoScreenProps = StaticScreenProps<{
 const RootStack = createNativeStackNavigator({
   initialRouteName: 'Feed',
   screens: {
-    Feed: FeedScreen,
+    Feed: {
+      screen: FeedScreen,
+      options: {
+        headerShown: false,
+      },
+    },
     DealInfo: DealInfoScreen,
   },
 });
