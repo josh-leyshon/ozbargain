@@ -51,7 +51,12 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
           />
         </Card>
         <Card padding='large'>
-          <Text>{deal.description}</Text>
+          <Text>
+            {
+              // Doubling newlines helps distinguish paragraphs from just wrapped text.
+              deal.description.replaceAll('\n', '\n\n')
+            }
+          </Text>
         </Card>
       </Column>
     </ScrollView>
