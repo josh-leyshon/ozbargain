@@ -7,7 +7,11 @@ import type { FontSize, FontWeight } from '../../constants/text';
 import { fontSizes, fontWeights } from '../../constants/text';
 import { UnreachableError } from '../../unreachableError';
 
-type TextColour = 'normal' | 'light' | 'veryLight' | keyof Pick<typeof colours, 'primaryDark' | 'secondaryDark'>;
+type TextColour =
+  | 'normal'
+  | 'light'
+  | 'veryLight'
+  | keyof Pick<typeof colours, 'primaryDark' | 'primaryLight' | 'secondaryDark'>;
 
 export type TextProps = {
   /** Default: medium */
@@ -97,6 +101,8 @@ function getTextColour(colour: TextColour | StatusTextColour): TextStyle['color'
       return colours.copyLighter;
     case 'primaryDark':
       return colours.primaryDark;
+    case 'primaryLight':
+      return colours.primaryLight;
     case 'secondaryDark':
       return colours.secondaryDark;
     case 'success':
