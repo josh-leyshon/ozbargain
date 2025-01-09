@@ -12,7 +12,7 @@ type LinkTextPart = {
   linkType: 'deal' | 'external';
 };
 
-type TextPart =
+export type TextPart =
   & {
     /** Raw text of this Part. */
     rawText: string;

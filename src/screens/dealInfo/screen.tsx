@@ -9,7 +9,7 @@ import { DealCardInfo } from '../dealsFeed/dealCard/dealCard';
 import { DealMeta, makeDefaultExpiryFormatter } from '../dealsFeed/dealCard/dealMeta';
 import type { DealInfoScreenProps } from '../navigationTypes';
 import { LinkButtons } from './linkButtons';
-import { renderDealDescription } from './renderDescription';
+import { Description } from './renderDescription';
 
 function shareWeb(): void {
   console.warn('Sharing is not available on web');
@@ -46,7 +46,9 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
             onPressShare={onPressShare}
           />
         </Card>
-        <Card padding='large'>{renderDealDescription(deal.description)}</Card>
+        <Card padding='large'>
+          <Description description={deal.description} />
+        </Card>
       </Column>
     </ScrollView>
   );

@@ -11,7 +11,7 @@ type SpinnerProps = React.PropsWithChildren<{
  */
 export function Spinner({
   children,
-  revsPerSecond,
+  revsPerSecond = 1,
 }: SpinnerProps): React.JSX.Element {
   const rotationValue = useRef(new Animated.Value(0)).current;
 
@@ -21,7 +21,7 @@ export function Spinner({
     Animated.loop(
       Animated.timing(rotationValue, {
         toValue: 1,
-        duration: 1000 / (revsPerSecond ?? 1),
+        duration: 1000 / revsPerSecond,
         easing: Easing.linear,
         // On web, looping does not work with useNativeDriver enabled.
         useNativeDriver: Platform.OS !== 'web',
