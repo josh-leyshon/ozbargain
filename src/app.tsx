@@ -2,14 +2,17 @@ import { registerRootComponent } from 'expo';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { colours } from './base/constants/colours';
-import { DealsFeedProvider, localFetchFeed } from './global-state/dealsFeed';
+import { DealsFeedProvider, onlineNewDealsFetchFeed, onlineTopDealsFetchFeed } from './global-state/dealsFeed';
 import { Navigation } from './screens/navigationRoutes';
 
 function App(): React.JSX.Element {
   return (
     <SafeAreaProvider>
       <StatusBar translucent={false} backgroundColor={colours.background} />
-      <DealsFeedProvider newDealsFetchFeed={localFetchFeed} topDealsFetchFeed={localFetchFeed}>
+      <DealsFeedProvider
+        topDealsFetchFeed={onlineTopDealsFetchFeed}
+        newDealsFetchFeed={onlineNewDealsFetchFeed}
+      >
         <Navigation />
       </DealsFeedProvider>
     </SafeAreaProvider>
