@@ -10,17 +10,17 @@ import { DealsFeed } from './dealsFeed';
 export function FeedScreen(): React.JSX.Element {
   const insets = useSafeAreaInsets();
   const navigation = useNavigation();
-  const { state, dealsFeed, refresh, loadNextPage } = useDealsFeed();
+  const { state, dealsFeed, refreshNewDeals, loadNewDealsNextPage } = useDealsFeed();
 
   return (
     <DealsFeed
       style={[styles.container, {
         paddingBlockStart: insets.top + sizes.medium,
       }]}
-      deals={dealsFeed?.getDeals() ?? []}
+      deals={dealsFeed?.getNewDeals() ?? []}
       onPressItem={item => navigation.navigate('DealInfo', { dealId: item.id })}
-      onRefresh={refresh}
-      loadNextPage={() => state === 'ready' ? loadNextPage(dealsFeed) : undefined}
+      onRefresh={refreshNewDeals}
+      loadNextPage={() => state === 'ready' ? loadNewDealsNextPage() : undefined}
       refreshing={state === 'refreshing'}
     />
   );

@@ -9,7 +9,7 @@ function App(): React.JSX.Element {
   return (
     <SafeAreaProvider>
       <StatusBar translucent={false} backgroundColor={colours.background} />
-      <DealsFeedProvider fetchFeed={localFetchFeed}>
+      <DealsFeedProvider newDealsFetchFeed={localFetchFeed} topDealsFetchFeed={localFetchFeed}>
         <Navigation />
       </DealsFeedProvider>
     </SafeAreaProvider>

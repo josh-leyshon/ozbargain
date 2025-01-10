@@ -58,7 +58,7 @@ export class DealsFeed2 {
   }
 
   getDealById(id: Deal['id']): Deal {
-    const allDeals = [...this.getTopDeals(), ...this.getNewDeals()];
+    const allDeals = [...this.topDeals.feed?.deals ?? [], ...this.newDeals.feed?.deals ?? []];
     const deal = allDeals.find(deal => deal.id === id);
     if (!deal) {
       throw new Error(`Unable to find deal with ID ${id}`);
@@ -273,7 +273,7 @@ function dealsFeedReducer(
   }
 }
 
-type DealsFeedContextProps = MaybeUninitializedState & {
+type DealsFeedMethods = {
   /** Refresh entire feed. */
   refreshTopDeals: (dealsFeed: DealsFeed2) => void;
   /** Refresh entire feed. */
@@ -283,6 +283,8 @@ type DealsFeedContextProps = MaybeUninitializedState & {
   /** Load the next page in the feed. */
   loadNewDealsNextPage: (dealsFeed: DealsFeed2) => void;
 };
+
+type DealsFeedContextProps = MaybeUninitializedState & DealsFeedMethods;
 const DealsFeedContext = createContext<DealsFeedContextProps | undefined>(undefined);
 
 export function DealsFeedProvider({
@@ -378,13 +380,13 @@ export function DealsFeedProvider({
   );
 }
 
-export function useDealsFeed():
-  & Omit<
-    DealsFeedContextProps,
-    keyof MaybeUninitializedState
-  >
+type UseDealsFeedReturnValue =
   & State
-{
+  & {
+    [Key in keyof DealsFeedMethods]: () => void;
+  };
+
+export function useDealsFeed(): UseDealsFeedReturnValue {
   const context = useContext(DealsFeedContext);
   if (context == null) {
     throw new Error('Could not find DealsFeed Provider');
@@ -403,17 +405,17 @@ export function useDealsFeed():
     ? {
       state: 'refreshing',
       dealsFeed: context.dealsFeed,
-      refreshNewDeals: context.refreshNewDeals,
-      refreshTopDeals: context.refreshTopDeals,
-      loadNewDealsNextPage: context.loadNewDealsNextPage,
-      loadTopDealsNextPage: context.loadTopDealsNextPage,
+      refreshTopDeals: () => undefined,
+      refreshNewDeals: () => undefined,
+      loadTopDealsNextPage: () => undefined,
+      loadNewDealsNextPage: () => undefined,
     }
     : {
       state: 'ready',
       dealsFeed: context.dealsFeed,
-      refreshNewDeals: context.refreshNewDeals,
-      refreshTopDeals: context.refreshTopDeals,
-      loadNewDealsNextPage: context.loadNewDealsNextPage,
-      loadTopDealsNextPage: context.loadTopDealsNextPage,
+      refreshTopDeals: () => context.refreshTopDeals(context.dealsFeed),
+      refreshNewDeals: () => context.refreshNewDeals(context.dealsFeed),
+      loadTopDealsNextPage: () => context.loadTopDealsNextPage(context.dealsFeed),
+      loadNewDealsNextPage: () => context.loadNewDealsNextPage(context.dealsFeed),
     };
 }
