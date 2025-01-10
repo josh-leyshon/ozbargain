@@ -35,7 +35,7 @@ export type PartedText = {
   parts: TextPart[];
 };
 
-const costRegex = /(\$(?:\d+(?:\.\d+)?))/;
+const costRegex = /(\$(?:\d+(?:,\d+)*(?:\.\d+)?))/;
 const costRegexBeginsWith = '$';
 
 const descriptionMetaDivRegex = /(?:<div style="float:right;.+?<\/div>)/;
@@ -107,8 +107,15 @@ export function partText(input: string): PartedText {
       continue;
     }
 
+    // If two matches occur next to each other there will be no normal text part in between,
+    // and we would be pushing an empty string with overlapping start/end indexes
+    // as the valid matches around it.
+    // This can also happen if a match occurs at the start of the string.
+    if (matchStartIndex !== endIndexOfLastMatch) {
+      parts.push(textPartBeforeThisMatch);
+    }
+    parts.push(matchedPart);
     endIndexOfLastMatch = matchEndIndex;
-    parts.push(textPartBeforeThisMatch, matchedPart);
   }
 
   const remainingTextPart = {

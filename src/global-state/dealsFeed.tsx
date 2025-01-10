@@ -7,66 +7,112 @@ import type { Deal, OzbargainFeed } from '../feed-parser/parser';
  * @param page The feed page to fetch. Default: 0
  */
 type FeedFetcher = (page?: number) => Promise<OzbargainFeed>;
+/**
+ * Same behaviour as the default array .sort() method (copy/pasted below).
+ *
+ * It is expected to return a negative value if the first argument is less than the second argument,
+ * zero if they're equal, and a positive value otherwise.
+ */
+type DealsSorter = (deal1: Deal, deal2: Deal) => number;
 
-const FEED_URL_NEW_DEALS = 'https://www.ozbargain.com.au/deals/feed';
+const TOP_DEALS_FEED_URL = 'https://www.ozbargain.com.au/feed';
+const NEW_DEALS_FEED_URL = 'https://www.ozbargain.com.au/deals/feed';
+
+type DealsFeedConstructorArgs = {
+  topDeals: {
+    feed?: OzbargainFeed;
+    fetcher: FeedFetcher;
+    lastFetchedPage?: number;
+  };
+  newDeals: {
+    feed?: OzbargainFeed;
+    fetcher: FeedFetcher;
+    lastFetchedPage?: number;
+  };
+};
 
 export class DealsFeed {
-  /**
-   * Public for accessing within utility functions.
-   * Should not be used directly by consumers. Prefer methods on this class instead.
-   */
-  readonly feed: OzbargainFeed;
+  // Ozbargain feeds seem to have a 20 page limit (pages 0 - 19 are valid) before 404ing.
+  private static feedMaxPages = 20;
 
-  /**
-   * The FeedFetcher used to initially create this DealsFeed.
-   * More pages will be fetched using this same fetcher.
-   */
-  readonly fetchFeed: FeedFetcher;
+  readonly topDeals: DealsFeedConstructorArgs['topDeals'];
+  readonly newDeals: DealsFeedConstructorArgs['newDeals'];
 
-  /** The last-fetched page number of the feed. */
-  private readonly lastFetchedPage: number;
-
-  constructor({
-    feed,
-    lastFetchedPage,
-    ...rest
-  }:
-    & { feed: OzbargainFeed; lastFetchedPage?: number }
-    & (
-      | { fetchFeed: FeedFetcher }
-      | { previousDealsFeed: DealsFeed }
-    ))
-  {
-    if ('previousDealsFeed' in rest) {
-      this.feed = DealsFeed.mergeFeeds(rest.previousDealsFeed.feed, feed);
-      this.fetchFeed = rest.previousDealsFeed.fetchFeed;
-    } else {
-      this.feed = feed;
-      this.fetchFeed = rest.fetchFeed;
-    }
-    this.lastFetchedPage = lastFetchedPage ?? 0;
+  constructor({ topDeals, newDeals }: DealsFeedConstructorArgs) {
+    this.topDeals = topDeals;
+    this.newDeals = newDeals;
   }
 
-  getDeals(): Deal[] {
-    return this.feed.deals;
+  getTopDeals(): Deal[] {
+    const deals = this.topDeals.feed?.deals;
+    if (!deals) {
+      throw new Error('No top deals feed exists.');
+    }
+    return deals;
+  }
+
+  getNewDeals(): Deal[] {
+    const deals = this.newDeals.feed?.deals;
+    if (!deals) {
+      throw new Error('No new deals feed exists.');
+    }
+    return deals;
   }
 
   getDealById(id: Deal['id']): Deal {
-    const foundDeal = this.feed.deals.find(deal => deal.id === id);
-    if (!foundDeal) {
+    const allDeals = [...this.topDeals.feed?.deals ?? [], ...this.newDeals.feed?.deals ?? []];
+    const deal = allDeals.find(deal => deal.id === id);
+    if (!deal) {
       throw new Error(`Unable to find deal with ID ${id}`);
     }
-    return foundDeal;
+    return deal;
   }
 
-  /** Returns a new DealsFeed with an updated internal feed. */
-  async loadFeedNextPage(): Promise<DealsFeed> {
-    const newFeed = await this.fetchFeed(this.lastFetchedPage + 1);
+  /** Returns a new DealsFeed with an updated internal state. */
+  async loadTopDealsFeedNextPage(): Promise<DealsFeed> {
+    const nextPageNumber = (this.topDeals.lastFetchedPage ?? -1) + 1;
+    if (nextPageNumber >= DealsFeed.feedMaxPages) {
+      console.log('Reached the end of the Top deals feed (page 20).');
+      return this;
+    }
+
+    const nextPageFeed = await this.topDeals.fetcher(nextPageNumber);
 
     return new DealsFeed({
-      feed: newFeed,
-      previousDealsFeed: this,
-      lastFetchedPage: this.lastFetchedPage + 1,
+      newDeals: {
+        ...this.newDeals,
+      },
+      topDeals: {
+        ...this.topDeals,
+        feed: this.topDeals.feed
+          ? DealsFeed.mergeFeeds(this.topDeals.feed, nextPageFeed, DealsFeed.topDealsSorter)
+          : nextPageFeed,
+        lastFetchedPage: nextPageNumber,
+      },
+    });
+  }
+
+  /** Returns a new DealsFeed with an updated internal state. */
+  async loadNewDealsFeedNextPage(): Promise<DealsFeed> {
+    const nextPageNumber = (this.newDeals.lastFetchedPage ?? -1) + 1;
+    if (nextPageNumber >= DealsFeed.feedMaxPages) {
+      console.log('Reached the end of the New deals feed (page 20).');
+      return this;
+    }
+
+    const nextPageFeed = await this.newDeals.fetcher(nextPageNumber);
+
+    return new DealsFeed({
+      newDeals: {
+        ...this.newDeals,
+        feed: this.newDeals.feed
+          ? DealsFeed.mergeFeeds(this.newDeals.feed, nextPageFeed, DealsFeed.newDealsSorter)
+          : nextPageFeed,
+        lastFetchedPage: nextPageNumber,
+      },
+      topDeals: {
+        ...this.topDeals,
+      },
     });
   }
 
@@ -74,6 +120,7 @@ export class DealsFeed {
   private static mergeFeeds(
     feed1: OzbargainFeed,
     feed2: OzbargainFeed,
+    sorter: DealsSorter,
   ): OzbargainFeed {
     return {
       // Assumes both feeds are from the same source
@@ -81,10 +128,13 @@ export class DealsFeed {
       deals: feed1.deals
         .filter(d1 => feed2.deals.every(d2 => d1.id !== d2.id))
         .concat(feed2.deals)
-        // Keep deals sorted in highest -> lowest order (newest -> oldest deals)
-        .sort(({ postedAt: postedAtA }, { postedAt: postedAtB }) => postedAtB.getTime() - postedAtA.getTime()),
+        .sort(sorter),
     };
   }
+
+  // TODO: How are top deals sorted?
+  private static topDealsSorter: DealsSorter = () => 0;
+  private static newDealsSorter: DealsSorter = (deal1, deal2) => deal2.postedAt.getTime() - deal1.postedAt.getTime();
 }
 
 export const localFetchFeed: FeedFetcher = async () => {
@@ -110,9 +160,11 @@ export const localFetchFeed: FeedFetcher = async () => {
   return feed;
 };
 
-// Ozbargain feeds seem to have a 20 page limit (0 - 19) before 404ing.
-export const onlineFetchFeed: FeedFetcher = (page = 0) => {
-  return getOzbargainFeedFromUrl(`${FEED_URL_NEW_DEALS}?page=${page}`);
+export const onlineTopDealsFetchFeed: FeedFetcher = (page = 0) => {
+  return getOzbargainFeedFromUrl(`${TOP_DEALS_FEED_URL}?page=${page}`);
+};
+export const onlineNewDealsFetchFeed: FeedFetcher = (page = 0) => {
+  return getOzbargainFeedFromUrl(`${NEW_DEALS_FEED_URL}?page=${page}`);
 };
 
 type State =
@@ -129,6 +181,7 @@ type MaybeUninitializedState =
   | {
     state: 'uninitialised';
     dealsFeed?: DealsFeed;
+    emptyDealsFeed: DealsFeed;
   };
 type Action =
   | {
@@ -138,7 +191,6 @@ type Action =
     type: 'set';
     dealsFeed: DealsFeed;
   };
-type Dispatch = (action: Action) => void;
 
 function dealsFeedReducer(
   state: MaybeUninitializedState,
@@ -154,69 +206,132 @@ function dealsFeedReducer(
   }
 }
 
-async function refreshNewFeed(
-  dispatch: Dispatch,
-  fetchFeed: FeedFetcher,
-): Promise<void> {
-  dispatch({ type: 'refresh' });
-
-  const newFeed = await fetchFeed();
-
-  dispatch({
-    type: 'set',
-    dealsFeed: new DealsFeed({ feed: newFeed, fetchFeed }),
-  });
-}
-
-async function loadFeedNextPage(
-  dispatch: Dispatch,
-  dealsFeed: DealsFeed,
-): Promise<void> {
-  dispatch({ type: 'refresh' });
-
-  const newDealsFeed = await dealsFeed.loadFeedNextPage();
-
-  dispatch({
-    type: 'set',
-    dealsFeed: newDealsFeed,
-  });
-}
-
-type DealsFeedContextProps = MaybeUninitializedState & {
+type DealsFeedMethods = {
   /** Refresh entire feed. */
-  refresh: () => void;
+  refreshTopDeals: (dealsFeed: DealsFeed) => void;
+  /** Refresh entire feed. */
+  refreshNewDeals: (dealsFeed: DealsFeed) => void;
   /** Load the next page in the feed. */
-  loadNextPage: (dealsFeed: DealsFeed) => void;
+  loadTopDealsNextPage: (dealsFeed: DealsFeed) => void;
+  /** Load the next page in the feed. */
+  loadNewDealsNextPage: (dealsFeed: DealsFeed) => void;
 };
-const DealsFeedContext = createContext<DealsFeedContextProps | undefined>(
-  undefined,
-);
+
+type DealsFeedContextProps = MaybeUninitializedState & DealsFeedMethods;
+const DealsFeedContext = createContext<DealsFeedContextProps | undefined>(undefined);
 
 export function DealsFeedProvider({
   children,
-  fetchFeed,
+  topDealsFetchFeed,
+  newDealsFetchFeed,
 }: React.PropsWithChildren<{
-  fetchFeed: FeedFetcher;
+  topDealsFetchFeed: FeedFetcher;
+  newDealsFetchFeed: FeedFetcher;
 }>): React.JSX.Element {
   const [state, dispatch] = useReducer(dealsFeedReducer, {
     state: 'uninitialised',
+    emptyDealsFeed: new DealsFeed({
+      topDeals: {
+        fetcher: topDealsFetchFeed,
+      },
+      newDeals: {
+        fetcher: newDealsFetchFeed,
+      },
+    }),
   });
 
-  const value: DealsFeedContextProps = useMemo(() => {
+  useEffect(() => {
+    if (state.state !== 'uninitialised') {
+      return;
+    }
+    const loadFirstPages = async () => {
+      dispatch({ type: 'refresh' });
+      const [topDeals, newDeals] = await Promise.all([topDealsFetchFeed(0), newDealsFetchFeed(0)]);
+      dispatch({
+        type: 'set',
+        dealsFeed: new DealsFeed({
+          topDeals: {
+            feed: topDeals,
+            fetcher: topDealsFetchFeed,
+            lastFetchedPage: 0,
+          },
+          newDeals: {
+            feed: newDeals,
+            fetcher: newDealsFetchFeed,
+            lastFetchedPage: 0,
+          },
+        }),
+      });
+    };
+
+    void loadFirstPages();
+  }, []);
+
+  const value = useMemo<DealsFeedContextProps>(() => {
     return {
       ...state,
-      refresh: () => {
-        // eslint-disable-next-line @typescript-eslint/no-floating-promises
-        refreshNewFeed(dispatch, fetchFeed);
-      },
       // Need to take dealsFeed as param instead of using state.dealsFeed from this function's closure,
       // because at this point state.dealsFeed may be undefined.
-      loadNextPage: (dealsFeed: DealsFeed) => {
-        // eslint-disable-next-line @typescript-eslint/no-floating-promises
-        loadFeedNextPage(dispatch, dealsFeed);
+      refreshTopDeals: async dealsFeed => {
+        dispatch({ type: 'refresh' });
+
+        const newFeed = await dealsFeed.topDeals.fetcher(0);
+
+        dispatch({
+          type: 'set',
+          dealsFeed: new DealsFeed({
+            topDeals: {
+              ...dealsFeed.topDeals,
+              feed: newFeed,
+              lastFetchedPage: 0,
+            },
+            newDeals: {
+              ...dealsFeed.newDeals,
+            },
+          }),
+        });
+      },
+      refreshNewDeals: async dealsFeed => {
+        dispatch({ type: 'refresh' });
+
+        const newFeed = await dealsFeed.newDeals.fetcher(0);
+
+        dispatch({
+          type: 'set',
+          dealsFeed: new DealsFeed({
+            topDeals: {
+              ...dealsFeed.topDeals,
+            },
+            newDeals: {
+              ...dealsFeed.newDeals,
+              feed: newFeed,
+              lastFetchedPage: 0,
+            },
+          }),
+        });
+      },
+      loadTopDealsNextPage: async dealsFeed => {
+        dispatch({ type: 'refresh' });
+
+        const newDealsFeed = await dealsFeed.loadTopDealsFeedNextPage();
+
+        dispatch({
+          type: 'set',
+          dealsFeed: newDealsFeed,
+        });
+      },
+      loadNewDealsNextPage: async dealsFeed => {
+        dispatch({ type: 'refresh' });
+
+        const newDealsFeed = await dealsFeed.loadNewDealsFeedNextPage();
+
+        dispatch({
+          type: 'set',
+          dealsFeed: newDealsFeed,
+        });
       },
     };
-  }, [state, dispatch, fetchFeed]);
+  }, [state, dispatch, topDealsFetchFeed, newDealsFetchFeed]);
 
   return (
     <DealsFeedContext.Provider value={value}>
@@ -225,37 +340,42 @@ export function DealsFeedProvider({
   );
 }
 
-export function useDealsFeed():
-  & Omit<
-    DealsFeedContextProps,
-    keyof MaybeUninitializedState
-  >
+type UseDealsFeedReturnValue =
   & State
-{
+  & {
+    [Key in keyof DealsFeedMethods]: () => void;
+  };
+
+export function useDealsFeed(): UseDealsFeedReturnValue {
   const context = useContext(DealsFeedContext);
   if (context == null) {
     throw new Error('Could not find DealsFeed Provider');
   }
 
   // Assuming the app runs single-threaded, this should only occur once.
-  useEffect(() => {
-    if (context.state === 'uninitialised') {
-      context.refresh();
-    }
-  }, [context]);
+  // useEffect(() => {
+  //   if (context.state === 'uninitialised') {
+  //     context.refreshTopDeals(context.emptyDealsFeed);
+  //     context.refreshNewDeals(context.emptyDealsFeed);
+  //   }
+  // }, [context]);
 
   // Had type errors with assigning `state` when trying to make this smaller using `...context`.
   return context.state === 'uninitialised' || context.state === 'refreshing'
     ? {
       state: 'refreshing',
       dealsFeed: context.dealsFeed,
-      refresh: context.refresh,
-      loadNextPage: context.loadNextPage,
+      refreshTopDeals: () => undefined,
+      refreshNewDeals: () => undefined,
+      loadTopDealsNextPage: () => undefined,
+      loadNewDealsNextPage: () => undefined,
     }
     : {
       state: 'ready',
       dealsFeed: context.dealsFeed,
-      refresh: context.refresh,
-      loadNextPage: context.loadNextPage,
+      refreshTopDeals: () => context.refreshTopDeals(context.dealsFeed),
+      refreshNewDeals: () => context.refreshNewDeals(context.dealsFeed),
+      loadTopDealsNextPage: () => context.loadTopDealsNextPage(context.dealsFeed),
+      loadNewDealsNextPage: () => context.loadNewDealsNextPage(context.dealsFeed),
     };
 }

@@ -33,8 +33,7 @@ jobs:
           ref: |
             ${{
               github.event_name != 'workflow_dispatch' &&
-              steps.comment-branch.outputs.head_ref ||
-              github.sha
+              steps.pr-branch-info.outputs.head_ref
             }}
 
       - name: Install Node

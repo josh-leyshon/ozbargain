@@ -1,25 +1,21 @@
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { registerRootComponent } from 'expo';
 import { StatusBar } from 'expo-status-bar';
-import { DealsFeedProvider, localFetchFeed } from './global-state/dealsFeed';
-import { DealInfoScreen } from './screens/dealInfo/screen';
-import { FeedScreen } from './screens/dealsFeed/screen';
-import type { RootStackParamList } from './screens/navigationTypes';
-
-const Stack = createNativeStackNavigator<RootStackParamList>();
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { colours } from './base/constants/colours';
+import { DealsFeedProvider, onlineNewDealsFetchFeed, onlineTopDealsFetchFeed } from './global-state/dealsFeed';
+import { Navigation } from './screens/navigationRoutes';
 
 function App(): React.JSX.Element {
   return (
-    <NavigationContainer>
-      <StatusBar />
-      <DealsFeedProvider fetchFeed={localFetchFeed}>
-        <Stack.Navigator>
-          <Stack.Screen name='Feed' component={FeedScreen} />
-          <Stack.Screen name='DealInfo' component={DealInfoScreen} />
-        </Stack.Navigator>
+    <SafeAreaProvider>
+      <StatusBar translucent={false} backgroundColor={colours.background} />
+      <DealsFeedProvider
+        topDealsFetchFeed={onlineTopDealsFetchFeed}
+        newDealsFetchFeed={onlineNewDealsFetchFeed}
+      >
+        <Navigation />
       </DealsFeedProvider>
-    </NavigationContainer>
+    </SafeAreaProvider>
   );
 }
 
