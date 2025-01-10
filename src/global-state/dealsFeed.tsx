@@ -312,6 +312,7 @@ export function DealsFeedProvider({
       return;
     }
     const loadFirstPages = async () => {
+      dispatch({ type: 'refresh' });
       const [topDeals, newDeals] = await Promise.all([topDealsFetchFeed(0), newDealsFetchFeed(0)]);
       dispatch({
         type: 'set',
@@ -419,12 +420,12 @@ export function useDealsFeed(): UseDealsFeedReturnValue {
   }
 
   // Assuming the app runs single-threaded, this should only occur once.
-  useEffect(() => {
-    if (context.state === 'uninitialised') {
-      context.refreshTopDeals(context.emptyDealsFeed);
-      context.refreshNewDeals(context.emptyDealsFeed);
-    }
-  }, [context]);
+  // useEffect(() => {
+  //   if (context.state === 'uninitialised') {
+  //     context.refreshTopDeals(context.emptyDealsFeed);
+  //     context.refreshNewDeals(context.emptyDealsFeed);
+  //   }
+  // }, [context]);
 
   // Had type errors with assigning `state` when trying to make this smaller using `...context`.
   return context.state === 'uninitialised' || context.state === 'refreshing'
