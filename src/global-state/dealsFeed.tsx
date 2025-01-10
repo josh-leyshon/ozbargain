@@ -32,8 +32,10 @@ type DealsFeed2ConstructorArgs = {
 };
 
 export class DealsFeed2 {
-  readonly topDeals: DealsFeed2ConstructorArgs['topDeals'];
+  // Ozbargain feeds seem to have a 20 page limit (pages 0 - 19 are valid) before 404ing.
+  private static feedMaxPages = 20;
 
+  readonly topDeals: DealsFeed2ConstructorArgs['topDeals'];
   readonly newDeals: DealsFeed2ConstructorArgs['newDeals'];
 
   constructor({ topDeals, newDeals }: DealsFeed2ConstructorArgs) {
@@ -69,6 +71,11 @@ export class DealsFeed2 {
   /** Returns a new DealsFeed with an updated internal state. */
   async loadTopDealsFeedNextPage(): Promise<DealsFeed2> {
     const nextPageNumber = (this.topDeals.lastFetchedPage ?? -1) + 1;
+    if (nextPageNumber >= DealsFeed2.feedMaxPages) {
+      console.log('Reached the end of the Top deals feed (page 20).');
+      return this;
+    }
+
     const nextPageFeed = await this.topDeals.fetcher(nextPageNumber);
 
     return new DealsFeed2({
@@ -88,6 +95,11 @@ export class DealsFeed2 {
   /** Returns a new DealsFeed with an updated internal state. */
   async loadNewDealsFeedNextPage(): Promise<DealsFeed2> {
     const nextPageNumber = (this.newDeals.lastFetchedPage ?? -1) + 1;
+    if (nextPageNumber >= DealsFeed2.feedMaxPages) {
+      console.log('Reached the end of the New deals feed (page 20).');
+      return this;
+    }
+
     const nextPageFeed = await this.newDeals.fetcher(nextPageNumber);
 
     return new DealsFeed2({
@@ -225,11 +237,9 @@ export const localFetchFeed: FeedFetcher = async () => {
   return feed;
 };
 
-// Ozbargain feeds seem to have a 20 page limit (0 - 19) before 404ing.
 export const onlineTopDealsFetchFeed: FeedFetcher = (page = 0) => {
   return getOzbargainFeedFromUrl(`${TOP_DEALS_FEED_URL}?page=${page}`);
 };
-// Ozbargain feeds seem to have a 20 page limit (0 - 19) before 404ing.
 export const onlineNewDealsFetchFeed: FeedFetcher = (page = 0) => {
   return getOzbargainFeedFromUrl(`${NEW_DEALS_FEED_URL}?page=${page}`);
 };
