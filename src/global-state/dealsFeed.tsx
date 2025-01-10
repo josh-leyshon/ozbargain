@@ -134,7 +134,7 @@ export class DealsFeed2 {
 
   // TODO: How are top deals sorted?
   private static topDealsSorter: DealsSorter = (deal1, deal2) => 0;
-  private static newDealsSorter: DealsSorter = (deal1, deal2) => deal1.postedAt.getTime() - deal2.postedAt.getTime();
+  private static newDealsSorter: DealsSorter = (deal1, deal2) => deal2.postedAt.getTime() - deal1.postedAt.getTime();
 }
 
 export class DealsFeed {
