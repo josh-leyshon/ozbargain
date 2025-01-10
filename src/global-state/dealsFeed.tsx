@@ -18,7 +18,7 @@ type DealsSorter = (deal1: Deal, deal2: Deal) => number;
 const TOP_DEALS_FEED_URL = 'https://www.ozbargain.com.au/feed';
 const NEW_DEALS_FEED_URL = 'https://www.ozbargain.com.au/deals/feed';
 
-type DealsFeed2ConstructorArgs = {
+type DealsFeedConstructorArgs = {
   topDeals: {
     feed?: OzbargainFeed;
     fetcher: FeedFetcher;
@@ -31,14 +31,14 @@ type DealsFeed2ConstructorArgs = {
   };
 };
 
-export class DealsFeed2 {
+export class DealsFeed {
   // Ozbargain feeds seem to have a 20 page limit (pages 0 - 19 are valid) before 404ing.
   private static feedMaxPages = 20;
 
-  readonly topDeals: DealsFeed2ConstructorArgs['topDeals'];
-  readonly newDeals: DealsFeed2ConstructorArgs['newDeals'];
+  readonly topDeals: DealsFeedConstructorArgs['topDeals'];
+  readonly newDeals: DealsFeedConstructorArgs['newDeals'];
 
-  constructor({ topDeals, newDeals }: DealsFeed2ConstructorArgs) {
+  constructor({ topDeals, newDeals }: DealsFeedConstructorArgs) {
     this.topDeals = topDeals;
     this.newDeals = newDeals;
   }
@@ -69,23 +69,23 @@ export class DealsFeed2 {
   }
 
   /** Returns a new DealsFeed with an updated internal state. */
-  async loadTopDealsFeedNextPage(): Promise<DealsFeed2> {
+  async loadTopDealsFeedNextPage(): Promise<DealsFeed> {
     const nextPageNumber = (this.topDeals.lastFetchedPage ?? -1) + 1;
-    if (nextPageNumber >= DealsFeed2.feedMaxPages) {
+    if (nextPageNumber >= DealsFeed.feedMaxPages) {
       console.log('Reached the end of the Top deals feed (page 20).');
       return this;
     }
 
     const nextPageFeed = await this.topDeals.fetcher(nextPageNumber);
 
-    return new DealsFeed2({
+    return new DealsFeed({
       newDeals: {
         ...this.newDeals,
       },
       topDeals: {
         ...this.topDeals,
         feed: this.topDeals.feed
-          ? DealsFeed2.mergeFeeds(this.topDeals.feed, nextPageFeed, DealsFeed2.topDealsSorter)
+          ? DealsFeed.mergeFeeds(this.topDeals.feed, nextPageFeed, DealsFeed.topDealsSorter)
           : nextPageFeed,
         lastFetchedPage: nextPageNumber,
       },
@@ -93,20 +93,20 @@ export class DealsFeed2 {
   }
 
   /** Returns a new DealsFeed with an updated internal state. */
-  async loadNewDealsFeedNextPage(): Promise<DealsFeed2> {
+  async loadNewDealsFeedNextPage(): Promise<DealsFeed> {
     const nextPageNumber = (this.newDeals.lastFetchedPage ?? -1) + 1;
-    if (nextPageNumber >= DealsFeed2.feedMaxPages) {
+    if (nextPageNumber >= DealsFeed.feedMaxPages) {
       console.log('Reached the end of the New deals feed (page 20).');
       return this;
     }
 
     const nextPageFeed = await this.newDeals.fetcher(nextPageNumber);
 
-    return new DealsFeed2({
+    return new DealsFeed({
       newDeals: {
         ...this.newDeals,
         feed: this.newDeals.feed
-          ? DealsFeed2.mergeFeeds(this.newDeals.feed, nextPageFeed, DealsFeed2.newDealsSorter)
+          ? DealsFeed.mergeFeeds(this.newDeals.feed, nextPageFeed, DealsFeed.newDealsSorter)
           : nextPageFeed,
         lastFetchedPage: nextPageNumber,
       },
@@ -133,85 +133,8 @@ export class DealsFeed2 {
   }
 
   // TODO: How are top deals sorted?
-  private static topDealsSorter: DealsSorter = (deal1, deal2) => 0;
+  private static topDealsSorter: DealsSorter = () => 0;
   private static newDealsSorter: DealsSorter = (deal1, deal2) => deal2.postedAt.getTime() - deal1.postedAt.getTime();
-}
-
-export class DealsFeed {
-  /**
-   * Public for accessing within utility functions.
-   * Should not be used directly by consumers. Prefer methods on this class instead.
-   */
-  readonly feed: OzbargainFeed;
-
-  /**
-   * The FeedFetcher used to initially create this DealsFeed.
-   * More pages will be fetched using this same fetcher.
-   */
-  readonly fetchFeed: FeedFetcher;
-
-  /** The last-fetched page number of the feed. */
-  private readonly lastFetchedPage: number;
-
-  constructor({
-    feed,
-    lastFetchedPage,
-    ...rest
-  }:
-    & { feed: OzbargainFeed; lastFetchedPage?: number }
-    & (
-      | { fetchFeed: FeedFetcher }
-      | { previousDealsFeed: DealsFeed }
-    ))
-  {
-    if ('previousDealsFeed' in rest) {
-      this.feed = DealsFeed.mergeFeeds(rest.previousDealsFeed.feed, feed);
-      this.fetchFeed = rest.previousDealsFeed.fetchFeed;
-    } else {
-      this.feed = feed;
-      this.fetchFeed = rest.fetchFeed;
-    }
-    this.lastFetchedPage = lastFetchedPage ?? 0;
-  }
-
-  getDeals(): Deal[] {
-    return this.feed.deals;
-  }
-
-  getDealById(id: Deal['id']): Deal {
-    const foundDeal = this.feed.deals.find(deal => deal.id === id);
-    if (!foundDeal) {
-      throw new Error(`Unable to find deal with ID ${id}`);
-    }
-    return foundDeal;
-  }
-
-  /** Returns a new DealsFeed with an updated internal feed. */
-  async loadFeedNextPage(): Promise<DealsFeed> {
-    const newFeed = await this.fetchFeed(this.lastFetchedPage + 1);
-
-    return new DealsFeed({
-      feed: newFeed,
-      previousDealsFeed: this,
-      lastFetchedPage: this.lastFetchedPage + 1,
-    });
-  }
-
-  /** If duplicate deals exist, keeps those in feed2. */
-  private static mergeFeeds(
-    feed1: OzbargainFeed,
-    feed2: OzbargainFeed,
-  ): OzbargainFeed {
-    return {
-      // Assumes both feeds are from the same source
-      meta: feed1.meta,
-      deals: feed1.deals
-        .filter(d1 => feed2.deals.every(d2 => d1.id !== d2.id))
-        .concat(feed2.deals)
-        // Keep deals sorted in highest -> lowest order (newest -> oldest deals)
-        .sort(({ postedAt: postedAtA }, { postedAt: postedAtB }) => postedAtB.getTime() - postedAtA.getTime()),
-    };
-  }
 }
 
 export const localFetchFeed: FeedFetcher = async () => {
@@ -247,18 +170,18 @@ export const onlineNewDealsFetchFeed: FeedFetcher = (page = 0) => {
 type State =
   | {
     state: 'refreshing';
-    dealsFeed?: DealsFeed2;
+    dealsFeed?: DealsFeed;
   }
   | {
     state: 'ready';
-    dealsFeed: DealsFeed2;
+    dealsFeed: DealsFeed;
   };
 type MaybeUninitializedState =
   | State
   | {
     state: 'uninitialised';
-    dealsFeed?: DealsFeed2;
-    emptyDealsFeed: DealsFeed2;
+    dealsFeed?: DealsFeed;
+    emptyDealsFeed: DealsFeed;
   };
 type Action =
   | {
@@ -266,7 +189,7 @@ type Action =
   }
   | {
     type: 'set';
-    dealsFeed: DealsFeed2;
+    dealsFeed: DealsFeed;
   };
 
 function dealsFeedReducer(
@@ -285,13 +208,13 @@ function dealsFeedReducer(
 
 type DealsFeedMethods = {
   /** Refresh entire feed. */
-  refreshTopDeals: (dealsFeed: DealsFeed2) => void;
+  refreshTopDeals: (dealsFeed: DealsFeed) => void;
   /** Refresh entire feed. */
-  refreshNewDeals: (dealsFeed: DealsFeed2) => void;
+  refreshNewDeals: (dealsFeed: DealsFeed) => void;
   /** Load the next page in the feed. */
-  loadTopDealsNextPage: (dealsFeed: DealsFeed2) => void;
+  loadTopDealsNextPage: (dealsFeed: DealsFeed) => void;
   /** Load the next page in the feed. */
-  loadNewDealsNextPage: (dealsFeed: DealsFeed2) => void;
+  loadNewDealsNextPage: (dealsFeed: DealsFeed) => void;
 };
 
 type DealsFeedContextProps = MaybeUninitializedState & DealsFeedMethods;
@@ -307,7 +230,7 @@ export function DealsFeedProvider({
 }>): React.JSX.Element {
   const [state, dispatch] = useReducer(dealsFeedReducer, {
     state: 'uninitialised',
-    emptyDealsFeed: new DealsFeed2({
+    emptyDealsFeed: new DealsFeed({
       topDeals: {
         fetcher: topDealsFetchFeed,
       },
@@ -326,7 +249,7 @@ export function DealsFeedProvider({
       const [topDeals, newDeals] = await Promise.all([topDealsFetchFeed(0), newDealsFetchFeed(0)]);
       dispatch({
         type: 'set',
-        dealsFeed: new DealsFeed2({
+        dealsFeed: new DealsFeed({
           topDeals: {
             feed: topDeals,
             fetcher: topDealsFetchFeed,
@@ -356,7 +279,7 @@ export function DealsFeedProvider({
 
         dispatch({
           type: 'set',
-          dealsFeed: new DealsFeed2({
+          dealsFeed: new DealsFeed({
             topDeals: {
               ...dealsFeed.topDeals,
               feed: newFeed,
@@ -375,7 +298,7 @@ export function DealsFeedProvider({
 
         dispatch({
           type: 'set',
-          dealsFeed: new DealsFeed2({
+          dealsFeed: new DealsFeed({
             topDeals: {
               ...dealsFeed.topDeals,
             },
