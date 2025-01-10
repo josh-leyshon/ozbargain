@@ -307,6 +307,32 @@ export function DealsFeedProvider({
     }),
   });
 
+  useEffect(() => {
+    if (state.state !== 'uninitialised') {
+      return;
+    }
+    const loadFirstPages = async () => {
+      const [topDeals, newDeals] = await Promise.all([topDealsFetchFeed(0), newDealsFetchFeed(0)]);
+      dispatch({
+        type: 'set',
+        dealsFeed: new DealsFeed2({
+          topDeals: {
+            feed: topDeals,
+            fetcher: topDealsFetchFeed,
+            lastFetchedPage: 0,
+          },
+          newDeals: {
+            feed: newDeals,
+            fetcher: newDealsFetchFeed,
+            lastFetchedPage: 0,
+          },
+        }),
+      });
+    };
+
+    void loadFirstPages();
+  }, []);
+
   const value = useMemo<DealsFeedContextProps>(() => {
     return {
       ...state,
