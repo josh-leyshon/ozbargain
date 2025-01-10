@@ -35,7 +35,7 @@ export type PartedText = {
   parts: TextPart[];
 };
 
-const costRegex = /(\$(?:\d+(?:\.\d+)?))/;
+const costRegex = /(\$(?:\d+(?:,\d+)*(?:\.\d+)?))/;
 const costRegexBeginsWith = '$';
 
 const descriptionMetaDivRegex = /(?:<div style="float:right;.+?<\/div>)/;
