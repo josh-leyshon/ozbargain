@@ -35,8 +35,8 @@ export type PartedText = {
   parts: TextPart[];
 };
 
-const costRegex = /(\$(?:\d+(?:,\d+)*(?:\.\d+)?))/;
-const costRegexBeginsWith = '$';
+const priceRegex = /(\$(?:\d+(?:,\d+)*(?:\.\d+)?k?))/;
+const priceRegexBeginsWith = '$';
 
 const descriptionMetaDivRegex = /(?:<div style="float:right;.+?<\/div>)/;
 const descriptionMetaDivBeginsWith = '<div style="float:right';
@@ -48,7 +48,7 @@ const blockQuoteRegex = /(<blockquote>.+?<\/blockquote>)/;
 const blockQuoteRegexBeginsWith = '<blockquote>';
 
 const allRegexes = new RegExp(
-  `${costRegex.source}|${descriptionMetaDivRegex.source}|${linkRegex.source}|${blockQuoteRegex.source}`,
+  `${priceRegex.source}|${descriptionMetaDivRegex.source}|${linkRegex.source}|${blockQuoteRegex.source}`,
   'gs',
 );
 
@@ -59,7 +59,7 @@ export function partText(input: string): PartedText {
   for (const match of input.matchAll(allRegexes)) {
     const matchedText = match[0];
     const type = (
-      matchedText.startsWith(costRegexBeginsWith)
+      matchedText.startsWith(priceRegexBeginsWith)
         ? 'price'
         : matchedText.startsWith(descriptionMetaDivBeginsWith)
         ? 'metaDiv'
@@ -166,6 +166,8 @@ function parsePart(
   }
 }
 
+export const INTERNAL_LINK_PREFIX = 'https://ozbargain.com.au';
+
 /**
  * Parse an `<a>` tag into parts.
  */
@@ -179,7 +181,7 @@ function parseLink(text: string): Omit<LinkTextPart, 'type'> | undefined {
   }
 
   const linkType = internalExternal === 'internal' ? 'deal' : 'external';
-  const url = linkType === 'deal' ? `https://ozbargain.com.au${urlStr}` : urlStr;
+  const url = linkType === 'deal' ? `${INTERNAL_LINK_PREFIX}${urlStr}` : urlStr;
 
   return {
     url,
@@ -197,5 +199,6 @@ function stripAndUnescapeHtml(text: string): string {
     .replaceAll('&lt;', '<')
     .replaceAll('&gt;', '>')
     .replaceAll('&quot;', '"')
-    .replaceAll('&#039;', "'");
+    .replaceAll('&#039;', "'")
+    .replaceAll('&#8230;', '...');
 }
