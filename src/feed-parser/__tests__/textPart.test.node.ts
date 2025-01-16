@@ -67,7 +67,7 @@ test.each([
     expectedUrls: [`${INTERNAL_LINK_PREFIX}/some-page`],
   },
   {
-    // Has no closing tag, not a proper link
+    // Has no closing tag, not a proper link.
     input: '<a class="internal" href="/some-page">abc',
     expectedLinkTexts: [],
     expectedUrls: [],
@@ -80,4 +80,17 @@ test.each([
 
   expect(linkTexts).toStrictEqual(testCase.expectedLinkTexts);
   expect(urls).toStrictEqual(testCase.expectedUrls);
+});
+
+test.each([
+  { input: 'abc <blockquote>def</blockquote> ghi', expectedQuoteTexts: ['def'] },
+  { input: '<blockquote>def</blockquote> <blockquote>ghi</blockquote>', expectedQuoteTexts: ['def', 'ghi'] },
+  // Closing tag is missing "</", not a proper blockquote.
+  { input: '<blockquote>def<blockquote>', expectedQuoteTexts: [] },
+  { input: '<blockquote>abc $123</blockquote>', expectedQuoteTexts: ['abc $123'] },
+])('Blockquotes: "$input"', testCase => {
+  const textParts = partText(testCase.input);
+
+  const prices = textParts.parts.filter(part => part.type === 'blockquote').map(part => part.text);
+  expect(prices).toStrictEqual(testCase.expectedQuoteTexts);
 });
