@@ -27,6 +27,7 @@ test.each([
   { input: '$10,000,000', expectedPrices: ['$10,000,000'] },
   { input: '$1k', expectedPrices: ['$1k'] },
   { input: '$1.23k', expectedPrices: ['$1.23k'] },
+  { input: '$k', expectedPrices: [] },
 ])('Prices: "%s"', testCase => {
   const textParts = partText(testCase.input);
 
