@@ -14,6 +14,20 @@ test.each([
 });
 
 test.each([
+  { input: 'a&amp;b', expectedNormalTexts: ['a&b'] },
+  { input: 'a&lt;b', expectedNormalTexts: ['a<b'] },
+  { input: 'a&gt;b', expectedNormalTexts: ['a>b'] },
+  { input: '&quot;ab&quot;', expectedNormalTexts: ['"ab"'] },
+  { input: '&#039;ab&#039;', expectedNormalTexts: ["'ab'"] },
+  { input: 'ab&#8230;', expectedNormalTexts: ['ab...'] },
+])('Unescape HTML: "$input"', testCase => {
+  const textParts = partText(testCase.input);
+
+  const normalTexts = textParts.parts.map(part => part.text);
+  expect(normalTexts).toStrictEqual(testCase.expectedNormalTexts);
+});
+
+test.each([
   { input: '$123', expectedPrices: ['$123'] },
   { input: '$1.23', expectedPrices: ['$1.23'] },
   { input: '$2.00', expectedPrices: ['$2.00'] },
