@@ -1,4 +1,4 @@
-import { partText } from '../textParts';
+import { INTERNAL_LINK_PREFIX, partText } from '../textParts';
 
 test.each([
   { input: 'abc', expectedNormalTexts: ['abc'] },
@@ -6,11 +6,11 @@ test.each([
   { input: 'abc 123', expectedNormalTexts: ['abc 123'] },
   { input: '', expectedNormalTexts: [''] },
   { input: '   ', expectedNormalTexts: ['   '] },
-])('Normal text: "%s"', testCase => {
+])('Normal text: "$input"', testCase => {
   const textParts = partText(testCase.input);
 
-  const prices = textParts.parts.map(part => part.text);
-  expect(prices).toStrictEqual(testCase.expectedNormalTexts);
+  const normalTexts = textParts.parts.map(part => part.text);
+  expect(normalTexts).toStrictEqual(testCase.expectedNormalTexts);
 });
 
 test.each([
@@ -28,9 +28,42 @@ test.each([
   { input: '$1k', expectedPrices: ['$1k'] },
   { input: '$1.23k', expectedPrices: ['$1.23k'] },
   { input: '$k', expectedPrices: [] },
-])('Prices: "%s"', testCase => {
+])('Prices: "$input"', testCase => {
   const textParts = partText(testCase.input);
 
   const prices = textParts.parts.filter(part => part.type === 'price').map(part => part.text);
   expect(prices).toStrictEqual(testCase.expectedPrices);
+});
+
+test.each([
+  {
+    input: '<a class="external" href="https://www.example.com/">abc</a>',
+    expectedLinkTexts: ['abc'],
+    expectedUrls: ['https://www.example.com/'],
+  },
+  {
+    input:
+      'abc 123 <a class="external" href="https://www.example.com/">def</a> and then <a class="external" href="https://www.example2.com/">def2</a>',
+    expectedLinkTexts: ['def', 'def2'],
+    expectedUrls: ['https://www.example.com/', 'https://www.example2.com/'],
+  },
+  {
+    input: '<a class="internal" href="/some-page">abc</a>',
+    expectedLinkTexts: ['abc'],
+    expectedUrls: [`${INTERNAL_LINK_PREFIX}/some-page`],
+  },
+  {
+    // Has no closing tag, not a proper link
+    input: '<a class="internal" href="/some-page">abc',
+    expectedLinkTexts: [],
+    expectedUrls: [],
+  },
+])('Links: "$input"', testCase => {
+  const textParts = partText(testCase.input);
+
+  const linkTexts = textParts.parts.filter(part => part.type === 'link').map(part => part.text);
+  const urls = textParts.parts.filter(part => part.type === 'link').map(part => part.url);
+
+  expect(linkTexts).toStrictEqual(testCase.expectedLinkTexts);
+  expect(urls).toStrictEqual(testCase.expectedUrls);
 });

@@ -166,6 +166,8 @@ function parsePart(
   }
 }
 
+export const INTERNAL_LINK_PREFIX = 'https://ozbargain.com.au';
+
 /**
  * Parse an `<a>` tag into parts.
  */
@@ -179,7 +181,7 @@ function parseLink(text: string): Omit<LinkTextPart, 'type'> | undefined {
   }
 
   const linkType = internalExternal === 'internal' ? 'deal' : 'external';
-  const url = linkType === 'deal' ? `https://ozbargain.com.au${urlStr}` : urlStr;
+  const url = linkType === 'deal' ? `${INTERNAL_LINK_PREFIX}${urlStr}` : urlStr;
 
   return {
     url,
