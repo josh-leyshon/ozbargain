@@ -24,6 +24,7 @@ test.each([
   { input: '$.2', expectedPrices: [] },
   { input: '$0.2', expectedPrices: ['$0.2'] },
   { input: '$1 $2 abc $3', expectedPrices: ['$1', '$2', '$3'] },
+  { input: '$10,000,000', expectedPrices: ['$10,000,000'] },
   { input: '$1k', expectedPrices: ['$1k'] },
   { input: '$1.23k', expectedPrices: ['$1.23k'] },
 ])('Prices: "%s"', testCase => {
