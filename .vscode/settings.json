@@ -50,4 +50,8 @@
     "editor.defaultFormatter": "dprint.dprint",
     "editor.formatOnSave": true,
   },
+  "[html]": {
+    "editor.defaultFormatter": "dprint.dprint",
+    "editor.formatOnSave": true,
+  },
 }
