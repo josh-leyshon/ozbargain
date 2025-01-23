@@ -4,9 +4,12 @@ import { StyleSheet } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { colours } from '../../base/constants/colours';
 import { sizes } from '../../base/constants/sizes';
+import { main as dealInfoScrape } from '../../deal-info-scraper/webScraper';
 import { useDealsFeed } from '../../global-state/dealsFeed';
 import type { FeedScreenProps } from '../navigationRoutes';
 import { DealsFeed } from './dealsFeed';
+
+void dealInfoScrape();
 
 export function FeedScreen({ route }: FeedScreenProps): React.JSX.Element {
   const insets = useSafeAreaInsets();
