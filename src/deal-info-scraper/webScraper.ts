@@ -1,6 +1,6 @@
-// import { writeFile } from 'node:fs/promises';
-// import { join } from 'node:path';
 import { load } from 'cheerio';
+import { readFile, writeFile } from 'node:fs/promises';
+import { join } from 'node:path';
 
 const url = 'https://www.ozbargain.com.au/node/888965';
 
@@ -35,8 +35,9 @@ function getComments(html: string) {
 }
 
 export async function main() {
-  const html = await fetch(url).then(res => res.text());
+  // const html = await fetch(url).then(res => res.text());
   // await writeFile(join(__dirname, 'deal-info.html'), html);
+  const html = await readFile(join(__dirname, 'deal-info.html'), 'utf-8');
 
   const coupons = getCoupons(html);
   console.log(coupons);
