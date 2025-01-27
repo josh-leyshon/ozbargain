@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useMemo, useReducer } from 'react';
+import { OZBARGAIN_BASE_URL } from '../base/constants/urls';
 import { UnreachableError } from '../base/unreachableError';
 import { getOzbargainFeedFromUrl } from '../feed-parser/parser';
 import type { Deal, OzbargainFeed } from '../feed-parser/parser';
@@ -15,8 +16,8 @@ type FeedFetcher = (page?: number) => Promise<OzbargainFeed>;
  */
 type DealsSorter = (deal1: Deal, deal2: Deal) => number;
 
-const TOP_DEALS_FEED_URL = 'https://www.ozbargain.com.au/feed';
-const NEW_DEALS_FEED_URL = 'https://www.ozbargain.com.au/deals/feed';
+const TOP_DEALS_FEED_URL = `${OZBARGAIN_BASE_URL}/feed`;
+const NEW_DEALS_FEED_URL = `${OZBARGAIN_BASE_URL}/deals/feed`;
 
 type DealsFeedConstructorArgs = {
   topDeals: {

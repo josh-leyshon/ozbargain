@@ -1,4 +1,5 @@
 import RssParser from 'rss-parser';
+import { OZBARGAIN_BASE_URL } from '../base/constants/urls';
 import { assertAndParseFeedItem, assertFeedMeta } from './assertions';
 import { type PartedText, partText } from './textParts';
 
@@ -103,5 +104,5 @@ export async function getOzbargainFeedFromUrl(url: string) {
 
 // FOR LOCAL TESTING ONLY
 
-export const FEED_URL = 'https://www.ozbargain.com.au/deals/feed';
+export const FEED_URL = `${OZBARGAIN_BASE_URL}/deals/feed`;
 export const FEED_URL_CORS_ANYWHERE = `https://cors-anywhere.herokuapp.com/${FEED_URL}`;

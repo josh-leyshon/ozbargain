@@ -1,3 +1,4 @@
+import { OZBARGAIN_BASE_URL } from '../base/constants/urls';
 import { UnreachableError } from '../base/unreachableError';
 
 type TextPartType = 'price' | 'link' | 'blockquote' | 'normal';
@@ -166,7 +167,7 @@ function parsePart(
   }
 }
 
-export const INTERNAL_LINK_PREFIX = 'https://ozbargain.com.au';
+export const INTERNAL_LINK_PREFIX = OZBARGAIN_BASE_URL;
 
 /**
  * Parse an `<a>` tag into parts.
