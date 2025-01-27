@@ -3,7 +3,6 @@ import React from 'react';
 import { Platform, ScrollView, Share, StyleSheet } from 'react-native';
 import { Card } from '../../base/components/card/card';
 import { Spinner } from '../../base/components/spinner/spinner';
-import { Text } from '../../base/components/text/text';
 import { colours } from '../../base/constants/colours';
 import { sizes } from '../../base/constants/sizes';
 import { useFetch } from '../../base/hooks/useFetch';
@@ -61,14 +60,11 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
           <Card padding='large'>
             <Description description={deal.description} />
           </Card>
-          <Card padding='large' gap='large'>
-            {comments?.map(comment => (
-              <React.Fragment key={comment.id}>
-                <Text weight='bold' colour='primaryDark'>Thread</Text>
-                <CommentThread comment={comment} />
-              </React.Fragment>
-            )) ?? <Spinner />}
-          </Card>
+          {comments?.map(comment => (
+            <Card padding='large' key={`thread-${comment.id}`}>
+              <CommentThread comment={comment} />
+            </Card>
+          )) ?? <Spinner />}
         </Column>
       </ScrollView>
     </>
