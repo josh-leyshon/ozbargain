@@ -87,7 +87,7 @@ function getCommentAndChildren(rootCheerio: CheerioAPI, comment: Element, level:
  * Extract all comments on a deal info page.
  * @param html The HTML of a deal info page.
  */
-export function getDealCommentsFromDocument(html: string) {
+export function getDealCommentsFromDocument(html: string): Comment[] {
   const $ = load(html);
   const level0Comments = $('ul.comment.level0 > li');
 

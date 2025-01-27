@@ -1,0 +1,2172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Extracts comments from deal info page 1`] = `
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 183,
+                  "rawText": "<p>Agreed re: Budvar. Praga is a perfectly good Central European-tasting beer. I picked up a slab with for this price last night and am feeling glad. In 375ml equivalence, it's under ",
+                  "startIndex": 0,
+                  "text": "Agreed re: Budvar. Praga is a perfectly good Central European-tasting beer. I picked up a slab with for this price last night and am feeling glad. In 375ml equivalence, it's under ",
+                  "type": "normal",
+                },
+                {
+                  "endIndex": 186,
+                  "rawText": "$40",
+                  "startIndex": 183,
+                  "text": "$40",
+                  "type": "price",
+                },
+                {
+                  "endIndex": 204,
+                  "rawText": " for the slab.</p>",
+                  "startIndex": 186,
+                  "text": " for the slab.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Agreed re: Budvar. Praga is a perfectly good Central European-tasting beer. I picked up a slab with for this price last night and am feeling glad. In 375ml equivalence, it's under $40 for the slab.</p>",
+            },
+            "id": "16163198",
+            "level": 2,
+            "timestamp": 2025-01-15T02:06:13.000Z,
+            "user": {
+              "name": "park",
+              "profileUrl": "https://www.ozbargain.com.au/user/382898",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/98/382898-38.jpg?h=751a0cb3",
+            },
+            "votes": 3,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 86,
+              "rawText": "<p>Probably closer to budejovicky budvar but being canned isnt as nice as bottled.</p>",
+              "startIndex": 0,
+              "text": "Probably closer to budejovicky budvar but being canned isnt as nice as bottled.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Probably closer to budejovicky budvar but being canned isnt as nice as bottled.</p>",
+        },
+        "id": "16163106",
+        "level": 1,
+        "timestamp": 2025-01-15T01:48:23.000Z,
+        "user": {
+          "name": "Spendmore",
+          "profileUrl": "https://www.ozbargain.com.au/user/366774",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 20,
+              "rawText": "<p>Lots of comments ",
+              "startIndex": 0,
+              "text": "Lots of comments ",
+              "type": "normal",
+            },
+            {
+              "endIndex": 91,
+              "linkType": "deal",
+              "rawText": "<a href="/node/883481" class="internal inline">in the previous post</a>",
+              "startIndex": 20,
+              "text": "in the previous post",
+              "type": "link",
+              "url": "https://www.ozbargain.com.au/node/883481",
+            },
+            {
+              "endIndex": 120,
+              "rawText": " about taste, origin etc.</p>",
+              "startIndex": 91,
+              "text": " about taste, origin etc.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Lots of comments <a href="/node/883481" class="internal inline">in the previous post</a> about taste, origin etc.</p>",
+        },
+        "id": "16163421",
+        "level": 1,
+        "timestamp": 2025-01-15T02:52:57.000Z,
+        "user": {
+          "name": "Ham Dragon",
+          "profileUrl": "https://www.ozbargain.com.au/user/393207",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/07/393207-38.jpg?h=02e9f33a",
+        },
+        "votes": 3,
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "content": {
+                              "parts": [
+                                {
+                                  "endIndex": 3,
+                                  "rawText": "<p>",
+                                  "startIndex": 0,
+                                  "text": "",
+                                  "type": "normal",
+                                },
+                                {
+                                  "endIndex": 117,
+                                  "linkType": "deal",
+                                  "rawText": "<a href="/comment/16164424/redir" class="internal inline" onclick="return OzB.gotoComment(16164424);">@M00Cow:</a>",
+                                  "startIndex": 3,
+                                  "text": "@M00Cow:",
+                                  "type": "link",
+                                  "url": "https://www.ozbargain.com.au/comment/16164424/redir",
+                                },
+                                {
+                                  "endIndex": 160,
+                                  "rawText": " kinda sorta if you like but not really</p>",
+                                  "startIndex": 117,
+                                  "text": " kinda sorta if you like but not really",
+                                  "type": "normal",
+                                },
+                              ],
+                              "rawText": "<p><a href="/comment/16164424/redir" class="internal inline" onclick="return OzB.gotoComment(16164424);">@M00Cow:</a> kinda sorta if you like but not really</p>",
+                            },
+                            "id": "16164765",
+                            "level": 6,
+                            "timestamp": 2025-01-15T07:42:20.000Z,
+                            "user": {
+                              "name": "9hundred",
+                              "profileUrl": "https://www.ozbargain.com.au/user/288370",
+                              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                            },
+                            "votes": 0,
+                          },
+                        ],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 119,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/16164335/redir" class="internal inline" onclick="return OzB.gotoComment(16164335);">@9hundred:</a>",
+                              "startIndex": 3,
+                              "text": "@9hundred:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/16164335/redir",
+                            },
+                            {
+                              "endIndex": 153,
+                              "rawText": " bitter like those who neg you</p>",
+                              "startIndex": 119,
+                              "text": " bitter like those who neg you",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/16164335/redir" class="internal inline" onclick="return OzB.gotoComment(16164335);">@9hundred:</a> bitter like those who neg you</p>",
+                        },
+                        "id": "16164424",
+                        "level": 5,
+                        "timestamp": 2025-01-15T06:18:14.000Z,
+                        "user": {
+                          "name": "M00Cow",
+                          "profileUrl": "https://www.ozbargain.com.au/user/354246",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": -1,
+                      },
+                    ],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 119,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16164320/redir" class="internal inline" onclick="return OzB.gotoComment(16164320);">@9hundred:</a>",
+                          "startIndex": 3,
+                          "text": "@9hundred:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16164320/redir",
+                        },
+                        {
+                          "endIndex": 216,
+                          "rawText": " trust me, praga is horrible because it's sweet, whereas PU is bitter the way beer should be.</p>",
+                          "startIndex": 119,
+                          "text": " trust me, praga is horrible because it's sweet, whereas PU is bitter the way beer should be.",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16164320/redir" class="internal inline" onclick="return OzB.gotoComment(16164320);">@9hundred:</a> trust me, praga is horrible because it's sweet, whereas PU is bitter the way beer should be.</p>",
+                    },
+                    "id": "16164335",
+                    "level": 4,
+                    "timestamp": 2025-01-15T05:56:35.000Z,
+                    "user": {
+                      "name": "9hundred",
+                      "profileUrl": "https://www.ozbargain.com.au/user/288370",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 41,
+                      "rawText": "<p>people just hate hearing the truth</p>",
+                      "startIndex": 0,
+                      "text": "people just hate hearing the truth",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>people just hate hearing the truth</p>",
+                },
+                "id": "16164320",
+                "level": 3,
+                "timestamp": 2025-01-15T05:54:45.000Z,
+                "user": {
+                  "name": "9hundred",
+                  "profileUrl": "https://www.ozbargain.com.au/user/288370",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": -2,
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "content": {
+                              "parts": [
+                                {
+                                  "endIndex": 3,
+                                  "rawText": "<p>",
+                                  "startIndex": 0,
+                                  "text": "",
+                                  "type": "normal",
+                                },
+                                {
+                                  "endIndex": 121,
+                                  "linkType": "deal",
+                                  "rawText": "<a href="/comment/16167599/redir" class="internal inline" onclick="return OzB.gotoComment(16167599);">@jackspratt:</a>",
+                                  "startIndex": 3,
+                                  "text": "@jackspratt:",
+                                  "type": "link",
+                                  "url": "https://www.ozbargain.com.au/comment/16167599/redir",
+                                },
+                                {
+                                  "endIndex": 139,
+                                  "rawText": " Most welcome.</p>",
+                                  "startIndex": 121,
+                                  "text": " Most welcome.",
+                                  "type": "normal",
+                                },
+                              ],
+                              "rawText": "<p><a href="/comment/16167599/redir" class="internal inline" onclick="return OzB.gotoComment(16167599);">@jackspratt:</a> Most welcome.</p>",
+                            },
+                            "id": "16168996",
+                            "level": 6,
+                            "timestamp": 2025-01-16T09:41:50.000Z,
+                            "user": {
+                              "name": "9hundred",
+                              "profileUrl": "https://www.ozbargain.com.au/user/288370",
+                              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                            },
+                            "votes": 0,
+                          },
+                        ],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 119,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/16166440/redir" class="internal inline" onclick="return OzB.gotoComment(16166440);">@9hundred:</a>",
+                              "startIndex": 3,
+                              "text": "@9hundred:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/16166440/redir",
+                            },
+                            {
+                              "endIndex": 152,
+                              "rawText": " Thanks for the confirmation.</p>",
+                              "startIndex": 119,
+                              "text": " Thanks for the confirmation.",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/16166440/redir" class="internal inline" onclick="return OzB.gotoComment(16166440);">@9hundred:</a> Thanks for the confirmation.</p>",
+                        },
+                        "id": "16167599",
+                        "level": 5,
+                        "timestamp": 2025-01-16T03:47:51.000Z,
+                        "user": {
+                          "name": "jackspratt",
+                          "profileUrl": "https://www.ozbargain.com.au/user/54364",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": 0,
+                      },
+                    ],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 121,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16165623/redir" class="internal inline" onclick="return OzB.gotoComment(16165623);">@jackspratt:</a>",
+                          "startIndex": 3,
+                          "text": "@jackspratt:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16165623/redir",
+                        },
+                        {
+                          "endIndex": 191,
+                          "rawText": " there is no such thing as my truth or your truth, just THE truth.</p>",
+                          "startIndex": 121,
+                          "text": " there is no such thing as my truth or your truth, just THE truth.",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16165623/redir" class="internal inline" onclick="return OzB.gotoComment(16165623);">@jackspratt:</a> there is no such thing as my truth or your truth, just THE truth.</p>",
+                    },
+                    "id": "16166440",
+                    "level": 4,
+                    "timestamp": 2025-01-15T23:53:34.000Z,
+                    "user": {
+                      "name": "9hundred",
+                      "profileUrl": "https://www.ozbargain.com.au/user/288370",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 74,
+                      "rawText": "<p>That's your "truth" I guess.</p>
+
+<p>Others are entitled to differ.</p>",
+                      "startIndex": 0,
+                      "text": "That's your "truth" I guess.
+
+Others are entitled to differ.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>That's your "truth" I guess.</p>
+
+<p>Others are entitled to differ.</p>",
+                },
+                "id": "16165623",
+                "level": 3,
+                "timestamp": 2025-01-15T15:36:05.000Z,
+                "user": {
+                  "name": "jackspratt",
+                  "profileUrl": "https://www.ozbargain.com.au/user/54364",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 51,
+                  "rawText": "<p>don't just neg if you can't handle the truth</p>",
+                  "startIndex": 0,
+                  "text": "don't just neg if you can't handle the truth",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>don't just neg if you can't handle the truth</p>",
+            },
+            "id": "16163826",
+            "level": 2,
+            "timestamp": 2025-01-15T04:14:09.000Z,
+            "user": {
+              "name": "9hundred",
+              "profileUrl": "https://www.ozbargain.com.au/user/288370",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": -2,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 89,
+              "rawText": "<p>Pilsner Urquell is the king, nothing else comes close, especially this praga shite</p>",
+              "startIndex": 0,
+              "text": "Pilsner Urquell is the king, nothing else comes close, especially this praga shite",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Pilsner Urquell is the king, nothing else comes close, especially this praga shite</p>",
+        },
+        "id": "16163662",
+        "level": 1,
+        "timestamp": 2025-01-15T03:44:01.000Z,
+        "user": {
+          "name": "9hundred",
+          "profileUrl": "https://www.ozbargain.com.au/user/288370",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": -7,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 104,
+              "rawText": "<p>Less hops, bit sweeter. <br>
+Pretty nice really. Easy to drink <br>
+Id pour it into a pint glass.</p>",
+              "startIndex": 0,
+              "text": "Less hops, bit sweeter. 
+Pretty nice really. Easy to drink 
+Id pour it into a pint glass.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Less hops, bit sweeter. <br>
+Pretty nice really. Easy to drink <br>
+Id pour it into a pint glass.</p>",
+        },
+        "id": "16164598",
+        "level": 1,
+        "timestamp": 2025-01-15T07:07:17.000Z,
+        "user": {
+          "name": "Stewardo",
+          "profileUrl": "https://www.ozbargain.com.au/user/179159",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 1,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 89,
+          "rawText": "<p>Wow that's cheap</p>
+
+<p>How does it compare with Pilsner Urquell on flavour, etc?</p>",
+          "startIndex": 0,
+          "text": "Wow that's cheap
+
+How does it compare with Pilsner Urquell on flavour, etc?",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Wow that's cheap</p>
+
+<p>How does it compare with Pilsner Urquell on flavour, etc?</p>",
+    },
+    "id": "16163091",
+    "level": 0,
+    "timestamp": 2025-01-15T01:46:23.000Z,
+    "user": {
+      "name": "Last Seen",
+      "profileUrl": "https://www.ozbargain.com.au/user/119158",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 126,
+                      "rawText": "<p>When your create the Pilsner style you have certain expectations, like you expect your Pilsner to taste like a Pilsner.</p>",
+                      "startIndex": 0,
+                      "text": "When your create the Pilsner style you have certain expectations, like you expect your Pilsner to taste like a Pilsner.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>When your create the Pilsner style you have certain expectations, like you expect your Pilsner to taste like a Pilsner.</p>",
+                },
+                "id": "16165586",
+                "level": 3,
+                "timestamp": 2025-01-15T14:24:52.000Z,
+                "user": {
+                  "name": "OzzyBrak",
+                  "profileUrl": "https://www.ozbargain.com.au/user/26510",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 180,
+                  "rawText": "<p>Meaning they only produce it for export as it would not sell very well in Czech Rep.<br>
+Not saying it is bad for Aussie market, just that Czechs have specific expectations.</p>",
+                  "startIndex": 0,
+                  "text": "Meaning they only produce it for export as it would not sell very well in Czech Rep.
+Not saying it is bad for Aussie market, just that Czechs have specific expectations.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Meaning they only produce it for export as it would not sell very well in Czech Rep.<br>
+Not saying it is bad for Aussie market, just that Czechs have specific expectations.</p>",
+            },
+            "id": "16164744",
+            "level": 2,
+            "timestamp": 2025-01-15T07:37:03.000Z,
+            "user": {
+              "name": "goodwillN1",
+              "profileUrl": "https://www.ozbargain.com.au/user/449115",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 55,
+              "rawText": "<p>I don't quite understand what you mean, but no.<br>
+",
+              "startIndex": 0,
+              "text": "I don't quite understand what you mean, but no.
+",
+              "type": "normal",
+            },
+            {
+              "endIndex": 161,
+              "linkType": "external",
+              "rawText": "<a href="https://www.pragapils.eu/" class="external" rel="noopener nofollow">https://www.pragapils.eu/</a>",
+              "startIndex": 55,
+              "text": "https://www.pragapils.eu/",
+              "type": "link",
+              "url": "https://www.pragapils.eu/",
+            },
+            {
+              "endIndex": 165,
+              "rawText": "</p>",
+              "startIndex": 161,
+              "text": "",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>I don't quite understand what you mean, but no.<br>
+<a href="https://www.pragapils.eu/" class="external" rel="noopener nofollow">https://www.pragapils.eu/</a></p>",
+        },
+        "id": "16163185",
+        "level": 1,
+        "timestamp": 2025-01-15T02:04:35.000Z,
+        "user": {
+          "name": "park",
+          "profileUrl": "https://www.ozbargain.com.au/user/382898",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/98/382898-38.jpg?h=751a0cb3",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 53,
+              "rawText": "<p>Brewed for export, but still a very nice beer.</p>",
+              "startIndex": 0,
+              "text": "Brewed for export, but still a very nice beer.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Brewed for export, but still a very nice beer.</p>",
+        },
+        "id": "16163422",
+        "level": 1,
+        "timestamp": 2025-01-15T02:53:17.000Z,
+        "user": {
+          "name": "Ham Dragon",
+          "profileUrl": "https://www.ozbargain.com.au/user/393207",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/07/393207-38.jpg?h=02e9f33a",
+        },
+        "votes": 2,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 52,
+          "rawText": "<p>Seems a in-house brand outsourced over seas..</p>",
+          "startIndex": 0,
+          "text": "Seems a in-house brand outsourced over seas..",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Seems a in-house brand outsourced over seas..</p>",
+    },
+    "id": "16163158",
+    "level": 0,
+    "timestamp": 2025-01-15T01:59:58.000Z,
+    "user": {
+      "name": "chuneeperformance",
+      "profileUrl": "https://www.ozbargain.com.au/user/11069",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": -1,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 124,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/16163851/redir" class="internal inline" onclick="return OzB.gotoComment(16163851);">@SoTightEcoLPI:</a>",
+                              "startIndex": 3,
+                              "text": "@SoTightEcoLPI:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/16163851/redir",
+                            },
+                            {
+                              "endIndex": 179,
+                              "rawText": " Paulaner is levels above these. Its a lovely beer.</p>",
+                              "startIndex": 124,
+                              "text": " Paulaner is levels above these. Its a lovely beer.",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/16163851/redir" class="internal inline" onclick="return OzB.gotoComment(16163851);">@SoTightEcoLPI:</a> Paulaner is levels above these. Its a lovely beer.</p>",
+                        },
+                        "id": "16164394",
+                        "level": 5,
+                        "timestamp": 2025-01-15T06:09:34.000Z,
+                        "user": {
+                          "name": "Spendmore",
+                          "profileUrl": "https://www.ozbargain.com.au/user/366774",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": 2,
+                      },
+                      {
+                        "children": [],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 124,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/16163851/redir" class="internal inline" onclick="return OzB.gotoComment(16163851);">@SoTightEcoLPI:</a>",
+                              "startIndex": 3,
+                              "text": "@SoTightEcoLPI:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/16163851/redir",
+                            },
+                            {
+                              "endIndex": 197,
+                              "rawText": " Schofferhofer and Paulaner from Aldi are excellent value and quality</p>",
+                              "startIndex": 124,
+                              "text": " Schofferhofer and Paulaner from Aldi are excellent value and quality",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/16163851/redir" class="internal inline" onclick="return OzB.gotoComment(16163851);">@SoTightEcoLPI:</a> Schofferhofer and Paulaner from Aldi are excellent value and quality</p>",
+                        },
+                        "id": "16164610",
+                        "level": 5,
+                        "timestamp": 2025-01-15T07:09:18.000Z,
+                        "user": {
+                          "name": "Stewardo",
+                          "profileUrl": "https://www.ozbargain.com.au/user/179159",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": 1,
+                      },
+                    ],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 120,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16163743/redir" class="internal inline" onclick="return OzB.gotoComment(16163743);">@Spendmore:</a>",
+                          "startIndex": 3,
+                          "text": "@Spendmore:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16163743/redir",
+                        },
+                        {
+                          "endIndex": 276,
+                          "rawText": " I might try Otenger. I've also enjoyed Paulaner from Aldi which I enjoy.  I didn't even know German purity law was a thing. They taste great. Thanks 👍</p>",
+                          "startIndex": 120,
+                          "text": " I might try Otenger. I've also enjoyed Paulaner from Aldi which I enjoy.  I didn't even know German purity law was a thing. They taste great. Thanks 👍",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16163743/redir" class="internal inline" onclick="return OzB.gotoComment(16163743);">@Spendmore:</a> I might try Otenger. I've also enjoyed Paulaner from Aldi which I enjoy.  I didn't even know German purity law was a thing. They taste great. Thanks 👍</p>",
+                    },
+                    "id": "16163851",
+                    "level": 4,
+                    "timestamp": 2025-01-15T04:19:30.000Z,
+                    "user": {
+                      "name": "SoTightEcoLPI",
+                      "profileUrl": "https://www.ozbargain.com.au/user/306485",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/u/85/306485-38.jpg?h=685aaa9a",
+                    },
+                    "votes": 1,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 76,
+                      "rawText": "<p>Better than Henninger, yes. Praga is the pick of the 3 in my opinion.</p>",
+                      "startIndex": 0,
+                      "text": "Better than Henninger, yes. Praga is the pick of the 3 in my opinion.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Better than Henninger, yes. Praga is the pick of the 3 in my opinion.</p>",
+                },
+                "id": "16163743",
+                "level": 3,
+                "timestamp": 2025-01-15T03:59:06.000Z,
+                "user": {
+                  "name": "Spendmore",
+                  "profileUrl": "https://www.ozbargain.com.au/user/366774",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 1,
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 125,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16164263/redir" class="internal inline" onclick="return OzB.gotoComment(16164263);">@GerryManDerJan:</a>",
+                          "startIndex": 3,
+                          "text": "@GerryManDerJan:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16164263/redir",
+                        },
+                        {
+                          "endIndex": 208,
+                          "rawText": " yeah that one hahaha it's kinda decent, much better than praga which is sweet.</p>",
+                          "startIndex": 125,
+                          "text": " yeah that one hahaha it's kinda decent, much better than praga which is sweet.",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16164263/redir" class="internal inline" onclick="return OzB.gotoComment(16164263);">@GerryManDerJan:</a> yeah that one hahaha it's kinda decent, much better than praga which is sweet.</p>",
+                    },
+                    "id": "16164308",
+                    "level": 4,
+                    "timestamp": 2025-01-15T05:53:11.000Z,
+                    "user": {
+                      "name": "9hundred",
+                      "profileUrl": "https://www.ozbargain.com.au/user/288370",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": -2,
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 124,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/16164313/redir" class="internal inline" onclick="return OzB.gotoComment(16164313);">@SoTightEcoLPI:</a>",
+                              "startIndex": 3,
+                              "text": "@SoTightEcoLPI:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/16164313/redir",
+                            },
+                            {
+                              "endIndex": 303,
+                              "rawText": " Just FYI, Oettinger is amongst the cheapest beers in Germany. When I came of age you could buy a crate of 20 * 0.5l bottles for 3,99 Euros. <br>
+Don't remember the taste, lol</p>",
+                              "startIndex": 124,
+                              "text": " Just FYI, Oettinger is amongst the cheapest beers in Germany. When I came of age you could buy a crate of 20 * 0.5l bottles for 3,99 Euros. 
+Don't remember the taste, lol",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/16164313/redir" class="internal inline" onclick="return OzB.gotoComment(16164313);">@SoTightEcoLPI:</a> Just FYI, Oettinger is amongst the cheapest beers in Germany. When I came of age you could buy a crate of 20 * 0.5l bottles for 3,99 Euros. <br>
+Don't remember the taste, lol</p>",
+                        },
+                        "id": "16175244",
+                        "level": 5,
+                        "timestamp": 2025-01-18T03:39:48.000Z,
+                        "user": {
+                          "name": "GerryManDerJan",
+                          "profileUrl": "https://www.ozbargain.com.au/user/526404",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": 0,
+                      },
+                    ],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 125,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16164263/redir" class="internal inline" onclick="return OzB.gotoComment(16164263);">@GerryManDerJan:</a>",
+                          "startIndex": 3,
+                          "text": "@GerryManDerJan:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16164263/redir",
+                        },
+                        {
+                          "endIndex": 308,
+                          "rawText": " Yes that's the one. I was well off. School holidays with kids out all day and my wife WFH. I went through BWS on the way back from a day trip with the kids.  I'm ready for one! <br>
+",
+                          "startIndex": 125,
+                          "text": " Yes that's the one. I was well off. School holidays with kids out all day and my wife WFH. I went through BWS on the way back from a day trip with the kids.  I'm ready for one! 
+",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 418,
+                          "linkType": "external",
+                          "rawText": "<a href="https://imgur.com/a/ufPGA8j" class="external" rel="noopener nofollow">https://imgur.com/a/ufPGA8j</a>",
+                          "startIndex": 308,
+                          "text": "https://imgur.com/a/ufPGA8j",
+                          "type": "link",
+                          "url": "https://imgur.com/a/ufPGA8j",
+                        },
+                        {
+                          "endIndex": 422,
+                          "rawText": "</p>",
+                          "startIndex": 418,
+                          "text": "",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16164263/redir" class="internal inline" onclick="return OzB.gotoComment(16164263);">@GerryManDerJan:</a> Yes that's the one. I was well off. School holidays with kids out all day and my wife WFH. I went through BWS on the way back from a day trip with the kids.  I'm ready for one! <br>
+<a href="https://imgur.com/a/ufPGA8j" class="external" rel="noopener nofollow">https://imgur.com/a/ufPGA8j</a></p>",
+                    },
+                    "id": "16164313",
+                    "level": 4,
+                    "timestamp": 2025-01-15T05:53:39.000Z,
+                    "user": {
+                      "name": "SoTightEcoLPI",
+                      "profileUrl": "https://www.ozbargain.com.au/user/306485",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/u/85/306485-38.jpg?h=685aaa9a",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 22,
+                      "rawText": "<p>Haha, Öttinger?</p>",
+                      "startIndex": 0,
+                      "text": "Haha, Öttinger?",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Haha, Öttinger?</p>",
+                },
+                "id": "16164263",
+                "level": 3,
+                "timestamp": 2025-01-15T05:44:07.000Z,
+                "user": {
+                  "name": "GerryManDerJan",
+                  "profileUrl": "https://www.ozbargain.com.au/user/526404",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 3,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 24,
+                  "rawText": "<p>Otenger is better</p>",
+                  "startIndex": 0,
+                  "text": "Otenger is better",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Otenger is better</p>",
+            },
+            "id": "16163657",
+            "level": 2,
+            "timestamp": 2025-01-15T03:42:33.000Z,
+            "user": {
+              "name": "9hundred",
+              "profileUrl": "https://www.ozbargain.com.au/user/288370",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": -2,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 20,
+              "rawText": "<p>A lot better.</p>",
+              "startIndex": 0,
+              "text": "A lot better.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>A lot better.</p>",
+        },
+        "id": "16163251",
+        "level": 1,
+        "timestamp": 2025-01-15T02:17:41.000Z,
+        "user": {
+          "name": "Spendmore",
+          "profileUrl": "https://www.ozbargain.com.au/user/366774",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 4,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 42,
+          "rawText": "<p>How does this compare to Henninger?</p>",
+          "startIndex": 0,
+          "text": "How does this compare to Henninger?",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>How does this compare to Henninger?</p>",
+    },
+    "id": "16163241",
+    "level": 0,
+    "timestamp": 2025-01-15T02:15:15.000Z,
+    "user": {
+      "name": "SoTightEcoLPI",
+      "profileUrl": "https://www.ozbargain.com.au/user/306485",
+      "thumbnailUrl": "https://files.ozbargain.com.au/u/85/306485-38.jpg?h=685aaa9a",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 11,
+                  "rawText": "<p>Same</p>",
+                  "startIndex": 0,
+                  "text": "Same",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Same</p>",
+            },
+            "id": "16163496",
+            "level": 2,
+            "timestamp": 2025-01-15T03:11:34.000Z,
+            "user": {
+              "name": "Mr Frodo",
+              "profileUrl": "https://www.ozbargain.com.au/user/151988",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 17,
+              "rawText": "<p>And Sydney</p>",
+              "startIndex": 0,
+              "text": "And Sydney",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>And Sydney</p>",
+        },
+        "id": "16163444",
+        "level": 1,
+        "timestamp": 2025-01-15T02:57:35.000Z,
+        "user": {
+          "name": "loveyoulooongtime",
+          "profileUrl": "https://www.ozbargain.com.au/user/2269",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 3,
+          "rawText": "<p>",
+          "startIndex": 0,
+          "text": "",
+          "type": "normal",
+        },
+        {
+          "endIndex": 9,
+          "rawText": "$51.20",
+          "startIndex": 3,
+          "text": "$51.20",
+          "type": "price",
+        },
+        {
+          "endIndex": 39,
+          "rawText": " for me here in Melbourne.</p>",
+          "startIndex": 9,
+          "text": " for me here in Melbourne.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>$51.20 for me here in Melbourne.</p>",
+    },
+    "id": "16163289",
+    "level": 0,
+    "timestamp": 2025-01-15T02:25:15.000Z,
+    "user": {
+      "name": "Zapwap",
+      "profileUrl": "https://www.ozbargain.com.au/user/390068",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 65,
+              "rawText": "<p>Might not have been fresh and sitting in the can too long?</p>",
+              "startIndex": 0,
+              "text": "Might not have been fresh and sitting in the can too long?",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Might not have been fresh and sitting in the can too long?</p>",
+        },
+        "id": "16163369",
+        "level": 1,
+        "timestamp": 2025-01-15T02:42:03.000Z,
+        "user": {
+          "name": "YOTR",
+          "profileUrl": "https://www.ozbargain.com.au/user/65355",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 51,
+                      "rawText": "<p>Bottled beer always tastes better than cans.</p>",
+                      "startIndex": 0,
+                      "text": "Bottled beer always tastes better than cans.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Bottled beer always tastes better than cans.</p>",
+                },
+                "id": "16164645",
+                "level": 3,
+                "timestamp": 2025-01-15T07:16:18.000Z,
+                "user": {
+                  "name": "Spendmore",
+                  "profileUrl": "https://www.ozbargain.com.au/user/366774",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 211,
+                      "rawText": "<p>Bottles are only worse for the brewery as they cost more to buy and to ship. Convincing people to drink out of cheap cans is for cost savings. Nothing to do with improving the flavour, they make it worse.</p>",
+                      "startIndex": 0,
+                      "text": "Bottles are only worse for the brewery as they cost more to buy and to ship. Convincing people to drink out of cheap cans is for cost savings. Nothing to do with improving the flavour, they make it worse.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Bottles are only worse for the brewery as they cost more to buy and to ship. Convincing people to drink out of cheap cans is for cost savings. Nothing to do with improving the flavour, they make it worse.</p>",
+                },
+                "id": "16165587",
+                "level": 3,
+                "timestamp": 2025-01-15T14:27:46.000Z,
+                "user": {
+                  "name": "OzzyBrak",
+                  "profileUrl": "https://www.ozbargain.com.au/user/26510",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 168,
+                  "rawText": "<p>Disagree, in-date canned beer shouldn't taste metallic at all, plus bottled beer is technically worse because you can get light struck whereas canned beer can't.</p>",
+                  "startIndex": 0,
+                  "text": "Disagree, in-date canned beer shouldn't taste metallic at all, plus bottled beer is technically worse because you can get light struck whereas canned beer can't.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Disagree, in-date canned beer shouldn't taste metallic at all, plus bottled beer is technically worse because you can get light struck whereas canned beer can't.</p>",
+            },
+            "id": "16164206",
+            "level": 2,
+            "timestamp": 2025-01-15T05:30:35.000Z,
+            "user": {
+              "name": "caitsith01",
+              "profileUrl": "https://www.ozbargain.com.au/user/131459",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/59/131459-38.jpg?h=e2925e89",
+            },
+            "votes": 4,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 108,
+              "rawText": "<p>Thats a can thing, you cant beat a bottle. This comes in bottles of 330ml but isnt as cost effective.</p>",
+              "startIndex": 0,
+              "text": "Thats a can thing, you cant beat a bottle. This comes in bottles of 330ml but isnt as cost effective.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Thats a can thing, you cant beat a bottle. This comes in bottles of 330ml but isnt as cost effective.</p>",
+        },
+        "id": "16163823",
+        "level": 1,
+        "timestamp": 2025-01-15T04:13:35.000Z,
+        "user": {
+          "name": "Spendmore",
+          "profileUrl": "https://www.ozbargain.com.au/user/366774",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": -2,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 50,
+              "rawText": "<p>I got this too, don't rate them personally.</p>",
+              "startIndex": 0,
+              "text": "I got this too, don't rate them personally.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>I got this too, don't rate them personally.</p>",
+        },
+        "id": "16164832",
+        "level": 1,
+        "timestamp": 2025-01-15T08:05:26.000Z,
+        "user": {
+          "name": "kbw",
+          "profileUrl": "https://www.ozbargain.com.au/user/226106",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/06/226106-38.jpg?h=3acd03e8",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 182,
+          "rawText": "<p>I've had a can to drink last night..For some reason, there  was a metallic aftertaste. Not sure if it's expected from a can beer, a particular batch or this brand is an issue.</p>",
+          "startIndex": 0,
+          "text": "I've had a can to drink last night..For some reason, there  was a metallic aftertaste. Not sure if it's expected from a can beer, a particular batch or this brand is an issue.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>I've had a can to drink last night..For some reason, there  was a metallic aftertaste. Not sure if it's expected from a can beer, a particular batch or this brand is an issue.</p>",
+    },
+    "id": "16163298",
+    "level": 0,
+    "timestamp": 2025-01-15T02:26:19.000Z,
+    "user": {
+      "name": "Danger",
+      "profileUrl": "https://www.ozbargain.com.au/user/106722",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 64,
+                  "rawText": "<p>Can only use take10 code 5 times in my recent experience.</p>",
+                  "startIndex": 0,
+                  "text": "Can only use take10 code 5 times in my recent experience.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Can only use take10 code 5 times in my recent experience.</p>",
+            },
+            "id": "16164950",
+            "level": 2,
+            "timestamp": 2025-01-15T08:50:46.000Z,
+            "user": {
+              "name": "nepalesesquirrel",
+              "profileUrl": "https://www.ozbargain.com.au/user/288031",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/31/288031-38.jpg?h=8c5e23d7",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 38,
+              "rawText": "<p>Can use TAKE10 to bring it down to ",
+              "startIndex": 0,
+              "text": "Can use TAKE10 to bring it down to ",
+              "type": "normal",
+            },
+            {
+              "endIndex": 44,
+              "rawText": "$54.00",
+              "startIndex": 38,
+              "text": "$54.00",
+              "type": "price",
+            },
+            {
+              "endIndex": 48,
+              "rawText": "</p>",
+              "startIndex": 44,
+              "text": "",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Can use TAKE10 to bring it down to $54.00</p>",
+        },
+        "id": "16163387",
+        "level": 1,
+        "timestamp": 2025-01-15T02:45:44.000Z,
+        "user": {
+          "name": "tabboy",
+          "profileUrl": "https://www.ozbargain.com.au/user/31775",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/75/31775-38.jpg?h=c15c10dc",
+        },
+        "votes": 1,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 27,
+          "rawText": "<p>Code not valid in SA</p>",
+          "startIndex": 0,
+          "text": "Code not valid in SA",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Code not valid in SA</p>",
+    },
+    "id": "16163299",
+    "level": 0,
+    "timestamp": 2025-01-15T02:26:25.000Z,
+    "user": {
+      "name": "Palindrome777",
+      "profileUrl": "https://www.ozbargain.com.au/user/400724",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 2,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 40,
+          "rawText": "<p>Doesn’t summer start in December?</p>",
+          "startIndex": 0,
+          "text": "Doesn’t summer start in December?",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Doesn’t summer start in December?</p>",
+    },
+    "id": "16163374",
+    "level": 0,
+    "timestamp": 2025-01-15T02:42:59.000Z,
+    "user": {
+      "name": "brou",
+      "profileUrl": "https://www.ozbargain.com.au/user/273216",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 9,
+              "rawText": "<p>Me</p>",
+              "startIndex": 0,
+              "text": "Me",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Me</p>",
+        },
+        "id": "16163434",
+        "level": 1,
+        "timestamp": 2025-01-15T02:56:11.000Z,
+        "user": {
+          "name": "YOTR",
+          "profileUrl": "https://www.ozbargain.com.au/user/65355",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 1,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 40,
+          "rawText": "<p>Who made beer the king of summer?</p>",
+          "startIndex": 0,
+          "text": "Who made beer the king of summer?",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Who made beer the king of summer?</p>",
+    },
+    "id": "16163410",
+    "level": 0,
+    "timestamp": 2025-01-15T02:49:23.000Z,
+    "user": {
+      "name": "Talby23",
+      "profileUrl": "https://www.ozbargain.com.au/user/184857",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": -1,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 3,
+          "rawText": "<p>",
+          "startIndex": 0,
+          "text": "",
+          "type": "normal",
+        },
+        {
+          "endIndex": 9,
+          "rawText": "$51.20",
+          "startIndex": 3,
+          "text": "$51.20",
+          "type": "price",
+        },
+        {
+          "endIndex": 27,
+          "rawText": " for me in NSW</p>",
+          "startIndex": 9,
+          "text": " for me in NSW",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>$51.20 for me in NSW</p>",
+    },
+    "id": "16163432",
+    "level": 0,
+    "timestamp": 2025-01-15T02:55:27.000Z,
+    "user": {
+      "name": "nubzy",
+      "profileUrl": "https://www.ozbargain.com.au/user/36659",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 93,
+          "rawText": "<p>Ordered 2 for delivery here in Sydney and 1 got cancelled - worth a try at the price..</p>",
+          "startIndex": 0,
+          "text": "Ordered 2 for delivery here in Sydney and 1 got cancelled - worth a try at the price..",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Ordered 2 for delivery here in Sydney and 1 got cancelled - worth a try at the price..</p>",
+    },
+    "id": "16163435",
+    "level": 0,
+    "timestamp": 2025-01-15T02:56:20.000Z,
+    "user": {
+      "name": "evanssm2jp",
+      "profileUrl": "https://www.ozbargain.com.au/user/288415",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 19,
+          "rawText": "<p>TAKE10 in SA</p>",
+          "startIndex": 0,
+          "text": "TAKE10 in SA",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>TAKE10 in SA</p>",
+    },
+    "id": "16163456",
+    "level": 0,
+    "timestamp": 2025-01-15T03:01:31.000Z,
+    "user": {
+      "name": "jackwilk",
+      "profileUrl": "https://www.ozbargain.com.au/user/92235",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 24,
+          "rawText": "<p>Taste is horrible</p>",
+          "startIndex": 0,
+          "text": "Taste is horrible",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Taste is horrible</p>",
+    },
+    "id": "16163651",
+    "level": 0,
+    "timestamp": 2025-01-15T03:42:00.000Z,
+    "user": {
+      "name": "9hundred",
+      "profileUrl": "https://www.ozbargain.com.au/user/288370",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": -3,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 25,
+          "rawText": "<p>Got it, thanks OP<br>
+",
+          "startIndex": 0,
+          "text": "Got it, thanks OP
+",
+          "type": "normal",
+        },
+        {
+          "endIndex": 28,
+          "rawText": "$50",
+          "startIndex": 25,
+          "text": "$50",
+          "type": "price",
+        },
+        {
+          "endIndex": 72,
+          "rawText": " for a carton of 500ml cans is great imo</p>",
+          "startIndex": 28,
+          "text": " for a carton of 500ml cans is great imo",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Got it, thanks OP<br>
+$50 for a carton of 500ml cans is great imo</p>",
+    },
+    "id": "16163890",
+    "level": 0,
+    "timestamp": 2025-01-15T04:24:58.000Z,
+    "user": {
+      "name": "serpentxx",
+      "profileUrl": "https://www.ozbargain.com.au/user/171535",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 79,
+          "rawText": "<p>Never tried this and no stores near me with stock… Is it still worth it for ",
+          "startIndex": 0,
+          "text": "Never tried this and no stores near me with stock… Is it still worth it for ",
+          "type": "normal",
+        },
+        {
+          "endIndex": 82,
+          "rawText": "$60",
+          "startIndex": 79,
+          "text": "$60",
+          "type": "price",
+        },
+        {
+          "endIndex": 84,
+          "rawText": " (",
+          "startIndex": 82,
+          "text": " (",
+          "type": "normal",
+        },
+        {
+          "endIndex": 87,
+          "rawText": "$10",
+          "startIndex": 84,
+          "text": "$10",
+          "type": "price",
+        },
+        {
+          "endIndex": 104,
+          "rawText": " shipping) 🤔</p>",
+          "startIndex": 87,
+          "text": " shipping) 🤔",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Never tried this and no stores near me with stock… Is it still worth it for $60 ($10 shipping) 🤔</p>",
+    },
+    "id": "16164115",
+    "level": 0,
+    "timestamp": 2025-01-15T05:05:39.000Z,
+    "user": {
+      "name": "Benjamin7711",
+      "profileUrl": "https://www.ozbargain.com.au/user/136295",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 81,
+          "rawText": "<p>I got a message saying they can't fulfil the order so are giving a refund and ",
+          "startIndex": 0,
+          "text": "I got a message saying they can't fulfil the order so are giving a refund and ",
+          "type": "normal",
+        },
+        {
+          "endIndex": 84,
+          "rawText": "$10",
+          "startIndex": 81,
+          "text": "$10",
+          "type": "price",
+        },
+        {
+          "endIndex": 96,
+          "rawText": " credit.</p>",
+          "startIndex": 84,
+          "text": " credit.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>I got a message saying they can't fulfil the order so are giving a refund and $10 credit.</p>",
+    },
+    "id": "16164243",
+    "level": 0,
+    "timestamp": 2025-01-15T05:40:13.000Z,
+    "user": {
+      "name": "loveyoulooongtime",
+      "profileUrl": "https://www.ozbargain.com.au/user/2269",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 99,
+                  "rawText": "<p>Honestly everything tbh. But for preference. My favourite is Kozel + Meggy sour cherry beer.</p>",
+                  "startIndex": 0,
+                  "text": "Honestly everything tbh. But for preference. My favourite is Kozel + Meggy sour cherry beer.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Honestly everything tbh. But for preference. My favourite is Kozel + Meggy sour cherry beer.</p>",
+            },
+            "id": "16164663",
+            "level": 2,
+            "timestamp": 2025-01-15T07:19:46.000Z,
+            "user": {
+              "name": "donman92",
+              "profileUrl": "https://www.ozbargain.com.au/user/426434",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/34/426434-38.jpg?h=df77e871",
+            },
+            "votes": 1,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 81,
+              "rawText": "<p>What else do you drink or if interest.</p>
+
+<p>No judgement, just analysis</p>",
+              "startIndex": 0,
+              "text": "What else do you drink or if interest.
+
+No judgement, just analysis",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>What else do you drink or if interest.</p>
+
+<p>No judgement, just analysis</p>",
+        },
+        "id": "16164609",
+        "level": 1,
+        "timestamp": 2025-01-15T07:09:16.000Z,
+        "user": {
+          "name": "Pootie Tang",
+          "profileUrl": "https://www.ozbargain.com.au/user/52821",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/21/52821-38.jpg?h=f16f63b4",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 57,
+          "rawText": "<p>Bought 4 boxes last time. No regrets. Lovely beer.</p>",
+          "startIndex": 0,
+          "text": "Bought 4 boxes last time. No regrets. Lovely beer.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Bought 4 boxes last time. No regrets. Lovely beer.</p>",
+    },
+    "id": "16164363",
+    "level": 0,
+    "timestamp": 2025-01-15T06:02:06.000Z,
+    "user": {
+      "name": "donman92",
+      "profileUrl": "https://www.ozbargain.com.au/user/426434",
+      "thumbnailUrl": "https://files.ozbargain.com.au/u/34/426434-38.jpg?h=df77e871",
+    },
+    "votes": 2,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 184,
+          "rawText": "<p>Its funny because i purchased the one from the last deal. That was 9/12 and it arrived yesterday. Click and Collect is the way to go if your lucky enough to have a store nearby.</p>",
+          "startIndex": 0,
+          "text": "Its funny because i purchased the one from the last deal. That was 9/12 and it arrived yesterday. Click and Collect is the way to go if your lucky enough to have a store nearby.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Its funny because i purchased the one from the last deal. That was 9/12 and it arrived yesterday. Click and Collect is the way to go if your lucky enough to have a store nearby.</p>",
+    },
+    "id": "16164419",
+    "level": 0,
+    "timestamp": 2025-01-15T06:17:24.000Z,
+    "user": {
+      "name": "worthy1",
+      "profileUrl": "https://www.ozbargain.com.au/user/162885",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 34,
+              "rawText": "<p>It's more like Carlsberg :)</p>",
+              "startIndex": 0,
+              "text": "It's more like Carlsberg :)",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>It's more like Carlsberg :)</p>",
+        },
+        "id": "16164611",
+        "level": 1,
+        "timestamp": 2025-01-15T07:09:28.000Z,
+        "user": {
+          "name": "jackwilk",
+          "profileUrl": "https://www.ozbargain.com.au/user/92235",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "content": {
+                              "parts": [
+                                {
+                                  "endIndex": 3,
+                                  "rawText": "<p>",
+                                  "startIndex": 0,
+                                  "text": "",
+                                  "type": "normal",
+                                },
+                                {
+                                  "endIndex": 119,
+                                  "linkType": "deal",
+                                  "rawText": "<a href="/comment/16170425/redir" class="internal inline" onclick="return OzB.gotoComment(16170425);">@Stewardo:</a>",
+                                  "startIndex": 3,
+                                  "text": "@Stewardo:",
+                                  "type": "link",
+                                  "url": "https://www.ozbargain.com.au/comment/16170425/redir",
+                                },
+                                {
+                                  "endIndex": 378,
+                                  "rawText": " It's alright, I understand what you are trying to say, I'm saying this beer doesn't have the malt and hops profile good beers have either, the fact that it's euro is irrelevant, oettinger is a german beer, that doesn't stop it from being a very poor beer</p>",
+                                  "startIndex": 119,
+                                  "text": " It's alright, I understand what you are trying to say, I'm saying this beer doesn't have the malt and hops profile good beers have either, the fact that it's euro is irrelevant, oettinger is a german beer, that doesn't stop it from being a very poor beer",
+                                  "type": "normal",
+                                },
+                              ],
+                              "rawText": "<p><a href="/comment/16170425/redir" class="internal inline" onclick="return OzB.gotoComment(16170425);">@Stewardo:</a> It's alright, I understand what you are trying to say, I'm saying this beer doesn't have the malt and hops profile good beers have either, the fact that it's euro is irrelevant, oettinger is a german beer, that doesn't stop it from being a very poor beer</p>",
+                            },
+                            "id": "16173942",
+                            "level": 6,
+                            "timestamp": 2025-01-17T13:40:15.000Z,
+                            "user": {
+                              "name": "ubiq",
+                              "profileUrl": "https://www.ozbargain.com.au/user/527093",
+                              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                            },
+                            "votes": 0,
+                          },
+                        ],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 115,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/16170049/redir" class="internal inline" onclick="return OzB.gotoComment(16170049);">@ubiq:</a>",
+                              "startIndex": 3,
+                              "text": "@ubiq:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/16170049/redir",
+                            },
+                            {
+                              "endIndex": 552,
+                              "rawText": " I’m ok, I used to work for big brewery in the uk that sold and brewed beers under licence. <br>
+I’m not challenging your beer expertise. <br>
+I’m trying say that many beer drinkers in Australia like to session lager. Xxxx gold, great northern, corona etc. <br>
+If you give these drinkers beers made in Europe they will tell you it tastes like cats P$$s etc. because they don’t have the taste palate for euro malt and hops like saaz.</p>",
+                              "startIndex": 115,
+                              "text": " I’m ok, I used to work for big brewery in the uk that sold and brewed beers under licence. 
+I’m not challenging your beer expertise. 
+I’m trying say that many beer drinkers in Australia like to session lager. Xxxx gold, great northern, corona etc. 
+If you give these drinkers beers made in Europe they will tell you it tastes like cats P$$s etc. because they don’t have the taste palate for euro malt and hops like saaz.",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/16170049/redir" class="internal inline" onclick="return OzB.gotoComment(16170049);">@ubiq:</a> I’m ok, I used to work for big brewery in the uk that sold and brewed beers under licence. <br>
+I’m not challenging your beer expertise. <br>
+I’m trying say that many beer drinkers in Australia like to session lager. Xxxx gold, great northern, corona etc. <br>
+If you give these drinkers beers made in Europe they will tell you it tastes like cats P$$s etc. because they don’t have the taste palate for euro malt and hops like saaz.</p>",
+                        },
+                        "id": "16170425",
+                        "level": 5,
+                        "timestamp": 2025-01-16T22:14:43.000Z,
+                        "user": {
+                          "name": "Stewardo",
+                          "profileUrl": "https://www.ozbargain.com.au/user/179159",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": 0,
+                      },
+                    ],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 119,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16165331/redir" class="internal inline" onclick="return OzB.gotoComment(16165331);">@Stewardo:</a>",
+                          "startIndex": 3,
+                          "text": "@Stewardo:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16165331/redir",
+                        },
+                        {
+                          "endIndex": 216,
+                          "rawText": " Well, do you want to be more specific as to which style of European beer this one resembles?</p>",
+                          "startIndex": 119,
+                          "text": " Well, do you want to be more specific as to which style of European beer this one resembles?",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16165331/redir" class="internal inline" onclick="return OzB.gotoComment(16165331);">@Stewardo:</a> Well, do you want to be more specific as to which style of European beer this one resembles?</p>",
+                    },
+                    "id": "16170049",
+                    "level": 4,
+                    "timestamp": 2025-01-16T16:32:40.000Z,
+                    "user": {
+                      "name": "ubiq",
+                      "profileUrl": "https://www.ozbargain.com.au/user/527093",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 87,
+                      "rawText": "<p>Not a genre at all, however many will dislike things that are not familiar with.</p>",
+                      "startIndex": 0,
+                      "text": "Not a genre at all, however many will dislike things that are not familiar with.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Not a genre at all, however many will dislike things that are not familiar with.</p>",
+                },
+                "id": "16165331",
+                "level": 3,
+                "timestamp": 2025-01-15T11:27:38.000Z,
+                "user": {
+                  "name": "Stewardo",
+                  "profileUrl": "https://www.ozbargain.com.au/user/179159",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 82,
+                  "rawText": "<p>"Euro" beers is not some genre, this beer is very lacking, European or not.</p>",
+                  "startIndex": 0,
+                  "text": ""Euro" beers is not some genre, this beer is very lacking, European or not.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>"Euro" beers is not some genre, this beer is very lacking, European or not.</p>",
+            },
+            "id": "16165319",
+            "level": 2,
+            "timestamp": 2025-01-15T11:21:49.000Z,
+            "user": {
+              "name": "ubiq",
+              "profileUrl": "https://www.ozbargain.com.au/user/527093",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 1,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 57,
+              "rawText": "<p>It’s much better, but you have to like Euro beers.</p>",
+              "startIndex": 0,
+              "text": "It’s much better, but you have to like Euro beers.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>It’s much better, but you have to like Euro beers.</p>",
+        },
+        "id": "16164621",
+        "level": 1,
+        "timestamp": 2025-01-15T07:11:14.000Z,
+        "user": {
+          "name": "Stewardo",
+          "profileUrl": "https://www.ozbargain.com.au/user/179159",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 80,
+          "rawText": "<p>People comparing it to ottinger and hollandia is not very encouraging lol</p>",
+          "startIndex": 0,
+          "text": "People comparing it to ottinger and hollandia is not very encouraging lol",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>People comparing it to ottinger and hollandia is not very encouraging lol</p>",
+    },
+    "id": "16164470",
+    "level": 0,
+    "timestamp": 2025-01-15T06:31:46.000Z,
+    "user": {
+      "name": "Drpepper666",
+      "profileUrl": "https://www.ozbargain.com.au/user/164017",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 94,
+          "rawText": "<p>Thanks OP. Got the last one at Salisbury QLD - "It's been very popular for some reason"</p>",
+          "startIndex": 0,
+          "text": "Thanks OP. Got the last one at Salisbury QLD - "It's been very popular for some reason"",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Thanks OP. Got the last one at Salisbury QLD - "It's been very popular for some reason"</p>",
+    },
+    "id": "16164672",
+    "level": 0,
+    "timestamp": 2025-01-15T07:20:45.000Z,
+    "user": {
+      "name": "Hampton Wick",
+      "profileUrl": "https://www.ozbargain.com.au/user/365387",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 47,
+                  "rawText": "<p>Definitely with an attitude like that 😊</p>",
+                  "startIndex": 0,
+                  "text": "Definitely with an attitude like that 😊",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Definitely with an attitude like that 😊</p>",
+            },
+            "id": "16165495",
+            "level": 2,
+            "timestamp": 2025-01-15T13:04:05.000Z,
+            "user": {
+              "name": "Benjamin7711",
+              "profileUrl": "https://www.ozbargain.com.au/user/136295",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": -1,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 34,
+              "rawText": "<p>you will be so disappointed</p>",
+              "startIndex": 0,
+              "text": "you will be so disappointed",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>you will be so disappointed</p>",
+        },
+        "id": "16165373",
+        "level": 1,
+        "timestamp": 2025-01-15T11:41:16.000Z,
+        "user": {
+          "name": "9hundred",
+          "profileUrl": "https://www.ozbargain.com.au/user/288370",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": -1,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 32,
+          "rawText": "<p>Think I’ll Czech this out</p>",
+          "startIndex": 0,
+          "text": "Think I’ll Czech this out",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Think I’ll Czech this out</p>",
+    },
+    "id": "16165121",
+    "level": 0,
+    "timestamp": 2025-01-15T10:07:59.000Z,
+    "user": {
+      "name": "cashless",
+      "profileUrl": "https://www.ozbargain.com.au/user/68753",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 4,
+  },
+]
+`;
