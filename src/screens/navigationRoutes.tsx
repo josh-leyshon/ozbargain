@@ -5,7 +5,7 @@ import { createStaticNavigation } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Text } from '../base/components/text/text';
 import { colours } from '../base/constants/colours';
-import type { Deal } from '../feed-parser/parser';
+import type { Deal } from '../parsers/xml-feed/parser';
 import { DealInfoScreen } from './dealInfo/screen';
 import { FeedScreen } from './dealsFeed/screen';
 

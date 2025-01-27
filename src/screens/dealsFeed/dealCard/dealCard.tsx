@@ -2,7 +2,7 @@ import type React from 'react';
 import type { ReactNode } from 'react';
 import { SquareImage } from '../../../base/components/image/squareImage';
 import { Column, Row } from '../../../base/layout/flex';
-import type { Deal } from '../../../feed-parser/parser';
+import type { Deal } from '../../../parsers/xml-feed/parser';
 import { renderDealCardTitle } from './renderTitle';
 
 export type DealCardProps = {

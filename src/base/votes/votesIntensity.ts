@@ -1,4 +1,4 @@
-import type { OzbargainFeed } from '../../feed-parser/parser';
+import type { OzbargainFeed } from '../../parsers/xml-feed/parser';
 
 type Votes = OzbargainFeed['deals'][number]['votes'];
 type VoteKind = keyof Votes;

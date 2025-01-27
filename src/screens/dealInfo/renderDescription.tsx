@@ -2,8 +2,8 @@ import type React from 'react';
 import { Link } from '../../base/components/text/link';
 import { Text } from '../../base/components/text/text';
 import { openLink } from '../../base/links/openLink';
-import type { Deal } from '../../feed-parser/parser';
-import type { TextPart } from '../../feed-parser/textParts';
+import type { TextPart } from '../../parsers/text/textParts';
+import type { Deal } from '../../parsers/xml-feed/parser';
 
 const maxNumTextParts = 80;
 

@@ -1,5 +1,5 @@
-import { OZBARGAIN_BASE_URL } from '../base/constants/urls';
-import { UnreachableError } from '../base/unreachableError';
+import { OZBARGAIN_BASE_URL } from '../../base/constants/urls';
+import { UnreachableError } from '../../base/unreachableError';
 
 type TextPartType = 'price' | 'link' | 'blockquote' | 'normal';
 type InternalTextPartType = TextPartType | 'metaDiv';

@@ -1,7 +1,7 @@
 import RssParser from 'rss-parser';
-import { OZBARGAIN_BASE_URL } from '../base/constants/urls';
+import { OZBARGAIN_BASE_URL } from '../../base/constants/urls';
+import { type PartedText, partText } from '../text/textParts';
 import { assertAndParseFeedItem, assertFeedMeta } from './assertions';
-import { type PartedText, partText } from './textParts';
 
 export type Deal = {
   id: string;
