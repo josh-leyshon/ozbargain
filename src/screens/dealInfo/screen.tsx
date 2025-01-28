@@ -62,7 +62,9 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
           </Card>
           <Card padding='large' gap='large'>
             <Text size='large' weight='bold'>Comments</Text>
-            {renderedComments}
+            <Column gap='medium'>
+              {renderedComments}
+            </Column>
           </Card>
         </Column>
       </ScrollView>

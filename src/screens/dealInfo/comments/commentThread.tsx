@@ -1,5 +1,7 @@
 import type React from 'react';
-import { Column } from '../../../base/layout/flex';
+import { colours } from '../../../base/constants/colours';
+import { sizes } from '../../../base/constants/sizes';
+import { Column, Row } from '../../../base/layout/flex';
 import type { OmitStrict } from '../../../base/types/omitStrict';
 import type { Comment as CommentType } from '../../../parsers/web-scrape/deal-info-page/comments';
 import { Comment } from './comment';
@@ -21,8 +23,35 @@ export function CommentThread({ firstComment }: CommentThreadProps): React.JSX.E
   const flattenedCommentThread = flattenCommentThread(firstComment);
 
   return (
-    <Column gap='large'>
-      {flattenedCommentThread.map(comment => <Comment key={comment.id} {...comment} />)}
+    <Column gap='small'>
+      {flattenedCommentThread.map(comment => (
+        <Row key={comment.id} justifyContent='flex-start' gap='medium'>
+          {comment.level > 0 && <ThreadIndent level={comment.level} />}
+          <Column shrink={1} paddingBlock='small'>
+            <Comment {...comment} />
+          </Column>
+        </Row>
+      ))}
     </Column>
+  );
+}
+
+type ThreadIndentProps = {
+  level: CommentType['level'];
+};
+
+function ThreadIndent({ level }: ThreadIndentProps): React.JSX.Element {
+  const width = sizes.small / 2;
+  return (
+    <Column
+      style={{
+        width,
+        borderRadius: width,
+        backgroundColor: level % 2 === 1
+          ? colours.primary
+          : colours.secondaryLight,
+        marginLeft: level * sizes.medium,
+      }}
+    />
   );
 }
