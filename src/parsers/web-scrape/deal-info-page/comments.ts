@@ -49,10 +49,10 @@ function getCommentAndChildren(rootCheerio: CheerioAPI, comment: Element, level:
     throw new Error(`Did not find timestamp for comment. HTML:\n${$('> div.comment-wrap').html()}`);
   }
 
-  const userATag = $('> div.comment-wrap div.submitted a');
+  const userATag = $('> div.comment-wrap div.comment a[href^="/user/"]');
   const userName = userATag.text();
   const userLink = userATag.attr()?.href;
-  const userThumbnailUrl = $('> div.comment-wrap div.n-left > img').attr()?.src;
+  const userThumbnailUrl = $('> div.comment-wrap div.comment img[class="gravatar"]').attr()?.src;
 
   if (!userLink) {
     throw new Error(`Did not find comment author profile link for comment. HTML:\n${$('> div.comment-wrap').html()}`);
