@@ -14,15 +14,15 @@ function flattenCommentThread(comment: CommentType): OmitStrict<CommentType, 'ch
 }
 
 export type CommentThreadProps = {
-  comment: CommentType;
+  firstComment: CommentType;
 };
 
-export function CommentThread({ comment }: CommentThreadProps): React.JSX.Element {
-  const flattenedFirstCommentThread = flattenCommentThread(comment);
+export function CommentThread({ firstComment }: CommentThreadProps): React.JSX.Element {
+  const flattenedCommentThread = flattenCommentThread(firstComment);
 
   return (
     <Column gap='large'>
-      {flattenedFirstCommentThread.map(comment => <Comment key={comment.id} {...comment} />)}
+      {flattenedCommentThread.map(comment => <Comment key={comment.id} {...comment} />)}
     </Column>
   );
 }

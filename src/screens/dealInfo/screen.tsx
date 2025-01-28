@@ -3,6 +3,7 @@ import React from 'react';
 import { Platform, ScrollView, Share, StyleSheet } from 'react-native';
 import { Card } from '../../base/components/card/card';
 import { Spinner } from '../../base/components/spinner/spinner';
+import { Text } from '../../base/components/text/text';
 import { colours } from '../../base/constants/colours';
 import { sizes } from '../../base/constants/sizes';
 import { useFetch } from '../../base/hooks/useFetch';
@@ -35,6 +36,12 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
   const { data: dealInfoHtml } = useFetch(deal.links.deal);
   const comments = dealInfoHtml ? getDealCommentsFromDocument(dealInfoHtml) : undefined;
 
+  const renderedComments = comments == null
+    ? <Spinner />
+    : comments.length < 1
+    ? <Text colour='light'>No comments</Text>
+    : comments.map(comment => <CommentThread key={comment.id} firstComment={comment} />);
+
   return (
     <>
       <StatusBar backgroundColor={colours.foreground} />
@@ -55,11 +62,10 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
           <Card padding='large'>
             <Description description={deal.description} />
           </Card>
-          {comments?.map(comment => (
-            <Card padding='large' key={comment.id}>
-              <CommentThread comment={comment} />
-            </Card>
-          )) ?? <Spinner />}
+          <Card padding='large' gap='large'>
+            <Text size='large' weight='bold'>Comments</Text>
+            {renderedComments}
+          </Card>
         </Column>
       </ScrollView>
     </>
