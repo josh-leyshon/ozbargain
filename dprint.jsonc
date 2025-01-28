@@ -13,9 +13,8 @@
   "excludes": [
     "node_modules",
     "dist",
-    "src-tauri/gen",
-    "src-tauri/target",
     "**/*-lock.json",
+    "**/__tests__/fixtures",
   ],
   "plugins": [
     "https://plugins.dprint.dev/typescript-0.93.3.wasm",
