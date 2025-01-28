@@ -14,7 +14,7 @@ import { getDealCommentsFromDocument } from '../../parsers/web-scrape/deal-info-
 import { DealCardInfo } from '../dealsFeed/dealCard/dealCard';
 import { DealMeta, makeDefaultExpiryFormatter } from '../dealsFeed/dealCard/dealMeta';
 import type { DealInfoScreenProps } from '../navigationRoutes';
-import { CommentThread } from './comments/comments';
+import { CommentThread } from './comments/commentThread';
 import { Description } from './description';
 import { LinkButtons } from './linkButtons';
 
