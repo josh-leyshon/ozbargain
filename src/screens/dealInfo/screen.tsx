@@ -15,8 +15,8 @@ import { DealCardInfo } from '../dealsFeed/dealCard/dealCard';
 import { DealMeta, makeDefaultExpiryFormatter } from '../dealsFeed/dealCard/dealMeta';
 import type { DealInfoScreenProps } from '../navigationRoutes';
 import { CommentThread } from './comments/comments';
+import { Description } from './description';
 import { LinkButtons } from './linkButtons';
-import { Description } from './renderDescription';
 
 function shareWeb(): void {
   console.warn('Sharing is not available on web');

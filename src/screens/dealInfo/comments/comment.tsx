@@ -1,5 +1,6 @@
 import type React from 'react';
 import { Text } from '../../../base/components/text/text';
+import { CommonTextFromParts } from '../../../base/components/text/textParts/commonTextFromParts';
 import { Column, Row } from '../../../base/layout/flex';
 import type { OmitStrict } from '../../../base/types/omitStrict';
 import type { Comment as CommentType } from '../../../parsers/web-scrape/deal-info-page/comments';
@@ -22,9 +23,7 @@ export function Comment({ id, timestamp, content, user, level, votes }: CommentP
         <Text size='small' colour='light'>{timestampFormatter.format(timestamp)}</Text>
       </Row>
       <Row>
-        <Text>
-          {content.parts.map(part => <Text key={part.startIndex}>{part.text}</Text>)}
-        </Text>
+        <CommonTextFromParts textParts={content.parts} />
       </Row>
     </Column>
   );
