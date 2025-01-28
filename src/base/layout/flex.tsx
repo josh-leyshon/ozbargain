@@ -4,7 +4,7 @@ import type { StyleProp, ViewStyle } from 'react-native';
 import { type Size, sizes } from '../constants/sizes';
 
 export type FlexLayoutProps = {
-  children: ReactNode;
+  children?: ReactNode;
   /** Default: space-between */
   justifyContent?: ViewStyle['justifyContent'];
   /** Default: stretch */
