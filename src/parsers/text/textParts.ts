@@ -175,7 +175,7 @@ export const INTERNAL_LINK_PREFIX = OZBARGAIN_BASE_URL;
 function parseLink(text: string): Omit<LinkTextPart, 'type'> | undefined {
   const urlStr = text.match(/href="(.+?)"/)?.[1];
   const internalExternal = text.match(/class="(internal|external).*?"/)?.[1];
-  const linkText = text.match(/<a .+?>(.+?)<\/a>/)?.[1];
+  const linkText = text.match(/<a .+?>(.+?)<\/a>/s)?.[1];
 
   if (!urlStr || !internalExternal || !linkText) {
     return;
