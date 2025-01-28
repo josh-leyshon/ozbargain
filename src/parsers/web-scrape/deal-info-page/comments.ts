@@ -4,9 +4,16 @@ import { OZBARGAIN_BASE_URL } from '../../../base/constants/urls';
 import type { PartedText } from '../../text/textParts';
 import { partText } from '../../text/textParts';
 
-export type Comment = {
+type BaseCommentFields = {
   id: string;
   timestamp: Date;
+  /**
+   * The state of the comment.
+   *
+   * `shown` = Default, comment is normal.
+   * `hidden` = Comment has been hidden due to too many negative votes.
+   */
+  state: 'shown' | 'hidden';
   /**
    * Information about this comment's author.
    */
@@ -15,15 +22,6 @@ export type Comment = {
     thumbnailUrl: string;
     profileUrl: string;
   };
-  /**
-   * The text content of the comment.
-   */
-  content: PartedText;
-  /**
-   * Votes are totalled, so a positive value is upvoted that amount,
-   * and negative value is downvoted that amount.
-   */
-  votes: number;
   /**
    * How indented this comment is in a thread.
    *
@@ -36,6 +34,33 @@ export type Comment = {
    */
   children?: Comment[];
 };
+
+type CommentContentAndVotes = {
+  /**
+   * The text content of the comment.
+   */
+  content: PartedText;
+  /**
+   * Votes are totalled, so a positive value is upvoted that amount,
+   * and negative value is downvoted that amount.
+   */
+  votes: number;
+};
+
+type ShownComment = BaseCommentFields & CommentContentAndVotes & {
+  state: 'shown';
+};
+
+type HiddenComment =
+  & BaseCommentFields
+  & {
+    state: 'hidden';
+  }
+  & {
+    [K in keyof CommentContentAndVotes]?: never;
+  };
+
+export type Comment = ShownComment | HiddenComment;
 
 function getCommentAndChildren(rootCheerio: CheerioAPI, comment: Element, level: number): Comment {
   const $ = (query: SelectorType) => rootCheerio(query, comment);
@@ -66,6 +91,8 @@ function getCommentAndChildren(rootCheerio: CheerioAPI, comment: Element, level:
   const contentDiv = $('> div.comment-wrap div.content');
   const contentHtml = contentDiv.html()?.trim() ?? '';
 
+  const state = $('> div.comment-wrap div.comment').hasClass('hidden') ? 'hidden' : 'shown';
+
   const children = $('> ul.comment > li').map((_, elem) => getCommentAndChildren(rootCheerio, elem, level + 1)).get();
 
   return {
@@ -76,10 +103,17 @@ function getCommentAndChildren(rootCheerio: CheerioAPI, comment: Element, level:
       thumbnailUrl: userThumbnailUrl,
       profileUrl: `${OZBARGAIN_BASE_URL}${userLink}`,
     },
-    content: partText(contentHtml),
-    votes,
     level,
     children,
+    ...(state === 'shown'
+      ? {
+        state,
+        content: partText(contentHtml),
+        votes,
+      }
+      : {
+        state,
+      }),
   };
 }
 

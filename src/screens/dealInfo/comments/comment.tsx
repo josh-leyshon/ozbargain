@@ -15,15 +15,29 @@ const timestampFormatter = new Intl.DateTimeFormat(undefined, {
 
 type CommentProps = OmitStrict<CommentType, 'children'>;
 
-export function Comment({ id, timestamp, content, user, level, votes }: CommentProps): React.JSX.Element {
+export function Comment({ id, timestamp, state, content, user, level, votes }: CommentProps): React.JSX.Element {
+  const commentText = state === 'shown' && content != null
+    ? <CommonTextFromParts textParts={content.parts} />
+    : <Text colour='veryLight'>Comment hidden due to negative votes.</Text>;
+
   return (
     <Column gap='small'>
       <Row gap='medium' justifyContent='flex-start' alignItems='center'>
-        <Text weight='bold'>{user.name}</Text>
-        <Text size='small' colour='light'>{timestampFormatter.format(timestamp)}</Text>
+        <Text
+          weight='bold'
+          colour={state === 'hidden' ? 'veryLight' : 'normal'}
+        >
+          {user.name}
+        </Text>
+        <Text
+          size='small'
+          colour={state === 'hidden' ? 'veryLight' : 'light'}
+        >
+          {timestampFormatter.format(timestamp)}
+        </Text>
       </Row>
       <Row>
-        <CommonTextFromParts textParts={content.parts} />
+        {commentText}
       </Row>
     </Column>
   );

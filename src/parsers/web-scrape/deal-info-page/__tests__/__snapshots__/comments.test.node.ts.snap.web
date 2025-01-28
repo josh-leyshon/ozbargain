@@ -36,6 +36,7 @@ exports[`Extracts comments from deal info page 1`] = `
             },
             "id": "16163198",
             "level": 2,
+            "state": "shown",
             "timestamp": 2025-01-15T02:06:13.000Z,
             "user": {
               "name": "park",
@@ -59,6 +60,7 @@ exports[`Extracts comments from deal info page 1`] = `
         },
         "id": "16163106",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T01:48:23.000Z,
         "user": {
           "name": "Spendmore",
@@ -99,6 +101,7 @@ exports[`Extracts comments from deal info page 1`] = `
         },
         "id": "16163421",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T02:52:57.000Z,
         "user": {
           "name": "Ham Dragon",
@@ -149,6 +152,7 @@ exports[`Extracts comments from deal info page 1`] = `
                             },
                             "id": "16164765",
                             "level": 6,
+                            "state": "shown",
                             "timestamp": 2025-01-15T07:42:20.000Z,
                             "user": {
                               "name": "9hundred",
@@ -188,6 +192,7 @@ exports[`Extracts comments from deal info page 1`] = `
                         },
                         "id": "16164424",
                         "level": 5,
+                        "state": "shown",
                         "timestamp": 2025-01-15T06:18:14.000Z,
                         "user": {
                           "name": "M00Cow",
@@ -227,6 +232,7 @@ exports[`Extracts comments from deal info page 1`] = `
                     },
                     "id": "16164335",
                     "level": 4,
+                    "state": "shown",
                     "timestamp": 2025-01-15T05:56:35.000Z,
                     "user": {
                       "name": "9hundred",
@@ -250,6 +256,7 @@ exports[`Extracts comments from deal info page 1`] = `
                 },
                 "id": "16164320",
                 "level": 3,
+                "state": "shown",
                 "timestamp": 2025-01-15T05:54:45.000Z,
                 "user": {
                   "name": "9hundred",
@@ -296,6 +303,7 @@ exports[`Extracts comments from deal info page 1`] = `
                             },
                             "id": "16168996",
                             "level": 6,
+                            "state": "shown",
                             "timestamp": 2025-01-16T09:41:50.000Z,
                             "user": {
                               "name": "9hundred",
@@ -335,6 +343,7 @@ exports[`Extracts comments from deal info page 1`] = `
                         },
                         "id": "16167599",
                         "level": 5,
+                        "state": "shown",
                         "timestamp": 2025-01-16T03:47:51.000Z,
                         "user": {
                           "name": "jackspratt",
@@ -374,6 +383,7 @@ exports[`Extracts comments from deal info page 1`] = `
                     },
                     "id": "16166440",
                     "level": 4,
+                    "state": "shown",
                     "timestamp": 2025-01-15T23:53:34.000Z,
                     "user": {
                       "name": "9hundred",
@@ -403,6 +413,7 @@ Others are entitled to differ.",
                 },
                 "id": "16165623",
                 "level": 3,
+                "state": "shown",
                 "timestamp": 2025-01-15T15:36:05.000Z,
                 "user": {
                   "name": "jackspratt",
@@ -426,6 +437,7 @@ Others are entitled to differ.",
             },
             "id": "16163826",
             "level": 2,
+            "state": "shown",
             "timestamp": 2025-01-15T04:14:09.000Z,
             "user": {
               "name": "9hundred",
@@ -449,6 +461,7 @@ Others are entitled to differ.",
         },
         "id": "16163662",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T03:44:01.000Z,
         "user": {
           "name": "9hundred",
@@ -479,6 +492,7 @@ Id pour it into a pint glass.</p>",
         },
         "id": "16164598",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T07:07:17.000Z,
         "user": {
           "name": "Stewardo",
@@ -508,6 +522,7 @@ How does it compare with Pilsner Urquell on flavour, etc?",
     },
     "id": "16163091",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T01:46:23.000Z,
     "user": {
       "name": "Last Seen",
@@ -538,6 +553,7 @@ How does it compare with Pilsner Urquell on flavour, etc?",
                 },
                 "id": "16165586",
                 "level": 3,
+                "state": "shown",
                 "timestamp": 2025-01-15T14:24:52.000Z,
                 "user": {
                   "name": "OzzyBrak",
@@ -564,6 +580,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
             },
             "id": "16164744",
             "level": 2,
+            "state": "shown",
             "timestamp": 2025-01-15T07:37:03.000Z,
             "user": {
               "name": "goodwillN1",
@@ -606,6 +623,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
         },
         "id": "16163185",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T02:04:35.000Z,
         "user": {
           "name": "park",
@@ -630,6 +648,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
         },
         "id": "16163422",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T02:53:17.000Z,
         "user": {
           "name": "Ham Dragon",
@@ -653,6 +672,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
     },
     "id": "16163158",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T01:59:58.000Z,
     "user": {
       "name": "chuneeperformance",
@@ -703,6 +723,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
                         },
                         "id": "16164394",
                         "level": 5,
+                        "state": "shown",
                         "timestamp": 2025-01-15T06:09:34.000Z,
                         "user": {
                           "name": "Spendmore",
@@ -743,6 +764,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
                         },
                         "id": "16164610",
                         "level": 5,
+                        "state": "shown",
                         "timestamp": 2025-01-15T07:09:18.000Z,
                         "user": {
                           "name": "Stewardo",
@@ -782,6 +804,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
                     },
                     "id": "16163851",
                     "level": 4,
+                    "state": "shown",
                     "timestamp": 2025-01-15T04:19:30.000Z,
                     "user": {
                       "name": "SoTightEcoLPI",
@@ -805,6 +828,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
                 },
                 "id": "16163743",
                 "level": 3,
+                "state": "shown",
                 "timestamp": 2025-01-15T03:59:06.000Z,
                 "user": {
                   "name": "Spendmore",
@@ -847,6 +871,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
                     },
                     "id": "16164308",
                     "level": 4,
+                    "state": "shown",
                     "timestamp": 2025-01-15T05:53:11.000Z,
                     "user": {
                       "name": "9hundred",
@@ -892,6 +917,7 @@ Don't remember the taste, lol</p>",
                         },
                         "id": "16175244",
                         "level": 5,
+                        "state": "shown",
                         "timestamp": 2025-01-18T03:39:48.000Z,
                         "user": {
                           "name": "GerryManDerJan",
@@ -950,6 +976,7 @@ Don't remember the taste, lol</p>",
                     },
                     "id": "16164313",
                     "level": 4,
+                    "state": "shown",
                     "timestamp": 2025-01-15T05:53:39.000Z,
                     "user": {
                       "name": "SoTightEcoLPI",
@@ -973,6 +1000,7 @@ Don't remember the taste, lol</p>",
                 },
                 "id": "16164263",
                 "level": 3,
+                "state": "shown",
                 "timestamp": 2025-01-15T05:44:07.000Z,
                 "user": {
                   "name": "GerryManDerJan",
@@ -996,6 +1024,7 @@ Don't remember the taste, lol</p>",
             },
             "id": "16163657",
             "level": 2,
+            "state": "shown",
             "timestamp": 2025-01-15T03:42:33.000Z,
             "user": {
               "name": "9hundred",
@@ -1019,6 +1048,7 @@ Don't remember the taste, lol</p>",
         },
         "id": "16163251",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T02:17:41.000Z,
         "user": {
           "name": "Spendmore",
@@ -1042,6 +1072,7 @@ Don't remember the taste, lol</p>",
     },
     "id": "16163241",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T02:15:15.000Z,
     "user": {
       "name": "SoTightEcoLPI",
@@ -1070,6 +1101,7 @@ Don't remember the taste, lol</p>",
             },
             "id": "16163496",
             "level": 2,
+            "state": "shown",
             "timestamp": 2025-01-15T03:11:34.000Z,
             "user": {
               "name": "Mr Frodo",
@@ -1093,6 +1125,7 @@ Don't remember the taste, lol</p>",
         },
         "id": "16163444",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T02:57:35.000Z,
         "user": {
           "name": "loveyoulooongtime",
@@ -1130,6 +1163,7 @@ Don't remember the taste, lol</p>",
     },
     "id": "16163289",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T02:25:15.000Z,
     "user": {
       "name": "Zapwap",
@@ -1156,6 +1190,7 @@ Don't remember the taste, lol</p>",
         },
         "id": "16163369",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T02:42:03.000Z,
         "user": {
           "name": "YOTR",
@@ -1184,6 +1219,7 @@ Don't remember the taste, lol</p>",
                 },
                 "id": "16164645",
                 "level": 3,
+                "state": "shown",
                 "timestamp": 2025-01-15T07:16:18.000Z,
                 "user": {
                   "name": "Spendmore",
@@ -1208,6 +1244,7 @@ Don't remember the taste, lol</p>",
                 },
                 "id": "16165587",
                 "level": 3,
+                "state": "shown",
                 "timestamp": 2025-01-15T14:27:46.000Z,
                 "user": {
                   "name": "OzzyBrak",
@@ -1231,6 +1268,7 @@ Don't remember the taste, lol</p>",
             },
             "id": "16164206",
             "level": 2,
+            "state": "shown",
             "timestamp": 2025-01-15T05:30:35.000Z,
             "user": {
               "name": "caitsith01",
@@ -1254,6 +1292,7 @@ Don't remember the taste, lol</p>",
         },
         "id": "16163823",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T04:13:35.000Z,
         "user": {
           "name": "Spendmore",
@@ -1278,6 +1317,7 @@ Don't remember the taste, lol</p>",
         },
         "id": "16164832",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T08:05:26.000Z,
         "user": {
           "name": "kbw",
@@ -1301,6 +1341,7 @@ Don't remember the taste, lol</p>",
     },
     "id": "16163298",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T02:26:19.000Z,
     "user": {
       "name": "Danger",
@@ -1329,6 +1370,7 @@ Don't remember the taste, lol</p>",
             },
             "id": "16164950",
             "level": 2,
+            "state": "shown",
             "timestamp": 2025-01-15T08:50:46.000Z,
             "user": {
               "name": "nepalesesquirrel",
@@ -1366,6 +1408,7 @@ Don't remember the taste, lol</p>",
         },
         "id": "16163387",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T02:45:44.000Z,
         "user": {
           "name": "tabboy",
@@ -1389,6 +1432,7 @@ Don't remember the taste, lol</p>",
     },
     "id": "16163299",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T02:26:25.000Z,
     "user": {
       "name": "Palindrome777",
@@ -1413,6 +1457,7 @@ Don't remember the taste, lol</p>",
     },
     "id": "16163374",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T02:42:59.000Z,
     "user": {
       "name": "brou",
@@ -1439,6 +1484,7 @@ Don't remember the taste, lol</p>",
         },
         "id": "16163434",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T02:56:11.000Z,
         "user": {
           "name": "YOTR",
@@ -1462,6 +1508,7 @@ Don't remember the taste, lol</p>",
     },
     "id": "16163410",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T02:49:23.000Z,
     "user": {
       "name": "Talby23",
@@ -1500,6 +1547,7 @@ Don't remember the taste, lol</p>",
     },
     "id": "16163432",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T02:55:27.000Z,
     "user": {
       "name": "nubzy",
@@ -1524,6 +1572,7 @@ Don't remember the taste, lol</p>",
     },
     "id": "16163435",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T02:56:20.000Z,
     "user": {
       "name": "evanssm2jp",
@@ -1548,6 +1597,7 @@ Don't remember the taste, lol</p>",
     },
     "id": "16163456",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T03:01:31.000Z,
     "user": {
       "name": "jackwilk",
@@ -1572,6 +1622,7 @@ Don't remember the taste, lol</p>",
     },
     "id": "16163651",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T03:42:00.000Z,
     "user": {
       "name": "9hundred",
@@ -1613,6 +1664,7 @@ $50 for a carton of 500ml cans is great imo</p>",
     },
     "id": "16163890",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T04:24:58.000Z,
     "user": {
       "name": "serpentxx",
@@ -1665,6 +1717,7 @@ $50 for a carton of 500ml cans is great imo</p>",
     },
     "id": "16164115",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T05:05:39.000Z,
     "user": {
       "name": "Benjamin7711",
@@ -1703,6 +1756,7 @@ $50 for a carton of 500ml cans is great imo</p>",
     },
     "id": "16164243",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T05:40:13.000Z,
     "user": {
       "name": "loveyoulooongtime",
@@ -1731,6 +1785,7 @@ $50 for a carton of 500ml cans is great imo</p>",
             },
             "id": "16164663",
             "level": 2,
+            "state": "shown",
             "timestamp": 2025-01-15T07:19:46.000Z,
             "user": {
               "name": "donman92",
@@ -1760,6 +1815,7 @@ No judgement, just analysis",
         },
         "id": "16164609",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T07:09:16.000Z,
         "user": {
           "name": "Pootie Tang",
@@ -1783,6 +1839,7 @@ No judgement, just analysis",
     },
     "id": "16164363",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T06:02:06.000Z,
     "user": {
       "name": "donman92",
@@ -1807,6 +1864,7 @@ No judgement, just analysis",
     },
     "id": "16164419",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T06:17:24.000Z,
     "user": {
       "name": "worthy1",
@@ -1833,6 +1891,7 @@ No judgement, just analysis",
         },
         "id": "16164611",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T07:09:28.000Z,
         "user": {
           "name": "jackwilk",
@@ -1883,6 +1942,7 @@ No judgement, just analysis",
                             },
                             "id": "16173942",
                             "level": 6,
+                            "state": "shown",
                             "timestamp": 2025-01-17T13:40:15.000Z,
                             "user": {
                               "name": "ubiq",
@@ -1931,6 +1991,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
                         },
                         "id": "16170425",
                         "level": 5,
+                        "state": "shown",
                         "timestamp": 2025-01-16T22:14:43.000Z,
                         "user": {
                           "name": "Stewardo",
@@ -1970,6 +2031,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
                     },
                     "id": "16170049",
                     "level": 4,
+                    "state": "shown",
                     "timestamp": 2025-01-16T16:32:40.000Z,
                     "user": {
                       "name": "ubiq",
@@ -1993,6 +2055,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
                 },
                 "id": "16165331",
                 "level": 3,
+                "state": "shown",
                 "timestamp": 2025-01-15T11:27:38.000Z,
                 "user": {
                   "name": "Stewardo",
@@ -2016,6 +2079,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
             },
             "id": "16165319",
             "level": 2,
+            "state": "shown",
             "timestamp": 2025-01-15T11:21:49.000Z,
             "user": {
               "name": "ubiq",
@@ -2039,6 +2103,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
         },
         "id": "16164621",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T07:11:14.000Z,
         "user": {
           "name": "Stewardo",
@@ -2062,6 +2127,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
     },
     "id": "16164470",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T06:31:46.000Z,
     "user": {
       "name": "Drpepper666",
@@ -2086,6 +2152,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
     },
     "id": "16164672",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T07:20:45.000Z,
     "user": {
       "name": "Hampton Wick",
@@ -2114,6 +2181,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
             },
             "id": "16165495",
             "level": 2,
+            "state": "shown",
             "timestamp": 2025-01-15T13:04:05.000Z,
             "user": {
               "name": "Benjamin7711",
@@ -2137,6 +2205,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
         },
         "id": "16165373",
         "level": 1,
+        "state": "shown",
         "timestamp": 2025-01-15T11:41:16.000Z,
         "user": {
           "name": "9hundred",
@@ -2160,6 +2229,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
     },
     "id": "16165121",
     "level": 0,
+    "state": "shown",
     "timestamp": 2025-01-15T10:07:59.000Z,
     "user": {
       "name": "cashless",
@@ -2167,6 +2237,3394 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
     },
     "votes": 4,
+  },
+]
+`;
+
+exports[`Works with hidden comments 1`] = `
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 122,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16209774/redir" class="internal inline" onclick="return OzB.gotoComment(16209774);">@tunzafun001:</a>",
+                          "startIndex": 3,
+                          "text": "@tunzafun001:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16209774/redir",
+                        },
+                        {
+                          "endIndex": 181,
+                          "rawText": " Not a snow guy. But love nature.</p>
+
+<p>Highly recommend ",
+                          "startIndex": 122,
+                          "text": " Not a snow guy. But love nature.
+
+Highly recommend ",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 323,
+                          "linkType": "external",
+                          "rawText": "<a href="https://www.japan.travel/national-parks/parks/shiretoko/" class="external inline" rel="noopener nofollow">Shiretoko National Park</a>",
+                          "startIndex": 181,
+                          "text": "Shiretoko National Park",
+                          "type": "link",
+                          "url": "https://www.japan.travel/national-parks/parks/shiretoko/",
+                        },
+                        {
+                          "endIndex": 887,
+                          "rawText": " on the east coast. Spectacular waterfalls into the sea, wild bears, natural hot springs… UNESCO World Heritage Site.</p>
+
+<p>Stayed in the park at Japanese Youth Hostel - isolated, quite cheap, amazing hospitality &amp; fisherman's feasts of local seafood.<br>
+A Japanese man celebrated his 13th year  holidaying there when I visited. Was the only Foreigner. Family friendly.</p>
+
+<p>Was snow in nearby hills in May. Deer wandered through the snow around  the hot springs I spent a lot of time in.</p>
+
+<p>Ice breaker cruises in February, through the sea ice.</p>",
+                          "startIndex": 323,
+                          "text": " on the east coast. Spectacular waterfalls into the sea, wild bears, natural hot springs… UNESCO World Heritage Site.
+
+Stayed in the park at Japanese Youth Hostel - isolated, quite cheap, amazing hospitality & fisherman's feasts of local seafood.
+A Japanese man celebrated his 13th year  holidaying there when I visited. Was the only Foreigner. Family friendly.
+
+Was snow in nearby hills in May. Deer wandered through the snow around  the hot springs I spent a lot of time in.
+
+Ice breaker cruises in February, through the sea ice.",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16209774/redir" class="internal inline" onclick="return OzB.gotoComment(16209774);">@tunzafun001:</a> Not a snow guy. But love nature.</p>
+
+<p>Highly recommend <a href="https://www.japan.travel/national-parks/parks/shiretoko/" class="external inline" rel="noopener nofollow">Shiretoko National Park</a> on the east coast. Spectacular waterfalls into the sea, wild bears, natural hot springs… UNESCO World Heritage Site.</p>
+
+<p>Stayed in the park at Japanese Youth Hostel - isolated, quite cheap, amazing hospitality &amp; fisherman's feasts of local seafood.<br>
+A Japanese man celebrated his 13th year  holidaying there when I visited. Was the only Foreigner. Family friendly.</p>
+
+<p>Was snow in nearby hills in May. Deer wandered through the snow around  the hot springs I spent a lot of time in.</p>
+
+<p>Ice breaker cruises in February, through the sea ice.</p>",
+                    },
+                    "id": "16209825",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2025-01-28T08:34:55.000Z,
+                    "user": {
+                      "name": "INFIDEL",
+                      "profileUrl": "https://www.ozbargain.com.au/user/58047",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 435,
+                      "rawText": "<p>Any tips on a good " Ozbargain" resort /accom in that area?</p>
+
+<p>Context - 4yr old never seen snow, partner ski's green/ blue runs, Im happy on the board on double blacks…but getting on,.so happy with blue/ black runs. Groomers or tree runs. Not too fussed.</p>
+
+<p>Can not stand the Kuta's of the world (so don't want overly developed), but never been to Japan before so need to be realistic/ reasonably easy to get around .</p>",
+                      "startIndex": 0,
+                      "text": "Any tips on a good " Ozbargain" resort /accom in that area?
+
+Context - 4yr old never seen snow, partner ski's green/ blue runs, Im happy on the board on double blacks…but getting on,.so happy with blue/ black runs. Groomers or tree runs. Not too fussed.
+
+Can not stand the Kuta's of the world (so don't want overly developed), but never been to Japan before so need to be realistic/ reasonably easy to get around .",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Any tips on a good " Ozbargain" resort /accom in that area?</p>
+
+<p>Context - 4yr old never seen snow, partner ski's green/ blue runs, Im happy on the board on double blacks…but getting on,.so happy with blue/ black runs. Groomers or tree runs. Not too fussed.</p>
+
+<p>Can not stand the Kuta's of the world (so don't want overly developed), but never been to Japan before so need to be realistic/ reasonably easy to get around .</p>",
+                },
+                "id": "16209774",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T08:10:04.000Z,
+                "user": {
+                  "name": "tunzafun001",
+                  "profileUrl": "https://www.ozbargain.com.au/user/106531",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 138,
+                  "rawText": "<p>Wrong answer! Plenty of ski resorts in Northern Hemisphere have snow in May, including Northern &amp; mountain areas of Japan.</p>
+
+<p>",
+                  "startIndex": 0,
+                  "text": "Wrong answer! Plenty of ski resorts in Northern Hemisphere have snow in May, including Northern & mountain areas of Japan.
+
+",
+                  "type": "normal",
+                },
+                {
+                  "endIndex": 351,
+                  "linkType": "external",
+                  "rawText": "<a href="https://www.japan.travel/en/sports/snow/hokkaido/#:~:text=An%20extra%2Dlong%20season,extra%20time%20on%20the%20slopes." class="external inline" rel="noopener nofollow">HOKKAIDO Ski resorts open in May</a>",
+                  "startIndex": 138,
+                  "text": "HOKKAIDO Ski resorts open in May",
+                  "type": "link",
+                  "url": "https://www.japan.travel/en/sports/snow/hokkaido/#:~:text=An%20extra%2Dlong%20season,extra%20time%20on%20the%20slopes.",
+                },
+                {
+                  "endIndex": 392,
+                  "rawText": "</p>
+
+<p>Experienced snow there May🌨</p>",
+                  "startIndex": 351,
+                  "text": "
+
+Experienced snow there May🌨",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Wrong answer! Plenty of ski resorts in Northern Hemisphere have snow in May, including Northern &amp; mountain areas of Japan.</p>
+
+<p><a href="https://www.japan.travel/en/sports/snow/hokkaido/#:~:text=An%20extra%2Dlong%20season,extra%20time%20on%20the%20slopes." class="external inline" rel="noopener nofollow">HOKKAIDO Ski resorts open in May</a></p>
+
+<p>Experienced snow there May🌨</p>",
+            },
+            "id": "16208640",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T02:32:57.000Z,
+            "user": {
+              "name": "INFIDEL",
+              "profileUrl": "https://www.ozbargain.com.au/user/58047",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
+            },
+            "votes": 8,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 28,
+              "rawText": "<p>Wrong hemisphere mate</p>",
+              "startIndex": 0,
+              "text": "Wrong hemisphere mate",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Wrong hemisphere mate</p>",
+        },
+        "id": "16208552",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:10:46.000Z,
+        "user": {
+          "name": "clubhonda",
+          "profileUrl": "https://www.ozbargain.com.au/user/53455",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 128,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16208979/redir" class="internal inline" onclick="return OzB.gotoComment(16208979);">@The Wololo Wombat:</a>",
+                          "startIndex": 3,
+                          "text": "@The Wololo Wombat:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16208979/redir",
+                        },
+                        {
+                          "endIndex": 135,
+                          "rawText": " No</p>",
+                          "startIndex": 128,
+                          "text": " No",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16208979/redir" class="internal inline" onclick="return OzB.gotoComment(16208979);">@The Wololo Wombat:</a> No</p>",
+                    },
+                    "id": "16209023",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2025-01-28T04:20:03.000Z,
+                    "user": {
+                      "name": "jv",
+                      "profileUrl": "https://www.ozbargain.com.au/user/14180",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/u/80/14180-38.jpg?h=3d04a44d",
+                    },
+                    "votes": -2,
+                  },
+                  {
+                    "children": [],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 128,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16208979/redir" class="internal inline" onclick="return OzB.gotoComment(16208979);">@The Wololo Wombat:</a>",
+                          "startIndex": 3,
+                          "text": "@The Wololo Wombat:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16208979/redir",
+                        },
+                        {
+                          "endIndex": 286,
+                          "rawText": " More about changing currents / distribution of moisture.</p>
+
+<p>Ie..hasn't rained in SA in months…means it's all coming down somewhere else (ie. Japan).</p>",
+                          "startIndex": 128,
+                          "text": " More about changing currents / distribution of moisture.
+
+Ie..hasn't rained in SA in months…means it's all coming down somewhere else (ie. Japan).",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16208979/redir" class="internal inline" onclick="return OzB.gotoComment(16208979);">@The Wololo Wombat:</a> More about changing currents / distribution of moisture.</p>
+
+<p>Ie..hasn't rained in SA in months…means it's all coming down somewhere else (ie. Japan).</p>",
+                    },
+                    "id": "16209351",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2025-01-28T05:44:19.000Z,
+                    "user": {
+                      "name": "tunzafun001",
+                      "profileUrl": "https://www.ozbargain.com.au/user/106531",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 46,
+                      "rawText": "<p>More heat, more evaporation, more snow?</p>",
+                      "startIndex": 0,
+                      "text": "More heat, more evaporation, more snow?",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>More heat, more evaporation, more snow?</p>",
+                },
+                "id": "16208979",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T04:09:18.000Z,
+                "user": {
+                  "name": "The Wololo Wombat",
+                  "profileUrl": "https://www.ozbargain.com.au/user/168859",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/u/59/168859-38.jpg?h=480fcdca",
+                },
+                "votes": -1,
+              },
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 286,
+                      "rawText": "<p>This! Work Colleague just came back from Japan from a snow holiday. Nagano had 100CM of snow over 24 hours while while he was there. He spent 4 weeks  there, was supposed to go to Hokkaido last 2 weeks, decided to stay in Nagano because Hokkaido had less than seasonal snow fall.</p>",
+                      "startIndex": 0,
+                      "text": "This! Work Colleague just came back from Japan from a snow holiday. Nagano had 100CM of snow over 24 hours while while he was there. He spent 4 weeks  there, was supposed to go to Hokkaido last 2 weeks, decided to stay in Nagano because Hokkaido had less than seasonal snow fall.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>This! Work Colleague just came back from Japan from a snow holiday. Nagano had 100CM of snow over 24 hours while while he was there. He spent 4 weeks  there, was supposed to go to Hokkaido last 2 weeks, decided to stay in Nagano because Hokkaido had less than seasonal snow fall.</p>",
+                },
+                "id": "16209227",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T05:16:25.000Z,
+                "user": {
+                  "name": "he11bent",
+                  "profileUrl": "https://www.ozbargain.com.au/user/314480",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 1,
+              },
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 179,
+                      "rawText": "<p>Likely that it will be colder extremes in Hokkaido in future.</p>
+
+<p>Recent extremes in colder conditions in far Northern Hemisphere are likely due to Climate Change.</p>
+
+<p>",
+                      "startIndex": 0,
+                      "text": "Likely that it will be colder extremes in Hokkaido in future.
+
+Recent extremes in colder conditions in far Northern Hemisphere are likely due to Climate Change.
+
+",
+                      "type": "normal",
+                    },
+                    {
+                      "endIndex": 762,
+                      "linkType": "external",
+                      "rawText": "<a href="https://disasterphilanthropy.org/resources/extreme-cold/#:~:text=There%20is%20a%20direct%20connection,air%20into%20non%2Dtraditional%20areas." class="external inline" rel="noopener nofollow">There is a direct connection between human-caused climate change and increased occurrences of extreme cold. Specifically, warming temperatures are disrupting the polar vortex and pushing cold air into non-traditional areas.<br>
+While the polar vortex may be bringing extreme cold temperatures to one part of the world, the rest of the world is experiencing extremely hot weather.</a>",
+                      "startIndex": 179,
+                      "text": "There is a direct connection between human-caused climate change and increased occurrences of extreme cold. Specifically, warming temperatures are disrupting the polar vortex and pushing cold air into non-traditional areas.<br>
+While the polar vortex may be bringing extreme cold temperatures to one part of the world, the rest of the world is experiencing extremely hot weather.",
+                      "type": "link",
+                      "url": "https://disasterphilanthropy.org/resources/extreme-cold/#:~:text=There%20is%20a%20direct%20connection,air%20into%20non%2Dtraditional%20areas.",
+                    },
+                    {
+                      "endIndex": 766,
+                      "rawText": "</p>",
+                      "startIndex": 762,
+                      "text": "",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Likely that it will be colder extremes in Hokkaido in future.</p>
+
+<p>Recent extremes in colder conditions in far Northern Hemisphere are likely due to Climate Change.</p>
+
+<p><a href="https://disasterphilanthropy.org/resources/extreme-cold/#:~:text=There%20is%20a%20direct%20connection,air%20into%20non%2Dtraditional%20areas." class="external inline" rel="noopener nofollow">There is a direct connection between human-caused climate change and increased occurrences of extreme cold. Specifically, warming temperatures are disrupting the polar vortex and pushing cold air into non-traditional areas.<br>
+While the polar vortex may be bringing extreme cold temperatures to one part of the world, the rest of the world is experiencing extremely hot weather.</a></p>",
+                },
+                "id": "16209379",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T05:50:47.000Z,
+                "user": {
+                  "name": "INFIDEL",
+                  "profileUrl": "https://www.ozbargain.com.au/user/58047",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
+                },
+                "votes": 1,
+              },
+            ],
+            "id": "16208822",
+            "level": 2,
+            "state": "hidden",
+            "timestamp": 2025-01-28T03:30:47.000Z,
+            "user": {
+              "name": "jv",
+              "profileUrl": "https://www.ozbargain.com.au/user/14180",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/80/14180-20.jpg?h=3d04a44d",
+            },
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 285,
+                      "rawText": "<p>Yeah, this is exactly what I'm asking.</p>
+
+<p>There was neck deep snow in NZ into November…but not a single lift spinning.</p>
+
+<p>I wouldn't plan for May, but based on current conditions…there should be snow ..but is there facilities. Also double down with the cherry blossom.</p>",
+                      "startIndex": 0,
+                      "text": "Yeah, this is exactly what I'm asking.
+
+There was neck deep snow in NZ into November…but not a single lift spinning.
+
+I wouldn't plan for May, but based on current conditions…there should be snow ..but is there facilities. Also double down with the cherry blossom.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Yeah, this is exactly what I'm asking.</p>
+
+<p>There was neck deep snow in NZ into November…but not a single lift spinning.</p>
+
+<p>I wouldn't plan for May, but based on current conditions…there should be snow ..but is there facilities. Also double down with the cherry blossom.</p>",
+                },
+                "id": "16209360",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T05:46:43.000Z,
+                "user": {
+                  "name": "tunzafun001",
+                  "profileUrl": "https://www.ozbargain.com.au/user/106531",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 664,
+                      "rawText": "<p>Like a lot in Japan, the Japanese only go to resorts, camping, beaches, etc in certain months. <br>
+So most public transport, accommodation, stores, etc only operate then.</p>
+
+<p>Stayed for weeks in a beautiful beach area few hours from Tokyo. 1 tiny store served the locals &amp; me. All others (for tourists) were closed off season. Restaurants only operated 2 months a year for Summer. <br>
+Only transport was the school bus.</p>
+
+<p>Australian Embassy in Tokyo has their beach house there.<br>
+Enjoyed the low stress beach  holiday.</p>
+
+<p>Sakura likely should be over by May flights. But it blooms later in cooler areas like Hokkaido &amp; mountains.</p>",
+                      "startIndex": 0,
+                      "text": "Like a lot in Japan, the Japanese only go to resorts, camping, beaches, etc in certain months. 
+So most public transport, accommodation, stores, etc only operate then.
+
+Stayed for weeks in a beautiful beach area few hours from Tokyo. 1 tiny store served the locals & me. All others (for tourists) were closed off season. Restaurants only operated 2 months a year for Summer. 
+Only transport was the school bus.
+
+Australian Embassy in Tokyo has their beach house there.
+Enjoyed the low stress beach  holiday.
+
+Sakura likely should be over by May flights. But it blooms later in cooler areas like Hokkaido & mountains.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Like a lot in Japan, the Japanese only go to resorts, camping, beaches, etc in certain months. <br>
+So most public transport, accommodation, stores, etc only operate then.</p>
+
+<p>Stayed for weeks in a beautiful beach area few hours from Tokyo. 1 tiny store served the locals &amp; me. All others (for tourists) were closed off season. Restaurants only operated 2 months a year for Summer. <br>
+Only transport was the school bus.</p>
+
+<p>Australian Embassy in Tokyo has their beach house there.<br>
+Enjoyed the low stress beach  holiday.</p>
+
+<p>Sakura likely should be over by May flights. But it blooms later in cooler areas like Hokkaido &amp; mountains.</p>",
+                },
+                "id": "16209363",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T05:47:12.000Z,
+                "user": {
+                  "name": "INFIDEL",
+                  "profileUrl": "https://www.ozbargain.com.au/user/58047",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
+                },
+                "votes": 1,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 305,
+                  "rawText": "<p>This can be true but it will vary a lot<br>
+Other things to consider are resort openings and transport. Buses stop the routes to the mountains so you may need to rent a car.<br>
+Also if you want to take kids for lessons, those would have stopped.<br>
+I was planning a May snow trip and reconsidered</p>",
+                  "startIndex": 0,
+                  "text": "This can be true but it will vary a lot
+Other things to consider are resort openings and transport. Buses stop the routes to the mountains so you may need to rent a car.
+Also if you want to take kids for lessons, those would have stopped.
+I was planning a May snow trip and reconsidered",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>This can be true but it will vary a lot<br>
+Other things to consider are resort openings and transport. Buses stop the routes to the mountains so you may need to rent a car.<br>
+Also if you want to take kids for lessons, those would have stopped.<br>
+I was planning a May snow trip and reconsidered</p>",
+            },
+            "id": "16208933",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T03:57:44.000Z,
+            "user": {
+              "name": "smoothymcmellow",
+              "profileUrl": "https://www.ozbargain.com.au/user/45932",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 181,
+              "rawText": "<p>Snow falls in Hokkaido as early as November and continues into May.<br>
+Have been there in May - snow ploughs were needed to keep some roads  clear. More likely in mountains.</p>",
+              "startIndex": 0,
+              "text": "Snow falls in Hokkaido as early as November and continues into May.
+Have been there in May - snow ploughs were needed to keep some roads  clear. More likely in mountains.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Snow falls in Hokkaido as early as November and continues into May.<br>
+Have been there in May - snow ploughs were needed to keep some roads  clear. More likely in mountains.</p>",
+        },
+        "id": "16208626",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:30:03.000Z,
+        "user": {
+          "name": "INFIDEL",
+          "profileUrl": "https://www.ozbargain.com.au/user/58047",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
+        },
+        "votes": 1,
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 120,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/16209518/redir" class="internal inline" onclick="return OzB.gotoComment(16209518);">@Tiggrrrrr:</a>",
+                              "startIndex": 3,
+                              "text": "@Tiggrrrrr:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/16209518/redir",
+                            },
+                            {
+                              "endIndex": 434,
+                              "rawText": " Need to sell a kidney for a couple of weeks in Zermatt?</p>
+
+<p>Went to Engelberg for a couple of days in 2014, but had savage gastro and didn't get further than the Atco toilets at the bottom of the hill!</p>
+
+<p>Also could have got change from a vending machine in Bitcoin.</p>
+
+<p>Beautiful place though ..</p>",
+                              "startIndex": 120,
+                              "text": " Need to sell a kidney for a couple of weeks in Zermatt?
+
+Went to Engelberg for a couple of days in 2014, but had savage gastro and didn't get further than the Atco toilets at the bottom of the hill!
+
+Also could have got change from a vending machine in Bitcoin.
+
+Beautiful place though ..",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/16209518/redir" class="internal inline" onclick="return OzB.gotoComment(16209518);">@Tiggrrrrr:</a> Need to sell a kidney for a couple of weeks in Zermatt?</p>
+
+<p>Went to Engelberg for a couple of days in 2014, but had savage gastro and didn't get further than the Atco toilets at the bottom of the hill!</p>
+
+<p>Also could have got change from a vending machine in Bitcoin.</p>
+
+<p>Beautiful place though ..</p>",
+                        },
+                        "id": "16209794",
+                        "level": 5,
+                        "state": "shown",
+                        "timestamp": 2025-01-28T08:19:27.000Z,
+                        "user": {
+                          "name": "tunzafun001",
+                          "profileUrl": "https://www.ozbargain.com.au/user/106531",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": 0,
+                      },
+                    ],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 122,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16209391/redir" class="internal inline" onclick="return OzB.gotoComment(16209391);">@tunzafun001:</a>",
+                          "startIndex": 3,
+                          "text": "@tunzafun001:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16209391/redir",
+                        },
+                        {
+                          "endIndex": 295,
+                          "rawText": " Just had a quick look, estimated closing date of May 6, 2025. So guess may not be ideal.</p>
+
+<p>Back in the 2000's usually open at least the first two weeks of May, so as ",
+                          "startIndex": 122,
+                          "text": " Just had a quick look, estimated closing date of May 6, 2025. So guess may not be ideal.
+
+Back in the 2000's usually open at least the first two weeks of May, so as ",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 347,
+                          "linkType": "deal",
+                          "rawText": "<a href="/user/14180" class="internal inline">jv</a>",
+                          "startIndex": 295,
+                          "text": "jv",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/user/14180",
+                        },
+                        {
+                          "endIndex": 472,
+                          "rawText": " pointed out, looks like the timeframes have been shifting.</p>
+
+<p>I personally like to go off-peak to Zermatt but YMMV.</p>",
+                          "startIndex": 347,
+                          "text": " pointed out, looks like the timeframes have been shifting.
+
+I personally like to go off-peak to Zermatt but YMMV.",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16209391/redir" class="internal inline" onclick="return OzB.gotoComment(16209391);">@tunzafun001:</a> Just had a quick look, estimated closing date of May 6, 2025. So guess may not be ideal.</p>
+
+<p>Back in the 2000's usually open at least the first two weeks of May, so as <a href="/user/14180" class="internal inline">jv</a> pointed out, looks like the timeframes have been shifting.</p>
+
+<p>I personally like to go off-peak to Zermatt but YMMV.</p>",
+                    },
+                    "id": "16209518",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2025-01-28T06:32:16.000Z,
+                    "user": {
+                      "name": "Tiggrrrrrjv",
+                      "profileUrl": "https://www.ozbargain.com.au/user/142212",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/u/12/142212-38.jpg?h=a0acbaca",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 354,
+                      "rawText": "<p>I have 5 snowboards.. but havent touched snow since 2018..</p>
+
+<p>I'll take anything.</p>
+
+<p>Did a Whistler run in April 2018. It was 31C on the mountain, but still heaps of sloppy snow. It was magnificent.</p>
+
+<p>Could there be anywhere better to have a beer than 31C in the snowfields? Plus they were clearing out all food. So all pub meals were ",
+                      "startIndex": 0,
+                      "text": "I have 5 snowboards.. but havent touched snow since 2018..
+
+I'll take anything.
+
+Did a Whistler run in April 2018. It was 31C on the mountain, but still heaps of sloppy snow. It was magnificent.
+
+Could there be anywhere better to have a beer than 31C in the snowfields? Plus they were clearing out all food. So all pub meals were ",
+                      "type": "normal",
+                    },
+                    {
+                      "endIndex": 359,
+                      "rawText": "$2.50",
+                      "startIndex": 354,
+                      "text": "$2.50",
+                      "type": "price",
+                    },
+                    {
+                      "endIndex": 579,
+                      "rawText": ". But Japan isn't exactly relaxed with their timeframes…so assume unlikely to "keep it open a bit later"?</p>
+
+<p>Anyone booked a redemption flight to Japan just recently. Wonder if there is any availability for Feb?</p>",
+                      "startIndex": 359,
+                      "text": ". But Japan isn't exactly relaxed with their timeframes…so assume unlikely to "keep it open a bit later"?
+
+Anyone booked a redemption flight to Japan just recently. Wonder if there is any availability for Feb?",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>I have 5 snowboards.. but havent touched snow since 2018..</p>
+
+<p>I'll take anything.</p>
+
+<p>Did a Whistler run in April 2018. It was 31C on the mountain, but still heaps of sloppy snow. It was magnificent.</p>
+
+<p>Could there be anywhere better to have a beer than 31C in the snowfields? Plus they were clearing out all food. So all pub meals were $2.50. But Japan isn't exactly relaxed with their timeframes…so assume unlikely to "keep it open a bit later"?</p>
+
+<p>Anyone booked a redemption flight to Japan just recently. Wonder if there is any availability for Feb?</p>",
+                },
+                "id": "16209391",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T05:52:18.000Z,
+                "user": {
+                  "name": "tunzafun001",
+                  "profileUrl": "https://www.ozbargain.com.au/user/106531",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 62,
+                  "rawText": "<blockquote>
+  <p>Depends how fussy you are.</p>
+</blockquote>",
+                  "startIndex": 0,
+                  "text": "
+  Depends how fussy you are.
+",
+                  "type": "blockquote",
+                },
+                {
+                  "endIndex": 67,
+                  "rawText": "
+
+<p>",
+                  "startIndex": 62,
+                  "text": "
+
+",
+                  "type": "normal",
+                },
+                {
+                  "endIndex": 173,
+                  "linkType": "deal",
+                  "rawText": "<a href="/comment/16110836/redir" class="internal">https://www.ozbargain.com.au/comment/16110836/redir</a>",
+                  "startIndex": 67,
+                  "text": "https://www.ozbargain.com.au/comment/16110836/redir",
+                  "type": "link",
+                  "url": "https://www.ozbargain.com.au/comment/16110836/redir",
+                },
+                {
+                  "endIndex": 177,
+                  "rawText": "</p>",
+                  "startIndex": 173,
+                  "text": "",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<blockquote>
+  <p>Depends how fussy you are.</p>
+</blockquote>
+
+<p><a href="/comment/16110836/redir" class="internal">https://www.ozbargain.com.au/comment/16110836/redir</a></p>",
+            },
+            "id": "16208835",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T03:34:19.000Z,
+            "user": {
+              "name": "jv",
+              "profileUrl": "https://www.ozbargain.com.au/user/14180",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/80/14180-38.jpg?h=3d04a44d",
+            },
+            "votes": -2,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 134,
+              "rawText": "<p>Depends how fussy you are. You can still find snow for skiing, e.g. in Hakuba Valley in Nagano, however, will be softer/wetter.</p>",
+              "startIndex": 0,
+              "text": "Depends how fussy you are. You can still find snow for skiing, e.g. in Hakuba Valley in Nagano, however, will be softer/wetter.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Depends how fussy you are. You can still find snow for skiing, e.g. in Hakuba Valley in Nagano, however, will be softer/wetter.</p>",
+        },
+        "id": "16208765",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T03:12:53.000Z,
+        "user": {
+          "name": "Tiggrrrrr",
+          "profileUrl": "https://www.ozbargain.com.au/user/142212",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/12/142212-38.jpg?h=a0acbaca",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 185,
+                  "rawText": "<p>Cheers. Different season this year though to be fair. But it might make no difference to lift ops if there is snow or not..ie. NZ. They closed under record snow depth conditions.</p>",
+                  "startIndex": 0,
+                  "text": "Cheers. Different season this year though to be fair. But it might make no difference to lift ops if there is snow or not..ie. NZ. They closed under record snow depth conditions.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Cheers. Different season this year though to be fair. But it might make no difference to lift ops if there is snow or not..ie. NZ. They closed under record snow depth conditions.</p>",
+            },
+            "id": "16209397",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T05:53:40.000Z,
+            "user": {
+              "name": "tunzafun001",
+              "profileUrl": "https://www.ozbargain.com.au/user/106531",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 172,
+              "rawText": "<p>I was there 3rd week April last year… In Nagano region … Basically very little snow by then… Only at the top 3rd of the mountains had snow.  Snow was slushy by then.</p>",
+              "startIndex": 0,
+              "text": "I was there 3rd week April last year… In Nagano region … Basically very little snow by then… Only at the top 3rd of the mountains had snow.  Snow was slushy by then.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>I was there 3rd week April last year… In Nagano region … Basically very little snow by then… Only at the top 3rd of the mountains had snow.  Snow was slushy by then.</p>",
+        },
+        "id": "16208772",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T03:14:54.000Z,
+        "user": {
+          "name": "hippyhippy",
+          "profileUrl": "https://www.ozbargain.com.au/user/87811",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 1,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 80,
+          "rawText": "<p>Willi I be able to find snow in May? Looks like Japan has got a fair dump</p>",
+          "startIndex": 0,
+          "text": "Willi I be able to find snow in May? Looks like Japan has got a fair dump",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Willi I be able to find snow in May? Looks like Japan has got a fair dump</p>",
+    },
+    "id": "16208502",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2025-01-28T01:59:12.000Z,
+    "user": {
+      "name": "tunzafun001",
+      "profileUrl": "https://www.ozbargain.com.au/user/106531",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": -5,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 103,
+              "rawText": "<p>If you click the link in the post and change the city of origin to Brisbane, you will discover many ",
+              "startIndex": 0,
+              "text": "If you click the link in the post and change the city of origin to Brisbane, you will discover many ",
+              "type": "normal",
+            },
+            {
+              "endIndex": 212,
+              "linkType": "external",
+              "rawText": "<a href="https://i.imgur.com/y6tYFSv.png" class="external inline" rel="noopener nofollow">flights on sale</a>",
+              "startIndex": 103,
+              "text": "flights on sale",
+              "type": "link",
+              "url": "https://i.imgur.com/y6tYFSv.png",
+            },
+            {
+              "endIndex": 216,
+              "rawText": "</p>",
+              "startIndex": 212,
+              "text": "",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>If you click the link in the post and change the city of origin to Brisbane, you will discover many <a href="https://i.imgur.com/y6tYFSv.png" class="external inline" rel="noopener nofollow">flights on sale</a></p>",
+        },
+        "id": "16208529",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:04:30.000Z,
+        "user": {
+          "name": "SnowDragon",
+          "profileUrl": "https://www.ozbargain.com.au/user/109675",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/75/109675-38.jpg?h=2a3055db",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 62,
+                      "rawText": "<p>Didn't know time travel is an option in Jetstar Deals😄</p>",
+                      "startIndex": 0,
+                      "text": "Didn't know time travel is an option in Jetstar Deals😄",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Didn't know time travel is an option in Jetstar Deals😄</p>",
+                },
+                "id": "16209346",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T05:42:00.000Z,
+                "user": {
+                  "name": "INFIDEL",
+                  "profileUrl": "https://www.ozbargain.com.au/user/58047",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
+                },
+                "votes": 0,
+              },
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 33,
+                      "rawText": "<p>not school holidays right?</p>",
+                      "startIndex": 0,
+                      "text": "not school holidays right?",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>not school holidays right?</p>",
+                },
+                "id": "16209531",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T06:35:34.000Z,
+                "user": {
+                  "name": "Poor Ass",
+                  "profileUrl": "https://www.ozbargain.com.au/user/294154",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 11,
+                  "rawText": "<p>I paid ~",
+                  "startIndex": 0,
+                  "text": "I paid ~",
+                  "type": "normal",
+                },
+                {
+                  "endIndex": 15,
+                  "rawText": "$285",
+                  "startIndex": 11,
+                  "text": "$285",
+                  "type": "price",
+                },
+                {
+                  "endIndex": 56,
+                  "rawText": " from Brisbane to Osaka RT last June.</p>",
+                  "startIndex": 15,
+                  "text": " from Brisbane to Osaka RT last June.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>I paid ~$285 from Brisbane to Osaka RT last June.</p>",
+            },
+            "id": "16208951",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T04:02:37.000Z,
+            "user": {
+              "name": "wisdomtooth",
+              "profileUrl": "https://www.ozbargain.com.au/user/10235",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/35/10235-38.jpg?h=cf9ed451",
+            },
+            "votes": 1,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 8,
+              "rawText": "<p>From ",
+              "startIndex": 0,
+              "text": "From ",
+              "type": "normal",
+            },
+            {
+              "endIndex": 12,
+              "rawText": "$428",
+              "startIndex": 8,
+              "text": "$428",
+              "type": "price",
+            },
+            {
+              "endIndex": 23,
+              "rawText": " RETURN</p>",
+              "startIndex": 12,
+              "text": " RETURN",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>From $428 RETURN</p>",
+        },
+        "id": "16208595",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:24:13.000Z,
+        "user": {
+          "name": "INFIDEL",
+          "profileUrl": "https://www.ozbargain.com.au/user/58047",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
+        },
+        "votes": 3,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 37,
+          "rawText": "<p>Any Brisbane flights for sale?</p>",
+          "startIndex": 0,
+          "text": "Any Brisbane flights for sale?",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Any Brisbane flights for sale?</p>",
+    },
+    "id": "16208521",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2025-01-28T02:02:14.000Z,
+    "user": {
+      "name": "Yaren24",
+      "profileUrl": "https://www.ozbargain.com.au/user/196410",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": -1,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 12,
+              "rawText": "<p>IYKYK</p>",
+              "startIndex": 0,
+              "text": "IYKYK",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>IYKYK</p>",
+        },
+        "id": "16208538",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:07:08.000Z,
+        "user": {
+          "name": "ozbargainer88",
+          "profileUrl": "https://www.ozbargain.com.au/user/111728",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/28/111728-38.jpg?h=0a922ec5",
+        },
+        "votes": 8,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 87,
+              "rawText": "<p>Yep 50% more aussie visitors than pre Covid. Really weird. It’s the new Bali lol</p>",
+              "startIndex": 0,
+              "text": "Yep 50% more aussie visitors than pre Covid. Really weird. It’s the new Bali lol",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Yep 50% more aussie visitors than pre Covid. Really weird. It’s the new Bali lol</p>",
+        },
+        "id": "16208542",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:07:53.000Z,
+        "user": {
+          "name": "WhyAmICommenting",
+          "profileUrl": "https://www.ozbargain.com.au/user/113687",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 7,
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 122,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/16208854/redir" class="internal inline" onclick="return OzB.gotoComment(16208854);">@snackpacket:</a>",
+                              "startIndex": 3,
+                              "text": "@snackpacket:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/16208854/redir",
+                            },
+                            {
+                              "endIndex": 302,
+                              "rawText": " If you avoid the big attractions at Kyoto, Tokyo, Osaka and/or avoid peak season it's fine. Moderately smaller cities like Kanazawa and Hiroshima are also much less touristed.</p>",
+                              "startIndex": 122,
+                              "text": " If you avoid the big attractions at Kyoto, Tokyo, Osaka and/or avoid peak season it's fine. Moderately smaller cities like Kanazawa and Hiroshima are also much less touristed.",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/16208854/redir" class="internal inline" onclick="return OzB.gotoComment(16208854);">@snackpacket:</a> If you avoid the big attractions at Kyoto, Tokyo, Osaka and/or avoid peak season it's fine. Moderately smaller cities like Kanazawa and Hiroshima are also much less touristed.</p>",
+                        },
+                        "id": "16208976",
+                        "level": 5,
+                        "state": "shown",
+                        "timestamp": 2025-01-28T04:08:52.000Z,
+                        "user": {
+                          "name": "snep",
+                          "profileUrl": "https://www.ozbargain.com.au/user/281981",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/u/81/281981-38.jpg?h=86f5889b",
+                        },
+                        "votes": 1,
+                      },
+                      {
+                        "children": [],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 122,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/16208854/redir" class="internal inline" onclick="return OzB.gotoComment(16208854);">@snackpacket:</a>",
+                              "startIndex": 3,
+                              "text": "@snackpacket:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/16208854/redir",
+                            },
+                            {
+                              "endIndex": 150,
+                              "rawText": " Most of Tokyo and Kyoto</p>",
+                              "startIndex": 122,
+                              "text": " Most of Tokyo and Kyoto",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/16208854/redir" class="internal inline" onclick="return OzB.gotoComment(16208854);">@snackpacket:</a> Most of Tokyo and Kyoto</p>",
+                        },
+                        "id": "16209000",
+                        "level": 5,
+                        "state": "shown",
+                        "timestamp": 2025-01-28T04:14:07.000Z,
+                        "user": {
+                          "name": "hardya",
+                          "profileUrl": "https://www.ozbargain.com.au/user/305180",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": 0,
+                      },
+                      {
+                        "children": [],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 122,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/16208854/redir" class="internal inline" onclick="return OzB.gotoComment(16208854);">@snackpacket:</a>",
+                              "startIndex": 3,
+                              "text": "@snackpacket:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/16208854/redir",
+                            },
+                            {
+                              "endIndex": 318,
+                              "rawText": " Depends what you like. They are sterilizing the fun out of Shibuya. Nakameguro, Kichijoji, Koenji, Sangenjaya, are all good West Tokyo vibes. Kamakura for good beach side + temple experience.</p>",
+                              "startIndex": 122,
+                              "text": " Depends what you like. They are sterilizing the fun out of Shibuya. Nakameguro, Kichijoji, Koenji, Sangenjaya, are all good West Tokyo vibes. Kamakura for good beach side + temple experience.",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/16208854/redir" class="internal inline" onclick="return OzB.gotoComment(16208854);">@snackpacket:</a> Depends what you like. They are sterilizing the fun out of Shibuya. Nakameguro, Kichijoji, Koenji, Sangenjaya, are all good West Tokyo vibes. Kamakura for good beach side + temple experience.</p>",
+                        },
+                        "id": "16209096",
+                        "level": 5,
+                        "state": "shown",
+                        "timestamp": 2025-01-28T04:38:15.000Z,
+                        "user": {
+                          "name": "philotex",
+                          "profileUrl": "https://www.ozbargain.com.au/user/303407",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": 0,
+                      },
+                    ],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 122,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16208836/redir" class="internal inline" onclick="return OzB.gotoComment(16208836);">@lachlantula:</a>",
+                          "startIndex": 3,
+                          "text": "@lachlantula:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16208836/redir",
+                        },
+                        {
+                          "endIndex": 244,
+                          "rawText": " Thanks for the comment. So I already avoided Roppongi like the plague back in 2010. Any new areas to add to the list?</p>",
+                          "startIndex": 122,
+                          "text": " Thanks for the comment. So I already avoided Roppongi like the plague back in 2010. Any new areas to add to the list?",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16208836/redir" class="internal inline" onclick="return OzB.gotoComment(16208836);">@lachlantula:</a> Thanks for the comment. So I already avoided Roppongi like the plague back in 2010. Any new areas to add to the list?</p>",
+                    },
+                    "id": "16208854",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2025-01-28T03:40:29.000Z,
+                    "user": {
+                      "name": "snackpacket",
+                      "profileUrl": "https://www.ozbargain.com.au/user/181309",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 314,
+                      "rawText": "<p>you still should look forward to going back. i definitely saw some people doing the 'if you speak english louder the person who doesn't understand english will understand you' trick and other ignorant behaviour but it wasn't that bad. tbf i tried to avoid some of the more touristy spots when i went so ymmv</p>",
+                      "startIndex": 0,
+                      "text": "you still should look forward to going back. i definitely saw some people doing the 'if you speak english louder the person who doesn't understand english will understand you' trick and other ignorant behaviour but it wasn't that bad. tbf i tried to avoid some of the more touristy spots when i went so ymmv",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>you still should look forward to going back. i definitely saw some people doing the 'if you speak english louder the person who doesn't understand english will understand you' trick and other ignorant behaviour but it wasn't that bad. tbf i tried to avoid some of the more touristy spots when i went so ymmv</p>",
+                },
+                "id": "16208836",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T03:34:56.000Z,
+                "user": {
+                  "name": "lachlantula",
+                  "profileUrl": "https://www.ozbargain.com.au/user/335423",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/u/23/335423-38.jpg?h=5411d9b4",
+                },
+                "votes": 0,
+              },
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 118,
+                      "rawText": "<p>Tokyo is too big to get Bogan smashed, but I would avoid some places simply because of overall tourist density.</p>",
+                      "startIndex": 0,
+                      "text": "Tokyo is too big to get Bogan smashed, but I would avoid some places simply because of overall tourist density.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Tokyo is too big to get Bogan smashed, but I would avoid some places simply because of overall tourist density.</p>",
+                },
+                "id": "16209109",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T04:41:53.000Z,
+                "user": {
+                  "name": "philotex",
+                  "profileUrl": "https://www.ozbargain.com.au/user/303407",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 2,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 123,
+                  "rawText": "<p>Nooo. This comment made my heart sink. Haven't been to Japan for nearly 15 years and was looking forward to a visit.</p>",
+                  "startIndex": 0,
+                  "text": "Nooo. This comment made my heart sink. Haven't been to Japan for nearly 15 years and was looking forward to a visit.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Nooo. This comment made my heart sink. Haven't been to Japan for nearly 15 years and was looking forward to a visit.</p>",
+            },
+            "id": "16208824",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T03:31:05.000Z,
+            "user": {
+              "name": "snackpacket",
+              "profileUrl": "https://www.ozbargain.com.au/user/181309",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 3,
+          },
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 130,
+                  "rawText": "<p>Partly courtesy of this bogan airline running sales like this one. Great price but brings a different tourist set for sure.</p>",
+                  "startIndex": 0,
+                  "text": "Partly courtesy of this bogan airline running sales like this one. Great price but brings a different tourist set for sure.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Partly courtesy of this bogan airline running sales like this one. Great price but brings a different tourist set for sure.</p>",
+            },
+            "id": "16208874",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T03:43:54.000Z,
+            "user": {
+              "name": "fookos",
+              "profileUrl": "https://www.ozbargain.com.au/user/63913",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 1,
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 162,
+                      "rawText": "<p>disrespectful hooligons go Japan to harassing polite Japanese, especially the dress art women, they’re not meant to have their photo taken you racist fcks!</p>",
+                      "startIndex": 0,
+                      "text": "disrespectful hooligons go Japan to harassing polite Japanese, especially the dress art women, they’re not meant to have their photo taken you racist fcks!",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>disrespectful hooligons go Japan to harassing polite Japanese, especially the dress art women, they’re not meant to have their photo taken you racist fcks!</p>",
+                },
+                "id": "16209049",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T04:25:55.000Z,
+                "user": {
+                  "name": "HangryCakeStore",
+                  "profileUrl": "https://www.ozbargain.com.au/user/178548",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": -1,
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 117,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16209195/redir" class="internal inline" onclick="return OzB.gotoComment(16209195);">@Cyphar:</a>",
+                          "startIndex": 3,
+                          "text": "@Cyphar:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16209195/redir",
+                        },
+                        {
+                          "endIndex": 339,
+                          "rawText": " Sorry to hear this. I feel very lucky to have visited when I did. I'm a pretty passionate landscape photographer so next time I go I'll probably make sure to visit areas away from all of this to re-discover the magic.</p>",
+                          "startIndex": 117,
+                          "text": " Sorry to hear this. I feel very lucky to have visited when I did. I'm a pretty passionate landscape photographer so next time I go I'll probably make sure to visit areas away from all of this to re-discover the magic.",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16209195/redir" class="internal inline" onclick="return OzB.gotoComment(16209195);">@Cyphar:</a> Sorry to hear this. I feel very lucky to have visited when I did. I'm a pretty passionate landscape photographer so next time I go I'll probably make sure to visit areas away from all of this to re-discover the magic.</p>",
+                    },
+                    "id": "16209206",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2025-01-28T05:07:36.000Z,
+                    "user": {
+                      "name": "dinglejerry",
+                      "profileUrl": "https://www.ozbargain.com.au/user/297333",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": 1,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 762,
+                      "rawText": "<p>4 million tourists a year back then compared to 37m last year.</p>
+
+<p>I did a high school exchange from 1999 to 2003 and stuck around a few more years to work and there were hardly any tourists there. I was the only white guy in my city for the most part, many of the kids never having actually talked to one before.</p>
+
+<p>As I went back over the years I did see more and more. Went back last year for the first time since COVID hit and oh my gosh what an awful experience the touristy areas are. My host family live in Nara and they were complaining about how bad it was, and it definitely was. When you get out of those areas though it isn't so bad but every bullet train is packed now, every city train is awful and there are a lot of rude tourists.</p>",
+                      "startIndex": 0,
+                      "text": "4 million tourists a year back then compared to 37m last year.
+
+I did a high school exchange from 1999 to 2003 and stuck around a few more years to work and there were hardly any tourists there. I was the only white guy in my city for the most part, many of the kids never having actually talked to one before.
+
+As I went back over the years I did see more and more. Went back last year for the first time since COVID hit and oh my gosh what an awful experience the touristy areas are. My host family live in Nara and they were complaining about how bad it was, and it definitely was. When you get out of those areas though it isn't so bad but every bullet train is packed now, every city train is awful and there are a lot of rude tourists.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>4 million tourists a year back then compared to 37m last year.</p>
+
+<p>I did a high school exchange from 1999 to 2003 and stuck around a few more years to work and there were hardly any tourists there. I was the only white guy in my city for the most part, many of the kids never having actually talked to one before.</p>
+
+<p>As I went back over the years I did see more and more. Went back last year for the first time since COVID hit and oh my gosh what an awful experience the touristy areas are. My host family live in Nara and they were complaining about how bad it was, and it definitely was. When you get out of those areas though it isn't so bad but every bullet train is packed now, every city train is awful and there are a lot of rude tourists.</p>",
+                },
+                "id": "16209195",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T05:06:02.000Z,
+                "user": {
+                  "name": "Cyphar",
+                  "profileUrl": "https://www.ozbargain.com.au/user/104406",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 159,
+                  "rawText": "<p>Sorry to hear the bogans found it, my first visit was 17 years ago, less boganised then and one of my favourite destinations when I visited at the time.</p>",
+                  "startIndex": 0,
+                  "text": "Sorry to hear the bogans found it, my first visit was 17 years ago, less boganised then and one of my favourite destinations when I visited at the time.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Sorry to hear the bogans found it, my first visit was 17 years ago, less boganised then and one of my favourite destinations when I visited at the time.</p>",
+            },
+            "id": "16208993",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T04:12:35.000Z,
+            "user": {
+              "name": "dinglejerry",
+              "profileUrl": "https://www.ozbargain.com.au/user/297333",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 2,
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 85,
+                      "rawText": "<p>I’ve seen more disgusting behaviour of whiteys instagram reels, keep trying 😂</p>",
+                      "startIndex": 0,
+                      "text": "I’ve seen more disgusting behaviour of whiteys instagram reels, keep trying 😂",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>I’ve seen more disgusting behaviour of whiteys instagram reels, keep trying 😂</p>",
+                },
+                "id": "16209726",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T07:57:45.000Z,
+                "user": {
+                  "name": "HangryCakeStore",
+                  "profileUrl": "https://www.ozbargain.com.au/user/178548",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 249,
+                  "rawText": "<p>I went last year in may and found all of the aussies I came across to be really respectful and quiet. Mainland Chinese folk on their guided tours were a completely different ball game though, but that is just how they're used to life I 'pose.</p>",
+                  "startIndex": 0,
+                  "text": "I went last year in may and found all of the aussies I came across to be really respectful and quiet. Mainland Chinese folk on their guided tours were a completely different ball game though, but that is just how they're used to life I 'pose.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>I went last year in may and found all of the aussies I came across to be really respectful and quiet. Mainland Chinese folk on their guided tours were a completely different ball game though, but that is just how they're used to life I 'pose.</p>",
+            },
+            "id": "16209329",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T05:36:11.000Z,
+            "user": {
+              "name": "frforreal",
+              "profileUrl": "https://www.ozbargain.com.au/user/343758",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": -1,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 74,
+              "rawText": "<p>AUD V's YEN plus Bogan's found a new place to trash by all reports.</p>",
+              "startIndex": 0,
+              "text": "AUD V's YEN plus Bogan's found a new place to trash by all reports.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>AUD V's YEN plus Bogan's found a new place to trash by all reports.</p>",
+        },
+        "id": "16208543",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:08:03.000Z,
+        "user": {
+          "name": "MaMan",
+          "profileUrl": "https://www.ozbargain.com.au/user/87782",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 27,
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "content": {
+                              "parts": [
+                                {
+                                  "endIndex": 3,
+                                  "rawText": "<p>",
+                                  "startIndex": 0,
+                                  "text": "",
+                                  "type": "normal",
+                                },
+                                {
+                                  "endIndex": 120,
+                                  "linkType": "deal",
+                                  "rawText": "<a href="/comment/16208814/redir" class="internal inline" onclick="return OzB.gotoComment(16208814);">@mecusherb:</a>",
+                                  "startIndex": 3,
+                                  "text": "@mecusherb:",
+                                  "type": "link",
+                                  "url": "https://www.ozbargain.com.au/comment/16208814/redir",
+                                },
+                                {
+                                  "endIndex": 129,
+                                  "rawText": " We paid ",
+                                  "startIndex": 120,
+                                  "text": " We paid ",
+                                  "type": "normal",
+                                },
+                                {
+                                  "endIndex": 133,
+                                  "rawText": "$550",
+                                  "startIndex": 129,
+                                  "text": "$550",
+                                  "type": "price",
+                                },
+                                {
+                                  "endIndex": 161,
+                                  "rawText": " return with 20kg Sep 25</p>",
+                                  "startIndex": 133,
+                                  "text": " return with 20kg Sep 25",
+                                  "type": "normal",
+                                },
+                              ],
+                              "rawText": "<p><a href="/comment/16208814/redir" class="internal inline" onclick="return OzB.gotoComment(16208814);">@mecusherb:</a> We paid $550 return with 20kg Sep 25</p>",
+                            },
+                            "id": "16208860",
+                            "level": 6,
+                            "state": "shown",
+                            "timestamp": 2025-01-28T03:41:33.000Z,
+                            "user": {
+                              "name": "huey",
+                              "profileUrl": "https://www.ozbargain.com.au/user/22820",
+                              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                            },
+                            "votes": 0,
+                          },
+                        ],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 123,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/16208804/redir" class="internal inline" onclick="return OzB.gotoComment(16208804);">@Juicy Goblin:</a>",
+                              "startIndex": 3,
+                              "text": "@Juicy Goblin:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/16208804/redir",
+                            },
+                            {
+                              "endIndex": 233,
+                              "rawText": " Yeah I was eyeing off the Melb Tokyo route - 20kg baggage and standard perks with Qantas FF points was about ",
+                              "startIndex": 123,
+                              "text": " Yeah I was eyeing off the Melb Tokyo route - 20kg baggage and standard perks with Qantas FF points was about ",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 237,
+                              "rawText": "$750",
+                              "startIndex": 233,
+                              "text": "$750",
+                              "type": "price",
+                            },
+                            {
+                              "endIndex": 351,
+                              "rawText": ".</p>
+
+<p>It's still a good deal but if I can afford not to be on a jetstar flight for that long I'll take it.</p>",
+                              "startIndex": 237,
+                              "text": ".
+
+It's still a good deal but if I can afford not to be on a jetstar flight for that long I'll take it.",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/16208804/redir" class="internal inline" onclick="return OzB.gotoComment(16208804);">@Juicy Goblin:</a> Yeah I was eyeing off the Melb Tokyo route - 20kg baggage and standard perks with Qantas FF points was about $750.</p>
+
+<p>It's still a good deal but if I can afford not to be on a jetstar flight for that long I'll take it.</p>",
+                        },
+                        "id": "16208814",
+                        "level": 5,
+                        "state": "shown",
+                        "timestamp": 2025-01-28T03:28:25.000Z,
+                        "user": {
+                          "name": "mecusherb",
+                          "profileUrl": "https://www.ozbargain.com.au/user/135343",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": 0,
+                      },
+                    ],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 120,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16208723/redir" class="internal inline" onclick="return OzB.gotoComment(16208723);">@mecusherb:</a>",
+                          "startIndex": 3,
+                          "text": "@mecusherb:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16208723/redir",
+                        },
+                        {
+                          "endIndex": 330,
+                          "rawText": " Brisbane. 2024 flights were Brisbane &gt; Tokyo and then Tokyo &gt; Cairns &gt; Brisbane.<br>
+2025 flights (booked in their last sale for later in the year) are Brisbane &gt; Osaka and Osaka &gt; Brisbane.</p>",
+                          "startIndex": 120,
+                          "text": " Brisbane. 2024 flights were Brisbane > Tokyo and then Tokyo > Cairns > Brisbane.
+2025 flights (booked in their last sale for later in the year) are Brisbane > Osaka and Osaka > Brisbane.",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16208723/redir" class="internal inline" onclick="return OzB.gotoComment(16208723);">@mecusherb:</a> Brisbane. 2024 flights were Brisbane &gt; Tokyo and then Tokyo &gt; Cairns &gt; Brisbane.<br>
+2025 flights (booked in their last sale for later in the year) are Brisbane &gt; Osaka and Osaka &gt; Brisbane.</p>",
+                    },
+                    "id": "16208804",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2025-01-28T03:24:33.000Z,
+                    "user": {
+                      "name": "Juicy Goblin",
+                      "profileUrl": "https://www.ozbargain.com.au/user/474033",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 25,
+                      "rawText": "<p>Are you in Cairns?</p>",
+                      "startIndex": 0,
+                      "text": "Are you in Cairns?",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Are you in Cairns?</p>",
+                },
+                "id": "16208723",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T02:56:35.000Z,
+                "user": {
+                  "name": "mecusherb",
+                  "profileUrl": "https://www.ozbargain.com.au/user/135343",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 59,
+                  "rawText": "<p>If you get in early, you can do return with luggage for ",
+                  "startIndex": 0,
+                  "text": "If you get in early, you can do return with luggage for ",
+                  "type": "normal",
+                },
+                {
+                  "endIndex": 63,
+                  "rawText": "$400",
+                  "startIndex": 59,
+                  "text": "$400",
+                  "type": "price",
+                },
+                {
+                  "endIndex": 311,
+                  "rawText": "-450 depending how picky you are with dates. Have done it the last two years, and only one of the 4 legs was not direct. Obviously depends where you're headed from, but its really hard to argue with that price if you are able to be so flexible.</p>",
+                  "startIndex": 63,
+                  "text": "-450 depending how picky you are with dates. Have done it the last two years, and only one of the 4 legs was not direct. Obviously depends where you're headed from, but its really hard to argue with that price if you are able to be so flexible.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>If you get in early, you can do return with luggage for $400-450 depending how picky you are with dates. Have done it the last two years, and only one of the 4 legs was not direct. Obviously depends where you're headed from, but its really hard to argue with that price if you are able to be so flexible.</p>",
+            },
+            "id": "16208608",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T02:26:42.000Z,
+            "user": {
+              "name": "Juicy Goblin",
+              "profileUrl": "https://www.ozbargain.com.au/user/474033",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 1,
+          },
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 89,
+                  "rawText": "<p>Or go with carry on only, I managed it for a 2 week trip to Japan in Oct/Nov 2024.</p>",
+                  "startIndex": 0,
+                  "text": "Or go with carry on only, I managed it for a 2 week trip to Japan in Oct/Nov 2024.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Or go with carry on only, I managed it for a 2 week trip to Japan in Oct/Nov 2024.</p>",
+            },
+            "id": "16208861",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T03:41:53.000Z,
+            "user": {
+              "name": "sween64",
+              "profileUrl": "https://www.ozbargain.com.au/user/84851",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/51/84851-38.jpg?h=ebf3c78b",
+            },
+            "votes": 0,
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 120,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16209176/redir" class="internal inline" onclick="return OzB.gotoComment(16209176);">@mecusherb:</a>",
+                          "startIndex": 3,
+                          "text": "@mecusherb:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16209176/redir",
+                        },
+                        {
+                          "endIndex": 146,
+                          "rawText": " I'm also in Melbourne</p>",
+                          "startIndex": 120,
+                          "text": " I'm also in Melbourne",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16209176/redir" class="internal inline" onclick="return OzB.gotoComment(16209176);">@mecusherb:</a> I'm also in Melbourne</p>",
+                    },
+                    "id": "16209327",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2025-01-28T05:36:02.000Z,
+                    "user": {
+                      "name": "iluvbargainz",
+                      "profileUrl": "https://www.ozbargain.com.au/user/479367",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 113,
+                      "rawText": "<p>I probably should have stated I'm in Melbourne which could be the most expensive location to fly out from.</p>",
+                      "startIndex": 0,
+                      "text": "I probably should have stated I'm in Melbourne which could be the most expensive location to fly out from.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>I probably should have stated I'm in Melbourne which could be the most expensive location to fly out from.</p>",
+                },
+                "id": "16209176",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T04:59:10.000Z,
+                "user": {
+                  "name": "mecusherb",
+                  "profileUrl": "https://www.ozbargain.com.au/user/135343",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 47,
+                  "rawText": "<p>I just got 2 adults and 2 child tickets for ",
+                  "startIndex": 0,
+                  "text": "I just got 2 adults and 2 child tickets for ",
+                  "type": "normal",
+                },
+                {
+                  "endIndex": 52,
+                  "rawText": "$2044",
+                  "startIndex": 47,
+                  "text": "$2044",
+                  "type": "price",
+                },
+                {
+                  "endIndex": 251,
+                  "rawText": " including 2 x 20kg (in total, not per person), and including seat selection. Just missing meals, as we found the last couple of flights we never ate the food especially on the overnight flights.</p>",
+                  "startIndex": 52,
+                  "text": " including 2 x 20kg (in total, not per person), and including seat selection. Just missing meals, as we found the last couple of flights we never ate the food especially on the overnight flights.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>I just got 2 adults and 2 child tickets for $2044 including 2 x 20kg (in total, not per person), and including seat selection. Just missing meals, as we found the last couple of flights we never ate the food especially on the overnight flights.</p>",
+            },
+            "id": "16209118",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T04:44:47.000Z,
+            "user": {
+              "name": "iluvbargainz",
+              "profileUrl": "https://www.ozbargain.com.au/user/479367",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 128,
+              "rawText": "<p>JAL, ANA and QANTAS all had sales which had seemingly dried up, not that interesting.</p>
+
+<p>I did Qantas direct return for ",
+              "startIndex": 0,
+              "text": "JAL, ANA and QANTAS all had sales which had seemingly dried up, not that interesting.
+
+I did Qantas direct return for ",
+              "type": "normal",
+            },
+            {
+              "endIndex": 132,
+              "rawText": "$900",
+              "startIndex": 128,
+              "text": "$900",
+              "type": "price",
+            },
+            {
+              "endIndex": 218,
+              "rawText": ". These Jetstar sales, if you want less baggage and the same perks end up being about ",
+              "startIndex": 132,
+              "text": ". These Jetstar sales, if you want less baggage and the same perks end up being about ",
+              "type": "normal",
+            },
+            {
+              "endIndex": 222,
+              "rawText": "$750",
+              "startIndex": 218,
+              "text": "$750",
+              "type": "price",
+            },
+            {
+              "endIndex": 269,
+              "rawText": " return (with free return leg). I'd rather pay ",
+              "startIndex": 222,
+              "text": " return (with free return leg). I'd rather pay ",
+              "type": "normal",
+            },
+            {
+              "endIndex": 273,
+              "rawText": "$150",
+              "startIndex": 269,
+              "text": "$150",
+              "type": "price",
+            },
+            {
+              "endIndex": 297,
+              "rawText": " more and go direct.</p>",
+              "startIndex": 273,
+              "text": " more and go direct.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>JAL, ANA and QANTAS all had sales which had seemingly dried up, not that interesting.</p>
+
+<p>I did Qantas direct return for $900. These Jetstar sales, if you want less baggage and the same perks end up being about $750 return (with free return leg). I'd rather pay $150 more and go direct.</p>",
+        },
+        "id": "16208544",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:08:27.000Z,
+        "user": {
+          "name": "mecusherb",
+          "profileUrl": "https://www.ozbargain.com.au/user/135343",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 22,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 103,
+              "rawText": "<p>Yeah same.</p>
+
+<p>Felt like half of my colleagues took three weeks for Japan, including myself.</p>",
+              "startIndex": 0,
+              "text": "Yeah same.
+
+Felt like half of my colleagues took three weeks for Japan, including myself.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Yeah same.</p>
+
+<p>Felt like half of my colleagues took three weeks for Japan, including myself.</p>",
+        },
+        "id": "16208602",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:25:15.000Z,
+        "user": {
+          "name": "iLikePizza",
+          "profileUrl": "https://www.ozbargain.com.au/user/251352",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 19,
+                      "rawText": "<p>‘Ah comment’</p>",
+                      "startIndex": 0,
+                      "text": "‘Ah comment’",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>‘Ah comment’</p>",
+                },
+                "id": "16208749",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T03:08:25.000Z,
+                "user": {
+                  "name": "corbz",
+                  "profileUrl": "https://www.ozbargain.com.au/user/16669",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": -2,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 39,
+                  "rawText": "<p>Like Skyrim with guns ah comment</p>",
+                  "startIndex": 0,
+                  "text": "Like Skyrim with guns ah comment",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Like Skyrim with guns ah comment</p>",
+            },
+            "id": "16208644",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T02:34:18.000Z,
+            "user": {
+              "name": "doobey1231",
+              "profileUrl": "https://www.ozbargain.com.au/user/396252",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 5,
+          },
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 195,
+                  "rawText": "<p>Korea’s a good place to visit but is very different to Japan.</p>
+
+<p>In the past 15 years been to Japan 3 times and Korea once.</p>
+
+<p>Between the two, I’d go to Japan next before Korea.</p>",
+                  "startIndex": 0,
+                  "text": "Korea’s a good place to visit but is very different to Japan.
+
+In the past 15 years been to Japan 3 times and Korea once.
+
+Between the two, I’d go to Japan next before Korea.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Korea’s a good place to visit but is very different to Japan.</p>
+
+<p>In the past 15 years been to Japan 3 times and Korea once.</p>
+
+<p>Between the two, I’d go to Japan next before Korea.</p>",
+            },
+            "id": "16208650",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T02:35:46.000Z,
+            "user": {
+              "name": "JimB",
+              "profileUrl": "https://www.ozbargain.com.au/user/125929",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 5,
+          },
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 28,
+                  "rawText": "<p>Lmao that's a stretch</p>",
+                  "startIndex": 0,
+                  "text": "Lmao that's a stretch",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Lmao that's a stretch</p>",
+            },
+            "id": "16208662",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T02:39:29.000Z,
+            "user": {
+              "name": "TightAl",
+              "profileUrl": "https://www.ozbargain.com.au/user/108431",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 153,
+                  "rawText": "<p>I'd say they are similar but Japan has a lot more to do in my opinion. I definitely prefer Japan. Source: been to Korea 5 times and Japan 4 times.</p>",
+                  "startIndex": 0,
+                  "text": "I'd say they are similar but Japan has a lot more to do in my opinion. I definitely prefer Japan. Source: been to Korea 5 times and Japan 4 times.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>I'd say they are similar but Japan has a lot more to do in my opinion. I definitely prefer Japan. Source: been to Korea 5 times and Japan 4 times.</p>",
+            },
+            "id": "16208677",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T02:43:49.000Z,
+            "user": {
+              "name": "ozbargainer88",
+              "profileUrl": "https://www.ozbargain.com.au/user/111728",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/28/111728-38.jpg?h=0a922ec5",
+            },
+            "votes": 4,
+          },
+        ],
+        "id": "16208615",
+        "level": 1,
+        "state": "hidden",
+        "timestamp": 2025-01-28T02:27:42.000Z,
+        "user": {
+          "name": "donman92",
+          "profileUrl": "https://www.ozbargain.com.au/user/426434",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/34/426434-20.jpg?h=df77e871",
+        },
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 34,
+              "rawText": "<p>Exchange rates. Dirt cheap.</p>",
+              "startIndex": 0,
+              "text": "Exchange rates. Dirt cheap.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Exchange rates. Dirt cheap.</p>",
+        },
+        "id": "16208689",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:47:13.000Z,
+        "user": {
+          "name": "wetsandwich",
+          "profileUrl": "https://www.ozbargain.com.au/user/206779",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 72,
+              "rawText": "<p>Japan is the new Bali, its where all the cashed up bogans go now.</p>",
+              "startIndex": 0,
+              "text": "Japan is the new Bali, its where all the cashed up bogans go now.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Japan is the new Bali, its where all the cashed up bogans go now.</p>",
+        },
+        "id": "16208710",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:53:04.000Z,
+        "user": {
+          "name": "umoddbro",
+          "profileUrl": "https://www.ozbargain.com.au/user/74197",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 197,
+              "rawText": "<p>Yen was small, bogans done with Bali. Social media hype. I've been pre-covid and couldn't imagine what the lines would be like post-Covid considering even before there were people everywhere</p>",
+              "startIndex": 0,
+              "text": "Yen was small, bogans done with Bali. Social media hype. I've been pre-covid and couldn't imagine what the lines would be like post-Covid considering even before there were people everywhere",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Yen was small, bogans done with Bali. Social media hype. I've been pre-covid and couldn't imagine what the lines would be like post-Covid considering even before there were people everywhere</p>",
+        },
+        "id": "16208784",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T03:17:09.000Z,
+        "user": {
+          "name": "edumacation",
+          "profileUrl": "https://www.ozbargain.com.au/user/192500",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 183,
+              "rawText": "<p>Worse ones are those disrespectful hooligons go Japan to harassing polite Japanese, especially the dress art women, they’re not meant to have their photo taken you racist fcks!</p>",
+              "startIndex": 0,
+              "text": "Worse ones are those disrespectful hooligons go Japan to harassing polite Japanese, especially the dress art women, they’re not meant to have their photo taken you racist fcks!",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Worse ones are those disrespectful hooligons go Japan to harassing polite Japanese, especially the dress art women, they’re not meant to have their photo taken you racist fcks!</p>",
+        },
+        "id": "16209037",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T04:23:45.000Z,
+        "user": {
+          "name": "HangryCakeStore",
+          "profileUrl": "https://www.ozbargain.com.au/user/178548",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 112,
+          "rawText": "<p>For some reason every person I know last year went Japan, still don't know why, but was very interesting.</p>",
+          "startIndex": 0,
+          "text": "For some reason every person I know last year went Japan, still don't know why, but was very interesting.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>For some reason every person I know last year went Japan, still don't know why, but was very interesting.</p>",
+    },
+    "id": "16208527",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2025-01-28T02:03:59.000Z,
+    "user": {
+      "name": "tightm8",
+      "profileUrl": "https://www.ozbargain.com.au/user/128303",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 19,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 87,
+          "rawText": "<p>When I lived in Cairns I did this nearly each year great deal and great country.</p>",
+          "startIndex": 0,
+          "text": "When I lived in Cairns I did this nearly each year great deal and great country.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>When I lived in Cairns I did this nearly each year great deal and great country.</p>",
+    },
+    "id": "16208537",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2025-01-28T02:06:36.000Z,
+    "user": {
+      "name": "VBHBAU",
+      "profileUrl": "https://www.ozbargain.com.au/user/502657",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 5,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 120,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/16208622/redir" class="internal inline" onclick="return OzB.gotoComment(16208622);">@mecusherb:</a>",
+                              "startIndex": 3,
+                              "text": "@mecusherb:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/16208622/redir",
+                            },
+                            {
+                              "endIndex": 253,
+                              "rawText": " Fast forward a few weeks later and it was 0c at 0800 in Fujiyoshida 5 days before Christmas. Clear crisp skies though. Loved it.</p>",
+                              "startIndex": 120,
+                              "text": " Fast forward a few weeks later and it was 0c at 0800 in Fujiyoshida 5 days before Christmas. Clear crisp skies though. Loved it.",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/16208622/redir" class="internal inline" onclick="return OzB.gotoComment(16208622);">@mecusherb:</a> Fast forward a few weeks later and it was 0c at 0800 in Fujiyoshida 5 days before Christmas. Clear crisp skies though. Loved it.</p>",
+                        },
+                        "id": "16208642",
+                        "level": 5,
+                        "state": "shown",
+                        "timestamp": 2025-01-28T02:33:19.000Z,
+                        "user": {
+                          "name": "quackie",
+                          "profileUrl": "https://www.ozbargain.com.au/user/178946",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": 1,
+                      },
+                    ],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 120,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16208603/redir" class="internal inline" onclick="return OzB.gotoComment(16208603);">@sistermay:</a>",
+                          "startIndex": 3,
+                          "text": "@sistermay:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16208603/redir",
+                        },
+                        {
+                          "endIndex": 266,
+                          "rawText": " I think that time period is great. I went early December and there was no rain, you could see Fuji and it was 16 degrees basically every day.</p>",
+                          "startIndex": 120,
+                          "text": " I think that time period is great. I went early December and there was no rain, you could see Fuji and it was 16 degrees basically every day.",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16208603/redir" class="internal inline" onclick="return OzB.gotoComment(16208603);">@sistermay:</a> I think that time period is great. I went early December and there was no rain, you could see Fuji and it was 16 degrees basically every day.</p>",
+                    },
+                    "id": "16208622",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2025-01-28T02:29:05.000Z,
+                    "user": {
+                      "name": "mecusherb",
+                      "profileUrl": "https://www.ozbargain.com.au/user/135343",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": 1,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 189,
+                      "rawText": "<p>Exactly my thought ! I think for the quality of the airline and the frills we get, I really don't mind paying the above price range if it is for November which is the month I prefer.</p>",
+                      "startIndex": 0,
+                      "text": "Exactly my thought ! I think for the quality of the airline and the frills we get, I really don't mind paying the above price range if it is for November which is the month I prefer.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Exactly my thought ! I think for the quality of the airline and the frills we get, I really don't mind paying the above price range if it is for November which is the month I prefer.</p>",
+                },
+                "id": "16208603",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T02:25:55.000Z,
+                "user": {
+                  "name": "sistermay",
+                  "profileUrl": "https://www.ozbargain.com.au/user/138642",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 2,
+              },
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 47,
+                      "rawText": "<p>Also better service, very friendly staff</p>",
+                      "startIndex": 0,
+                      "text": "Also better service, very friendly staff",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Also better service, very friendly staff</p>",
+                },
+                "id": "16208789",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T03:18:28.000Z,
+                "user": {
+                  "name": "edumacation",
+                  "profileUrl": "https://www.ozbargain.com.au/user/192500",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 173,
+                      "rawText": "<p>1200 return include baggage and meals? I mean with jetstar if you add in check-in max you should be paying is 600 odd, so wouldnt really say basically the same price…</p>",
+                      "startIndex": 0,
+                      "text": "1200 return include baggage and meals? I mean with jetstar if you add in check-in max you should be paying is 600 odd, so wouldnt really say basically the same price…",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>1200 return include baggage and meals? I mean with jetstar if you add in check-in max you should be paying is 600 odd, so wouldnt really say basically the same price…</p>",
+                },
+                "id": "16209290",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T05:29:07.000Z,
+                "user": {
+                  "name": "eli8te",
+                  "profileUrl": "https://www.ozbargain.com.au/user/380177",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 117,
+                  "rawText": "<p>Might include a direct flight with baggage and meals though. I'd much rather that for basically the same price</p>",
+                  "startIndex": 0,
+                  "text": "Might include a direct flight with baggage and meals though. I'd much rather that for basically the same price",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Might include a direct flight with baggage and meals though. I'd much rather that for basically the same price</p>",
+            },
+            "id": "16208594",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T02:24:07.000Z,
+            "user": {
+              "name": "mecusherb",
+              "profileUrl": "https://www.ozbargain.com.au/user/135343",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 4,
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 120,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/16208613/redir" class="internal inline" onclick="return OzB.gotoComment(16208613);">@sistermay:</a>",
+                          "startIndex": 3,
+                          "text": "@sistermay:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/16208613/redir",
+                        },
+                        {
+                          "endIndex": 232,
+                          "rawText": " JAL used to serve Brisbane till 2010. Shame, but it might come back for the Olympics, then disappear again.</p>",
+                          "startIndex": 120,
+                          "text": " JAL used to serve Brisbane till 2010. Shame, but it might come back for the Olympics, then disappear again.",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/16208613/redir" class="internal inline" onclick="return OzB.gotoComment(16208613);">@sistermay:</a> JAL used to serve Brisbane till 2010. Shame, but it might come back for the Olympics, then disappear again.</p>",
+                    },
+                    "id": "16208630",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2025-01-28T02:31:04.000Z,
+                    "user": {
+                      "name": "quackie",
+                      "profileUrl": "https://www.ozbargain.com.au/user/178946",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 108,
+                      "rawText": "<p>Yeah ! So much for the Olympic city, it's a joke !!! None of the Japanese airlines fly from Brisbane.</p>",
+                      "startIndex": 0,
+                      "text": "Yeah ! So much for the Olympic city, it's a joke !!! None of the Japanese airlines fly from Brisbane.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Yeah ! So much for the Olympic city, it's a joke !!! None of the Japanese airlines fly from Brisbane.</p>",
+                },
+                "id": "16208613",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-28T02:27:12.000Z,
+                "user": {
+                  "name": "sistermay",
+                  "profileUrl": "https://www.ozbargain.com.au/user/138642",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 1,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 105,
+                  "rawText": "<p>And the Japanese airlines only fly out of Sydney (ANA &amp; JAL), Melbourne (JAL) and Perth (ANA).</p>",
+                  "startIndex": 0,
+                  "text": "And the Japanese airlines only fly out of Sydney (ANA & JAL), Melbourne (JAL) and Perth (ANA).",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>And the Japanese airlines only fly out of Sydney (ANA &amp; JAL), Melbourne (JAL) and Perth (ANA).</p>",
+            },
+            "id": "16208597",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T02:24:27.000Z,
+            "user": {
+              "name": "quackie",
+              "profileUrl": "https://www.ozbargain.com.au/user/178946",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 2,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 116,
+              "rawText": "<p>They go on sale but it won’t be 400 dollars return. Average is around 1200 return. Sale might be 800 to 1199.</p>",
+              "startIndex": 0,
+              "text": "They go on sale but it won’t be 400 dollars return. Average is around 1200 return. Sale might be 800 to 1199.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>They go on sale but it won’t be 400 dollars return. Average is around 1200 return. Sale might be 800 to 1199.</p>",
+        },
+        "id": "16208587",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:21:48.000Z,
+        "user": {
+          "name": "unhuman",
+          "profileUrl": "https://www.ozbargain.com.au/user/199749",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 1,
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 52,
+                  "rawText": "<p>Will keep an eye out for the next round then.</p>",
+                  "startIndex": 0,
+                  "text": "Will keep an eye out for the next round then.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Will keep an eye out for the next round then.</p>",
+            },
+            "id": "16208776",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T03:15:46.000Z,
+            "user": {
+              "name": "sistermay",
+              "profileUrl": "https://www.ozbargain.com.au/user/138642",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 68,
+              "rawText": "<p>ANA have a sale almost every month that lasts for a few days.</p>",
+              "startIndex": 0,
+              "text": "ANA have a sale almost every month that lasts for a few days.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>ANA have a sale almost every month that lasts for a few days.</p>",
+        },
+        "id": "16208692",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:48:12.000Z,
+        "user": {
+          "name": "ozbargainer88",
+          "profileUrl": "https://www.ozbargain.com.au/user/111728",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/28/111728-38.jpg?h=0a922ec5",
+        },
+        "votes": 1,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 142,
+          "rawText": "<p>Anyone knows if Japanese airlines had sales in the same period when Jestar had this kind of sale ? Would much prefer Japanese airlines.</p>",
+          "startIndex": 0,
+          "text": "Anyone knows if Japanese airlines had sales in the same period when Jestar had this kind of sale ? Would much prefer Japanese airlines.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Anyone knows if Japanese airlines had sales in the same period when Jestar had this kind of sale ? Would much prefer Japanese airlines.</p>",
+    },
+    "id": "16208539",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2025-01-28T02:07:31.000Z,
+    "user": {
+      "name": "sistermay",
+      "profileUrl": "https://www.ozbargain.com.au/user/138642",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 5,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 112,
+          "rawText": "<p>Got this sale last year. Zero issues with Jetstar for a change, transited in Cairns. Seamless experience.</p>",
+          "startIndex": 0,
+          "text": "Got this sale last year. Zero issues with Jetstar for a change, transited in Cairns. Seamless experience.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Got this sale last year. Zero issues with Jetstar for a change, transited in Cairns. Seamless experience.</p>",
+    },
+    "id": "16208599",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2025-01-28T02:24:41.000Z,
+    "user": {
+      "name": "Cappa87",
+      "profileUrl": "https://www.ozbargain.com.au/user/391252",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 64,
+              "rawText": "<p>I guess it depends if you want to go to Tokyo or Osaka…..</p>",
+              "startIndex": 0,
+              "text": "I guess it depends if you want to go to Tokyo or Osaka…..",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>I guess it depends if you want to go to Tokyo or Osaka…..</p>",
+        },
+        "id": "16208633",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:31:14.000Z,
+        "user": {
+          "name": "mecusherb",
+          "profileUrl": "https://www.ozbargain.com.au/user/135343",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 14,
+              "rawText": "<p>Do both</p>",
+              "startIndex": 0,
+              "text": "Do both",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Do both</p>",
+        },
+        "id": "16208655",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:37:36.000Z,
+        "user": {
+          "name": "JimB",
+          "profileUrl": "https://www.ozbargain.com.au/user/125929",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 140,
+              "rawText": "<p>Try to see if you can fly into one and leave from the over…take the fast train between the two….I wish we did this when booking ours.</p>",
+              "startIndex": 0,
+              "text": "Try to see if you can fly into one and leave from the over…take the fast train between the two….I wish we did this when booking ours.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Try to see if you can fly into one and leave from the over…take the fast train between the two….I wish we did this when booking ours.</p>",
+        },
+        "id": "16208702",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:50:50.000Z,
+        "user": {
+          "name": "thegourou20",
+          "profileUrl": "https://www.ozbargain.com.au/user/153258",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 3,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 146,
+              "rawText": "<p>recommand to Osaka if you are flying from SYD, direct fly is much easier for the whole family. Osaka is general more relax compare to Tokyo</p>",
+              "startIndex": 0,
+              "text": "recommand to Osaka if you are flying from SYD, direct fly is much easier for the whole family. Osaka is general more relax compare to Tokyo",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>recommand to Osaka if you are flying from SYD, direct fly is much easier for the whole family. Osaka is general more relax compare to Tokyo</p>",
+        },
+        "id": "16208741",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T03:05:44.000Z,
+        "user": {
+          "name": "hanxtom",
+          "profileUrl": "https://www.ozbargain.com.au/user/391413",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 198,
+              "rawText": "<p>If you have to choose: Tokyo. There's so much to do there! You can start and finish your holiday with time in Tokyo at both ends and avoid having to train/fly on the same day or back to back.</p>",
+              "startIndex": 0,
+              "text": "If you have to choose: Tokyo. There's so much to do there! You can start and finish your holiday with time in Tokyo at both ends and avoid having to train/fly on the same day or back to back.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>If you have to choose: Tokyo. There's so much to do there! You can start and finish your holiday with time in Tokyo at both ends and avoid having to train/fly on the same day or back to back.</p>",
+        },
+        "id": "16208877",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T03:44:37.000Z,
+        "user": {
+          "name": "sween64",
+          "profileUrl": "https://www.ozbargain.com.au/user/84851",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/51/84851-38.jpg?h=ebf3c78b",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 176,
+          "rawText": "<p>Never been Japan, enticed now. <br>
+Which port to choose if buying now,  planning later? Osaka or Tokyo? Going with young family. Will need to look at itineraries later.</p>",
+          "startIndex": 0,
+          "text": "Never been Japan, enticed now. 
+Which port to choose if buying now,  planning later? Osaka or Tokyo? Going with young family. Will need to look at itineraries later.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Never been Japan, enticed now. <br>
+Which port to choose if buying now,  planning later? Osaka or Tokyo? Going with young family. Will need to look at itineraries later.</p>",
+    },
+    "id": "16208609",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2025-01-28T02:26:53.000Z,
+    "user": {
+      "name": "dealmaker",
+      "profileUrl": "https://www.ozbargain.com.au/user/123991",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 65,
+                  "rawText": "<p>Amazing user experience, you sold it for me. Thanks, mate.</p>",
+                  "startIndex": 0,
+                  "text": "Amazing user experience, you sold it for me. Thanks, mate.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Amazing user experience, you sold it for me. Thanks, mate.</p>",
+            },
+            "id": "16208673",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2025-01-28T02:43:20.000Z,
+            "user": {
+              "name": "jessed",
+              "profileUrl": "https://www.ozbargain.com.au/user/506040",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 1,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 239,
+              "rawText": "<p>Also depends if you're going to add baggage. I've utilised this offer twice - once with and once without the membership.</p>
+
+<p>When I joined last year, the difference once the baggage discount and the fare discount was added was like ",
+              "startIndex": 0,
+              "text": "Also depends if you're going to add baggage. I've utilised this offer twice - once with and once without the membership.
+
+When I joined last year, the difference once the baggage discount and the fare discount was added was like ",
+              "type": "normal",
+            },
+            {
+              "endIndex": 242,
+              "rawText": "$10",
+              "startIndex": 239,
+              "text": "$10",
+              "type": "price",
+            },
+            {
+              "endIndex": 482,
+              "rawText": "-20.</p>
+
+<p>Year before, when the sale went public the site crashed, dates were selling out as quick as you could refresh. I would easily get the membership again to avoid the mess that was trying to book when the sale is unrestricted.</p>",
+              "startIndex": 242,
+              "text": "-20.
+
+Year before, when the sale went public the site crashed, dates were selling out as quick as you could refresh. I would easily get the membership again to avoid the mess that was trying to book when the sale is unrestricted.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Also depends if you're going to add baggage. I've utilised this offer twice - once with and once without the membership.</p>
+
+<p>When I joined last year, the difference once the baggage discount and the fare discount was added was like $10-20.</p>
+
+<p>Year before, when the sale went public the site crashed, dates were selling out as quick as you could refresh. I would easily get the membership again to avoid the mess that was trying to book when the sale is unrestricted.</p>",
+        },
+        "id": "16208667",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:41:17.000Z,
+        "user": {
+          "name": "Juicy Goblin",
+          "profileUrl": "https://www.ozbargain.com.au/user/474033",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 2,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 165,
+              "rawText": "<p>Sometimes the sales are very limited, other times they will be available for a week or more.</p>
+
+<p>There may be another chance each month at a similar sale.</p>",
+              "startIndex": 0,
+              "text": "Sometimes the sales are very limited, other times they will be available for a week or more.
+
+There may be another chance each month at a similar sale.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Sometimes the sales are very limited, other times they will be available for a week or more.</p>
+
+<p>There may be another chance each month at a similar sale.</p>",
+        },
+        "id": "16208691",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:48:04.000Z,
+        "user": {
+          "name": "wetsandwich",
+          "profileUrl": "https://www.ozbargain.com.au/user/206779",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": -1,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 82,
+          "rawText": "<p>Reckon it's worth rolling the dice for public fare at midnight or cough up the ",
+          "startIndex": 0,
+          "text": "Reckon it's worth rolling the dice for public fare at midnight or cough up the ",
+          "type": "normal",
+        },
+        {
+          "endIndex": 85,
+          "rawText": "$65",
+          "startIndex": 82,
+          "text": "$65",
+          "type": "price",
+        },
+        {
+          "endIndex": 125,
+          "rawText": " for early access? Looking at Seoul for ",
+          "startIndex": 85,
+          "text": " for early access? Looking at Seoul for ",
+          "type": "normal",
+        },
+        {
+          "endIndex": 129,
+          "rawText": "$350",
+          "startIndex": 125,
+          "text": "$350",
+          "type": "price",
+        },
+        {
+          "endIndex": 179,
+          "rawText": " return!<br>
+Edit: total price difference is only ",
+          "startIndex": 129,
+          "text": " return!
+Edit: total price difference is only ",
+          "type": "normal",
+        },
+        {
+          "endIndex": 182,
+          "rawText": "$45",
+          "startIndex": 179,
+          "text": "$45",
+          "type": "price",
+        },
+        {
+          "endIndex": 240,
+          "rawText": " due to club price fare gap. Probably worth it for me.</p>",
+          "startIndex": 182,
+          "text": " due to club price fare gap. Probably worth it for me.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Reckon it's worth rolling the dice for public fare at midnight or cough up the $65 for early access? Looking at Seoul for $350 return!<br>
+Edit: total price difference is only $45 due to club price fare gap. Probably worth it for me.</p>",
+    },
+    "id": "16208612",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2025-01-28T02:27:07.000Z,
+    "user": {
+      "name": "jessed",
+      "profileUrl": "https://www.ozbargain.com.au/user/506040",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 3,
+              "rawText": "<p>",
+              "startIndex": 0,
+              "text": "",
+              "type": "normal",
+            },
+            {
+              "endIndex": 7,
+              "rawText": "$296",
+              "startIndex": 3,
+              "text": "$296",
+              "type": "price",
+            },
+            {
+              "endIndex": 21,
+              "rawText": " right now</p>",
+              "startIndex": 7,
+              "text": " right now",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>$296 right now</p>",
+        },
+        "id": "16208944",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T04:01:17.000Z,
+        "user": {
+          "name": "CheapFlightHunter",
+          "profileUrl": "https://www.ozbargain.com.au/user/137506",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/06/137506-38.jpg?h=58c375bd",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 27,
+          "rawText": "<p>last year cns osaka was ",
+          "startIndex": 0,
+          "text": "last year cns osaka was ",
+          "type": "normal",
+        },
+        {
+          "endIndex": 31,
+          "rawText": "$279",
+          "startIndex": 27,
+          "text": "$279",
+          "type": "price",
+        },
+        {
+          "endIndex": 51,
+          "rawText": " return i think.</p>",
+          "startIndex": 31,
+          "text": " return i think.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>last year cns osaka was $279 return i think.</p>",
+    },
+    "id": "16208617",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2025-01-28T02:28:16.000Z,
+    "user": {
+      "name": "Farrba",
+      "profileUrl": "https://www.ozbargain.com.au/user/25332",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 212,
+              "rawText": "<p>Never had more than an hour delay on 15+ international flights with them, personally.</p>
+
+<p>Going between Melbourne and Hobart, I would agree that the delay will usually be longer than the flight itself.</p>",
+              "startIndex": 0,
+              "text": "Never had more than an hour delay on 15+ international flights with them, personally.
+
+Going between Melbourne and Hobart, I would agree that the delay will usually be longer than the flight itself.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Never had more than an hour delay on 15+ international flights with them, personally.</p>
+
+<p>Going between Melbourne and Hobart, I would agree that the delay will usually be longer than the flight itself.</p>",
+        },
+        "id": "16208694",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T02:48:56.000Z,
+        "user": {
+          "name": "wetsandwich",
+          "profileUrl": "https://www.ozbargain.com.au/user/206779",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 2,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 95,
+              "rawText": "<p>Jetstar international flight has no drama, I fly 3 times to Japan on tim with confidence</p>",
+              "startIndex": 0,
+              "text": "Jetstar international flight has no drama, I fly 3 times to Japan on tim with confidence",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Jetstar international flight has no drama, I fly 3 times to Japan on tim with confidence</p>",
+        },
+        "id": "16208739",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T03:04:11.000Z,
+        "user": {
+          "name": "hanxtom",
+          "profileUrl": "https://www.ozbargain.com.au/user/391413",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 3,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 142,
+              "rawText": "<p>I've flown 5+ international flights with them in the last few years and never had any significant issues. At this price, it's worth it.</p>",
+              "startIndex": 0,
+              "text": "I've flown 5+ international flights with them in the last few years and never had any significant issues. At this price, it's worth it.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>I've flown 5+ international flights with them in the last few years and never had any significant issues. At this price, it's worth it.</p>",
+        },
+        "id": "16209321",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T05:35:22.000Z,
+        "user": {
+          "name": "iluvbargainz",
+          "profileUrl": "https://www.ozbargain.com.au/user/479367",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 2,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 115,
+              "rawText": "<p>Spoken like someone who hasn’t actually flown Jetstar international lol. They’ve been great for o/s flights.</p>",
+              "startIndex": 0,
+              "text": "Spoken like someone who hasn’t actually flown Jetstar international lol. They’ve been great for o/s flights.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Spoken like someone who hasn’t actually flown Jetstar international lol. They’ve been great for o/s flights.</p>",
+        },
+        "id": "16209662",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-28T07:30:11.000Z,
+        "user": {
+          "name": "Mike Nolan",
+          "profileUrl": "https://www.ozbargain.com.au/user/498126",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/26/498126-38.jpg?h=635d144d",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 89,
+          "rawText": "<p>It's Jetstar, 99% chance your flight (and holiday) will be cancelled. Never again.</p>",
+          "startIndex": 0,
+          "text": "It's Jetstar, 99% chance your flight (and holiday) will be cancelled. Never again.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>It's Jetstar, 99% chance your flight (and holiday) will be cancelled. Never again.</p>",
+    },
+    "id": "16208635",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2025-01-28T02:31:32.000Z,
+    "user": {
+      "name": "Noobist45",
+      "profileUrl": "https://www.ozbargain.com.au/user/58165",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": -3,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 85,
+          "rawText": "<p>Given the popularity I’m surprised there’s no direct flights from/to Melbourne</p>",
+          "startIndex": 0,
+          "text": "Given the popularity I’m surprised there’s no direct flights from/to Melbourne",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Given the popularity I’m surprised there’s no direct flights from/to Melbourne</p>",
+    },
+    "id": "16208658",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2025-01-28T02:38:52.000Z,
+    "user": {
+      "name": "JimB",
+      "profileUrl": "https://www.ozbargain.com.au/user/125929",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
   },
 ]
 `;
