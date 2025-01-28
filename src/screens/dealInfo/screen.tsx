@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { Platform, ScrollView, Share, StyleSheet } from 'react-native';
 import { Card } from '../../base/components/card/card';
-import { Spinner } from '../../base/components/spinner/spinner';
+import { Loading } from '../../base/components/loading/loading';
 import { Text } from '../../base/components/text/text';
 import { colours } from '../../base/constants/colours';
 import { sizes } from '../../base/constants/sizes';
@@ -37,7 +37,7 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
   const comments = dealInfoHtml ? getDealCommentsFromDocument(dealInfoHtml) : undefined;
 
   const renderedComments = comments == null
-    ? <Spinner />
+    ? <Loading />
     : comments.length < 1
     ? <Text colour='light'>No comments</Text>
     : comments.map(comment => <CommentThread key={comment.id} firstComment={comment} />);
