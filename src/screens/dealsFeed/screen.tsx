@@ -17,8 +17,8 @@ export function FeedScreen({ route }: FeedScreenProps): React.JSX.Element {
   const { feedType } = route.params;
 
   const getDeals = feedType === 'top'
-    ? () => dealsFeed?.getTopDeals() ?? []
-    : () => dealsFeed?.getNewDeals() ?? [];
+    ? () => dealsFeed.getTopDeals()
+    : () => dealsFeed.getNewDeals();
   const refreshDeals = feedType === 'top'
     ? refreshTopDeals
     : refreshNewDeals;

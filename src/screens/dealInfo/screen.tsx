@@ -20,25 +20,20 @@ import { Description } from './renderDescription';
 function shareWeb(): void {
   console.warn('Sharing is not available on web');
 }
+async function shareMobile(link: string) {
+  await Share.share({ message: link });
+}
+
+const onPressShare = Platform.OS === 'web' ? shareWeb : shareMobile;
 
 export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Element {
   const { dealId } = route.params;
   const { dealsFeed } = useDealsFeed();
 
-  if (!dealsFeed) {
-    throw new Error(
-      'Opened DealInfo Screen but dealsFeed is not available. Unable to retrieve deal information.',
-    );
-  }
-
   const deal = dealsFeed.getDealById(dealId);
 
   const { data: dealInfoHtml } = useFetch(deal.links.deal);
   const comments = dealInfoHtml ? getDealCommentsFromDocument(dealInfoHtml) : undefined;
-
-  const onPressShare = Platform.OS === 'web' ? shareWeb : async () => {
-    await Share.share({ message: deal.links.deal });
-  };
 
   return (
     <>
@@ -54,14 +49,14 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
             <LinkButtons
               onPressGoToDeal={() => openLink(deal.links.productPage)}
               onPressOpenOnOzbargain={() => openLink(deal.links.deal)}
-              onPressShare={onPressShare}
+              onPressShare={() => onPressShare(deal.links.deal)}
             />
           </Card>
           <Card padding='large'>
             <Description description={deal.description} />
           </Card>
           {comments?.map(comment => (
-            <Card padding='large' key={`thread-${comment.id}`}>
+            <Card padding='large' key={comment.id}>
               <CommentThread comment={comment} />
             </Card>
           )) ?? <Spinner />}
