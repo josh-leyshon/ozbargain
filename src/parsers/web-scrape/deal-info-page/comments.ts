@@ -46,7 +46,7 @@ function getCommentAndChildren(rootCheerio: CheerioAPI, comment: Element, level:
     throw new Error(`Did not find ID for comment. HTML:\n${$('> div.comment-wrap').html()}`);
   }
   if (timestampMs === 0) {
-    throw new Error(`Did not find ID for comment. HTML:\n${$('> div.comment-wrap').html()}`);
+    throw new Error(`Did not find timestamp for comment. HTML:\n${$('> div.comment-wrap').html()}`);
   }
 
   const userATag = $('> div.comment-wrap div.submitted a');
