@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Platform, ScrollView, Share, StyleSheet } from 'react-native';
+import { ScrollView, StyleSheet } from 'react-native';
 import { Card } from '../../base/components/card/card';
 import { Loading } from '../../base/components/loading/loading';
 import { Text } from '../../base/components/text/text';
@@ -9,6 +9,7 @@ import { sizes } from '../../base/constants/sizes';
 import { useFetch } from '../../base/hooks/useFetch';
 import { Column } from '../../base/layout/flex';
 import { openLink } from '../../base/links/openLink';
+import { share } from '../../base/links/share';
 import { useDealsFeed } from '../../global-state/dealsFeed';
 import { getDealCommentsFromDocument } from '../../parsers/web-scrape/deal-info-page/comments';
 import { DealCardInfo } from '../dealsFeed/dealCard/dealCard';
@@ -17,15 +18,6 @@ import type { DealInfoScreenProps } from '../navigationRoutes';
 import { CommentThread } from './comments/commentThread';
 import { Description } from './description';
 import { LinkButtons } from './linkButtons';
-
-function shareWeb(): void {
-  console.warn('Sharing is not available on web');
-}
-async function shareMobile(link: string) {
-  await Share.share({ message: link });
-}
-
-const onPressShare = Platform.OS === 'web' ? shareWeb : shareMobile;
 
 export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Element {
   const { dealId } = route.params;
@@ -62,7 +54,7 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
             <LinkButtons
               onPressGoToDeal={() => openLink(deal.links.productPage)}
               onPressOpenOnOzbargain={() => openLink(deal.links.deal)}
-              onPressShare={() => onPressShare(deal.links.deal)}
+              onPressShare={() => share({ message: deal.links.deal })}
             />
           </Card>
           <Card padding='large'>

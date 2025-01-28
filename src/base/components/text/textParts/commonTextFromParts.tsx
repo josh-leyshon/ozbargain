@@ -1,6 +1,7 @@
 import type React from 'react';
 import type { TextPart } from '../../../../parsers/text/textParts';
 import { openLink } from '../../../links/openLink';
+import { share } from '../../../links/share';
 import { Link } from '../link';
 import { Text } from '../text';
 
@@ -18,7 +19,15 @@ export function CommonTextFromParts({ textParts }: CommonTextFromPartsProps): Re
     <Text>
       {textParts.map(part => {
         return part.type === 'link'
-          ? <Link key={part.startIndex} onPress={() => openLink(part.url)}>{part.text}</Link>
+          ? (
+            <Link
+              key={part.startIndex}
+              onPress={() => openLink(part.url)}
+              onLongPress={() => share({ message: part.url })}
+            >
+              {part.text}
+            </Link>
+          )
           : <Text key={part.startIndex}>{part.text}</Text>;
       })}
     </Text>

@@ -8,13 +8,14 @@ import { Text } from './text';
 export type LinkProps = Omit<TextProps, 'children' | 'colour'> & {
   children: string;
   onPress: () => void;
+  onLongPress?: () => void;
 };
 
 /**
  * A styled Text element that should open a link when pressed.
  * Intended to be nested within a Text element.
  */
-export function Link({ onPress, children, ...props }: LinkProps): React.JSX.Element {
+export function Link({ onPress, onLongPress, children, ...props }: LinkProps): React.JSX.Element {
   const [pressed, setPressed] = useState(false);
 
   return (
@@ -22,6 +23,7 @@ export function Link({ onPress, children, ...props }: LinkProps): React.JSX.Elem
       onPressIn={() => setPressed(true)}
       onPressOut={() => setPressed(false)}
       onPress={onPress}
+      onLongPress={onLongPress}
     >
       <Text {...props} colour={pressed ? 'primaryLight' : 'primaryDark'}>
         {children}
