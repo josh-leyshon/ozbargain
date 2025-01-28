@@ -33,10 +33,16 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
 
   const deal = dealsFeed.getDealById(dealId);
 
-  const { data: dealInfoHtml } = useFetch(deal.links.deal);
+  const { data: dealInfoHtml, error } = useFetch(deal.links.deal);
   const comments = dealInfoHtml ? getDealCommentsFromDocument(dealInfoHtml) : undefined;
 
-  const renderedComments = comments == null
+  if (error) {
+    console.error('Error fetching deal info page:', error);
+  }
+
+  const renderedComments = error != null
+    ? <Text colour='light'>Something went wrong.</Text>
+    : comments == null
     ? <Loading />
     : comments.length < 1
     ? <Text colour='light'>No comments</Text>
