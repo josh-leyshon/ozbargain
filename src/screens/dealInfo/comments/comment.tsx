@@ -4,20 +4,22 @@ import { Column, Row } from '../../../base/layout/flex';
 import type { OmitStrict } from '../../../base/types/omitStrict';
 import type { Comment as CommentType } from '../../../parsers/web-scrape/deal-info-page/comments';
 
-const formatCommentTimestamp: Intl.DateTimeFormat['format'] = date =>
-  new Intl.DateTimeFormat(undefined, {
-    dateStyle: 'medium',
-    timeStyle: 'medium',
-  }).format(date);
+const timestampFormatter = new Intl.DateTimeFormat(undefined, {
+  day: 'numeric',
+  month: 'short',
+  hour12: true,
+  hour: 'numeric',
+  minute: '2-digit',
+});
 
 type CommentProps = OmitStrict<CommentType, 'children'>;
 
 export function Comment({ id, timestamp, content, user, level, votes }: CommentProps): React.JSX.Element {
   return (
     <Column gap='small'>
-      <Row gap='medium' justifyContent='flex-start'>
+      <Row gap='medium' justifyContent='flex-start' alignItems='center'>
         <Text weight='bold'>{user.name}</Text>
-        <Text weight='thin'>{formatCommentTimestamp(timestamp)}</Text>
+        <Text size='small' colour='light'>{timestampFormatter.format(timestamp)}</Text>
       </Row>
       <Row>
         <Text>
