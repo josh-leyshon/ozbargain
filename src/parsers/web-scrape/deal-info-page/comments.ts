@@ -21,6 +21,10 @@ type BaseCommentFields = {
     name: string;
     thumbnailUrl: string;
     profileUrl: string;
+    /**
+     * This user is the original poster (OP) of the deal.
+     */
+    isOp: boolean;
   };
   /**
    * How indented this comment is in a thread.
@@ -78,6 +82,7 @@ function getCommentAndChildren(rootCheerio: CheerioAPI, comment: Element, level:
   const userName = userATag.text();
   const userLink = userATag.attr()?.href;
   const userThumbnailUrl = $('> div.comment-wrap div.comment img[class="gravatar"]').attr()?.src;
+  const isOp = $('> div.comment-wrap div.comment').hasClass('comment-op');
 
   if (!userLink) {
     throw new Error(`Did not find comment author profile link for comment. HTML:\n${$('> div.comment-wrap').html()}`);
@@ -120,6 +125,7 @@ function getCommentAndChildren(rootCheerio: CheerioAPI, comment: Element, level:
       name: userName,
       thumbnailUrl: userThumbnailUrl,
       profileUrl: `${OZBARGAIN_BASE_URL}${userLink}`,
+      isOp,
     },
     level,
     children,
