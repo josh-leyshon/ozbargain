@@ -39,6 +39,7 @@ exports[`Extracts comments from deal info page 1`] = `
             "state": "shown",
             "timestamp": 2025-01-15T02:06:13.000Z,
             "user": {
+              "isOp": false,
               "name": "park",
               "profileUrl": "https://www.ozbargain.com.au/user/382898",
               "thumbnailUrl": "https://files.ozbargain.com.au/u/98/382898-38.jpg?h=751a0cb3",
@@ -63,6 +64,7 @@ exports[`Extracts comments from deal info page 1`] = `
         "state": "shown",
         "timestamp": 2025-01-15T01:48:23.000Z,
         "user": {
+          "isOp": false,
           "name": "Spendmore",
           "profileUrl": "https://www.ozbargain.com.au/user/366774",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -104,6 +106,7 @@ exports[`Extracts comments from deal info page 1`] = `
         "state": "shown",
         "timestamp": 2025-01-15T02:52:57.000Z,
         "user": {
+          "isOp": false,
           "name": "Ham Dragon",
           "profileUrl": "https://www.ozbargain.com.au/user/393207",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/07/393207-38.jpg?h=02e9f33a",
@@ -155,6 +158,7 @@ exports[`Extracts comments from deal info page 1`] = `
                             "state": "shown",
                             "timestamp": 2025-01-15T07:42:20.000Z,
                             "user": {
+                              "isOp": false,
                               "name": "9hundred",
                               "profileUrl": "https://www.ozbargain.com.au/user/288370",
                               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -195,6 +199,7 @@ exports[`Extracts comments from deal info page 1`] = `
                         "state": "shown",
                         "timestamp": 2025-01-15T06:18:14.000Z,
                         "user": {
+                          "isOp": false,
                           "name": "M00Cow",
                           "profileUrl": "https://www.ozbargain.com.au/user/354246",
                           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -235,6 +240,7 @@ exports[`Extracts comments from deal info page 1`] = `
                     "state": "shown",
                     "timestamp": 2025-01-15T05:56:35.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "9hundred",
                       "profileUrl": "https://www.ozbargain.com.au/user/288370",
                       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -259,6 +265,7 @@ exports[`Extracts comments from deal info page 1`] = `
                 "state": "shown",
                 "timestamp": 2025-01-15T05:54:45.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "9hundred",
                   "profileUrl": "https://www.ozbargain.com.au/user/288370",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -306,6 +313,7 @@ exports[`Extracts comments from deal info page 1`] = `
                             "state": "shown",
                             "timestamp": 2025-01-16T09:41:50.000Z,
                             "user": {
+                              "isOp": false,
                               "name": "9hundred",
                               "profileUrl": "https://www.ozbargain.com.au/user/288370",
                               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -346,6 +354,7 @@ exports[`Extracts comments from deal info page 1`] = `
                         "state": "shown",
                         "timestamp": 2025-01-16T03:47:51.000Z,
                         "user": {
+                          "isOp": false,
                           "name": "jackspratt",
                           "profileUrl": "https://www.ozbargain.com.au/user/54364",
                           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -386,6 +395,7 @@ exports[`Extracts comments from deal info page 1`] = `
                     "state": "shown",
                     "timestamp": 2025-01-15T23:53:34.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "9hundred",
                       "profileUrl": "https://www.ozbargain.com.au/user/288370",
                       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -416,6 +426,7 @@ Others are entitled to differ.",
                 "state": "shown",
                 "timestamp": 2025-01-15T15:36:05.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "jackspratt",
                   "profileUrl": "https://www.ozbargain.com.au/user/54364",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -440,6 +451,7 @@ Others are entitled to differ.",
             "state": "shown",
             "timestamp": 2025-01-15T04:14:09.000Z,
             "user": {
+              "isOp": false,
               "name": "9hundred",
               "profileUrl": "https://www.ozbargain.com.au/user/288370",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -464,6 +476,7 @@ Others are entitled to differ.",
         "state": "shown",
         "timestamp": 2025-01-15T03:44:01.000Z,
         "user": {
+          "isOp": false,
           "name": "9hundred",
           "profileUrl": "https://www.ozbargain.com.au/user/288370",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -495,6 +508,7 @@ Id pour it into a pint glass.</p>",
         "state": "shown",
         "timestamp": 2025-01-15T07:07:17.000Z,
         "user": {
+          "isOp": false,
           "name": "Stewardo",
           "profileUrl": "https://www.ozbargain.com.au/user/179159",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -525,6 +539,7 @@ How does it compare with Pilsner Urquell on flavour, etc?",
     "state": "shown",
     "timestamp": 2025-01-15T01:46:23.000Z,
     "user": {
+      "isOp": false,
       "name": "Last Seen",
       "profileUrl": "https://www.ozbargain.com.au/user/119158",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -556,6 +571,7 @@ How does it compare with Pilsner Urquell on flavour, etc?",
                 "state": "shown",
                 "timestamp": 2025-01-15T14:24:52.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "OzzyBrak",
                   "profileUrl": "https://www.ozbargain.com.au/user/26510",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -583,6 +599,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
             "state": "shown",
             "timestamp": 2025-01-15T07:37:03.000Z,
             "user": {
+              "isOp": false,
               "name": "goodwillN1",
               "profileUrl": "https://www.ozbargain.com.au/user/449115",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -626,6 +643,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
         "state": "shown",
         "timestamp": 2025-01-15T02:04:35.000Z,
         "user": {
+          "isOp": false,
           "name": "park",
           "profileUrl": "https://www.ozbargain.com.au/user/382898",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/98/382898-38.jpg?h=751a0cb3",
@@ -651,6 +669,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
         "state": "shown",
         "timestamp": 2025-01-15T02:53:17.000Z,
         "user": {
+          "isOp": false,
           "name": "Ham Dragon",
           "profileUrl": "https://www.ozbargain.com.au/user/393207",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/07/393207-38.jpg?h=02e9f33a",
@@ -675,6 +694,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
     "state": "shown",
     "timestamp": 2025-01-15T01:59:58.000Z,
     "user": {
+      "isOp": false,
       "name": "chuneeperformance",
       "profileUrl": "https://www.ozbargain.com.au/user/11069",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -726,6 +746,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
                         "state": "shown",
                         "timestamp": 2025-01-15T06:09:34.000Z,
                         "user": {
+                          "isOp": false,
                           "name": "Spendmore",
                           "profileUrl": "https://www.ozbargain.com.au/user/366774",
                           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -767,6 +788,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
                         "state": "shown",
                         "timestamp": 2025-01-15T07:09:18.000Z,
                         "user": {
+                          "isOp": false,
                           "name": "Stewardo",
                           "profileUrl": "https://www.ozbargain.com.au/user/179159",
                           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -807,6 +829,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
                     "state": "shown",
                     "timestamp": 2025-01-15T04:19:30.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "SoTightEcoLPI",
                       "profileUrl": "https://www.ozbargain.com.au/user/306485",
                       "thumbnailUrl": "https://files.ozbargain.com.au/u/85/306485-38.jpg?h=685aaa9a",
@@ -831,6 +854,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
                 "state": "shown",
                 "timestamp": 2025-01-15T03:59:06.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "Spendmore",
                   "profileUrl": "https://www.ozbargain.com.au/user/366774",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -874,6 +898,7 @@ Not saying it is bad for Aussie market, just that Czechs have specific expectati
                     "state": "shown",
                     "timestamp": 2025-01-15T05:53:11.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "9hundred",
                       "profileUrl": "https://www.ozbargain.com.au/user/288370",
                       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -920,6 +945,7 @@ Don't remember the taste, lol</p>",
                         "state": "shown",
                         "timestamp": 2025-01-18T03:39:48.000Z,
                         "user": {
+                          "isOp": false,
                           "name": "GerryManDerJan",
                           "profileUrl": "https://www.ozbargain.com.au/user/526404",
                           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -979,6 +1005,7 @@ Don't remember the taste, lol</p>",
                     "state": "shown",
                     "timestamp": 2025-01-15T05:53:39.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "SoTightEcoLPI",
                       "profileUrl": "https://www.ozbargain.com.au/user/306485",
                       "thumbnailUrl": "https://files.ozbargain.com.au/u/85/306485-38.jpg?h=685aaa9a",
@@ -1003,6 +1030,7 @@ Don't remember the taste, lol</p>",
                 "state": "shown",
                 "timestamp": 2025-01-15T05:44:07.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "GerryManDerJan",
                   "profileUrl": "https://www.ozbargain.com.au/user/526404",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1027,6 +1055,7 @@ Don't remember the taste, lol</p>",
             "state": "shown",
             "timestamp": 2025-01-15T03:42:33.000Z,
             "user": {
+              "isOp": false,
               "name": "9hundred",
               "profileUrl": "https://www.ozbargain.com.au/user/288370",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1051,6 +1080,7 @@ Don't remember the taste, lol</p>",
         "state": "shown",
         "timestamp": 2025-01-15T02:17:41.000Z,
         "user": {
+          "isOp": false,
           "name": "Spendmore",
           "profileUrl": "https://www.ozbargain.com.au/user/366774",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1075,6 +1105,7 @@ Don't remember the taste, lol</p>",
     "state": "shown",
     "timestamp": 2025-01-15T02:15:15.000Z,
     "user": {
+      "isOp": false,
       "name": "SoTightEcoLPI",
       "profileUrl": "https://www.ozbargain.com.au/user/306485",
       "thumbnailUrl": "https://files.ozbargain.com.au/u/85/306485-38.jpg?h=685aaa9a",
@@ -1104,6 +1135,7 @@ Don't remember the taste, lol</p>",
             "state": "shown",
             "timestamp": 2025-01-15T03:11:34.000Z,
             "user": {
+              "isOp": false,
               "name": "Mr Frodo",
               "profileUrl": "https://www.ozbargain.com.au/user/151988",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1128,6 +1160,7 @@ Don't remember the taste, lol</p>",
         "state": "shown",
         "timestamp": 2025-01-15T02:57:35.000Z,
         "user": {
+          "isOp": false,
           "name": "loveyoulooongtime",
           "profileUrl": "https://www.ozbargain.com.au/user/2269",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1166,6 +1199,7 @@ Don't remember the taste, lol</p>",
     "state": "shown",
     "timestamp": 2025-01-15T02:25:15.000Z,
     "user": {
+      "isOp": false,
       "name": "Zapwap",
       "profileUrl": "https://www.ozbargain.com.au/user/390068",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1193,6 +1227,7 @@ Don't remember the taste, lol</p>",
         "state": "shown",
         "timestamp": 2025-01-15T02:42:03.000Z,
         "user": {
+          "isOp": false,
           "name": "YOTR",
           "profileUrl": "https://www.ozbargain.com.au/user/65355",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1222,6 +1257,7 @@ Don't remember the taste, lol</p>",
                 "state": "shown",
                 "timestamp": 2025-01-15T07:16:18.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "Spendmore",
                   "profileUrl": "https://www.ozbargain.com.au/user/366774",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1247,6 +1283,7 @@ Don't remember the taste, lol</p>",
                 "state": "shown",
                 "timestamp": 2025-01-15T14:27:46.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "OzzyBrak",
                   "profileUrl": "https://www.ozbargain.com.au/user/26510",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1271,6 +1308,7 @@ Don't remember the taste, lol</p>",
             "state": "shown",
             "timestamp": 2025-01-15T05:30:35.000Z,
             "user": {
+              "isOp": false,
               "name": "caitsith01",
               "profileUrl": "https://www.ozbargain.com.au/user/131459",
               "thumbnailUrl": "https://files.ozbargain.com.au/u/59/131459-38.jpg?h=e2925e89",
@@ -1295,6 +1333,7 @@ Don't remember the taste, lol</p>",
         "state": "shown",
         "timestamp": 2025-01-15T04:13:35.000Z,
         "user": {
+          "isOp": false,
           "name": "Spendmore",
           "profileUrl": "https://www.ozbargain.com.au/user/366774",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1320,6 +1359,7 @@ Don't remember the taste, lol</p>",
         "state": "shown",
         "timestamp": 2025-01-15T08:05:26.000Z,
         "user": {
+          "isOp": false,
           "name": "kbw",
           "profileUrl": "https://www.ozbargain.com.au/user/226106",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/06/226106-38.jpg?h=3acd03e8",
@@ -1344,6 +1384,7 @@ Don't remember the taste, lol</p>",
     "state": "shown",
     "timestamp": 2025-01-15T02:26:19.000Z,
     "user": {
+      "isOp": false,
       "name": "Danger",
       "profileUrl": "https://www.ozbargain.com.au/user/106722",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1373,6 +1414,7 @@ Don't remember the taste, lol</p>",
             "state": "shown",
             "timestamp": 2025-01-15T08:50:46.000Z,
             "user": {
+              "isOp": false,
               "name": "nepalesesquirrel",
               "profileUrl": "https://www.ozbargain.com.au/user/288031",
               "thumbnailUrl": "https://files.ozbargain.com.au/u/31/288031-38.jpg?h=8c5e23d7",
@@ -1411,6 +1453,7 @@ Don't remember the taste, lol</p>",
         "state": "shown",
         "timestamp": 2025-01-15T02:45:44.000Z,
         "user": {
+          "isOp": false,
           "name": "tabboy",
           "profileUrl": "https://www.ozbargain.com.au/user/31775",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/75/31775-38.jpg?h=c15c10dc",
@@ -1435,6 +1478,7 @@ Don't remember the taste, lol</p>",
     "state": "shown",
     "timestamp": 2025-01-15T02:26:25.000Z,
     "user": {
+      "isOp": false,
       "name": "Palindrome777",
       "profileUrl": "https://www.ozbargain.com.au/user/400724",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1460,6 +1504,7 @@ Don't remember the taste, lol</p>",
     "state": "shown",
     "timestamp": 2025-01-15T02:42:59.000Z,
     "user": {
+      "isOp": false,
       "name": "brou",
       "profileUrl": "https://www.ozbargain.com.au/user/273216",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1487,6 +1532,7 @@ Don't remember the taste, lol</p>",
         "state": "shown",
         "timestamp": 2025-01-15T02:56:11.000Z,
         "user": {
+          "isOp": false,
           "name": "YOTR",
           "profileUrl": "https://www.ozbargain.com.au/user/65355",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1511,6 +1557,7 @@ Don't remember the taste, lol</p>",
     "state": "shown",
     "timestamp": 2025-01-15T02:49:23.000Z,
     "user": {
+      "isOp": false,
       "name": "Talby23",
       "profileUrl": "https://www.ozbargain.com.au/user/184857",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1550,6 +1597,7 @@ Don't remember the taste, lol</p>",
     "state": "shown",
     "timestamp": 2025-01-15T02:55:27.000Z,
     "user": {
+      "isOp": false,
       "name": "nubzy",
       "profileUrl": "https://www.ozbargain.com.au/user/36659",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1575,6 +1623,7 @@ Don't remember the taste, lol</p>",
     "state": "shown",
     "timestamp": 2025-01-15T02:56:20.000Z,
     "user": {
+      "isOp": false,
       "name": "evanssm2jp",
       "profileUrl": "https://www.ozbargain.com.au/user/288415",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1600,6 +1649,7 @@ Don't remember the taste, lol</p>",
     "state": "shown",
     "timestamp": 2025-01-15T03:01:31.000Z,
     "user": {
+      "isOp": false,
       "name": "jackwilk",
       "profileUrl": "https://www.ozbargain.com.au/user/92235",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1625,6 +1675,7 @@ Don't remember the taste, lol</p>",
     "state": "shown",
     "timestamp": 2025-01-15T03:42:00.000Z,
     "user": {
+      "isOp": false,
       "name": "9hundred",
       "profileUrl": "https://www.ozbargain.com.au/user/288370",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1667,6 +1718,7 @@ $50 for a carton of 500ml cans is great imo</p>",
     "state": "shown",
     "timestamp": 2025-01-15T04:24:58.000Z,
     "user": {
+      "isOp": false,
       "name": "serpentxx",
       "profileUrl": "https://www.ozbargain.com.au/user/171535",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1720,6 +1772,7 @@ $50 for a carton of 500ml cans is great imo</p>",
     "state": "shown",
     "timestamp": 2025-01-15T05:05:39.000Z,
     "user": {
+      "isOp": false,
       "name": "Benjamin7711",
       "profileUrl": "https://www.ozbargain.com.au/user/136295",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1759,6 +1812,7 @@ $50 for a carton of 500ml cans is great imo</p>",
     "state": "shown",
     "timestamp": 2025-01-15T05:40:13.000Z,
     "user": {
+      "isOp": false,
       "name": "loveyoulooongtime",
       "profileUrl": "https://www.ozbargain.com.au/user/2269",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1788,6 +1842,7 @@ $50 for a carton of 500ml cans is great imo</p>",
             "state": "shown",
             "timestamp": 2025-01-15T07:19:46.000Z,
             "user": {
+              "isOp": false,
               "name": "donman92",
               "profileUrl": "https://www.ozbargain.com.au/user/426434",
               "thumbnailUrl": "https://files.ozbargain.com.au/u/34/426434-38.jpg?h=df77e871",
@@ -1818,6 +1873,7 @@ No judgement, just analysis",
         "state": "shown",
         "timestamp": 2025-01-15T07:09:16.000Z,
         "user": {
+          "isOp": false,
           "name": "Pootie Tang",
           "profileUrl": "https://www.ozbargain.com.au/user/52821",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/21/52821-38.jpg?h=f16f63b4",
@@ -1842,6 +1898,7 @@ No judgement, just analysis",
     "state": "shown",
     "timestamp": 2025-01-15T06:02:06.000Z,
     "user": {
+      "isOp": false,
       "name": "donman92",
       "profileUrl": "https://www.ozbargain.com.au/user/426434",
       "thumbnailUrl": "https://files.ozbargain.com.au/u/34/426434-38.jpg?h=df77e871",
@@ -1867,6 +1924,7 @@ No judgement, just analysis",
     "state": "shown",
     "timestamp": 2025-01-15T06:17:24.000Z,
     "user": {
+      "isOp": false,
       "name": "worthy1",
       "profileUrl": "https://www.ozbargain.com.au/user/162885",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1894,6 +1952,7 @@ No judgement, just analysis",
         "state": "shown",
         "timestamp": 2025-01-15T07:09:28.000Z,
         "user": {
+          "isOp": false,
           "name": "jackwilk",
           "profileUrl": "https://www.ozbargain.com.au/user/92235",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1945,6 +2004,7 @@ No judgement, just analysis",
                             "state": "shown",
                             "timestamp": 2025-01-17T13:40:15.000Z,
                             "user": {
+                              "isOp": false,
                               "name": "ubiq",
                               "profileUrl": "https://www.ozbargain.com.au/user/527093",
                               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -1994,6 +2054,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
                         "state": "shown",
                         "timestamp": 2025-01-16T22:14:43.000Z,
                         "user": {
+                          "isOp": false,
                           "name": "Stewardo",
                           "profileUrl": "https://www.ozbargain.com.au/user/179159",
                           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2034,6 +2095,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
                     "state": "shown",
                     "timestamp": 2025-01-16T16:32:40.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "ubiq",
                       "profileUrl": "https://www.ozbargain.com.au/user/527093",
                       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2058,6 +2120,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
                 "state": "shown",
                 "timestamp": 2025-01-15T11:27:38.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "Stewardo",
                   "profileUrl": "https://www.ozbargain.com.au/user/179159",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2082,6 +2145,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
             "state": "shown",
             "timestamp": 2025-01-15T11:21:49.000Z,
             "user": {
+              "isOp": false,
               "name": "ubiq",
               "profileUrl": "https://www.ozbargain.com.au/user/527093",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2106,6 +2170,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
         "state": "shown",
         "timestamp": 2025-01-15T07:11:14.000Z,
         "user": {
+          "isOp": false,
           "name": "Stewardo",
           "profileUrl": "https://www.ozbargain.com.au/user/179159",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2130,6 +2195,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
     "state": "shown",
     "timestamp": 2025-01-15T06:31:46.000Z,
     "user": {
+      "isOp": false,
       "name": "Drpepper666",
       "profileUrl": "https://www.ozbargain.com.au/user/164017",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2155,6 +2221,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
     "state": "shown",
     "timestamp": 2025-01-15T07:20:45.000Z,
     "user": {
+      "isOp": false,
       "name": "Hampton Wick",
       "profileUrl": "https://www.ozbargain.com.au/user/365387",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2184,6 +2251,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
             "state": "shown",
             "timestamp": 2025-01-15T13:04:05.000Z,
             "user": {
+              "isOp": false,
               "name": "Benjamin7711",
               "profileUrl": "https://www.ozbargain.com.au/user/136295",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2208,6 +2276,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
         "state": "shown",
         "timestamp": 2025-01-15T11:41:16.000Z,
         "user": {
+          "isOp": false,
           "name": "9hundred",
           "profileUrl": "https://www.ozbargain.com.au/user/288370",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2232,6 +2301,7 @@ If you give these drinkers beers made in Europe they will tell you it tastes lik
     "state": "shown",
     "timestamp": 2025-01-15T10:07:59.000Z,
     "user": {
+      "isOp": false,
       "name": "cashless",
       "profileUrl": "https://www.ozbargain.com.au/user/68753",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2329,6 +2399,7 @@ A Japanese man celebrated his 13th year  holidaying there when I visited. Was th
                     "state": "shown",
                     "timestamp": 2025-01-28T08:34:55.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "INFIDEL",
                       "profileUrl": "https://www.ozbargain.com.au/user/58047",
                       "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
@@ -2365,6 +2436,7 @@ Can not stand the Kuta's of the world (so don't want overly developed), but neve
                 "state": "shown",
                 "timestamp": 2025-01-28T08:10:04.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "tunzafun001",
                   "profileUrl": "https://www.ozbargain.com.au/user/106531",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2417,6 +2489,7 @@ Experienced snow there May🌨",
             "state": "shown",
             "timestamp": 2025-01-28T02:32:57.000Z,
             "user": {
+              "isOp": false,
               "name": "INFIDEL",
               "profileUrl": "https://www.ozbargain.com.au/user/58047",
               "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
@@ -2441,6 +2514,7 @@ Experienced snow there May🌨",
         "state": "shown",
         "timestamp": 2025-01-28T02:10:46.000Z,
         "user": {
+          "isOp": false,
           "name": "clubhonda",
           "profileUrl": "https://www.ozbargain.com.au/user/53455",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2488,6 +2562,7 @@ Experienced snow there May🌨",
                     "state": "shown",
                     "timestamp": 2025-01-28T04:20:03.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "jv",
                       "profileUrl": "https://www.ozbargain.com.au/user/14180",
                       "thumbnailUrl": "https://files.ozbargain.com.au/u/80/14180-38.jpg?h=3d04a44d",
@@ -2535,6 +2610,7 @@ Ie..hasn't rained in SA in months…means it's all coming down somewhere else (i
                     "state": "shown",
                     "timestamp": 2025-01-28T05:44:19.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "tunzafun001",
                       "profileUrl": "https://www.ozbargain.com.au/user/106531",
                       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2559,6 +2635,7 @@ Ie..hasn't rained in SA in months…means it's all coming down somewhere else (i
                 "state": "shown",
                 "timestamp": 2025-01-28T04:09:18.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "The Wololo Wombat",
                   "profileUrl": "https://www.ozbargain.com.au/user/168859",
                   "thumbnailUrl": "https://files.ozbargain.com.au/u/59/168859-38.jpg?h=480fcdca",
@@ -2584,6 +2661,7 @@ Ie..hasn't rained in SA in months…means it's all coming down somewhere else (i
                 "state": "shown",
                 "timestamp": 2025-01-28T05:16:25.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "he11bent",
                   "profileUrl": "https://www.ozbargain.com.au/user/314480",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2640,6 +2718,7 @@ While the polar vortex may be bringing extreme cold temperatures to one part of 
                 "state": "shown",
                 "timestamp": 2025-01-28T05:50:47.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "INFIDEL",
                   "profileUrl": "https://www.ozbargain.com.au/user/58047",
                   "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
@@ -2652,6 +2731,7 @@ While the polar vortex may be bringing extreme cold temperatures to one part of 
             "state": "hidden",
             "timestamp": 2025-01-28T03:30:47.000Z,
             "user": {
+              "isOp": false,
               "name": "jv",
               "profileUrl": "https://www.ozbargain.com.au/user/14180",
               "thumbnailUrl": "https://files.ozbargain.com.au/u/80/14180-20.jpg?h=3d04a44d",
@@ -2690,6 +2770,7 @@ I wouldn't plan for May, but based on current conditions…there should be snow 
                 "state": "shown",
                 "timestamp": 2025-01-28T05:46:43.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "tunzafun001",
                   "profileUrl": "https://www.ozbargain.com.au/user/106531",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2742,6 +2823,7 @@ Enjoyed the low stress beach  holiday.</p>
                 "state": "shown",
                 "timestamp": 2025-01-28T05:47:12.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "INFIDEL",
                   "profileUrl": "https://www.ozbargain.com.au/user/58047",
                   "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
@@ -2775,6 +2857,7 @@ I was planning a May snow trip and reconsidered</p>",
             "state": "shown",
             "timestamp": 2025-01-28T03:57:44.000Z,
             "user": {
+              "isOp": false,
               "name": "smoothymcmellow",
               "profileUrl": "https://www.ozbargain.com.au/user/45932",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2802,6 +2885,7 @@ Have been there in May - snow ploughs were needed to keep some roads  clear. Mor
         "state": "shown",
         "timestamp": 2025-01-28T02:30:03.000Z,
         "user": {
+          "isOp": false,
           "name": "INFIDEL",
           "profileUrl": "https://www.ozbargain.com.au/user/58047",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
@@ -2869,6 +2953,7 @@ Beautiful place though ..",
                         "state": "shown",
                         "timestamp": 2025-01-28T08:19:27.000Z,
                         "user": {
+                          "isOp": false,
                           "name": "tunzafun001",
                           "profileUrl": "https://www.ozbargain.com.au/user/106531",
                           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -2937,6 +3022,7 @@ I personally like to go off-peak to Zermatt but YMMV.",
                     "state": "shown",
                     "timestamp": 2025-01-28T06:32:16.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "Tiggrrrrrjv",
                       "profileUrl": "https://www.ozbargain.com.au/user/142212",
                       "thumbnailUrl": "https://files.ozbargain.com.au/u/12/142212-38.jpg?h=a0acbaca",
@@ -2999,6 +3085,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
                 "state": "shown",
                 "timestamp": 2025-01-28T05:52:18.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "tunzafun001",
                   "profileUrl": "https://www.ozbargain.com.au/user/106531",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3058,6 +3145,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
             "state": "shown",
             "timestamp": 2025-01-28T03:34:19.000Z,
             "user": {
+              "isOp": false,
               "name": "jv",
               "profileUrl": "https://www.ozbargain.com.au/user/14180",
               "thumbnailUrl": "https://files.ozbargain.com.au/u/80/14180-38.jpg?h=3d04a44d",
@@ -3082,6 +3170,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
         "state": "shown",
         "timestamp": 2025-01-28T03:12:53.000Z,
         "user": {
+          "isOp": false,
           "name": "Tiggrrrrr",
           "profileUrl": "https://www.ozbargain.com.au/user/142212",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/12/142212-38.jpg?h=a0acbaca",
@@ -3109,6 +3198,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
             "state": "shown",
             "timestamp": 2025-01-28T05:53:40.000Z,
             "user": {
+              "isOp": false,
               "name": "tunzafun001",
               "profileUrl": "https://www.ozbargain.com.au/user/106531",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3133,6 +3223,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
         "state": "shown",
         "timestamp": 2025-01-28T03:14:54.000Z,
         "user": {
+          "isOp": false,
           "name": "hippyhippy",
           "profileUrl": "https://www.ozbargain.com.au/user/87811",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3157,6 +3248,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
     "state": "shown",
     "timestamp": 2025-01-28T01:59:12.000Z,
     "user": {
+      "isOp": false,
       "name": "tunzafun001",
       "profileUrl": "https://www.ozbargain.com.au/user/106531",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3200,6 +3292,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
         "state": "shown",
         "timestamp": 2025-01-28T02:04:30.000Z,
         "user": {
+          "isOp": true,
           "name": "SnowDragon",
           "profileUrl": "https://www.ozbargain.com.au/user/109675",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/75/109675-38.jpg?h=2a3055db",
@@ -3229,6 +3322,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
                 "state": "shown",
                 "timestamp": 2025-01-28T05:42:00.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "INFIDEL",
                   "profileUrl": "https://www.ozbargain.com.au/user/58047",
                   "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
@@ -3254,6 +3348,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
                 "state": "shown",
                 "timestamp": 2025-01-28T06:35:34.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "Poor Ass",
                   "profileUrl": "https://www.ozbargain.com.au/user/294154",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3292,6 +3387,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
             "state": "shown",
             "timestamp": 2025-01-28T04:02:37.000Z,
             "user": {
+              "isOp": false,
               "name": "wisdomtooth",
               "profileUrl": "https://www.ozbargain.com.au/user/10235",
               "thumbnailUrl": "https://files.ozbargain.com.au/u/35/10235-38.jpg?h=cf9ed451",
@@ -3330,6 +3426,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
         "state": "shown",
         "timestamp": 2025-01-28T02:24:13.000Z,
         "user": {
+          "isOp": false,
           "name": "INFIDEL",
           "profileUrl": "https://www.ozbargain.com.au/user/58047",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/47/58047-38.jpg?h=b8821512",
@@ -3354,6 +3451,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
     "state": "shown",
     "timestamp": 2025-01-28T02:02:14.000Z,
     "user": {
+      "isOp": false,
       "name": "Yaren24",
       "profileUrl": "https://www.ozbargain.com.au/user/196410",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3381,6 +3479,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
         "state": "shown",
         "timestamp": 2025-01-28T02:07:08.000Z,
         "user": {
+          "isOp": false,
           "name": "ozbargainer88",
           "profileUrl": "https://www.ozbargain.com.au/user/111728",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/28/111728-38.jpg?h=0a922ec5",
@@ -3406,6 +3505,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
         "state": "shown",
         "timestamp": 2025-01-28T02:07:53.000Z,
         "user": {
+          "isOp": false,
           "name": "WhyAmICommenting",
           "profileUrl": "https://www.ozbargain.com.au/user/113687",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3455,6 +3555,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
                         "state": "shown",
                         "timestamp": 2025-01-28T04:08:52.000Z,
                         "user": {
+                          "isOp": false,
                           "name": "snep",
                           "profileUrl": "https://www.ozbargain.com.au/user/281981",
                           "thumbnailUrl": "https://files.ozbargain.com.au/u/81/281981-38.jpg?h=86f5889b",
@@ -3496,6 +3597,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
                         "state": "shown",
                         "timestamp": 2025-01-28T04:14:07.000Z,
                         "user": {
+                          "isOp": false,
                           "name": "hardya",
                           "profileUrl": "https://www.ozbargain.com.au/user/305180",
                           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3537,6 +3639,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
                         "state": "shown",
                         "timestamp": 2025-01-28T04:38:15.000Z,
                         "user": {
+                          "isOp": false,
                           "name": "philotex",
                           "profileUrl": "https://www.ozbargain.com.au/user/303407",
                           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3577,6 +3680,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
                     "state": "shown",
                     "timestamp": 2025-01-28T03:40:29.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "snackpacket",
                       "profileUrl": "https://www.ozbargain.com.au/user/181309",
                       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3601,6 +3705,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
                 "state": "shown",
                 "timestamp": 2025-01-28T03:34:56.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "lachlantula",
                   "profileUrl": "https://www.ozbargain.com.au/user/335423",
                   "thumbnailUrl": "https://files.ozbargain.com.au/u/23/335423-38.jpg?h=5411d9b4",
@@ -3626,6 +3731,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
                 "state": "shown",
                 "timestamp": 2025-01-28T04:41:53.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "philotex",
                   "profileUrl": "https://www.ozbargain.com.au/user/303407",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3650,6 +3756,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
             "state": "shown",
             "timestamp": 2025-01-28T03:31:05.000Z,
             "user": {
+              "isOp": false,
               "name": "snackpacket",
               "profileUrl": "https://www.ozbargain.com.au/user/181309",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3675,6 +3782,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
             "state": "shown",
             "timestamp": 2025-01-28T03:43:54.000Z,
             "user": {
+              "isOp": false,
               "name": "fookos",
               "profileUrl": "https://www.ozbargain.com.au/user/63913",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3702,6 +3810,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
                 "state": "shown",
                 "timestamp": 2025-01-28T04:25:55.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "HangryCakeStore",
                   "profileUrl": "https://www.ozbargain.com.au/user/178548",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3745,6 +3854,7 @@ Anyone booked a redemption flight to Japan just recently. Wonder if there is any
                     "state": "shown",
                     "timestamp": 2025-01-28T05:07:36.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "dinglejerry",
                       "profileUrl": "https://www.ozbargain.com.au/user/297333",
                       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3781,6 +3891,7 @@ As I went back over the years I did see more and more. Went back last year for t
                 "state": "shown",
                 "timestamp": 2025-01-28T05:06:02.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "Cyphar",
                   "profileUrl": "https://www.ozbargain.com.au/user/104406",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3805,6 +3916,7 @@ As I went back over the years I did see more and more. Went back last year for t
             "state": "shown",
             "timestamp": 2025-01-28T04:12:35.000Z,
             "user": {
+              "isOp": false,
               "name": "dinglejerry",
               "profileUrl": "https://www.ozbargain.com.au/user/297333",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3832,6 +3944,7 @@ As I went back over the years I did see more and more. Went back last year for t
                 "state": "shown",
                 "timestamp": 2025-01-28T07:57:45.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "HangryCakeStore",
                   "profileUrl": "https://www.ozbargain.com.au/user/178548",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3856,6 +3969,7 @@ As I went back over the years I did see more and more. Went back last year for t
             "state": "shown",
             "timestamp": 2025-01-28T05:36:11.000Z,
             "user": {
+              "isOp": false,
               "name": "frforreal",
               "profileUrl": "https://www.ozbargain.com.au/user/343758",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3880,6 +3994,7 @@ As I went back over the years I did see more and more. Went back last year for t
         "state": "shown",
         "timestamp": 2025-01-28T02:08:03.000Z,
         "user": {
+          "isOp": false,
           "name": "MaMan",
           "profileUrl": "https://www.ozbargain.com.au/user/87782",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -3945,6 +4060,7 @@ As I went back over the years I did see more and more. Went back last year for t
                             "state": "shown",
                             "timestamp": 2025-01-28T03:41:33.000Z,
                             "user": {
+                              "isOp": false,
                               "name": "huey",
                               "profileUrl": "https://www.ozbargain.com.au/user/22820",
                               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4005,6 +4121,7 @@ It's still a good deal but if I can afford not to be on a jetstar flight for tha
                         "state": "shown",
                         "timestamp": 2025-01-28T03:28:25.000Z,
                         "user": {
+                          "isOp": false,
                           "name": "mecusherb",
                           "profileUrl": "https://www.ozbargain.com.au/user/135343",
                           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4048,6 +4165,7 @@ It's still a good deal but if I can afford not to be on a jetstar flight for tha
                     "state": "shown",
                     "timestamp": 2025-01-28T03:24:33.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "Juicy Goblin",
                       "profileUrl": "https://www.ozbargain.com.au/user/474033",
                       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4072,6 +4190,7 @@ It's still a good deal but if I can afford not to be on a jetstar flight for tha
                 "state": "shown",
                 "timestamp": 2025-01-28T02:56:35.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "mecusherb",
                   "profileUrl": "https://www.ozbargain.com.au/user/135343",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4110,6 +4229,7 @@ It's still a good deal but if I can afford not to be on a jetstar flight for tha
             "state": "shown",
             "timestamp": 2025-01-28T02:26:42.000Z,
             "user": {
+              "isOp": false,
               "name": "Juicy Goblin",
               "profileUrl": "https://www.ozbargain.com.au/user/474033",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4135,6 +4255,7 @@ It's still a good deal but if I can afford not to be on a jetstar flight for tha
             "state": "shown",
             "timestamp": 2025-01-28T03:41:53.000Z,
             "user": {
+              "isOp": false,
               "name": "sween64",
               "profileUrl": "https://www.ozbargain.com.au/user/84851",
               "thumbnailUrl": "https://files.ozbargain.com.au/u/51/84851-38.jpg?h=ebf3c78b",
@@ -4180,6 +4301,7 @@ It's still a good deal but if I can afford not to be on a jetstar flight for tha
                     "state": "shown",
                     "timestamp": 2025-01-28T05:36:02.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "iluvbargainz",
                       "profileUrl": "https://www.ozbargain.com.au/user/479367",
                       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4204,6 +4326,7 @@ It's still a good deal but if I can afford not to be on a jetstar flight for tha
                 "state": "shown",
                 "timestamp": 2025-01-28T04:59:10.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "mecusherb",
                   "profileUrl": "https://www.ozbargain.com.au/user/135343",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4242,6 +4365,7 @@ It's still a good deal but if I can afford not to be on a jetstar flight for tha
             "state": "shown",
             "timestamp": 2025-01-28T04:44:47.000Z,
             "user": {
+              "isOp": false,
               "name": "iluvbargainz",
               "profileUrl": "https://www.ozbargain.com.au/user/479367",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4314,6 +4438,7 @@ I did Qantas direct return for ",
         "state": "shown",
         "timestamp": 2025-01-28T02:08:27.000Z,
         "user": {
+          "isOp": false,
           "name": "mecusherb",
           "profileUrl": "https://www.ozbargain.com.au/user/135343",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4345,6 +4470,7 @@ Felt like half of my colleagues took three weeks for Japan, including myself.",
         "state": "shown",
         "timestamp": 2025-01-28T02:25:15.000Z,
         "user": {
+          "isOp": false,
           "name": "iLikePizza",
           "profileUrl": "https://www.ozbargain.com.au/user/251352",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4374,6 +4500,7 @@ Felt like half of my colleagues took three weeks for Japan, including myself.",
                 "state": "shown",
                 "timestamp": 2025-01-28T03:08:25.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "corbz",
                   "profileUrl": "https://www.ozbargain.com.au/user/16669",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4398,6 +4525,7 @@ Felt like half of my colleagues took three weeks for Japan, including myself.",
             "state": "shown",
             "timestamp": 2025-01-28T02:34:18.000Z,
             "user": {
+              "isOp": false,
               "name": "doobey1231",
               "profileUrl": "https://www.ozbargain.com.au/user/396252",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4435,6 +4563,7 @@ Between the two, I’d go to Japan next before Korea.",
             "state": "shown",
             "timestamp": 2025-01-28T02:35:46.000Z,
             "user": {
+              "isOp": false,
               "name": "JimB",
               "profileUrl": "https://www.ozbargain.com.au/user/125929",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4460,6 +4589,7 @@ Between the two, I’d go to Japan next before Korea.",
             "state": "shown",
             "timestamp": 2025-01-28T02:39:29.000Z,
             "user": {
+              "isOp": false,
               "name": "TightAl",
               "profileUrl": "https://www.ozbargain.com.au/user/108431",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4485,6 +4615,7 @@ Between the two, I’d go to Japan next before Korea.",
             "state": "shown",
             "timestamp": 2025-01-28T02:43:49.000Z,
             "user": {
+              "isOp": false,
               "name": "ozbargainer88",
               "profileUrl": "https://www.ozbargain.com.au/user/111728",
               "thumbnailUrl": "https://files.ozbargain.com.au/u/28/111728-38.jpg?h=0a922ec5",
@@ -4497,6 +4628,7 @@ Between the two, I’d go to Japan next before Korea.",
         "state": "hidden",
         "timestamp": 2025-01-28T02:27:42.000Z,
         "user": {
+          "isOp": false,
           "name": "donman92",
           "profileUrl": "https://www.ozbargain.com.au/user/426434",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/34/426434-20.jpg?h=df77e871",
@@ -4521,6 +4653,7 @@ Between the two, I’d go to Japan next before Korea.",
         "state": "shown",
         "timestamp": 2025-01-28T02:47:13.000Z,
         "user": {
+          "isOp": false,
           "name": "wetsandwich",
           "profileUrl": "https://www.ozbargain.com.au/user/206779",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4546,6 +4679,7 @@ Between the two, I’d go to Japan next before Korea.",
         "state": "shown",
         "timestamp": 2025-01-28T02:53:04.000Z,
         "user": {
+          "isOp": false,
           "name": "umoddbro",
           "profileUrl": "https://www.ozbargain.com.au/user/74197",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4571,6 +4705,7 @@ Between the two, I’d go to Japan next before Korea.",
         "state": "shown",
         "timestamp": 2025-01-28T03:17:09.000Z,
         "user": {
+          "isOp": false,
           "name": "edumacation",
           "profileUrl": "https://www.ozbargain.com.au/user/192500",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4596,6 +4731,7 @@ Between the two, I’d go to Japan next before Korea.",
         "state": "shown",
         "timestamp": 2025-01-28T04:23:45.000Z,
         "user": {
+          "isOp": false,
           "name": "HangryCakeStore",
           "profileUrl": "https://www.ozbargain.com.au/user/178548",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4620,6 +4756,7 @@ Between the two, I’d go to Japan next before Korea.",
     "state": "shown",
     "timestamp": 2025-01-28T02:03:59.000Z,
     "user": {
+      "isOp": false,
       "name": "tightm8",
       "profileUrl": "https://www.ozbargain.com.au/user/128303",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4645,6 +4782,7 @@ Between the two, I’d go to Japan next before Korea.",
     "state": "shown",
     "timestamp": 2025-01-28T02:06:36.000Z,
     "user": {
+      "isOp": false,
       "name": "VBHBAU",
       "profileUrl": "https://www.ozbargain.com.au/user/502657",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4696,6 +4834,7 @@ Between the two, I’d go to Japan next before Korea.",
                         "state": "shown",
                         "timestamp": 2025-01-28T02:33:19.000Z,
                         "user": {
+                          "isOp": false,
                           "name": "quackie",
                           "profileUrl": "https://www.ozbargain.com.au/user/178946",
                           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4736,6 +4875,7 @@ Between the two, I’d go to Japan next before Korea.",
                     "state": "shown",
                     "timestamp": 2025-01-28T02:29:05.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "mecusherb",
                       "profileUrl": "https://www.ozbargain.com.au/user/135343",
                       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4760,6 +4900,7 @@ Between the two, I’d go to Japan next before Korea.",
                 "state": "shown",
                 "timestamp": 2025-01-28T02:25:55.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "sistermay",
                   "profileUrl": "https://www.ozbargain.com.au/user/138642",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4785,6 +4926,7 @@ Between the two, I’d go to Japan next before Korea.",
                 "state": "shown",
                 "timestamp": 2025-01-28T03:18:28.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "edumacation",
                   "profileUrl": "https://www.ozbargain.com.au/user/192500",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4810,6 +4952,7 @@ Between the two, I’d go to Japan next before Korea.",
                 "state": "shown",
                 "timestamp": 2025-01-28T05:29:07.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "eli8te",
                   "profileUrl": "https://www.ozbargain.com.au/user/380177",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4834,6 +4977,7 @@ Between the two, I’d go to Japan next before Korea.",
             "state": "shown",
             "timestamp": 2025-01-28T02:24:07.000Z,
             "user": {
+              "isOp": false,
               "name": "mecusherb",
               "profileUrl": "https://www.ozbargain.com.au/user/135343",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4879,6 +5023,7 @@ Between the two, I’d go to Japan next before Korea.",
                     "state": "shown",
                     "timestamp": 2025-01-28T02:31:04.000Z,
                     "user": {
+                      "isOp": false,
                       "name": "quackie",
                       "profileUrl": "https://www.ozbargain.com.au/user/178946",
                       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4903,6 +5048,7 @@ Between the two, I’d go to Japan next before Korea.",
                 "state": "shown",
                 "timestamp": 2025-01-28T02:27:12.000Z,
                 "user": {
+                  "isOp": false,
                   "name": "sistermay",
                   "profileUrl": "https://www.ozbargain.com.au/user/138642",
                   "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4927,6 +5073,7 @@ Between the two, I’d go to Japan next before Korea.",
             "state": "shown",
             "timestamp": 2025-01-28T02:24:27.000Z,
             "user": {
+              "isOp": false,
               "name": "quackie",
               "profileUrl": "https://www.ozbargain.com.au/user/178946",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4951,6 +5098,7 @@ Between the two, I’d go to Japan next before Korea.",
         "state": "shown",
         "timestamp": 2025-01-28T02:21:48.000Z,
         "user": {
+          "isOp": false,
           "name": "unhuman",
           "profileUrl": "https://www.ozbargain.com.au/user/199749",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -4978,6 +5126,7 @@ Between the two, I’d go to Japan next before Korea.",
             "state": "shown",
             "timestamp": 2025-01-28T03:15:46.000Z,
             "user": {
+              "isOp": false,
               "name": "sistermay",
               "profileUrl": "https://www.ozbargain.com.au/user/138642",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5002,6 +5151,7 @@ Between the two, I’d go to Japan next before Korea.",
         "state": "shown",
         "timestamp": 2025-01-28T02:48:12.000Z,
         "user": {
+          "isOp": false,
           "name": "ozbargainer88",
           "profileUrl": "https://www.ozbargain.com.au/user/111728",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/28/111728-38.jpg?h=0a922ec5",
@@ -5026,6 +5176,7 @@ Between the two, I’d go to Japan next before Korea.",
     "state": "shown",
     "timestamp": 2025-01-28T02:07:31.000Z,
     "user": {
+      "isOp": false,
       "name": "sistermay",
       "profileUrl": "https://www.ozbargain.com.au/user/138642",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5051,6 +5202,7 @@ Between the two, I’d go to Japan next before Korea.",
     "state": "shown",
     "timestamp": 2025-01-28T02:24:41.000Z,
     "user": {
+      "isOp": false,
       "name": "Cappa87",
       "profileUrl": "https://www.ozbargain.com.au/user/391252",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5078,6 +5230,7 @@ Between the two, I’d go to Japan next before Korea.",
         "state": "shown",
         "timestamp": 2025-01-28T02:31:14.000Z,
         "user": {
+          "isOp": false,
           "name": "mecusherb",
           "profileUrl": "https://www.ozbargain.com.au/user/135343",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5103,6 +5256,7 @@ Between the two, I’d go to Japan next before Korea.",
         "state": "shown",
         "timestamp": 2025-01-28T02:37:36.000Z,
         "user": {
+          "isOp": false,
           "name": "JimB",
           "profileUrl": "https://www.ozbargain.com.au/user/125929",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5128,6 +5282,7 @@ Between the two, I’d go to Japan next before Korea.",
         "state": "shown",
         "timestamp": 2025-01-28T02:50:50.000Z,
         "user": {
+          "isOp": false,
           "name": "thegourou20",
           "profileUrl": "https://www.ozbargain.com.au/user/153258",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5153,6 +5308,7 @@ Between the two, I’d go to Japan next before Korea.",
         "state": "shown",
         "timestamp": 2025-01-28T03:05:44.000Z,
         "user": {
+          "isOp": false,
           "name": "hanxtom",
           "profileUrl": "https://www.ozbargain.com.au/user/391413",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5178,6 +5334,7 @@ Between the two, I’d go to Japan next before Korea.",
         "state": "shown",
         "timestamp": 2025-01-28T03:44:37.000Z,
         "user": {
+          "isOp": false,
           "name": "sween64",
           "profileUrl": "https://www.ozbargain.com.au/user/84851",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/51/84851-38.jpg?h=ebf3c78b",
@@ -5205,6 +5362,7 @@ Which port to choose if buying now,  planning later? Osaka or Tokyo? Going with 
     "state": "shown",
     "timestamp": 2025-01-28T02:26:53.000Z,
     "user": {
+      "isOp": false,
       "name": "dealmaker",
       "profileUrl": "https://www.ozbargain.com.au/user/123991",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5234,6 +5392,7 @@ Which port to choose if buying now,  planning later? Osaka or Tokyo? Going with 
             "state": "shown",
             "timestamp": 2025-01-28T02:43:20.000Z,
             "user": {
+              "isOp": false,
               "name": "jessed",
               "profileUrl": "https://www.ozbargain.com.au/user/506040",
               "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5284,6 +5443,7 @@ Year before, when the sale went public the site crashed, dates were selling out 
         "state": "shown",
         "timestamp": 2025-01-28T02:41:17.000Z,
         "user": {
+          "isOp": false,
           "name": "Juicy Goblin",
           "profileUrl": "https://www.ozbargain.com.au/user/474033",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5315,6 +5475,7 @@ There may be another chance each month at a similar sale.",
         "state": "shown",
         "timestamp": 2025-01-28T02:48:04.000Z,
         "user": {
+          "isOp": false,
           "name": "wetsandwich",
           "profileUrl": "https://www.ozbargain.com.au/user/206779",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5384,6 +5545,7 @@ Edit: total price difference is only $45 due to club price fare gap. Probably wo
     "state": "shown",
     "timestamp": 2025-01-28T02:27:07.000Z,
     "user": {
+      "isOp": false,
       "name": "jessed",
       "profileUrl": "https://www.ozbargain.com.au/user/506040",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5425,6 +5587,7 @@ Edit: total price difference is only $45 due to club price fare gap. Probably wo
         "state": "shown",
         "timestamp": 2025-01-28T04:01:17.000Z,
         "user": {
+          "isOp": false,
           "name": "CheapFlightHunter",
           "profileUrl": "https://www.ozbargain.com.au/user/137506",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/06/137506-38.jpg?h=58c375bd",
@@ -5463,6 +5626,7 @@ Edit: total price difference is only $45 due to club price fare gap. Probably wo
     "state": "shown",
     "timestamp": 2025-01-28T02:28:16.000Z,
     "user": {
+      "isOp": false,
       "name": "Farrba",
       "profileUrl": "https://www.ozbargain.com.au/user/25332",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5496,6 +5660,7 @@ Going between Melbourne and Hobart, I would agree that the delay will usually be
         "state": "shown",
         "timestamp": 2025-01-28T02:48:56.000Z,
         "user": {
+          "isOp": false,
           "name": "wetsandwich",
           "profileUrl": "https://www.ozbargain.com.au/user/206779",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5521,6 +5686,7 @@ Going between Melbourne and Hobart, I would agree that the delay will usually be
         "state": "shown",
         "timestamp": 2025-01-28T03:04:11.000Z,
         "user": {
+          "isOp": false,
           "name": "hanxtom",
           "profileUrl": "https://www.ozbargain.com.au/user/391413",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5546,6 +5712,7 @@ Going between Melbourne and Hobart, I would agree that the delay will usually be
         "state": "shown",
         "timestamp": 2025-01-28T05:35:22.000Z,
         "user": {
+          "isOp": false,
           "name": "iluvbargainz",
           "profileUrl": "https://www.ozbargain.com.au/user/479367",
           "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5571,6 +5738,7 @@ Going between Melbourne and Hobart, I would agree that the delay will usually be
         "state": "shown",
         "timestamp": 2025-01-28T07:30:11.000Z,
         "user": {
+          "isOp": false,
           "name": "Mike Nolan",
           "profileUrl": "https://www.ozbargain.com.au/user/498126",
           "thumbnailUrl": "https://files.ozbargain.com.au/u/26/498126-38.jpg?h=635d144d",
@@ -5595,6 +5763,7 @@ Going between Melbourne and Hobart, I would agree that the delay will usually be
     "state": "shown",
     "timestamp": 2025-01-28T02:31:32.000Z,
     "user": {
+      "isOp": false,
       "name": "Noobist45",
       "profileUrl": "https://www.ozbargain.com.au/user/58165",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
@@ -5620,11 +5789,3238 @@ Going between Melbourne and Hobart, I would agree that the delay will usually be
     "state": "shown",
     "timestamp": 2025-01-28T02:38:52.000Z,
     "user": {
+      "isOp": false,
       "name": "JimB",
       "profileUrl": "https://www.ozbargain.com.au/user/125929",
       "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
     },
     "votes": 0,
+  },
+]
+`;
+
+exports[`Works with missing comments 1`] = `
+[
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 21,
+          "rawText": "<p>Nice find, OP.</p>",
+          "startIndex": 0,
+          "text": "Nice find, OP.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Nice find, OP.</p>",
+    },
+    "id": "14909522",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T11:48:57.000Z,
+    "user": {
+      "isOp": false,
+      "name": "bboz",
+      "profileUrl": "https://www.ozbargain.com.au/user/372272",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 28,
+                  "rawText": "<p>Forums, torrents etc.</p>",
+                  "startIndex": 0,
+                  "text": "Forums, torrents etc.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Forums, torrents etc.</p>",
+            },
+            "id": "14909700",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-01-31T12:44:25.000Z,
+            "user": {
+              "isOp": false,
+              "name": "Mechz",
+              "profileUrl": "https://www.ozbargain.com.au/user/147441",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/41/147441-38.jpg?h=60b3beca",
+            },
+            "votes": 1,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 152,
+              "rawText": "<p>Any idea how to get one for an 07' IS250? I had never even thought about getting a repair manual until this post but it could prove quite useful.</p>",
+              "startIndex": 0,
+              "text": "Any idea how to get one for an 07' IS250? I had never even thought about getting a repair manual until this post but it could prove quite useful.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Any idea how to get one for an 07' IS250? I had never even thought about getting a repair manual until this post but it could prove quite useful.</p>",
+        },
+        "id": "14909665",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T12:32:41.000Z,
+        "user": {
+          "isOp": false,
+          "name": "sina566",
+          "profileUrl": "https://www.ozbargain.com.au/user/159315",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 141,
+              "rawText": "<p>Each to their own on this deal. Nothing beats having the hardcopy of these when you're under the car trying to reach a difficult spot.</p>",
+              "startIndex": 0,
+              "text": "Each to their own on this deal. Nothing beats having the hardcopy of these when you're under the car trying to reach a difficult spot.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Each to their own on this deal. Nothing beats having the hardcopy of these when you're under the car trying to reach a difficult spot.</p>",
+        },
+        "id": "16213770",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-29T13:16:30.000Z,
+        "user": {
+          "isOp": false,
+          "name": "Lets Make Sandwiches",
+          "profileUrl": "https://www.ozbargain.com.au/user/116195",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/95/116195-38.jpg?h=90e3b3e8",
+        },
+        "votes": -1,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 121,
+          "rawText": "<p>Lexus ES and RX only. Looks like all models.</p>
+
+<p>But a great deal +1 thank you op</p>
+
+<p>Edit: not all models</p>",
+          "startIndex": 0,
+          "text": "Lexus ES and RX only. Looks like all models.
+
+But a great deal +1 thank you op
+
+Edit: not all models",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Lexus ES and RX only. Looks like all models.</p>
+
+<p>But a great deal +1 thank you op</p>
+
+<p>Edit: not all models</p>",
+    },
+    "id": "14909557",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T11:57:29.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Agileduck",
+      "profileUrl": "https://www.ozbargain.com.au/user/371327",
+      "thumbnailUrl": "https://files.ozbargain.com.au/u/27/371327-38.jpg?h=98959c04",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 30,
+          "rawText": "<p>Thanks op .real handy .</p>",
+          "startIndex": 0,
+          "text": "Thanks op .real handy .",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Thanks op .real handy .</p>",
+    },
+    "id": "14909561",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T11:58:01.000Z,
+    "user": {
+      "isOp": false,
+      "name": "spock",
+      "profileUrl": "https://www.ozbargain.com.au/user/208363",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 52,
+              "rawText": "<p>The only Liverpool I know is the British one.</p>",
+              "startIndex": 0,
+              "text": "The only Liverpool I know is the British one.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>The only Liverpool I know is the British one.</p>",
+        },
+        "id": "14913454",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T10:12:16.000Z,
+        "user": {
+          "isOp": false,
+          "name": "Mr Bob Dobalina",
+          "profileUrl": "https://www.ozbargain.com.au/user/394568",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 107,
+          "rawText": "<p>Perfect! I have a VW beetle so I'm entitled to anything from Liverpool: she loves me yeah yeah yeah.</p>",
+          "startIndex": 0,
+          "text": "Perfect! I have a VW beetle so I'm entitled to anything from Liverpool: she loves me yeah yeah yeah.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Perfect! I have a VW beetle so I'm entitled to anything from Liverpool: she loves me yeah yeah yeah.</p>",
+    },
+    "id": "14909566",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T11:59:27.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Travelbug",
+      "profileUrl": "https://www.ozbargain.com.au/user/254045",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 6,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 11,
+              "rawText": "<p>zomg</p>",
+              "startIndex": 0,
+              "text": "zomg",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>zomg</p>",
+        },
+        "id": "15559302",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-08-01T02:25:02.000Z,
+        "user": {
+          "isOp": false,
+          "name": "s1Lence",
+          "profileUrl": "https://www.ozbargain.com.au/user/282894",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/94/282894-38.jpg?h=d0ddaeae",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 12,
+          "rawText": "<p>Omgz!</p>",
+          "startIndex": 0,
+          "text": "Omgz!",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Omgz!</p>",
+    },
+    "id": "14909582",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T12:02:39.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Horacio",
+      "profileUrl": "https://www.ozbargain.com.au/user/431029",
+      "thumbnailUrl": "https://files.ozbargain.com.au/u/29/431029-38.jpg?h=587514fc",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 391,
+                  "rawText": "<p>Didn't know you can search across libraries, this would be handy in the future for sure. <br>
+Although the one I need is the book with a sliver car in the cover, because my car is sliver, I wouldn't be able to follow the book because the colour is differnt.</p>
+
+<p>Just joking, but the one with a silver car on the cover is different, the sliver one is for petrol version of the car.</p>",
+                  "startIndex": 0,
+                  "text": "Didn't know you can search across libraries, this would be handy in the future for sure. 
+Although the one I need is the book with a sliver car in the cover, because my car is sliver, I wouldn't be able to follow the book because the colour is differnt.
+
+Just joking, but the one with a silver car on the cover is different, the sliver one is for petrol version of the car.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Didn't know you can search across libraries, this would be handy in the future for sure. <br>
+Although the one I need is the book with a sliver car in the cover, because my car is sliver, I wouldn't be able to follow the book because the colour is differnt.</p>
+
+<p>Just joking, but the one with a silver car on the cover is different, the sliver one is for petrol version of the car.</p>",
+            },
+            "id": "14909675",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-01-31T12:35:04.000Z,
+            "user": {
+              "isOp": true,
+              "name": "rather-potato",
+              "profileUrl": "https://www.ozbargain.com.au/user/398198",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 121,
+              "rawText": "<p>Search on trove, use advanced search for online books.<br>
+This link will get you in the right neck of the woods…<br>
+",
+              "startIndex": 0,
+              "text": "Search on trove, use advanced search for online books.
+This link will get you in the right neck of the woods…
+",
+              "type": "normal",
+            },
+            {
+              "endIndex": 430,
+              "linkType": "external",
+              "rawText": "<a href="https://trove.nla.gov.au/work/36380370?subject=Focus%20automobile%20--%20Maintenance%20and%20repair%20--%20Handbooks,%20manuals,%20etc&amp;l-advavailability=y&amp;keyword=Haynes%20ford%20Focus" class="external" rel="noopener nofollow">https://trove.nla.gov.au/work/36380370?subject=Focus%20autom…</a>",
+              "startIndex": 121,
+              "text": "https://trove.nla.gov.au/work/36380370?subject=Focus%20autom…",
+              "type": "link",
+              "url": "https://trove.nla.gov.au/work/36380370?subject=Focus%20automobile%20--%20Maintenance%20and%20repair%20--%20Handbooks,%20manuals,%20etc&amp;l-advavailability=y&amp;keyword=Haynes%20ford%20Focus",
+            },
+            {
+              "endIndex": 434,
+              "rawText": "</p>",
+              "startIndex": 430,
+              "text": "",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Search on trove, use advanced search for online books.<br>
+This link will get you in the right neck of the woods…<br>
+<a href="https://trove.nla.gov.au/work/36380370?subject=Focus%20automobile%20--%20Maintenance%20and%20repair%20--%20Handbooks,%20manuals,%20etc&amp;l-advavailability=y&amp;keyword=Haynes%20ford%20Focus" class="external" rel="noopener nofollow">https://trove.nla.gov.au/work/36380370?subject=Focus%20autom…</a></p>",
+        },
+        "id": "14909602",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T12:07:26.000Z,
+        "user": {
+          "isOp": false,
+          "name": "battler",
+          "profileUrl": "https://www.ozbargain.com.au/user/12044",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 4,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 296,
+              "rawText": "<p>That's awesome, good to see Library in other state carrying this as well. Unfortunately my local (Blacktown) city library don't have it. :(.<br>
+Liverpool is the closest one to me that have this, only 30 mins away, I could drive there, just need to get the manual to fix the car first…haha</p>",
+              "startIndex": 0,
+              "text": "That's awesome, good to see Library in other state carrying this as well. Unfortunately my local (Blacktown) city library don't have it. :(.
+Liverpool is the closest one to me that have this, only 30 mins away, I could drive there, just need to get the manual to fix the car first…haha",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>That's awesome, good to see Library in other state carrying this as well. Unfortunately my local (Blacktown) city library don't have it. :(.<br>
+Liverpool is the closest one to me that have this, only 30 mins away, I could drive there, just need to get the manual to fix the car first…haha</p>",
+        },
+        "id": "14909641",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T12:24:55.000Z,
+        "user": {
+          "isOp": true,
+          "name": "rather-potato",
+          "profileUrl": "https://www.ozbargain.com.au/user/398198",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 27,
+                      "rawText": "<p>Logan has library's?</p>",
+                      "startIndex": 0,
+                      "text": "Logan has library's?",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Logan has library's?</p>",
+                },
+                "id": "14914357",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2024-02-01T19:34:45.000Z,
+                "user": {
+                  "isOp": false,
+                  "name": "CurlCurl",
+                  "profileUrl": "https://www.ozbargain.com.au/user/444667",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 3,
+                  "rawText": "<p>",
+                  "startIndex": 0,
+                  "text": "",
+                  "type": "normal",
+                },
+                {
+                  "endIndex": 189,
+                  "linkType": "external",
+                  "rawText": "<a href="https://loganlibraries.org/explore/resource/haynes-manuals-allaccess/" class="external" rel="noopener nofollow">https://loganlibraries.org/explore/resource/haynes-manuals-a…</a>",
+                  "startIndex": 3,
+                  "text": "https://loganlibraries.org/explore/resource/haynes-manuals-a…",
+                  "type": "link",
+                  "url": "https://loganlibraries.org/explore/resource/haynes-manuals-allaccess/",
+                },
+                {
+                  "endIndex": 193,
+                  "rawText": "</p>",
+                  "startIndex": 189,
+                  "text": "",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p><a href="https://loganlibraries.org/explore/resource/haynes-manuals-allaccess/" class="external" rel="noopener nofollow">https://loganlibraries.org/explore/resource/haynes-manuals-a…</a></p>",
+            },
+            "id": "14913650",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-02-01T10:55:13.000Z,
+            "user": {
+              "isOp": false,
+              "name": "Aek",
+              "profileUrl": "https://www.ozbargain.com.au/user/255474",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 249,
+              "rawText": "<p>From a very quick search here's a list of libraries that have access in NSW: Hawkesbury, Lithgow, Sutherland, Liverpool, Queanbeyan, Kempsey - Port Macquarie (NSW).</p>
+
+<p>There will definitely be a handful in other states (Logan QLD is one)</p>",
+              "startIndex": 0,
+              "text": "From a very quick search here's a list of libraries that have access in NSW: Hawkesbury, Lithgow, Sutherland, Liverpool, Queanbeyan, Kempsey - Port Macquarie (NSW).
+
+There will definitely be a handful in other states (Logan QLD is one)",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>From a very quick search here's a list of libraries that have access in NSW: Hawkesbury, Lithgow, Sutherland, Liverpool, Queanbeyan, Kempsey - Port Macquarie (NSW).</p>
+
+<p>There will definitely be a handful in other states (Logan QLD is one)</p>",
+        },
+        "id": "14909679",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T12:36:22.000Z,
+        "user": {
+          "isOp": false,
+          "name": "sud",
+          "profileUrl": "https://www.ozbargain.com.au/user/283497",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/97/283497-38.jpg?h=0a1baf0f",
+        },
+        "votes": 3,
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 53,
+                  "rawText": "<p>Nah dont beleev use.<br>
+Yous speel to gud. 😉</p>",
+                  "startIndex": 0,
+                  "text": "Nah dont beleev use.
+Yous speel to gud. 😉",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Nah dont beleev use.<br>
+Yous speel to gud. 😉</p>",
+            },
+            "id": "14913561",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-02-01T10:36:42.000Z,
+            "user": {
+              "isOp": false,
+              "name": "Snoop",
+              "profileUrl": "https://www.ozbargain.com.au/user/80583",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/83/80583-38.jpg?h=04e8a8d2",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 36,
+              "rawText": "<p>Fellow Frankston reporting :D</p>",
+              "startIndex": 0,
+              "text": "Fellow Frankston reporting :D",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Fellow Frankston reporting :D</p>",
+        },
+        "id": "14910328",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T22:25:18.000Z,
+        "user": {
+          "isOp": false,
+          "name": "Agileduck",
+          "profileUrl": "https://www.ozbargain.com.au/user/371327",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/27/371327-38.jpg?h=98959c04",
+        },
+        "votes": 1,
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 41,
+                  "rawText": "<p>serves you right for buying a demo</p>",
+                  "startIndex": 0,
+                  "text": "serves you right for buying a demo",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>serves you right for buying a demo</p>",
+            },
+            "id": "14912350",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-02-01T05:36:08.000Z,
+            "user": {
+              "isOp": false,
+              "name": "pebee47",
+              "profileUrl": "https://www.ozbargain.com.au/user/97227",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 36,
+                      "rawText": "<p>OK, thank you, I didn't know.</p>",
+                      "startIndex": 0,
+                      "text": "OK, thank you, I didn't know.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>OK, thank you, I didn't know.</p>",
+                },
+                "id": "14915917",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2024-02-02T02:19:46.000Z,
+                "user": {
+                  "isOp": false,
+                  "name": "simb24",
+                  "profileUrl": "https://www.ozbargain.com.au/user/307551",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 99,
+                  "rawText": "<p>You have to go to the menu and login using your library name, card number, and password/pin.</p>",
+                  "startIndex": 0,
+                  "text": "You have to go to the menu and login using your library name, card number, and password/pin.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>You have to go to the menu and login using your library name, card number, and password/pin.</p>",
+            },
+            "id": "14913552",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-02-01T10:34:37.000Z,
+            "user": {
+              "isOp": false,
+              "name": "Snoop",
+              "profileUrl": "https://www.ozbargain.com.au/user/80583",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/83/80583-38.jpg?h=04e8a8d2",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 102,
+              "rawText": "<p>they said: This section is not available on the demo version of the manual.<br>
+this is demo 🤔</p>",
+              "startIndex": 0,
+              "text": "they said: This section is not available on the demo version of the manual.
+this is demo 🤔",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>they said: This section is not available on the demo version of the manual.<br>
+this is demo 🤔</p>",
+        },
+        "id": "14911166",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T01:31:29.000Z,
+        "user": {
+          "isOp": false,
+          "name": "simb24",
+          "profileUrl": "https://www.ozbargain.com.au/user/307551",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 70,
+          "rawText": "<p>Not exclusive to Liverpool. Check your local library.</p>
+
+<p>e.g. ",
+          "startIndex": 0,
+          "text": "Not exclusive to Liverpool. Check your local library.
+
+e.g. ",
+          "type": "normal",
+        },
+        {
+          "endIndex": 268,
+          "linkType": "external",
+          "rawText": "<a href="https://library.frankston.vic.gov.au/eLibrary/Education-and-Skills/Haynes-Manuals" class="external" rel="noopener nofollow">https://library.frankston.vic.gov.au/eLibrary/Education-and-…</a>",
+          "startIndex": 70,
+          "text": "https://library.frankston.vic.gov.au/eLibrary/Education-and-…",
+          "type": "link",
+          "url": "https://library.frankston.vic.gov.au/eLibrary/Education-and-Skills/Haynes-Manuals",
+        },
+        {
+          "endIndex": 272,
+          "rawText": "</p>",
+          "startIndex": 268,
+          "text": "",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Not exclusive to Liverpool. Check your local library.</p>
+
+<p>e.g. <a href="https://library.frankston.vic.gov.au/eLibrary/Education-and-Skills/Haynes-Manuals" class="external" rel="noopener nofollow">https://library.frankston.vic.gov.au/eLibrary/Education-and-…</a></p>",
+    },
+    "id": "14909586",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T12:04:06.000Z,
+    "user": {
+      "isOp": false,
+      "name": "rickb",
+      "profileUrl": "https://www.ozbargain.com.au/user/898",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 8,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 374,
+          "rawText": "<p>Pretty sure this is common at (most) Libraries. My local library has a subscription too. Currently using it to repair my Nissan. Was about to buy a physical manual one day when I read about Libraries having manuals (in USA I think). Went to my local Library to see if they had any and they said they have Haynes free access with library card. Pretty happy about that.</p>",
+          "startIndex": 0,
+          "text": "Pretty sure this is common at (most) Libraries. My local library has a subscription too. Currently using it to repair my Nissan. Was about to buy a physical manual one day when I read about Libraries having manuals (in USA I think). Went to my local Library to see if they had any and they said they have Haynes free access with library card. Pretty happy about that.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Pretty sure this is common at (most) Libraries. My local library has a subscription too. Currently using it to repair my Nissan. Was about to buy a physical manual one day when I read about Libraries having manuals (in USA I think). Went to my local Library to see if they had any and they said they have Haynes free access with library card. Pretty happy about that.</p>",
+    },
+    "id": "14909597",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T12:07:01.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Widget",
+      "profileUrl": "https://www.ozbargain.com.au/user/269099",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 112,
+              "rawText": "<p>lol I don't think they included that one in the plan, I had to pay for it out of the pocket for this one.</p>",
+              "startIndex": 0,
+              "text": "lol I don't think they included that one in the plan, I had to pay for it out of the pocket for this one.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>lol I don't think they included that one in the plan, I had to pay for it out of the pocket for this one.</p>",
+        },
+        "id": "14909721",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T12:52:50.000Z,
+        "user": {
+          "isOp": true,
+          "name": "rather-potato",
+          "profileUrl": "https://www.ozbargain.com.au/user/398198",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 179,
+              "rawText": "<p>while you're at it; can you find whether they have "B-2 stealth bomber" manual? <br>
+Been tinkering with its remote wireless, as I can't remember where I park it last time…</p>",
+              "startIndex": 0,
+              "text": "while you're at it; can you find whether they have "B-2 stealth bomber" manual? 
+Been tinkering with its remote wireless, as I can't remember where I park it last time…",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>while you're at it; can you find whether they have "B-2 stealth bomber" manual? <br>
+Been tinkering with its remote wireless, as I can't remember where I park it last time…</p>",
+        },
+        "id": "14910910",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T00:38:31.000Z,
+        "user": {
+          "isOp": false,
+          "name": "BigLeviathan",
+          "profileUrl": "https://www.ozbargain.com.au/user/27063",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 132,
+          "rawText": "<p>"Boeing 747 : 1970 onwards (all marks) : owners' workshop manual" perfect, now I just need some undercover off-street parking</p>",
+          "startIndex": 0,
+          "text": ""Boeing 747 : 1970 onwards (all marks) : owners' workshop manual" perfect, now I just need some undercover off-street parking",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>"Boeing 747 : 1970 onwards (all marks) : owners' workshop manual" perfect, now I just need some undercover off-street parking</p>",
+    },
+    "id": "14909600",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T12:07:21.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Horacio",
+      "profileUrl": "https://www.ozbargain.com.au/user/431029",
+      "thumbnailUrl": "https://files.ozbargain.com.au/u/29/431029-38.jpg?h=587514fc",
+    },
+    "votes": 12,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 77,
+                  "rawText": "<p>Oh no, now I can see a long list of preventative servicing I should do</p>",
+                  "startIndex": 0,
+                  "text": "Oh no, now I can see a long list of preventative servicing I should do",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Oh no, now I can see a long list of preventative servicing I should do</p>",
+            },
+            "id": "14909687",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-01-31T12:38:58.000Z,
+            "user": {
+              "isOp": false,
+              "name": "Horacio",
+              "profileUrl": "https://www.ozbargain.com.au/user/431029",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/29/431029-38.jpg?h=587514fc",
+            },
+            "votes": 1,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 88,
+              "rawText": "<p>Hah! Yep, random login for me. Whereas several libraries near me weren't eligible</p>",
+              "startIndex": 0,
+              "text": "Hah! Yep, random login for me. Whereas several libraries near me weren't eligible",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Hah! Yep, random login for me. Whereas several libraries near me weren't eligible</p>",
+        },
+        "id": "14909663",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T12:31:56.000Z,
+        "user": {
+          "isOp": false,
+          "name": "Horacio",
+          "profileUrl": "https://www.ozbargain.com.au/user/431029",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/29/431029-38.jpg?h=587514fc",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 130,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/14911812/redir" class="internal inline" onclick="return OzB.gotoComment(14911812);">@Username checks out:</a>",
+                              "startIndex": 3,
+                              "text": "@Username checks out:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/14911812/redir",
+                            },
+                            {
+                              "endIndex": 153,
+                              "rawText": " Username checks in</p>",
+                              "startIndex": 130,
+                              "text": " Username checks in",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/14911812/redir" class="internal inline" onclick="return OzB.gotoComment(14911812);">@Username checks out:</a> Username checks in</p>",
+                        },
+                        "id": "14912570",
+                        "level": 5,
+                        "state": "shown",
+                        "timestamp": 2024-02-01T06:27:24.000Z,
+                        "user": {
+                          "isOp": false,
+                          "name": "tunzafun001",
+                          "profileUrl": "https://www.ozbargain.com.au/user/106531",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": 0,
+                      },
+                    ],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 122,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/14911446/redir" class="internal inline" onclick="return OzB.gotoComment(14911446);">@tunzafun001:</a>",
+                          "startIndex": 3,
+                          "text": "@tunzafun001:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/14911446/redir",
+                        },
+                        {
+                          "endIndex": 135,
+                          "rawText": " I'm here</p>",
+                          "startIndex": 122,
+                          "text": " I'm here",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/14911446/redir" class="internal inline" onclick="return OzB.gotoComment(14911446);">@tunzafun001:</a> I'm here</p>",
+                    },
+                    "id": "14911812",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2024-02-01T03:52:02.000Z,
+                    "user": {
+                      "isOp": false,
+                      "name": "Username checks out",
+                      "profileUrl": "https://www.ozbargain.com.au/user/260647",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/u/47/260647-38.jpg?h=d180c52b",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 28,
+                      "rawText": "<p>Username checks out..</p>",
+                      "startIndex": 0,
+                      "text": "Username checks out..",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Username checks out..</p>",
+                },
+                "id": "14911446",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2024-02-01T02:33:03.000Z,
+                "user": {
+                  "isOp": false,
+                  "name": "tunzafun001",
+                  "profileUrl": "https://www.ozbargain.com.au/user/106531",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 102,
+                  "rawText": "<p>Don't sign in on Library website. Click on Try it now, then just use anything on Haynes website</p>",
+                  "startIndex": 0,
+                  "text": "Don't sign in on Library website. Click on Try it now, then just use anything on Haynes website",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Don't sign in on Library website. Click on Try it now, then just use anything on Haynes website</p>",
+            },
+            "id": "14910421",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-01-31T22:48:14.000Z,
+            "user": {
+              "isOp": false,
+              "name": "SlickMick",
+              "profileUrl": "https://www.ozbargain.com.au/user/8623",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 1,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 124,
+              "rawText": "<p>Didnt work for me. "Invalid Login".</p>
+
+<p>So signed up legit…and they dont have Mitsi Outlander manuals ..facepalm!</p>",
+              "startIndex": 0,
+              "text": "Didnt work for me. "Invalid Login".
+
+So signed up legit…and they dont have Mitsi Outlander manuals ..facepalm!",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Didnt work for me. "Invalid Login".</p>
+
+<p>So signed up legit…and they dont have Mitsi Outlander manuals ..facepalm!</p>",
+        },
+        "id": "14909755",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T13:03:19.000Z,
+        "user": {
+          "isOp": false,
+          "name": "tunzafun001",
+          "profileUrl": "https://www.ozbargain.com.au/user/106531",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 54,
+              "rawText": "<p>thanks for the number, saves me from signing up</p>",
+              "startIndex": 0,
+              "text": "thanks for the number, saves me from signing up",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>thanks for the number, saves me from signing up</p>",
+        },
+        "id": "14910921",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T00:39:46.000Z,
+        "user": {
+          "isOp": false,
+          "name": "BigLeviathan",
+          "profileUrl": "https://www.ozbargain.com.au/user/27063",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 437,
+                      "rawText": "<p>Agree, it's terrible, while also a great source of information, no doubt.</p>
+
+<p>I use the factory service manuals where possible, which are hard to obtain usually too, but use the Haynes on occassion and YouTube to supplement the information.</p>
+
+<p>Sometime it's helpful for dealing with the likes of unplugging weird plugs and looking at a disassembled gearbox. Or for fitment of certain parts when not immediately obvious 👍</p>",
+                      "startIndex": 0,
+                      "text": "Agree, it's terrible, while also a great source of information, no doubt.
+
+I use the factory service manuals where possible, which are hard to obtain usually too, but use the Haynes on occassion and YouTube to supplement the information.
+
+Sometime it's helpful for dealing with the likes of unplugging weird plugs and looking at a disassembled gearbox. Or for fitment of certain parts when not immediately obvious 👍",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Agree, it's terrible, while also a great source of information, no doubt.</p>
+
+<p>I use the factory service manuals where possible, which are hard to obtain usually too, but use the Haynes on occassion and YouTube to supplement the information.</p>
+
+<p>Sometime it's helpful for dealing with the likes of unplugging weird plugs and looking at a disassembled gearbox. Or for fitment of certain parts when not immediately obvious 👍</p>",
+                },
+                "id": "14909682",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2024-01-31T12:37:51.000Z,
+                "user": {
+                  "isOp": false,
+                  "name": "bobs burgers",
+                  "profileUrl": "https://www.ozbargain.com.au/user/191387",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 2,
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "content": {
+                              "parts": [
+                                {
+                                  "endIndex": 3,
+                                  "rawText": "<p>",
+                                  "startIndex": 0,
+                                  "text": "",
+                                  "type": "normal",
+                                },
+                                {
+                                  "endIndex": 122,
+                                  "linkType": "deal",
+                                  "rawText": "<a href="/comment/14915997/redir" class="internal inline" onclick="return OzB.gotoComment(14915997);">@funkymonkey:</a>",
+                                  "startIndex": 3,
+                                  "text": "@funkymonkey:",
+                                  "type": "link",
+                                  "url": "https://www.ozbargain.com.au/comment/14915997/redir",
+                                },
+                                {
+                                  "endIndex": 291,
+                                  "rawText": " My pet peeve is no one shows how and what with they grease anything<br>
+So I just have to smear moly grease on everything and hope that's what the engineers wanted!</p>",
+                                  "startIndex": 122,
+                                  "text": " My pet peeve is no one shows how and what with they grease anything
+So I just have to smear moly grease on everything and hope that's what the engineers wanted!",
+                                  "type": "normal",
+                                },
+                              ],
+                              "rawText": "<p><a href="/comment/14915997/redir" class="internal inline" onclick="return OzB.gotoComment(14915997);">@funkymonkey:</a> My pet peeve is no one shows how and what with they grease anything<br>
+So I just have to smear moly grease on everything and hope that's what the engineers wanted!</p>",
+                            },
+                            "id": "14918285",
+                            "level": 6,
+                            "state": "shown",
+                            "timestamp": 2024-02-02T13:14:05.000Z,
+                            "user": {
+                              "isOp": false,
+                              "name": "gfjh567gh3",
+                              "profileUrl": "https://www.ozbargain.com.au/user/170349",
+                              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                            },
+                            "votes": 0,
+                          },
+                        ],
+                        "content": {
+                          "parts": [
+                            {
+                              "endIndex": 3,
+                              "rawText": "<p>",
+                              "startIndex": 0,
+                              "text": "",
+                              "type": "normal",
+                            },
+                            {
+                              "endIndex": 121,
+                              "linkType": "deal",
+                              "rawText": "<a href="/comment/14913900/redir" class="internal inline" onclick="return OzB.gotoComment(14913900);">@gfjh567gh3:</a>",
+                              "startIndex": 3,
+                              "text": "@gfjh567gh3:",
+                              "type": "link",
+                              "url": "https://www.ozbargain.com.au/comment/14913900/redir",
+                            },
+                            {
+                              "endIndex": 211,
+                              "rawText": " 90% of those vids are influencers doing stupid shite to their cars. Thank god for MCM</p>",
+                              "startIndex": 121,
+                              "text": " 90% of those vids are influencers doing stupid shite to their cars. Thank god for MCM",
+                              "type": "normal",
+                            },
+                          ],
+                          "rawText": "<p><a href="/comment/14913900/redir" class="internal inline" onclick="return OzB.gotoComment(14913900);">@gfjh567gh3:</a> 90% of those vids are influencers doing stupid shite to their cars. Thank god for MCM</p>",
+                        },
+                        "id": "14915997",
+                        "level": 5,
+                        "state": "shown",
+                        "timestamp": 2024-02-02T02:34:49.000Z,
+                        "user": {
+                          "isOp": false,
+                          "name": "funkymonkey",
+                          "profileUrl": "https://www.ozbargain.com.au/user/805",
+                          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                        },
+                        "votes": 1,
+                      },
+                    ],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 122,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/14909699/redir" class="internal inline" onclick="return OzB.gotoComment(14909699);">@Surfer Dude:</a>",
+                          "startIndex": 3,
+                          "text": "@Surfer Dude:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/14909699/redir",
+                        },
+                        {
+                          "endIndex": 175,
+                          "rawText": " Evo! So there's no shortage of content out there</p>",
+                          "startIndex": 122,
+                          "text": " Evo! So there's no shortage of content out there",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/14909699/redir" class="internal inline" onclick="return OzB.gotoComment(14909699);">@Surfer Dude:</a> Evo! So there's no shortage of content out there</p>",
+                    },
+                    "id": "14913900",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2024-02-01T12:09:29.000Z,
+                    "user": {
+                      "isOp": false,
+                      "name": "gfjh567gh3",
+                      "profileUrl": "https://www.ozbargain.com.au/user/170349",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 56,
+                      "rawText": "<p>Which popular performance car are you working on?</p>",
+                      "startIndex": 0,
+                      "text": "Which popular performance car are you working on?",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Which popular performance car are you working on?</p>",
+                },
+                "id": "14909699",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2024-01-31T12:44:25.000Z,
+                "user": {
+                  "isOp": false,
+                  "name": "Surfer Dude",
+                  "profileUrl": "https://www.ozbargain.com.au/user/42442",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 60,
+                      "rawText": "<p>I've got a DR650 service manual if you still need it.</p>",
+                      "startIndex": 0,
+                      "text": "I've got a DR650 service manual if you still need it.",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>I've got a DR650 service manual if you still need it.</p>",
+                },
+                "id": "16215172",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2025-01-30T02:25:18.000Z,
+                "user": {
+                  "isOp": false,
+                  "name": "m0tyrider",
+                  "profileUrl": "https://www.ozbargain.com.au/user/19929",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 0,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 782,
+                  "rawText": "<p>Not just that, but the YouTube algorithm is just crap. Truly crap.<br>
+I search for common semi technical queries for a popular performance car<br>
+First result is an ad<br>
+Then a video that matches a key word but is nothing like what I need<br>
+3rd return is a video I've already watched and isn't related<br>
+4th video is a thirst trap short bait<br>
+5th video onwards is totally unrelated "recommendation" videos</p>
+
+<p>YouTube/Google is so intent on whitelisting advertiser friendly sanitised results, and promoting politically biased whitelisted items, that they have eschewed their index almost totally</p>
+
+<p>Regarding the Haynes manuals - is this the same as library of nsw? I found that only older, crappy cars were listed. Didn't even have a manual for the dr650</p>",
+                  "startIndex": 0,
+                  "text": "Not just that, but the YouTube algorithm is just crap. Truly crap.
+I search for common semi technical queries for a popular performance car
+First result is an ad
+Then a video that matches a key word but is nothing like what I need
+3rd return is a video I've already watched and isn't related
+4th video is a thirst trap short bait
+5th video onwards is totally unrelated "recommendation" videos
+
+YouTube/Google is so intent on whitelisting advertiser friendly sanitised results, and promoting politically biased whitelisted items, that they have eschewed their index almost totally
+
+Regarding the Haynes manuals - is this the same as library of nsw? I found that only older, crappy cars were listed. Didn't even have a manual for the dr650",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Not just that, but the YouTube algorithm is just crap. Truly crap.<br>
+I search for common semi technical queries for a popular performance car<br>
+First result is an ad<br>
+Then a video that matches a key word but is nothing like what I need<br>
+3rd return is a video I've already watched and isn't related<br>
+4th video is a thirst trap short bait<br>
+5th video onwards is totally unrelated "recommendation" videos</p>
+
+<p>YouTube/Google is so intent on whitelisting advertiser friendly sanitised results, and promoting politically biased whitelisted items, that they have eschewed their index almost totally</p>
+
+<p>Regarding the Haynes manuals - is this the same as library of nsw? I found that only older, crappy cars were listed. Didn't even have a manual for the dr650</p>",
+            },
+            "id": "14909673",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-01-31T12:34:13.000Z,
+            "user": {
+              "isOp": false,
+              "name": "gfjh567gh3",
+              "profileUrl": "https://www.ozbargain.com.au/user/170349",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 12,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 190,
+              "rawText": "<p>If only people on YouTube knew what a manual was.<br>
+So much misinformation, if you are a novice player that is.</p>
+
+<p>Of course a lot of good stuff too, but, far too much rubbish.</p>",
+              "startIndex": 0,
+              "text": "If only people on YouTube knew what a manual was.
+So much misinformation, if you are a novice player that is.
+
+Of course a lot of good stuff too, but, far too much rubbish.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>If only people on YouTube knew what a manual was.<br>
+So much misinformation, if you are a novice player that is.</p>
+
+<p>Of course a lot of good stuff too, but, far too much rubbish.</p>",
+        },
+        "id": "14909652",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T12:29:08.000Z,
+        "user": {
+          "isOp": false,
+          "name": "bobs burgers",
+          "profileUrl": "https://www.ozbargain.com.au/user/191387",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 14,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 464,
+              "rawText": "<p>Youtube is great to get you "close enough" but you will have a bad time following it exactly like a Manual.<br>
+Example, Im doing a Floating Wilwood brake install which i figured i would read the manual but then i noticed some little oddities some steps were different per pages.. Anyway i go to youtube and between everybody they were installing it differently…</p>
+
+<p>Which i even went to Wilwood to clarify and they even said the manual needs an update.</p>",
+              "startIndex": 0,
+              "text": "Youtube is great to get you "close enough" but you will have a bad time following it exactly like a Manual.
+Example, Im doing a Floating Wilwood brake install which i figured i would read the manual but then i noticed some little oddities some steps were different per pages.. Anyway i go to youtube and between everybody they were installing it differently…
+
+Which i even went to Wilwood to clarify and they even said the manual needs an update.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Youtube is great to get you "close enough" but you will have a bad time following it exactly like a Manual.<br>
+Example, Im doing a Floating Wilwood brake install which i figured i would read the manual but then i noticed some little oddities some steps were different per pages.. Anyway i go to youtube and between everybody they were installing it differently…</p>
+
+<p>Which i even went to Wilwood to clarify and they even said the manual needs an update.</p>",
+        },
+        "id": "14910245",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T22:04:08.000Z,
+        "user": {
+          "isOp": false,
+          "name": "JPNx",
+          "profileUrl": "https://www.ozbargain.com.au/user/40571",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/71/40571-38.jpg?h=3f93be3b",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 109,
+              "rawText": "<p>Manuals&gt; automatics&gt; twin clutch with Tiptronic override + stop-start&gt; EV infinitely variable</p>",
+              "startIndex": 0,
+              "text": "Manuals> automatics> twin clutch with Tiptronic override + stop-start> EV infinitely variable",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Manuals&gt; automatics&gt; twin clutch with Tiptronic override + stop-start&gt; EV infinitely variable</p>",
+        },
+        "id": "14912366",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T05:40:49.000Z,
+        "user": {
+          "isOp": false,
+          "name": "pebee47",
+          "profileUrl": "https://www.ozbargain.com.au/user/97227",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 114,
+          "rawText": "<p>The login screen doesn't seem to check for legitimate details. For example, use C030123D with password 1234</p>",
+          "startIndex": 0,
+          "text": "The login screen doesn't seem to check for legitimate details. For example, use C030123D with password 1234",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>The login screen doesn't seem to check for legitimate details. For example, use C030123D with password 1234</p>",
+    },
+    "id": "14909619",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T12:14:54.000Z,
+    "user": {
+      "isOp": false,
+      "name": "MiCCAS",
+      "profileUrl": "https://www.ozbargain.com.au/user/519",
+      "thumbnailUrl": "https://files.ozbargain.com.au/u/19/519-38.jpg?h=c7141dab",
+    },
+    "votes": 17,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 122,
+          "rawText": "<p>Hmm pretty old stuff for some cars and the instruction quality is sometimes pretty high level with only few photos.</p>",
+          "startIndex": 0,
+          "text": "Hmm pretty old stuff for some cars and the instruction quality is sometimes pretty high level with only few photos.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Hmm pretty old stuff for some cars and the instruction quality is sometimes pretty high level with only few photos.</p>",
+    },
+    "id": "14909637",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T12:23:48.000Z,
+    "user": {
+      "isOp": false,
+      "name": "goodwillN1",
+      "profileUrl": "https://www.ozbargain.com.au/user/449115",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 30,
+                  "rawText": "<p>Thats a scam to be fair</p>",
+                  "startIndex": 0,
+                  "text": "Thats a scam to be fair",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Thats a scam to be fair</p>",
+            },
+            "id": "15557605",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-07-31T12:29:45.000Z,
+            "user": {
+              "isOp": false,
+              "name": "smartProverble",
+              "profileUrl": "https://www.ozbargain.com.au/user/457243",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 61,
+              "rawText": "<p>Need to walnut blast some intake valves like me? Haha!</p>",
+              "startIndex": 0,
+              "text": "Need to walnut blast some intake valves like me? Haha!",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Need to walnut blast some intake valves like me? Haha!</p>",
+        },
+        "id": "14935071",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-07T10:52:54.000Z,
+        "user": {
+          "isOp": false,
+          "name": "imnotgoingtopayrrp",
+          "profileUrl": "https://www.ozbargain.com.au/user/91343",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 409,
+          "rawText": "<p>Even though this is free, but considering the money you will save and the knowledge you will gain, it's better to source for a factory workshop manual.</p>
+
+<p>Some of them have step by step instructions on interval services as well.</p>
+
+<p>Only downside is sometimes the manual may refer to specialised (and expensive) factory tools that you only need to use it once, without suggesting alternatives.</p>",
+          "startIndex": 0,
+          "text": "Even though this is free, but considering the money you will save and the knowledge you will gain, it's better to source for a factory workshop manual.
+
+Some of them have step by step instructions on interval services as well.
+
+Only downside is sometimes the manual may refer to specialised (and expensive) factory tools that you only need to use it once, without suggesting alternatives.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Even though this is free, but considering the money you will save and the knowledge you will gain, it's better to source for a factory workshop manual.</p>
+
+<p>Some of them have step by step instructions on interval services as well.</p>
+
+<p>Only downside is sometimes the manual may refer to specialised (and expensive) factory tools that you only need to use it once, without suggesting alternatives.</p>",
+    },
+    "id": "14909643",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T12:25:23.000Z,
+    "user": {
+      "isOp": false,
+      "name": "browser",
+      "profileUrl": "https://www.ozbargain.com.au/user/14216",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 3,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 59,
+          "rawText": "<p>Thanks! <br>
+Will be handy for some of the old cars!</p>",
+          "startIndex": 0,
+          "text": "Thanks! 
+Will be handy for some of the old cars!",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Thanks! <br>
+Will be handy for some of the old cars!</p>",
+    },
+    "id": "14909668",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T12:33:57.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Owgasm",
+      "profileUrl": "https://www.ozbargain.com.au/user/232654",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 16,
+                  "rawText": "<p>G-O-G-O …</p>",
+                  "startIndex": 0,
+                  "text": "G-O-G-O …",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>G-O-G-O …</p>",
+            },
+            "id": "14912372",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-02-01T05:41:42.000Z,
+            "user": {
+              "isOp": false,
+              "name": "pebee47",
+              "profileUrl": "https://www.ozbargain.com.au/user/97227",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 27,
+                  "rawText": "<p>Check your spelling.</p>",
+                  "startIndex": 0,
+                  "text": "Check your spelling.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Check your spelling.</p>",
+            },
+            "id": "14913406",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-02-01T10:00:23.000Z,
+            "user": {
+              "isOp": false,
+              "name": "battler",
+              "profileUrl": "https://www.ozbargain.com.au/user/12044",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 3,
+                  "rawText": "<p>",
+                  "startIndex": 0,
+                  "text": "",
+                  "type": "normal",
+                },
+                {
+                  "endIndex": 145,
+                  "linkType": "external",
+                  "rawText": "<a href="https://www.youtube.com/watch?v=fk6pO7eLeiM" class="external" rel="noopener nofollow">https://www.youtube.com/watch?v=fk6pO7eLeiM</a>",
+                  "startIndex": 3,
+                  "text": "https://www.youtube.com/watch?v=fk6pO7eLeiM",
+                  "type": "link",
+                  "url": "https://www.youtube.com/watch?v=fk6pO7eLeiM",
+                },
+                {
+                  "endIndex": 149,
+                  "rawText": "</p>",
+                  "startIndex": 145,
+                  "text": "",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p><a href="https://www.youtube.com/watch?v=fk6pO7eLeiM" class="external" rel="noopener nofollow">https://www.youtube.com/watch?v=fk6pO7eLeiM</a></p>",
+            },
+            "id": "15558712",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-08-01T00:44:49.000Z,
+            "user": {
+              "isOp": false,
+              "name": "Fybre",
+              "profileUrl": "https://www.ozbargain.com.au/user/58996",
+              "thumbnailUrl": "https://files.ozbargain.com.au/u/96/58996-38.jpg?h=9ef19ccc",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 20,
+              "rawText": "<p>No gogomobile</p>",
+              "startIndex": 0,
+              "text": "No gogomobile",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>No gogomobile</p>",
+        },
+        "id": "14909839",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T13:50:10.000Z,
+        "user": {
+          "isOp": false,
+          "name": "BewareOfThe Dog",
+          "profileUrl": "https://www.ozbargain.com.au/user/115105",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/05/115105-38.jpg?h=fe3138d6",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 66,
+          "rawText": "<p>Was hoping to find an old vh valiant charger but no luck 😢</p>",
+          "startIndex": 0,
+          "text": "Was hoping to find an old vh valiant charger but no luck 😢",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Was hoping to find an old vh valiant charger but no luck 😢</p>",
+    },
+    "id": "14909719",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T12:52:07.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Assclown",
+      "profileUrl": "https://www.ozbargain.com.au/user/97279",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 17,
+          "rawText": "<p>Thanks Op!</p>",
+          "startIndex": 0,
+          "text": "Thanks Op!",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Thanks Op!</p>",
+    },
+    "id": "14909735",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T12:57:29.000Z,
+    "user": {
+      "isOp": false,
+      "name": "resubaehtgnolhcs",
+      "profileUrl": "https://www.ozbargain.com.au/user/95152",
+      "thumbnailUrl": "https://files.ozbargain.com.au/u/52/95152-38.jpg?h=b2fb14ad",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 71,
+              "rawText": "<p>I’ve bought a registered car (2001 Mitsubishi Mirage) in Sydney for ",
+              "startIndex": 0,
+              "text": "I’ve bought a registered car (2001 Mitsubishi Mirage) in Sydney for ",
+              "type": "normal",
+            },
+            {
+              "endIndex": 75,
+              "rawText": "$350",
+              "startIndex": 71,
+              "text": "$350",
+              "type": "price",
+            },
+            {
+              "endIndex": 201,
+              "rawText": " (pre-Covid) for a quick run around trip as it was cheaper than renting one. Albeit it was pretty bad I sold it for scrap for ",
+              "startIndex": 75,
+              "text": " (pre-Covid) for a quick run around trip as it was cheaper than renting one. Albeit it was pretty bad I sold it for scrap for ",
+              "type": "normal",
+            },
+            {
+              "endIndex": 205,
+              "rawText": "$350",
+              "startIndex": 201,
+              "text": "$350",
+              "type": "price",
+            },
+            {
+              "endIndex": 310,
+              "rawText": " the next weekend.</p>
+
+<p>Also coincidentally thought I had commented this looking at your username.</p>",
+              "startIndex": 205,
+              "text": " the next weekend.
+
+Also coincidentally thought I had commented this looking at your username.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>I’ve bought a registered car (2001 Mitsubishi Mirage) in Sydney for $350 (pre-Covid) for a quick run around trip as it was cheaper than renting one. Albeit it was pretty bad I sold it for scrap for $350 the next weekend.</p>
+
+<p>Also coincidentally thought I had commented this looking at your username.</p>",
+        },
+        "id": "14909764",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T13:07:51.000Z,
+        "user": {
+          "isOp": false,
+          "name": "RyanG01",
+          "profileUrl": "https://www.ozbargain.com.au/user/333956",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 1,
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 77,
+                  "rawText": "<p>Welcome to the world of unregulated CTP! 🤣</p>
+
+<p>jk, sort of …</p>
+
+<p>",
+                  "startIndex": 0,
+                  "text": "Welcome to the world of unregulated CTP! 🤣
+
+jk, sort of …
+
+",
+                  "type": "normal",
+                },
+                {
+                  "endIndex": 201,
+                  "linkType": "external",
+                  "rawText": "<a href="https://www.greenslips.nsw.gov.au/" class="external" rel="noopener nofollow">https://www.greenslips.nsw.gov.au/</a>",
+                  "startIndex": 77,
+                  "text": "https://www.greenslips.nsw.gov.au/",
+                  "type": "link",
+                  "url": "https://www.greenslips.nsw.gov.au/",
+                },
+                {
+                  "endIndex": 205,
+                  "rawText": "</p>",
+                  "startIndex": 201,
+                  "text": "",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Welcome to the world of unregulated CTP! 🤣</p>
+
+<p>jk, sort of …</p>
+
+<p><a href="https://www.greenslips.nsw.gov.au/" class="external" rel="noopener nofollow">https://www.greenslips.nsw.gov.au/</a></p>",
+            },
+            "id": "14910233",
+            "level": 3,
+            "state": "shown",
+            "timestamp": 2024-01-31T21:59:10.000Z,
+            "user": {
+              "isOp": false,
+              "name": "ryang",
+              "profileUrl": "https://www.ozbargain.com.au/user/23543",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 1,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 283,
+              "rawText": "<p>Thanks, I was on Facebook marketplace for like 3 months though, lots of being ghosted, seller sells the car before you arrive, doggy seller etc, you have to act fast and be patient.</p>
+
+<p>here are some specs/info:<br>
++ 2007 Ford Focus with 159 k km<br>
++ $ 1450 (I haggled for ",
+              "startIndex": 0,
+              "text": "Thanks, I was on Facebook marketplace for like 3 months though, lots of being ghosted, seller sells the car before you arrive, doggy seller etc, you have to act fast and be patient.
+
+here are some specs/info:
++ 2007 Ford Focus with 159 k km
++ $ 1450 (I haggled for ",
+              "type": "normal",
+            },
+            {
+              "endIndex": 286,
+              "rawText": "$50",
+              "startIndex": 283,
+              "text": "$50",
+              "type": "price",
+            },
+            {
+              "endIndex": 413,
+              "rawText": " off, very prod of myself) <br>
+- Picked up in Ku-ring-gai<br>
+- has 1 month expired rego so I have to get pink slip + renew, (",
+              "startIndex": 286,
+              "text": " off, very prod of myself) 
+- Picked up in Ku-ring-gai
+- has 1 month expired rego so I have to get pink slip + renew, (",
+              "type": "normal",
+            },
+            {
+              "endIndex": 417,
+              "rawText": "$1.2",
+              "startIndex": 413,
+              "text": "$1.2",
+              "type": "price",
+            },
+            {
+              "endIndex": 1811,
+              "rawText": " k for 1 year of rego)<br>
+- No owner manual no service booklet.<br>
++ passed pink slip with no repair.<br>
++ manual transmission (I bought it to learn manual so it's a +, strangely, I feel good manual deal is slightly harder to find than auto)<br>
++++ 2L petrol engine, apparently Ford duratec 2L is a Mazda designed engine, and they use the same engine on some Miata / Mx5, so it's got a strong, reliable Japanese 4 banger with a timing chain. I found out because I was looking up tear down vid to confirm if it has a timing belt.<br>
+- have some scratches and ding all around but no big dent (might be repairable not in my list of priorities at the moment)<br>
+- noisy power steering pump (it still have all the fluid so it's probably fine, seller said it's been like that for a while so eh)<br>
+- clutch might be a little worn but still works no slip. (there were so much steep hill in ku ring gai it was nerve racking driving it back) <br>
+- Engine oil is a little dark was changed 1.5 years ago but hasn't reach the km yet. (I did an oil change right away after getting it back home)<br>
+- Car was parked for 4 months cause seller has a different car.<br>
+- Has a moldy or plasticky smell (it's a lot better now after I bought a ozone machine and ran it for 10min and changed the cabin filter)<br>
+- AC fan and compressor works but no cold air. (works now after recharged refrigerant for ",
+              "startIndex": 417,
+              "text": " k for 1 year of rego)
+- No owner manual no service booklet.
++ passed pink slip with no repair.
++ manual transmission (I bought it to learn manual so it's a +, strangely, I feel good manual deal is slightly harder to find than auto)
++++ 2L petrol engine, apparently Ford duratec 2L is a Mazda designed engine, and they use the same engine on some Miata / Mx5, so it's got a strong, reliable Japanese 4 banger with a timing chain. I found out because I was looking up tear down vid to confirm if it has a timing belt.
+- have some scratches and ding all around but no big dent (might be repairable not in my list of priorities at the moment)
+- noisy power steering pump (it still have all the fluid so it's probably fine, seller said it's been like that for a while so eh)
+- clutch might be a little worn but still works no slip. (there were so much steep hill in ku ring gai it was nerve racking driving it back) 
+- Engine oil is a little dark was changed 1.5 years ago but hasn't reach the km yet. (I did an oil change right away after getting it back home)
+- Car was parked for 4 months cause seller has a different car.
+- Has a moldy or plasticky smell (it's a lot better now after I bought a ozone machine and ran it for 10min and changed the cabin filter)
+- AC fan and compressor works but no cold air. (works now after recharged refrigerant for ",
+              "type": "normal",
+            },
+            {
+              "endIndex": 1815,
+              "rawText": "$150",
+              "startIndex": 1811,
+              "text": "$150",
+              "type": "price",
+            },
+            {
+              "endIndex": 2497,
+              "rawText": ", only work I've done for it so far at the mechanic, they also put in dye to check leak, apparently the compressor leaks and it'll cost 1.2k to replace condenser and compressor, it's still working now after about 2 weeks, I'll just keep the windows open if it stops working. Not gonna fix it)</p>
+
+<p>I have driven maybe about 400 km on it, I don't see major problem with it really, I called it shitbox mainly because how cheap I got it for. It's still early days though.</p>
+
+<p>Long message, thanks for reading.</p>
+
+<p>TLDR: I got lucky, it's doable with 1.5k (expired rego) but I wouldn't do it if I just need a car with 0 complication and don't have a little time to spare.</p>",
+              "startIndex": 1815,
+              "text": ", only work I've done for it so far at the mechanic, they also put in dye to check leak, apparently the compressor leaks and it'll cost 1.2k to replace condenser and compressor, it's still working now after about 2 weeks, I'll just keep the windows open if it stops working. Not gonna fix it)
+
+I have driven maybe about 400 km on it, I don't see major problem with it really, I called it shitbox mainly because how cheap I got it for. It's still early days though.
+
+Long message, thanks for reading.
+
+TLDR: I got lucky, it's doable with 1.5k (expired rego) but I wouldn't do it if I just need a car with 0 complication and don't have a little time to spare.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Thanks, I was on Facebook marketplace for like 3 months though, lots of being ghosted, seller sells the car before you arrive, doggy seller etc, you have to act fast and be patient.</p>
+
+<p>here are some specs/info:<br>
++ 2007 Ford Focus with 159 k km<br>
++ $ 1450 (I haggled for $50 off, very prod of myself) <br>
+- Picked up in Ku-ring-gai<br>
+- has 1 month expired rego so I have to get pink slip + renew, ($1.2 k for 1 year of rego)<br>
+- No owner manual no service booklet.<br>
++ passed pink slip with no repair.<br>
++ manual transmission (I bought it to learn manual so it's a +, strangely, I feel good manual deal is slightly harder to find than auto)<br>
++++ 2L petrol engine, apparently Ford duratec 2L is a Mazda designed engine, and they use the same engine on some Miata / Mx5, so it's got a strong, reliable Japanese 4 banger with a timing chain. I found out because I was looking up tear down vid to confirm if it has a timing belt.<br>
+- have some scratches and ding all around but no big dent (might be repairable not in my list of priorities at the moment)<br>
+- noisy power steering pump (it still have all the fluid so it's probably fine, seller said it's been like that for a while so eh)<br>
+- clutch might be a little worn but still works no slip. (there were so much steep hill in ku ring gai it was nerve racking driving it back) <br>
+- Engine oil is a little dark was changed 1.5 years ago but hasn't reach the km yet. (I did an oil change right away after getting it back home)<br>
+- Car was parked for 4 months cause seller has a different car.<br>
+- Has a moldy or plasticky smell (it's a lot better now after I bought a ozone machine and ran it for 10min and changed the cabin filter)<br>
+- AC fan and compressor works but no cold air. (works now after recharged refrigerant for $150, only work I've done for it so far at the mechanic, they also put in dye to check leak, apparently the compressor leaks and it'll cost 1.2k to replace condenser and compressor, it's still working now after about 2 weeks, I'll just keep the windows open if it stops working. Not gonna fix it)</p>
+
+<p>I have driven maybe about 400 km on it, I don't see major problem with it really, I called it shitbox mainly because how cheap I got it for. It's still early days though.</p>
+
+<p>Long message, thanks for reading.</p>
+
+<p>TLDR: I got lucky, it's doable with 1.5k (expired rego) but I wouldn't do it if I just need a car with 0 complication and don't have a little time to spare.</p>",
+        },
+        "id": "14909835",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T13:49:45.000Z,
+        "user": {
+          "isOp": true,
+          "name": "rather-potato",
+          "profileUrl": "https://www.ozbargain.com.au/user/398198",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 4,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 102,
+          "rawText": "<blockquote>
+  <p>ford focus shitbox recently for 1.5k</p>
+  
+  <p>local (Blacktown)</p>
+</blockquote>",
+          "startIndex": 0,
+          "text": "
+  ford focus shitbox recently for 1.5k
+  
+  local (Blacktown)
+",
+          "type": "blockquote",
+        },
+        {
+          "endIndex": 127,
+          "rawText": "
+
+<p>I've been told that ",
+          "startIndex": 102,
+          "text": "
+
+I've been told that ",
+          "type": "normal",
+        },
+        {
+          "endIndex": 199,
+          "linkType": "deal",
+          "rawText": "<a href="/comment/14773305/redir" class="internal inline">impossible</a>",
+          "startIndex": 127,
+          "text": "impossible",
+          "type": "link",
+          "url": "https://www.ozbargain.com.au/comment/14773305/redir",
+        },
+        {
+          "endIndex": 237,
+          "rawText": " - congrats on the shitbox though!</p>",
+          "startIndex": 199,
+          "text": " - congrats on the shitbox though!",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<blockquote>
+  <p>ford focus shitbox recently for 1.5k</p>
+  
+  <p>local (Blacktown)</p>
+</blockquote>
+
+<p>I've been told that <a href="/comment/14773305/redir" class="internal inline">impossible</a> - congrats on the shitbox though!</p>",
+    },
+    "id": "14909752",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T13:01:33.000Z,
+    "user": {
+      "isOp": false,
+      "name": "ryang",
+      "profileUrl": "https://www.ozbargain.com.au/user/23543",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 162,
+                  "rawText": "<p>I was mistakenly searching for Haynes on the library website not realising the link for the actual Haynes website in the deal where all the car manuals are</p>",
+                  "startIndex": 0,
+                  "text": "I was mistakenly searching for Haynes on the library website not realising the link for the actual Haynes website in the deal where all the car manuals are",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>I was mistakenly searching for Haynes on the library website not realising the link for the actual Haynes website in the deal where all the car manuals are</p>",
+            },
+            "id": "14909872",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-01-31T14:24:12.000Z,
+            "user": {
+              "isOp": false,
+              "name": "Stevieupright",
+              "profileUrl": "https://www.ozbargain.com.au/user/489974",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 1,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 108,
+              "rawText": "<p>Even if not the exact model, sometimes it can be a great starting point to give you the general idea.</p>",
+              "startIndex": 0,
+              "text": "Even if not the exact model, sometimes it can be a great starting point to give you the general idea.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Even if not the exact model, sometimes it can be a great starting point to give you the general idea.</p>",
+        },
+        "id": "14909843",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-01-31T13:53:59.000Z,
+        "user": {
+          "isOp": false,
+          "name": "t25",
+          "profileUrl": "https://www.ozbargain.com.au/user/69572",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 80,
+          "rawText": "<p>Searching for Haynes shows 1 book that is about lawnmower engines repair?</p>",
+          "startIndex": 0,
+          "text": "Searching for Haynes shows 1 book that is about lawnmower engines repair?",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Searching for Haynes shows 1 book that is about lawnmower engines repair?</p>",
+    },
+    "id": "14909771",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T13:12:44.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Stevieupright",
+      "profileUrl": "https://www.ozbargain.com.au/user/489974",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 138,
+          "rawText": "<p>Mad find OP. I was seriously looking for a particular one all over the net today. It seems all I had to do was drive down the road.</p>",
+          "startIndex": 0,
+          "text": "Mad find OP. I was seriously looking for a particular one all over the net today. It seems all I had to do was drive down the road.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Mad find OP. I was seriously looking for a particular one all over the net today. It seems all I had to do was drive down the road.</p>",
+    },
+    "id": "14909853",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T14:04:13.000Z,
+    "user": {
+      "isOp": false,
+      "name": "mafmouf",
+      "profileUrl": "https://www.ozbargain.com.au/user/49397",
+      "thumbnailUrl": "https://files.ozbargain.com.au/u/97/49397-38.jpg?h=8996109f",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 73,
+          "rawText": "<p>Very nice find!<br>
+Is there a way to download the manual locally?</p>",
+          "startIndex": 0,
+          "text": "Very nice find!
+Is there a way to download the manual locally?",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Very nice find!<br>
+Is there a way to download the manual locally?</p>",
+    },
+    "id": "14910031",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T20:22:04.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Teedo",
+      "profileUrl": "https://www.ozbargain.com.au/user/265926",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 3,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 64,
+          "rawText": "<p>Thanks Op, shame both my cars don’t appear CX5 and Tucson</p>",
+          "startIndex": 0,
+          "text": "Thanks Op, shame both my cars don’t appear CX5 and Tucson",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Thanks Op, shame both my cars don’t appear CX5 and Tucson</p>",
+    },
+    "id": "14910085",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T20:47:00.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Darkjimick",
+      "profileUrl": "https://www.ozbargain.com.au/user/178214",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 39,
+              "rawText": "<p>I was looking for the Superb too</p>",
+              "startIndex": 0,
+              "text": "I was looking for the Superb too",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>I was looking for the Superb too</p>",
+        },
+        "id": "14910898",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T00:36:25.000Z,
+        "user": {
+          "isOp": false,
+          "name": "OwMeKnees",
+          "profileUrl": "https://www.ozbargain.com.au/user/54575",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 34,
+          "rawText": "<p>Same<br>
+No Superb or 508GT</p>",
+          "startIndex": 0,
+          "text": "Same
+No Superb or 508GT",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Same<br>
+No Superb or 508GT</p>",
+    },
+    "id": "14910153",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T21:24:52.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Maybe - nah",
+      "profileUrl": "https://www.ozbargain.com.au/user/417209",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 53,
+              "rawText": "<p>The Spitfire one I have is pretty entertaining</p>",
+              "startIndex": 0,
+              "text": "The Spitfire one I have is pretty entertaining",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>The Spitfire one I have is pretty entertaining</p>",
+        },
+        "id": "14910906",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T00:37:15.000Z,
+        "user": {
+          "isOp": false,
+          "name": "OwMeKnees",
+          "profileUrl": "https://www.ozbargain.com.au/user/54575",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 394,
+              "rawText": "<p>The English engineer's take on the way others do things is always interesting.  Sometimes wise and funny, other times ham-fisted, misguided or plain ignorant of modern technology, manufacturing processes, tooling, materials, and even mechanical design!  In the Haynes library we get all, but its pretty good, and most helpful when others like Bently have missed a model you're working on</p>",
+              "startIndex": 0,
+              "text": "The English engineer's take on the way others do things is always interesting.  Sometimes wise and funny, other times ham-fisted, misguided or plain ignorant of modern technology, manufacturing processes, tooling, materials, and even mechanical design!  In the Haynes library we get all, but its pretty good, and most helpful when others like Bently have missed a model you're working on",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>The English engineer's take on the way others do things is always interesting.  Sometimes wise and funny, other times ham-fisted, misguided or plain ignorant of modern technology, manufacturing processes, tooling, materials, and even mechanical design!  In the Haynes library we get all, but its pretty good, and most helpful when others like Bently have missed a model you're working on</p>",
+        },
+        "id": "14911057",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T01:10:12.000Z,
+        "user": {
+          "isOp": false,
+          "name": "resisting the urge",
+          "profileUrl": "https://www.ozbargain.com.au/user/158114",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 247,
+          "rawText": "<p>I’ve never been a fan of most of the Haynes manuals I’ve used, although one of the hilux manuals I have is pretty good, but I’ve mainly only used them for 80s and 90s cars. <br>
+I prefer FSMs which are pretty easy to find online these days.</p>",
+          "startIndex": 0,
+          "text": "I’ve never been a fan of most of the Haynes manuals I’ve used, although one of the hilux manuals I have is pretty good, but I’ve mainly only used them for 80s and 90s cars. 
+I prefer FSMs which are pretty easy to find online these days.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>I’ve never been a fan of most of the Haynes manuals I’ve used, although one of the hilux manuals I have is pretty good, but I’ve mainly only used them for 80s and 90s cars. <br>
+I prefer FSMs which are pretty easy to find online these days.</p>",
+    },
+    "id": "14910204",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-01-31T21:47:53.000Z,
+    "user": {
+      "isOp": false,
+      "name": "mapax",
+      "profileUrl": "https://www.ozbargain.com.au/user/146543",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 87,
+              "rawText": "<p>I have one of those too OwMe … PM me if you find a .pdf of the manual somewhere?</p>",
+              "startIndex": 0,
+              "text": "I have one of those too OwMe … PM me if you find a .pdf of the manual somewhere?",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>I have one of those too OwMe … PM me if you find a .pdf of the manual somewhere?</p>",
+        },
+        "id": "14911053",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T01:08:18.000Z,
+        "user": {
+          "isOp": false,
+          "name": "GnarlyKnuckles",
+          "profileUrl": "https://www.ozbargain.com.au/user/123856",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 50,
+          "rawText": "<p>No ~2017 Toyota Aurion either unfortunately</p>",
+          "startIndex": 0,
+          "text": "No ~2017 Toyota Aurion either unfortunately",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>No ~2017 Toyota Aurion either unfortunately</p>",
+    },
+    "id": "14910901",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-02-01T00:36:54.000Z,
+    "user": {
+      "isOp": false,
+      "name": "OwMeKnees",
+      "profileUrl": "https://www.ozbargain.com.au/user/54575",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 38,
+              "rawText": "<p>Just download two Audi manuals.</p>",
+              "startIndex": 0,
+              "text": "Just download two Audi manuals.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Just download two Audi manuals.</p>",
+        },
+        "id": "15559702",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-08-01T03:46:30.000Z,
+        "user": {
+          "isOp": false,
+          "name": "valuer",
+          "profileUrl": "https://www.ozbargain.com.au/user/457511",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 37,
+          "rawText": "<p>I couldn't find Bugatti Veyron</p>",
+          "startIndex": 0,
+          "text": "I couldn't find Bugatti Veyron",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>I couldn't find Bugatti Veyron</p>",
+    },
+    "id": "14911472",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-02-01T02:39:09.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Daddy Chill",
+      "profileUrl": "https://www.ozbargain.com.au/user/432489",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 26,
+              "rawText": "<p>Cylinder or rotary?</p>",
+              "startIndex": 0,
+              "text": "Cylinder or rotary?",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Cylinder or rotary?</p>",
+        },
+        "id": "14912387",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T05:45:15.000Z,
+        "user": {
+          "isOp": false,
+          "name": "pebee47",
+          "profileUrl": "https://www.ozbargain.com.au/user/97227",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 60,
+                  "rawText": "<p>Clicked the sign up here link and took it from there.</p>",
+                  "startIndex": 0,
+                  "text": "Clicked the sign up here link and took it from there.",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Clicked the sign up here link and took it from there.</p>",
+            },
+            "id": "14913354",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-02-01T09:49:41.000Z,
+            "user": {
+              "isOp": false,
+              "name": "alphaoasis",
+              "profileUrl": "https://www.ozbargain.com.au/user/231607",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 183,
+              "rawText": "<p>Hi sir/miss you might be on the main website instead of the Haynes access portal. <br>
+Try using the link in the deal and that image then click the image that says "try it now"</p>",
+              "startIndex": 0,
+              "text": "Hi sir/miss you might be on the main website instead of the Haynes access portal. 
+Try using the link in the deal and that image then click the image that says "try it now"",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Hi sir/miss you might be on the main website instead of the Haynes access portal. <br>
+Try using the link in the deal and that image then click the image that says "try it now"</p>",
+        },
+        "id": "14913124",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T08:55:05.000Z,
+        "user": {
+          "isOp": true,
+          "name": "rather-potato",
+          "profileUrl": "https://www.ozbargain.com.au/user/398198",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 1,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 62,
+          "rawText": "<p>There is no Haynes repair manual except for lawn mower.</p>",
+          "startIndex": 0,
+          "text": "There is no Haynes repair manual except for lawn mower.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>There is no Haynes repair manual except for lawn mower.</p>",
+    },
+    "id": "14911663",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-02-01T03:15:24.000Z,
+    "user": {
+      "isOp": false,
+      "name": "alphaoasis",
+      "profileUrl": "https://www.ozbargain.com.au/user/231607",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 26,
+          "rawText": "<p>Is it downloadable?</p>",
+          "startIndex": 0,
+          "text": "Is it downloadable?",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Is it downloadable?</p>",
+    },
+    "id": "14911922",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-02-01T04:08:48.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Username checks out",
+      "profileUrl": "https://www.ozbargain.com.au/user/260647",
+      "thumbnailUrl": "https://files.ozbargain.com.au/u/47/260647-38.jpg?h=d180c52b",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 326,
+              "rawText": "<p>Hats off to you miss/sir, hey if you are ever in Blacktown I give you permission to use …… (I don't think there are much things we have that you guys don't already have.). There is new animal shelter that they have built, you could adopt a dog/cat if you like? <br>
+You know what we have Ikea that's pretty cool right ?</p>",
+              "startIndex": 0,
+              "text": "Hats off to you miss/sir, hey if you are ever in Blacktown I give you permission to use …… (I don't think there are much things we have that you guys don't already have.). There is new animal shelter that they have built, you could adopt a dog/cat if you like? 
+You know what we have Ikea that's pretty cool right ?",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Hats off to you miss/sir, hey if you are ever in Blacktown I give you permission to use …… (I don't think there are much things we have that you guys don't already have.). There is new animal shelter that they have built, you could adopt a dog/cat if you like? <br>
+You know what we have Ikea that's pretty cool right ?</p>",
+        },
+        "id": "14913100",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T08:51:01.000Z,
+        "user": {
+          "isOp": true,
+          "name": "rather-potato",
+          "profileUrl": "https://www.ozbargain.com.au/user/398198",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 1,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 160,
+          "rawText": "<p>You’re welcome, OP. I’m one of those people who are paying the rates 🤣😂</p>
+
+<p>“Thank you Liverpool city library and people who are paying the rates.”</p>",
+          "startIndex": 0,
+          "text": "You’re welcome, OP. I’m one of those people who are paying the rates 🤣😂
+
+“Thank you Liverpool city library and people who are paying the rates.”",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>You’re welcome, OP. I’m one of those people who are paying the rates 🤣😂</p>
+
+<p>“Thank you Liverpool city library and people who are paying the rates.”</p>",
+    },
+    "id": "14912190",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-02-01T04:56:31.000Z,
+    "user": {
+      "isOp": false,
+      "name": "BrownEyedGirl",
+      "profileUrl": "https://www.ozbargain.com.au/user/13975",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 1,
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 80,
+              "rawText": "<p>Big time. The Gregory's I've found are far better and more comprehensive.</p>",
+              "startIndex": 0,
+              "text": "Big time. The Gregory's I've found are far better and more comprehensive.",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Big time. The Gregory's I've found are far better and more comprehensive.</p>",
+        },
+        "id": "16213769",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2025-01-29T13:14:20.000Z,
+        "user": {
+          "isOp": false,
+          "name": "Lets Make Sandwiches",
+          "profileUrl": "https://www.ozbargain.com.au/user/116195",
+          "thumbnailUrl": "https://files.ozbargain.com.au/u/95/116195-38.jpg?h=90e3b3e8",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 58,
+          "rawText": "<p>Haynes can be very hit and miss with their Manuals.</p>",
+          "startIndex": 0,
+          "text": "Haynes can be very hit and miss with their Manuals.",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Haynes can be very hit and miss with their Manuals.</p>",
+    },
+    "id": "14912462",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-02-01T06:02:32.000Z,
+    "user": {
+      "isOp": false,
+      "name": "CurlCurl",
+      "profileUrl": "https://www.ozbargain.com.au/user/444667",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 31,
+                  "rawText": "<p>I'll settle for a Cayman</p>",
+                  "startIndex": 0,
+                  "text": "I'll settle for a Cayman",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>I'll settle for a Cayman</p>",
+            },
+            "id": "14932010",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-02-06T23:01:46.000Z,
+            "user": {
+              "isOp": false,
+              "name": "JimB",
+              "profileUrl": "https://www.ozbargain.com.au/user/125929",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 56,
+              "rawText": "<p>Don't we all? I'll take a 911 (SUVs are garbage).</p>",
+              "startIndex": 0,
+              "text": "Don't we all? I'll take a 911 (SUVs are garbage).",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Don't we all? I'll take a 911 (SUVs are garbage).</p>",
+        },
+        "id": "14912702",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T07:04:07.000Z,
+        "user": {
+          "isOp": false,
+          "name": "Mr Bob Dobalina",
+          "profileUrl": "https://www.ozbargain.com.au/user/394568",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 80,
+          "rawText": "<p>dang it, porshe is only available up to 1985 :(<br>
+i need a 2022 porsche</p>",
+          "startIndex": 0,
+          "text": "dang it, porshe is only available up to 1985 :(
+i need a 2022 porsche",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>dang it, porshe is only available up to 1985 :(<br>
+i need a 2022 porsche</p>",
+    },
+    "id": "14912490",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-02-01T06:08:37.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Hugh G Rection",
+      "profileUrl": "https://www.ozbargain.com.au/user/210128",
+      "thumbnailUrl": "https://files.ozbargain.com.au/u/28/210128-38.jpg?h=a77fb49a",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "content": {
+                      "parts": [
+                        {
+                          "endIndex": 3,
+                          "rawText": "<p>",
+                          "startIndex": 0,
+                          "text": "",
+                          "type": "normal",
+                        },
+                        {
+                          "endIndex": 116,
+                          "linkType": "deal",
+                          "rawText": "<a href="/comment/14913384/redir" class="internal inline" onclick="return OzB.gotoComment(14913384);">@mapax:</a>",
+                          "startIndex": 3,
+                          "text": "@mapax:",
+                          "type": "link",
+                          "url": "https://www.ozbargain.com.au/comment/14913384/redir",
+                        },
+                        {
+                          "endIndex": 127,
+                          "rawText": " cheers</p>",
+                          "startIndex": 116,
+                          "text": " cheers",
+                          "type": "normal",
+                        },
+                      ],
+                      "rawText": "<p><a href="/comment/14913384/redir" class="internal inline" onclick="return OzB.gotoComment(14913384);">@mapax:</a> cheers</p>",
+                    },
+                    "id": "14913400",
+                    "level": 4,
+                    "state": "shown",
+                    "timestamp": 2024-02-01T09:59:27.000Z,
+                    "user": {
+                      "isOp": false,
+                      "name": "nuno",
+                      "profileUrl": "https://www.ozbargain.com.au/user/118788",
+                      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                    },
+                    "votes": 0,
+                  },
+                ],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 26,
+                      "rawText": "<p>They have 1997-2001</p>",
+                      "startIndex": 0,
+                      "text": "They have 1997-2001",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>They have 1997-2001</p>",
+                },
+                "id": "14913384",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2024-02-01T09:55:28.000Z,
+                "user": {
+                  "isOp": false,
+                  "name": "mapax",
+                  "profileUrl": "https://www.ozbargain.com.au/user/146543",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 1,
+              },
+            ],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 21,
+                  "rawText": "<p>Honda vfr 800,</p>",
+                  "startIndex": 0,
+                  "text": "Honda vfr 800,",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Honda vfr 800,</p>",
+            },
+            "id": "14913378",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-02-01T09:53:49.000Z,
+            "user": {
+              "isOp": false,
+              "name": "nuno",
+              "profileUrl": "https://www.ozbargain.com.au/user/118788",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 32,
+              "rawText": "<p>What are you looking for?</p>",
+              "startIndex": 0,
+              "text": "What are you looking for?",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>What are you looking for?</p>",
+        },
+        "id": "14913303",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-01T09:37:49.000Z,
+        "user": {
+          "isOp": false,
+          "name": "mapax",
+          "profileUrl": "https://www.ozbargain.com.au/user/146543",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 0,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 48,
+          "rawText": "<p>can someone check for motorcycle manuals?</p>",
+          "startIndex": 0,
+          "text": "can someone check for motorcycle manuals?",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>can someone check for motorcycle manuals?</p>",
+    },
+    "id": "14913296",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-02-01T09:35:47.000Z,
+    "user": {
+      "isOp": false,
+      "name": "nuno",
+      "profileUrl": "https://www.ozbargain.com.au/user/118788",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 16,
+          "rawText": "<p>Thanks OP</p>",
+          "startIndex": 0,
+          "text": "Thanks OP",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Thanks OP</p>",
+    },
+    "id": "14913965",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-02-01T12:25:39.000Z,
+    "user": {
+      "isOp": false,
+      "name": "fredk1000",
+      "profileUrl": "https://www.ozbargain.com.au/user/204658",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 45,
+          "rawText": "<p>How do you download a manual as a PDF?</p>",
+          "startIndex": 0,
+          "text": "How do you download a manual as a PDF?",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>How do you download a manual as a PDF?</p>",
+    },
+    "id": "14930059",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-02-06T06:21:22.000Z,
+    "user": {
+      "isOp": false,
+      "name": "gamerkonks",
+      "profileUrl": "https://www.ozbargain.com.au/user/273957",
+      "thumbnailUrl": "https://files.ozbargain.com.au/u/57/273957-38.jpg?h=f4127a84",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 119,
+          "rawText": "<p>Damn. They have &lt;2013 of the car I want, but not after - even though Haynes have the book in print (2015 on).</p>",
+          "startIndex": 0,
+          "text": "Damn. They have <2013 of the car I want, but not after - even though Haynes have the book in print (2015 on).",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Damn. They have &lt;2013 of the car I want, but not after - even though Haynes have the book in print (2015 on).</p>",
+    },
+    "id": "14934896",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-02-07T10:06:40.000Z,
+    "user": {
+      "isOp": false,
+      "name": "Thiefsie",
+      "profileUrl": "https://www.ozbargain.com.au/user/4092",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "content": {
+              "parts": [
+                {
+                  "endIndex": 120,
+                  "rawText": "<p>Just got an email saying to ignore the expiry email and that my "card" is valid until 2029 and this was a mistake</p>",
+                  "startIndex": 0,
+                  "text": "Just got an email saying to ignore the expiry email and that my "card" is valid until 2029 and this was a mistake",
+                  "type": "normal",
+                },
+              ],
+              "rawText": "<p>Just got an email saying to ignore the expiry email and that my "card" is valid until 2029 and this was a mistake</p>",
+            },
+            "id": "14962173",
+            "level": 2,
+            "state": "shown",
+            "timestamp": 2024-02-14T23:33:18.000Z,
+            "user": {
+              "isOp": false,
+              "name": "the-fuzz",
+              "profileUrl": "https://www.ozbargain.com.au/user/257754",
+              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+            },
+            "votes": 0,
+          },
+        ],
+        "content": {
+          "parts": [
+            {
+              "endIndex": 137,
+              "rawText": "<p>Oh no, I hope mine don't expire soon.<br>
+If you still just need access for this only maybe try using the account MiCCAS provided?</p>",
+              "startIndex": 0,
+              "text": "Oh no, I hope mine don't expire soon.
+If you still just need access for this only maybe try using the account MiCCAS provided?",
+              "type": "normal",
+            },
+          ],
+          "rawText": "<p>Oh no, I hope mine don't expire soon.<br>
+If you still just need access for this only maybe try using the account MiCCAS provided?</p>",
+        },
+        "id": "14957007",
+        "level": 1,
+        "state": "shown",
+        "timestamp": 2024-02-13T11:00:44.000Z,
+        "user": {
+          "isOp": true,
+          "name": "rather-potato",
+          "profileUrl": "https://www.ozbargain.com.au/user/398198",
+          "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+        },
+        "votes": 1,
+      },
+    ],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 204,
+          "rawText": "<p>Got an email this morning that my library card is expiring in a month and that I need to contact them via phone or in person to renew - also my username/password can no longer access haynes website</p>",
+          "startIndex": 0,
+          "text": "Got an email this morning that my library card is expiring in a month and that I need to contact them via phone or in person to renew - also my username/password can no longer access haynes website",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>Got an email this morning that my library card is expiring in a month and that I need to contact them via phone or in person to renew - also my username/password can no longer access haynes website</p>",
+    },
+    "id": "14955450",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-02-13T03:38:42.000Z,
+    "user": {
+      "isOp": false,
+      "name": "the-fuzz",
+      "profileUrl": "https://www.ozbargain.com.au/user/257754",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 0,
+  },
+  {
+    "children": [],
+    "content": {
+      "parts": [
+        {
+          "endIndex": 211,
+          "rawText": "<p>These aren’t the Haynes manuals but if you’re seeking car repair guides for older vehicles (7+ years old), check out Operation CHARM: Car repair manuals for everyone. It’s, free, open sourced repair manuals: ",
+          "startIndex": 0,
+          "text": "These aren’t the Haynes manuals but if you’re seeking car repair guides for older vehicles (7+ years old), check out Operation CHARM: Car repair manuals for everyone. It’s, free, open sourced repair manuals: ",
+          "type": "normal",
+        },
+        {
+          "endIndex": 301,
+          "linkType": "external",
+          "rawText": "<a href="https://charm.li/" class="external" rel="noopener nofollow">https://charm.li/</a>",
+          "startIndex": 211,
+          "text": "https://charm.li/",
+          "type": "link",
+          "url": "https://charm.li/",
+        },
+        {
+          "endIndex": 365,
+          "rawText": "</p>
+
+<p>Here’s a sample set of guides for a 2008 VW GTI (mk5): ",
+          "startIndex": 301,
+          "text": "
+
+Here’s a sample set of guides for a 2008 VW GTI (mk5): ",
+          "type": "normal",
+        },
+        {
+          "endIndex": 587,
+          "linkType": "external",
+          "rawText": "<a href="https://charm.li/Volkswagen/2008/GTI%20%281K1%29%20L4-2.0L%20Turbo%20%28CBFA%29/Repair%20and%20Diagnosis/" class="external" rel="noopener nofollow">https://charm.li/Volkswagen/2008/GTI%20%281K1%29%20L4-2.0L%2…</a>",
+          "startIndex": 365,
+          "text": "https://charm.li/Volkswagen/2008/GTI%20%281K1%29%20L4-2.0L%2…",
+          "type": "link",
+          "url": "https://charm.li/Volkswagen/2008/GTI%20%281K1%29%20L4-2.0L%20Turbo%20%28CBFA%29/Repair%20and%20Diagnosis/",
+        },
+        {
+          "endIndex": 591,
+          "rawText": "</p>",
+          "startIndex": 587,
+          "text": "",
+          "type": "normal",
+        },
+      ],
+      "rawText": "<p>These aren’t the Haynes manuals but if you’re seeking car repair guides for older vehicles (7+ years old), check out Operation CHARM: Car repair manuals for everyone. It’s, free, open sourced repair manuals: <a href="https://charm.li/" class="external" rel="noopener nofollow">https://charm.li/</a></p>
+
+<p>Here’s a sample set of guides for a 2008 VW GTI (mk5): <a href="https://charm.li/Volkswagen/2008/GTI%20%281K1%29%20L4-2.0L%20Turbo%20%28CBFA%29/Repair%20and%20Diagnosis/" class="external" rel="noopener nofollow">https://charm.li/Volkswagen/2008/GTI%20%281K1%29%20L4-2.0L%2…</a></p>",
+    },
+    "id": "15558012",
+    "level": 0,
+    "state": "shown",
+    "timestamp": 2024-07-31T21:51:05.000Z,
+    "user": {
+      "isOp": false,
+      "name": "williape",
+      "profileUrl": "https://www.ozbargain.com.au/user/311529",
+      "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+    },
+    "votes": 2,
   },
 ]
 `;
