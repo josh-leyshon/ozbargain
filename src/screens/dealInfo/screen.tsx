@@ -11,6 +11,7 @@ import { Column } from '../../base/layout/flex';
 import { openLink } from '../../base/links/openLink';
 import { share } from '../../base/links/share';
 import { useDealsFeed } from '../../global-state/dealsFeed';
+import type { Comment } from '../../parsers/web-scrape/deal-info-page/comments';
 import { getDealCommentsFromDocument } from '../../parsers/web-scrape/deal-info-page/comments';
 import { DealCardInfo } from '../dealsFeed/dealCard/dealCard';
 import { DealMeta, makeDefaultExpiryFormatter } from '../dealsFeed/dealCard/dealMeta';
@@ -25,14 +26,22 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
 
   const deal = dealsFeed.getDealById(dealId);
 
-  const { data: dealCommentsHtml, error } = useFetch(deal.links.comments);
-  const comments = dealCommentsHtml ? getDealCommentsFromDocument(dealCommentsHtml) : undefined;
-
-  if (error) {
-    console.error('Error fetching deal comments page:', error);
+  const { data: dealCommentsHtml, error: dealCommentsFetchError } = useFetch(deal.links.comments);
+  let comments: Comment[] | Error | undefined;
+  try {
+    if (dealCommentsHtml) {
+      comments = getDealCommentsFromDocument(dealCommentsHtml);
+    }
+  } catch (err) {
+    console.error('Error while parsing deal comments:', err);
+    comments = err instanceof Error ? err : new Error('Error while parsing deal comments');
   }
 
-  const renderedComments = error != null
+  if (dealCommentsFetchError) {
+    console.error('Error fetching deal comments page:', dealCommentsFetchError);
+  }
+
+  const renderedComments = dealCommentsFetchError != null || comments instanceof Error
     ? <Text colour='light'>Something went wrong.</Text>
     : comments == null
     ? <Loading />
