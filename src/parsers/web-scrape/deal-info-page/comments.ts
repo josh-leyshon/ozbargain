@@ -93,7 +93,25 @@ function getCommentAndChildren(rootCheerio: CheerioAPI, comment: Element, level:
 
   const state = $('> div.comment-wrap div.comment').hasClass('hidden') ? 'hidden' : 'shown';
 
-  const children = $('> ul.comment > li').map((_, elem) => getCommentAndChildren(rootCheerio, elem, level + 1)).get();
+  const thereAreChildComments = $('> ul.comment > li > div.comment-wrap').length > 0;
+  const thereIsAnotherThreadLevel = $('> ul.comment > li > ul.comment > li').length > 0;
+
+  const children =
+    // If there are child comments then we loop them as normal.
+    thereAreChildComments
+      ? $('> ul.comment > li')
+        .map((_, elem) => getCommentAndChildren(rootCheerio, elem, level + 1))
+        .get()
+      // If there are no child comments but there is another level of comments within,
+      // it could imply a comment was completely deleted/removed,
+      // but replies to it are still available.
+      // If this is the case then theoretically this pattern could extend beyond just one level of comments,
+      // but right now I'm choosing to believe that won't happen.
+      : thereIsAnotherThreadLevel
+      ? $('> ul.comment > li > ul.comment > li')
+        .map((_, elem) => getCommentAndChildren(rootCheerio, elem, level + 2))
+        .get()
+      : [];
 
   return {
     id,
