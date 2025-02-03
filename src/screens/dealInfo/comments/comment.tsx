@@ -25,20 +25,30 @@ export function Comment({ id, timestamp, state, content, user, level, votes }: C
 
   return (
     <Column gap='small'>
-      <Row gap='medium' justifyContent='flex-start' alignItems='center'>
-        {user.isOp && <Tag colour='primary' type='thin'>OP</Tag>}
-        <Text
-          weight='bold'
-          colour={state === 'shown' ? 'normal' : 'veryLight'}
-        >
-          {user.name}
-        </Text>
-        {state !== 'removed' && (
+      <Row justifyContent='space-between' alignItems='center'>
+        <Row gap='medium' justifyContent='flex-start' alignItems='center'>
+          {user.isOp && <Tag colour='primary' type='thin'>OP</Tag>}
+          <Text
+            weight='bold'
+            colour={state === 'shown' ? 'normal' : 'veryLight'}
+          >
+            {user.name}
+          </Text>
+          {state !== 'removed' && (
+            <Text
+              size='small'
+              colour={state === 'shown' ? 'light' : 'veryLight'}
+            >
+              {timestampFormatter.format(timestamp)}
+            </Text>
+          )}
+        </Row>
+        {votes && (
           <Text
             size='small'
-            colour={state === 'shown' ? 'light' : 'veryLight'}
+            colour={votes > 0 ? 'light' : 'veryLight'}
           >
-            {timestampFormatter.format(timestamp)}
+            {`${votes > 0 ? '+' : '-'}${votes}`}
           </Text>
         )}
       </Row>

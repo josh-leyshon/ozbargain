@@ -27,7 +27,13 @@ export function CommentThread({ firstComment }: CommentThreadProps): React.JSX.E
       {flattenedCommentThread.map(comment => (
         <Row key={comment.id} justifyContent='flex-start' gap='medium'>
           {comment.level > 0 && <ThreadIndent level={comment.level} />}
-          <Column shrink={1} paddingBlock='small'>
+          <Column
+            // Comments will expand horizontally to the max size of the container (screen).
+            grow={1}
+            // Comments will not overflow the container horizontally.
+            shrink={1}
+            paddingBlock='small'
+          >
             <Comment {...comment} />
           </Column>
         </Row>
