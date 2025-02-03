@@ -81,6 +81,7 @@ export function convertToOzbargainFeed(feed: RssFeed): OzbargainFeed {
           deal: feedItem.link,
           // The `feedItem.comments` link just goes to the same deal info page, anchored to the comments section.
           // Manually going to `/comments` however loads a special page that has all comments (and only comments), not paginated.
+          // On this page, no comments are hidden due to downvotes, and unpublished comments are completely omitted.
           comments: `${feedItem.link}/comments`,
           productPage: feedItem.meta.url,
         },
