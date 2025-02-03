@@ -1,4 +1,5 @@
 import type React from 'react';
+import { Tag } from '../../../base/components/tag/tag';
 import { Text } from '../../../base/components/text/text';
 import { CommonTextFromParts } from '../../../base/components/text/textParts/commonTextFromParts';
 import { Column, Row } from '../../../base/layout/flex';
@@ -25,6 +26,7 @@ export function Comment({ id, timestamp, state, content, user, level, votes }: C
   return (
     <Column gap='small'>
       <Row gap='medium' justifyContent='flex-start' alignItems='center'>
+        {user.isOp && <Tag colour='primary' type='thin'>OP</Tag>}
         <Text
           weight='bold'
           colour={state === 'shown' ? 'normal' : 'veryLight'}
