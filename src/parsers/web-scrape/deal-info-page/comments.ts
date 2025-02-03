@@ -129,16 +129,18 @@ function getCommentAndChildren(rootCheerio: CheerioAPI, comment: Element, level:
     throw new Error(`Did not find timestamp for comment. HTML:\n${$('> div.comment-wrap').html()}`);
   }
 
+  const userDeactivated = $('> div.comment-wrap div.comment span.user-deactivated').length > 0;
+
   const userATag = $('> div.comment-wrap div.comment a[href^="/user/"]');
-  const userName = userATag.text();
-  const userLink = userATag.attr()?.href;
-  const userThumbnailUrl = $('> div.comment-wrap div.comment img[class="gravatar"]').attr()?.src;
+  const userName = userDeactivated ? '[Deactivated]' : userATag.text();
+  const userLink = userDeactivated ? '' : userATag.attr()?.href;
+  const userThumbnailUrl = userDeactivated ? '' : $('> div.comment-wrap div.comment img[class="gravatar"]').attr()?.src;
   const isOp = $('> div.comment-wrap div.comment').hasClass('comment-op');
 
-  if (!userLink) {
+  if (userLink == null) {
     throw new Error(`Did not find comment author profile link for comment. HTML:\n${$('> div.comment-wrap').html()}`);
   }
-  if (!userThumbnailUrl) {
+  if (userThumbnailUrl == null) {
     throw new Error(`Did not find comment author thumbnail URL for comment. HTML:\n${$('> div.comment-wrap').html()}`);
   }
 
