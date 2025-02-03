@@ -12,8 +12,9 @@ type BaseCommentFields = {
    *
    * `shown` = Default, comment is normal.
    * `hidden` = Comment has been hidden due to too many negative votes.
+   * `removed` = Comment has been removed by moderators.
    */
-  state: 'shown' | 'hidden';
+  state: 'shown' | 'hidden' | 'removed';
   /**
    * Information about this comment's author.
    */
@@ -64,10 +65,60 @@ type HiddenComment =
     [K in keyof CommentContentAndVotes]?: never;
   };
 
-export type Comment = ShownComment | HiddenComment;
+type RemovedComment =
+  & BaseCommentFields
+  & {
+    state: 'removed';
+    id: `removed-${string}`;
+    user: {
+      name: 'Removed';
+      thumbnailUrl: '';
+      profileUrl: '';
+      isOp: false;
+    };
+  }
+  & {
+    [K in keyof CommentContentAndVotes]?: never;
+  };
+
+export type Comment = ShownComment | HiddenComment | RemovedComment;
+
+let randomIdSeed = 1;
+// Adapted from: https://stackoverflow.com/a/19303725
+function randomId() {
+  const randomNumber = Math.sin(randomIdSeed++) * 10_000;
+  const decimalPart = randomNumber - Math.floor(randomNumber);
+  const id = Math.floor(decimalPart * 1_000_000_000);
+  return id;
+}
+
+function makeRemovedComment(level: number, children: Comment[]): RemovedComment {
+  return {
+    state: 'removed',
+    id: `removed-${randomId()}`,
+    timestamp: new Date(0),
+    user: {
+      name: 'Removed',
+      profileUrl: '',
+      thumbnailUrl: '',
+      isOp: false,
+    },
+    level,
+    children,
+  };
+}
 
 function getCommentAndChildren(rootCheerio: CheerioAPI, comment: Element, level: number): Comment {
   const $ = (query: SelectorType) => rootCheerio(query, comment);
+
+  const commentExists = $('> div.comment-wrap').length > 0;
+  if (!commentExists) {
+    const children = $('> ul.comment > li')
+      .map((_, elem) => getCommentAndChildren(rootCheerio, elem, level + 1))
+      .get();
+
+    return makeRemovedComment(level, children);
+  }
 
   const id = $('> div.comment-wrap').attr()?.['id']?.match(/comment-(\d+)/)?.at(1);
   const timestampMs = Number.parseInt($('> div.comment-wrap > div.comment').attr()?.['data-ts'] ?? '0') * 1000;
@@ -98,25 +149,9 @@ function getCommentAndChildren(rootCheerio: CheerioAPI, comment: Element, level:
 
   const state = $('> div.comment-wrap div.comment').hasClass('hidden') ? 'hidden' : 'shown';
 
-  const thereAreChildComments = $('> ul.comment > li > div.comment-wrap').length > 0;
-  const thereIsAnotherThreadLevel = $('> ul.comment > li > ul.comment > li').length > 0;
-
-  const children =
-    // If there are child comments then we loop them as normal.
-    thereAreChildComments
-      ? $('> ul.comment > li')
-        .map((_, elem) => getCommentAndChildren(rootCheerio, elem, level + 1))
-        .get()
-      // If there are no child comments but there is another level of comments within,
-      // it could imply a comment was completely deleted/removed,
-      // but replies to it are still available.
-      // If this is the case then theoretically this pattern could extend beyond just one level of comments,
-      // but right now I'm choosing to believe that won't happen.
-      : thereIsAnotherThreadLevel
-      ? $('> ul.comment > li > ul.comment > li')
-        .map((_, elem) => getCommentAndChildren(rootCheerio, elem, level + 2))
-        .get()
-      : [];
+  const children = $('> ul.comment > li')
+    .map((_, elem) => getCommentAndChildren(rootCheerio, elem, level + 1))
+    .get();
 
   return {
     id,

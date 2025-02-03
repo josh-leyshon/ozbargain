@@ -18,23 +18,27 @@ type CommentProps = OmitStrict<CommentType, 'children'>;
 export function Comment({ id, timestamp, state, content, user, level, votes }: CommentProps): React.JSX.Element {
   const commentText = state === 'shown' && content != null
     ? <CommonTextFromParts textParts={content.parts} />
-    : <Text colour='veryLight'>Comment hidden due to negative votes.</Text>;
+    : state === 'hidden'
+    ? <Text colour='veryLight'>Comment hidden due to negative votes.</Text>
+    : <Text colour='veryLight'>Comment removed.</Text>;
 
   return (
     <Column gap='small'>
       <Row gap='medium' justifyContent='flex-start' alignItems='center'>
         <Text
           weight='bold'
-          colour={state === 'hidden' ? 'veryLight' : 'normal'}
+          colour={state === 'shown' ? 'normal' : 'veryLight'}
         >
           {user.name}
         </Text>
-        <Text
-          size='small'
-          colour={state === 'hidden' ? 'veryLight' : 'light'}
-        >
-          {timestampFormatter.format(timestamp)}
-        </Text>
+        {state !== 'removed' && (
+          <Text
+            size='small'
+            colour={state === 'shown' ? 'light' : 'veryLight'}
+          >
+            {timestampFormatter.format(timestamp)}
+          </Text>
+        )}
       </Row>
       <Row>
         {commentText}

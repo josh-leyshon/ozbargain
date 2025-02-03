@@ -7654,58 +7654,72 @@ Also coincidentally thought I had commented this looking at your username.",
       {
         "children": [
           {
-            "children": [],
-            "content": {
-              "parts": [
-                {
-                  "endIndex": 77,
-                  "rawText": "<p>Welcome to the world of unregulated CTP! 🤣</p>
+            "children": [
+              {
+                "children": [],
+                "content": {
+                  "parts": [
+                    {
+                      "endIndex": 77,
+                      "rawText": "<p>Welcome to the world of unregulated CTP! 🤣</p>
 
 <p>jk, sort of …</p>
 
 <p>",
-                  "startIndex": 0,
-                  "text": "Welcome to the world of unregulated CTP! 🤣
+                      "startIndex": 0,
+                      "text": "Welcome to the world of unregulated CTP! 🤣
 
 jk, sort of …
 
 ",
-                  "type": "normal",
-                },
-                {
-                  "endIndex": 201,
-                  "linkType": "external",
-                  "rawText": "<a href="https://www.greenslips.nsw.gov.au/" class="external" rel="noopener nofollow">https://www.greenslips.nsw.gov.au/</a>",
-                  "startIndex": 77,
-                  "text": "https://www.greenslips.nsw.gov.au/",
-                  "type": "link",
-                  "url": "https://www.greenslips.nsw.gov.au/",
-                },
-                {
-                  "endIndex": 205,
-                  "rawText": "</p>",
-                  "startIndex": 201,
-                  "text": "",
-                  "type": "normal",
-                },
-              ],
-              "rawText": "<p>Welcome to the world of unregulated CTP! 🤣</p>
+                      "type": "normal",
+                    },
+                    {
+                      "endIndex": 201,
+                      "linkType": "external",
+                      "rawText": "<a href="https://www.greenslips.nsw.gov.au/" class="external" rel="noopener nofollow">https://www.greenslips.nsw.gov.au/</a>",
+                      "startIndex": 77,
+                      "text": "https://www.greenslips.nsw.gov.au/",
+                      "type": "link",
+                      "url": "https://www.greenslips.nsw.gov.au/",
+                    },
+                    {
+                      "endIndex": 205,
+                      "rawText": "</p>",
+                      "startIndex": 201,
+                      "text": "",
+                      "type": "normal",
+                    },
+                  ],
+                  "rawText": "<p>Welcome to the world of unregulated CTP! 🤣</p>
 
 <p>jk, sort of …</p>
 
 <p><a href="https://www.greenslips.nsw.gov.au/" class="external" rel="noopener nofollow">https://www.greenslips.nsw.gov.au/</a></p>",
-            },
-            "id": "14910233",
-            "level": 3,
-            "state": "shown",
-            "timestamp": 2024-01-31T21:59:10.000Z,
+                },
+                "id": "14910233",
+                "level": 3,
+                "state": "shown",
+                "timestamp": 2024-01-31T21:59:10.000Z,
+                "user": {
+                  "isOp": false,
+                  "name": "ryang",
+                  "profileUrl": "https://www.ozbargain.com.au/user/23543",
+                  "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+                },
+                "votes": 1,
+              },
+            ],
+            "id": "removed-709848078",
+            "level": 2,
+            "state": "removed",
+            "timestamp": 1970-01-01T00:00:00.000Z,
             "user": {
               "isOp": false,
-              "name": "ryang",
-              "profileUrl": "https://www.ozbargain.com.au/user/23543",
-              "thumbnailUrl": "https://files.ozbargain.com.au/g/38.jpg",
+              "name": "Removed",
+              "profileUrl": "",
+              "thumbnailUrl": "",
             },
-            "votes": 1,
           },
         ],
         "content": {
