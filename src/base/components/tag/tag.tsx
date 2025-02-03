@@ -10,11 +10,18 @@ type TagColour = 'primary' | 'normal' | 'success' | 'warning' | 'error';
 
 export type TagProps = {
   icon?: ReactNode;
-  children?: string | number;
   colour: TagColour;
+  /**
+   * A `normal` tag has appropriate padding for most children.
+   * A `thin` tag has less padding, meant for inline text use.
+   *
+   * @default normal
+   */
+  type?: 'normal' | 'thin';
+  children?: string | number;
 };
 
-export function Tag({ icon, children, colour }: TagProps): React.JSX.Element {
+export function Tag({ icon, colour, type = 'normal', children }: TagProps): React.JSX.Element {
   const colourStyle = getColourStyle(colour);
   const content = children != null
     ? (colour === 'success' || colour === 'warning' || colour === 'error')
@@ -23,7 +30,12 @@ export function Tag({ icon, children, colour }: TagProps): React.JSX.Element {
     : null;
 
   return (
-    <Row justifyContent='flex-start' alignItems='center' gap='small' style={[styles.tag, colourStyle]}>
+    <Row
+      justifyContent='flex-start'
+      alignItems='center'
+      gap='small'
+      style={[type === 'normal' ? styles.tagNormal : styles.tagThin, colourStyle]}
+    >
       {icon}
       {content}
     </Row>
@@ -48,8 +60,12 @@ function getColourStyle(colour: TagColour) {
 }
 
 const styles = StyleSheet.create({
-  tag: {
+  tagNormal: {
     paddingBlock: sizes.small,
+    paddingInline: sizes.medium,
+    borderRadius: sizes.small * 1.5,
+  },
+  tagThin: {
     paddingInline: sizes.medium,
     borderRadius: sizes.small * 1.5,
   },

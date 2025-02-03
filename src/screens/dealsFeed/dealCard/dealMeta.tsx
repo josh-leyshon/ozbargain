@@ -5,7 +5,7 @@ import { Tag } from '../../../base/components/tag/tag';
 import { fontSizes } from '../../../base/constants/text';
 import { Column, Row } from '../../../base/layout/flex';
 import { getVotesIntensity } from '../../../base/votes/votesIntensity';
-import type { Deal } from '../../../feed-parser/parser';
+import type { Deal } from '../../../parsers/xml-feed/parser';
 
 type ExpiryFormatter = (expiresAt: Deal['expiresAt']) => {
   text: string;

@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync } from 'fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import type { RssFeed } from '../../parser';
 import { getRssParser } from '../../parser';
 

@@ -3,7 +3,7 @@ import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 import type { FlatListProps } from 'react-native';
 import { Card } from '../../base/components/card/card';
 import { sizes } from '../../base/constants/sizes';
-import type { Deal } from '../../feed-parser/parser';
+import type { Deal } from '../../parsers/xml-feed/parser';
 import { DealCardInfo } from './dealCard/dealCard';
 import { DealMeta, makeDefaultExpiryFormatter } from './dealCard/dealMeta';
 

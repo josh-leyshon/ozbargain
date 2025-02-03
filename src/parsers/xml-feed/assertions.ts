@@ -1,4 +1,4 @@
-import { assert } from '../base/assert';
+import { assert } from '../../base/assert';
 import type { RssFeed } from './parser';
 
 type FeedMeta = {

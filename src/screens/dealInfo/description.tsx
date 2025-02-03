@@ -1,9 +1,7 @@
 import type React from 'react';
-import { Link } from '../../base/components/text/link';
-import { Text } from '../../base/components/text/text';
-import { openLink } from '../../base/links/openLink';
-import type { Deal } from '../../feed-parser/parser';
-import type { TextPart } from '../../feed-parser/textParts';
+import { CommonTextFromParts } from '../../base/components/text/textParts/commonTextFromParts';
+import type { TextPart } from '../../parsers/text/textParts';
+import type { Deal } from '../../parsers/xml-feed/parser';
 
 const maxNumTextParts = 80;
 
@@ -20,15 +18,7 @@ export function Description({ description }: DescriptionProps): React.JSX.Elemen
     ]
     : description.parts;
 
-  return (
-    <Text>
-      {parts.map(part => {
-        return part.type === 'link'
-          ? <Link key={part.startIndex} onPress={() => openLink(part.url)}>{part.text}</Link>
-          : <Text key={part.startIndex}>{part.text}</Text>;
-      })}
-    </Text>
-  );
+  return <CommonTextFromParts textParts={parts} />;
 }
 
 function makeTrimmedDescriptionTextPart(startIndex: number): TextPart {

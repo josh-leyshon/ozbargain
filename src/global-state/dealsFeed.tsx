@@ -1,7 +1,8 @@
 import { createContext, useContext, useEffect, useMemo, useReducer } from 'react';
+import { OZBARGAIN_BASE_URL } from '../base/constants/urls';
 import { UnreachableError } from '../base/unreachableError';
-import { getOzbargainFeedFromUrl } from '../feed-parser/parser';
-import type { Deal, OzbargainFeed } from '../feed-parser/parser';
+import { getOzbargainFeedFromUrl } from '../parsers/xml-feed/parser';
+import type { Deal, OzbargainFeed } from '../parsers/xml-feed/parser';
 
 /**
  * @param page The feed page to fetch. Default: 0
@@ -15,8 +16,8 @@ type FeedFetcher = (page?: number) => Promise<OzbargainFeed>;
  */
 type DealsSorter = (deal1: Deal, deal2: Deal) => number;
 
-const TOP_DEALS_FEED_URL = 'https://www.ozbargain.com.au/feed';
-const NEW_DEALS_FEED_URL = 'https://www.ozbargain.com.au/deals/feed';
+const TOP_DEALS_FEED_URL = `${OZBARGAIN_BASE_URL}/feed`;
+const NEW_DEALS_FEED_URL = `${OZBARGAIN_BASE_URL}/deals/feed`;
 
 type DealsFeedConstructorArgs = {
   topDeals: {
@@ -44,19 +45,11 @@ export class DealsFeed {
   }
 
   getTopDeals(): Deal[] {
-    const deals = this.topDeals.feed?.deals;
-    if (!deals) {
-      throw new Error('No top deals feed exists.');
-    }
-    return deals;
+    return this.topDeals.feed?.deals ?? [];
   }
 
   getNewDeals(): Deal[] {
-    const deals = this.newDeals.feed?.deals;
-    if (!deals) {
-      throw new Error('No new deals feed exists.');
-    }
-    return deals;
+    return this.newDeals.feed?.deals ?? [];
   }
 
   getDealById(id: Deal['id']): Deal {
@@ -170,7 +163,7 @@ export const onlineNewDealsFetchFeed: FeedFetcher = (page = 0) => {
 type State =
   | {
     state: 'refreshing';
-    dealsFeed?: DealsFeed;
+    dealsFeed: DealsFeed;
   }
   | {
     state: 'ready';
@@ -180,8 +173,7 @@ type MaybeUninitializedState =
   | State
   | {
     state: 'uninitialised';
-    dealsFeed?: DealsFeed;
-    emptyDealsFeed: DealsFeed;
+    dealsFeed: DealsFeed;
   };
 type Action =
   | {
@@ -230,7 +222,7 @@ export function DealsFeedProvider({
 }>): React.JSX.Element {
   const [state, dispatch] = useReducer(dealsFeedReducer, {
     state: 'uninitialised',
-    emptyDealsFeed: new DealsFeed({
+    dealsFeed: new DealsFeed({
       topDeals: {
         fetcher: topDealsFetchFeed,
       },
@@ -351,14 +343,6 @@ export function useDealsFeed(): UseDealsFeedReturnValue {
   if (context == null) {
     throw new Error('Could not find DealsFeed Provider');
   }
-
-  // Assuming the app runs single-threaded, this should only occur once.
-  // useEffect(() => {
-  //   if (context.state === 'uninitialised') {
-  //     context.refreshTopDeals(context.emptyDealsFeed);
-  //     context.refreshNewDeals(context.emptyDealsFeed);
-  //   }
-  // }, [context]);
 
   // Had type errors with assigning `state` when trying to make this smaller using `...context`.
   return context.state === 'uninitialised' || context.state === 'refreshing'

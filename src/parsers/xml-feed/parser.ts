@@ -1,6 +1,7 @@
 import RssParser from 'rss-parser';
+import { OZBARGAIN_BASE_URL } from '../../base/constants/urls';
+import { type PartedText, partText } from '../text/textParts';
 import { assertAndParseFeedItem, assertFeedMeta } from './assertions';
-import { type PartedText, partText } from './textParts';
 
 export type Deal = {
   id: string;
@@ -78,7 +79,10 @@ export function convertToOzbargainFeed(feed: RssFeed): OzbargainFeed {
         id: feedItem.id,
         links: {
           deal: feedItem.link,
-          comments: feedItem.comments,
+          // The `feedItem.comments` link just goes to the same deal info page, anchored to the comments section.
+          // Manually going to `/comments` however loads a special page that has all comments (and only comments), not paginated.
+          // On this page, no comments are hidden due to downvotes, and unpublished comments are completely omitted.
+          comments: `${feedItem.link}/comments`,
           productPage: feedItem.meta.url,
         },
         votes: {
@@ -103,5 +107,5 @@ export async function getOzbargainFeedFromUrl(url: string) {
 
 // FOR LOCAL TESTING ONLY
 
-export const FEED_URL = 'https://www.ozbargain.com.au/deals/feed';
+export const FEED_URL = `${OZBARGAIN_BASE_URL}/deals/feed`;
 export const FEED_URL_CORS_ANYWHERE = `https://cors-anywhere.herokuapp.com/${FEED_URL}`;
