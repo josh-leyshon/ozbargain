@@ -17,8 +17,15 @@ const timestampFormatter = new Intl.DateTimeFormat(undefined, {
 type CommentProps = OmitStrict<CommentType, 'children'>;
 
 export function Comment({ id, timestamp, state, content, user, level, votes }: CommentProps): React.JSX.Element {
+  const isDownvoted = votes != null && votes < 0;
+
   const commentText = state === 'shown' && content != null
-    ? <CommonTextFromParts textParts={content.parts} />
+    ? (
+      <CommonTextFromParts
+        textParts={content.parts}
+        colour={isDownvoted ? 'veryLight' : undefined}
+      />
+    )
     : state === 'hidden'
     ? <Text colour='veryLight'>Comment hidden due to negative votes.</Text>
     : <Text colour='veryLight'>Comment removed.</Text>;
@@ -30,14 +37,14 @@ export function Comment({ id, timestamp, state, content, user, level, votes }: C
           {user.isOp && <Tag colour='primary' type='thin'>OP</Tag>}
           <Text
             weight='bold'
-            colour={state === 'shown' ? 'normal' : 'veryLight'}
+            colour={isDownvoted ? 'veryLight' : undefined}
           >
             {user.name}
           </Text>
           {state !== 'removed' && (
             <Text
               size='small'
-              colour={state === 'shown' ? 'light' : 'veryLight'}
+              colour={isDownvoted ? 'veryLight' : 'light'}
             >
               {timestampFormatter.format(timestamp)}
             </Text>
@@ -46,9 +53,9 @@ export function Comment({ id, timestamp, state, content, user, level, votes }: C
         {votes && (
           <Text
             size='small'
-            colour={votes > 0 ? 'light' : 'veryLight'}
+            colour={isDownvoted ? 'veryLight' : 'light'}
           >
-            {`${votes > 0 ? '+' : '-'}${votes}`}
+            {`${isDownvoted ? '-' : '+'}${votes}`}
           </Text>
         )}
       </Row>
