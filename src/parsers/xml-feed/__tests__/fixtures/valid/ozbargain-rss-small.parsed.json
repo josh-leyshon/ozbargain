@@ -36,7 +36,7 @@
             "endIndex": 376,
             "url": "https://www.ozbargain.com.au/node/750992",
             "text": "Original Coupon Deal",
-            "linkType": "deal"
+            "linkType": "internal"
           },
           {
             "type": "normal",
@@ -64,7 +64,7 @@
             "endIndex": 511,
             "url": "https://www.ozbargain.com.au/node/743700",
             "text": "not too long ago",
-            "linkType": "deal"
+            "linkType": "internal"
           },
           {
             "type": "normal",

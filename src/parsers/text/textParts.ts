@@ -7,10 +7,13 @@ type InternalTextPartType = TextPartType | 'metaDiv';
 type LinkTextPart = {
   type: 'link';
   url: string;
-  /** The text that should be displayed as the link. */
+  /**
+   * The text that should be displayed as the link. */
   text: string;
-  /** Whether this link is for another Ozbargain deal, or just a link to an external site. */
-  linkType: 'deal' | 'external';
+  /**
+   * Whether this link is for an internal ozbargain page (eg. a deal, a comment, a user profile),
+   * or a link to an external site. */
+  linkType: 'internal' | 'external';
 };
 
 export type TextPart =
@@ -174,15 +177,15 @@ export const INTERNAL_LINK_PREFIX = OZBARGAIN_BASE_URL;
  */
 function parseLink(text: string): Omit<LinkTextPart, 'type'> | undefined {
   const urlStr = text.match(/href="(.+?)"/)?.[1];
-  const internalExternal = text.match(/class="(internal|external).*?"/)?.[1];
+  const relativeLink = urlStr?.startsWith('/');
   const linkText = text.match(/<a .+?>(.+?)<\/a>/s)?.[1];
 
-  if (!urlStr || !internalExternal || !linkText) {
+  if (!urlStr || relativeLink === undefined || !linkText) {
     return;
   }
 
-  const linkType = internalExternal === 'internal' ? 'deal' : 'external';
-  const url = linkType === 'deal' ? `${INTERNAL_LINK_PREFIX}${urlStr}` : urlStr;
+  const linkType: LinkTextPart['linkType'] = relativeLink ? 'internal' : 'external';
+  const url = linkType === 'internal' ? `${INTERNAL_LINK_PREFIX}${urlStr}` : urlStr;
 
   return {
     url,
