@@ -50,7 +50,7 @@ export function Comment({ id, timestamp, state, content, user, level, votes }: C
             </Text>
           )}
         </Row>
-        {votes && (
+        {votes != null && votes !== 0 && (
           <Text
             size='small'
             colour={isDownvoted ? 'veryLight' : 'light'}
