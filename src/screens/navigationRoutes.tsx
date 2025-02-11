@@ -60,7 +60,12 @@ const RootStack = createNativeStackNavigator({
         headerShown: false,
       },
     },
-    DealInfo: DealInfoScreen,
+    DealInfo: {
+      screen: DealInfoScreen,
+      options: {
+        headerTitle: 'Deal Info',
+      },
+    },
   },
 });
 
