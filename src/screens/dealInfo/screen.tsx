@@ -1,10 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { ScrollView, StyleSheet } from 'react-native';
 import { Card } from '../../base/components/card/card';
 import { Loading } from '../../base/components/loading/loading';
 import { Text } from '../../base/components/text/text';
-import { colours } from '../../base/constants/colours';
 import { sizes } from '../../base/constants/sizes';
 import { useFetch } from '../../base/hooks/useFetch';
 import { Column } from '../../base/layout/flex';
@@ -50,34 +48,31 @@ export function DealInfoScreen({ route }: DealInfoScreenProps): React.JSX.Elemen
     : comments.map(comment => <CommentThread key={comment.id} firstComment={comment} />);
 
   return (
-    <>
-      <StatusBar backgroundColor={colours.foreground} />
-      <ScrollView contentContainerStyle={styles.container}>
-        <Column gap='medium'>
-          <Card gap='large' padding='large'>
-            <DealCardInfo
-              title={deal.title}
-              imageUrl={deal.thumbnailUrl}
-              dealMeta={<DealMeta {...deal} expiryFormatter={makeDefaultExpiryFormatter(new Date())} />}
-            />
-            <LinkButtons
-              onPressGoToDeal={() => openLink(deal.links.productPage)}
-              onPressOpenOnOzbargain={() => openLink(deal.links.deal)}
-              onPressShare={() => share({ message: deal.links.deal })}
-            />
-          </Card>
-          <Card padding='large'>
-            <Description description={deal.description} />
-          </Card>
-          <Card padding='large' gap='large'>
-            <Text size='large' weight='bold'>Comments</Text>
-            <Column gap='medium'>
-              {renderedComments}
-            </Column>
-          </Card>
-        </Column>
-      </ScrollView>
-    </>
+    <ScrollView contentContainerStyle={styles.container}>
+      <Column gap='medium'>
+        <Card gap='large' padding='large'>
+          <DealCardInfo
+            title={deal.title}
+            imageUrl={deal.thumbnailUrl}
+            dealMeta={<DealMeta {...deal} expiryFormatter={makeDefaultExpiryFormatter(new Date())} />}
+          />
+          <LinkButtons
+            onPressGoToDeal={() => openLink(deal.links.productPage)}
+            onPressOpenOnOzbargain={() => openLink(deal.links.deal)}
+            onPressShare={() => share({ message: deal.links.deal })}
+          />
+        </Card>
+        <Card padding='large'>
+          <Description description={deal.description} />
+        </Card>
+        <Card padding='large' gap='large'>
+          <Text size='large' weight='bold'>Comments</Text>
+          <Column gap='medium'>
+            {renderedComments}
+          </Column>
+        </Card>
+      </Column>
+    </ScrollView>
   );
 }
 
