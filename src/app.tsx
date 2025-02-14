@@ -7,7 +7,7 @@ import { Navigation } from './screens/navigationRoutes';
 function App(): React.JSX.Element {
   return (
     <SafeAreaProvider>
-      <StatusBar />
+      <StatusBar style='dark' />
       <DealsFeedProvider
         topDealsFetchFeed={onlineTopDealsFetchFeed}
         newDealsFetchFeed={onlineNewDealsFetchFeed}
