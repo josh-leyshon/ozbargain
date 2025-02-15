@@ -161,7 +161,9 @@ function parsePart(
       return {
         type,
         rawText: match[0],
-        text: stripAndUnescapeHtml(match[0]),
+        text: stripAndUnescapeHtml(match[0])
+          // Blockquotes always seem to start and end with newlines that weren't deliberately part of the written text.
+          .trim(),
         startIndex: indexes.start,
         endIndex: indexes.end,
       };
