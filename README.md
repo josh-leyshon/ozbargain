@@ -1,6 +1,6 @@
 ## Hello 😊
 
-This is a React Native / Expo app. It can currently run on web and mobile (via Expo Go app).
+This is a React Native / Expo app. It can currently run on web (with fake data only) and mobile (via Expo Go app).
 
 Some areas, like the feed-parser fake data, are incomplete / untidy. Will come back to these after making more progress. Also tests don't exist yet.
 
