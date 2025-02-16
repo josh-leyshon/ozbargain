@@ -8,6 +8,7 @@ import { Blockquote } from '../blockquote';
 import { Link } from '../link';
 import type { TextProps } from '../text';
 import { Text } from '../text';
+import { groupTextPartsIntoRenderableGroups, trimTextParts } from './utils';
 
 type CommonTextFromPartsProps = {
   textParts: TextPart[];
@@ -19,7 +20,8 @@ type CommonTextFromPartsProps = {
  * This component handles that.
  */
 export function CommonTextFromParts({ textParts, ...props }: CommonTextFromPartsProps): React.JSX.Element {
-  const groups = groupTextPartsIntoRenderableGroups(textParts);
+  const trimmedTextParts = trimTextParts(textParts);
+  const groups = groupTextPartsIntoRenderableGroups(trimmedTextParts);
 
   return (
     <Column>
@@ -78,39 +80,4 @@ function SingleTextPart({ textPart, size, weight, colour }: RenderTextPartProps)
         {textPart.text}
       </Text>
     );
-}
-
-/**
- * For different types of TextParts to be rendered visibly "together",
- * they need to be grouped into appropriate groups that can be rendered together in one view.
- *
- * For example, a `blockquote` type needs to be rendered in its own group, because
- * it won't render correctly as inline Text like simpler types (it will overflow oddly).
- *
- * Other types may be fine, and in fact are required, to be rendered within the same Text view,
- * for text wrapping to occur correctly.
- */
-function groupTextPartsIntoRenderableGroups(textParts: TextPart[]): TextPart[][] {
-  const groups: TextPart[][] = [];
-
-  let currentGroup: TextPart[] = [];
-
-  for (const part of textParts) {
-    if (part.type === 'blockquote') {
-      if (currentGroup.length > 0) {
-        groups.push(currentGroup);
-      }
-      groups.push([part]);
-      currentGroup = [];
-      continue;
-    }
-
-    currentGroup.push(part);
-  }
-
-  if (currentGroup.length > 0) {
-    groups.push(currentGroup);
-  }
-
-  return groups;
 }
