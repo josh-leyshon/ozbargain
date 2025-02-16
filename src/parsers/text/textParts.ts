@@ -1,7 +1,7 @@
 import { OZBARGAIN_BASE_URL } from '../../base/constants/urls';
 import { UnreachableError } from '../../base/unreachableError';
 
-type TextPartType = 'price' | 'link' | 'blockquote' | 'normal';
+type TextPartType = 'price' | 'link' | 'blockquote' | 'normal' | 'bold';
 type InternalTextPartType = TextPartType | 'metaDiv';
 
 type LinkTextPart = {
@@ -51,8 +51,11 @@ const linkRegexBeginsWith = '<a ';
 const blockQuoteRegex = /(<blockquote>.+?<\/blockquote>)/;
 const blockQuoteRegexBeginsWith = '<blockquote>';
 
+const boldRegex = /(<strong>.+?<\/strong>)/;
+const boldRegexBeginsWith = '<strong>';
+
 const allRegexes = new RegExp(
-  `${priceRegex.source}|${descriptionMetaDivRegex.source}|${linkRegex.source}|${blockQuoteRegex.source}`,
+  `${priceRegex.source}|${descriptionMetaDivRegex.source}|${linkRegex.source}|${blockQuoteRegex.source}|${boldRegex.source}`,
   'gs',
 );
 
@@ -71,6 +74,8 @@ export function partText(input: string): PartedText {
         ? 'link'
         : matchedText.startsWith(blockQuoteRegexBeginsWith)
         ? 'blockquote'
+        : matchedText.startsWith(boldRegexBeginsWith)
+        ? 'bold'
         : undefined
     ) satisfies InternalTextPartType | undefined;
 
@@ -157,6 +162,14 @@ function parsePart(
         : undefined;
     }
     case 'price':
+    case 'bold':
+      return {
+        type,
+        rawText: match[0],
+        text: stripAndUnescapeHtml(match[0]),
+        startIndex: indexes.start,
+        endIndex: indexes.end,
+      };
     case 'blockquote':
       return {
         type,

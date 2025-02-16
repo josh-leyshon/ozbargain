@@ -293,9 +293,23 @@
           },
           {
             "type": "normal",
-            "rawText": " or see below for direct links</p>\n\n<p><strong>Items:</strong><br />\n4x Heel Balm, Medisol 120ml Tubes, Exp: End March 2025, ",
-            "text": " or see below for direct links\n\nItems:\n4x Heel Balm, Medisol 120ml Tubes, Exp: End March 2025, ",
+            "rawText": " or see below for direct links</p>\n\n<p>",
+            "text": " or see below for direct links\n\n",
             "startIndex": 1008,
+            "endIndex": 1047
+          },
+          {
+            "type": "bold",
+            "rawText": "<strong>Items:</strong>",
+            "text": "Items:",
+            "startIndex": 1047,
+            "endIndex": 1070
+          },
+          {
+            "type": "normal",
+            "rawText": "<br />\n4x Heel Balm, Medisol 120ml Tubes, Exp: End March 2025, ",
+            "text": "\n4x Heel Balm, Medisol 120ml Tubes, Exp: End March 2025, ",
+            "startIndex": 1070,
             "endIndex": 1133
           },
           { "type": "price", "rawText": "$10.99", "text": "$10.99", "startIndex": 1133, "endIndex": 1139 },
@@ -563,11 +577,19 @@
           },
           {
             "type": "normal",
-            "rawText": "</li>\n</ul>\n\n<p><strong>And for those looking for (my version of) bulk antihistamine deals:</strong><br />\n",
-            "text": "\n\n\nAnd for those looking for (my version of) bulk antihistamine deals:\n",
+            "rawText": "</li>\n</ul>\n\n<p>",
+            "text": "\n\n\n",
             "startIndex": 4708,
-            "endIndex": 4815
+            "endIndex": 4724
           },
+          {
+            "type": "bold",
+            "rawText": "<strong>And for those looking for (my version of) bulk antihistamine deals:</strong>",
+            "text": "And for those looking for (my version of) bulk antihistamine deals:",
+            "startIndex": 4724,
+            "endIndex": 4808
+          },
+          { "type": "normal", "rawText": "<br />\n", "text": "\n", "startIndex": 4808, "endIndex": 4815 },
           {
             "type": "link",
             "rawText": "<a href=\"/node/888603\" class=\"internal\">https://www.ozbargain.com.au/node/888603</a>",
