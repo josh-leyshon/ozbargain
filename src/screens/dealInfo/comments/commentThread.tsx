@@ -1,5 +1,5 @@
 import type React from 'react';
-import { colours } from '../../../base/constants/colours';
+import { VerticalDivider } from '../../../base/components/divider/divider';
 import { sizes } from '../../../base/constants/sizes';
 import { Column, Row } from '../../../base/layout/flex';
 import type { OmitStrict } from '../../../base/types/omitStrict';
@@ -47,17 +47,12 @@ type ThreadIndentProps = {
 };
 
 function ThreadIndent({ level }: ThreadIndentProps): React.JSX.Element {
-  const width = sizes.small / 2;
   return (
-    <Column
-      style={{
-        width,
-        borderRadius: width,
-        backgroundColor: level % 2 === 1
-          ? colours.primary
-          : colours.secondaryLight,
-        marginLeft: level * sizes.medium,
-      }}
+    <VerticalDivider
+      colour={level % 2 === 1
+        ? 'primary'
+        : 'secondaryLight'}
+      style={{ marginLeft: level * sizes.medium }}
     />
   );
 }

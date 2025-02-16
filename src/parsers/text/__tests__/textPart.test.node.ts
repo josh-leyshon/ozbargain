@@ -85,6 +85,7 @@ test.each([
 test.each([
   { input: 'abc <blockquote>def</blockquote> ghi', expectedQuoteTexts: ['def'] },
   { input: '<blockquote>def</blockquote> <blockquote>ghi</blockquote>', expectedQuoteTexts: ['def', 'ghi'] },
+  { input: '<blockquote>\n def\n\n</blockquote>', expectedQuoteTexts: ['def'] },
   // Closing tag is missing "</", not a proper blockquote.
   { input: '<blockquote>def<blockquote>', expectedQuoteTexts: [] },
   { input: '<blockquote>abc $123</blockquote>', expectedQuoteTexts: ['abc $123'] },
