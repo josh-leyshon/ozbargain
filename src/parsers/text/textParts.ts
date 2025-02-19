@@ -1,35 +1,37 @@
 import { OZBARGAIN_BASE_URL } from '../../base/constants/urls';
 import { UnreachableError } from '../../base/unreachableError';
 
-type TextPartType = 'price' | 'link' | 'blockquote' | 'normal' | 'bold';
-type InternalTextPartType = TextPartType | 'metaDiv';
-
-type LinkTextPart = {
-  type: 'link';
-  url: string;
-  /**
-   * The text that should be displayed as the link. */
-  text: string;
-  /**
-   * Whether this link is for an internal ozbargain page (eg. a deal, a comment, a user profile),
-   * or a link to an external site. */
-  linkType: 'internal' | 'external';
+type BaseTextPartProperties = {
+  /** Raw text of this Part. */
+  rawText: string;
+  /** Index of the entire string that this Part starts on, inclusive. */
+  startIndex: number;
+  /** Index of the entire string that this Part ends on, exclusive. */
+  endIndex: number;
 };
 
 export type TextPart =
-  & {
-    /** Raw text of this Part. */
-    rawText: string;
-    /** Index of the entire string that this Part starts on, inclusive. */
-    startIndex: number;
-    /** Index of the entire string that this Part ends on, exclusive. */
-    endIndex: number;
-  }
+  & BaseTextPartProperties
   & ({
-    type: Exclude<TextPartType, 'link'>;
+    type: 'normal' | 'price' | 'blockquote' | 'bold';
     /** Text with HTML tags stripped out. */
     text: string;
-  } | LinkTextPart);
+  } | {
+    type: 'link';
+    url: string;
+    /**
+     * The text that should be displayed as the link. */
+    text: string;
+    /**
+     * Whether this link is for an internal ozbargain page (eg. a deal, a comment, a user profile),
+     * or a link to an external site. */
+    linkType: 'internal' | 'external';
+  });
+
+type TextPartType = TextPart['type'];
+type InternalTextPartType = TextPartType | 'metaDiv';
+
+type LinkTextPart = TextPart & { type: 'link' };
 
 /**
  * Text that has been parsed into interesting parts, in the order they appeared.
@@ -190,7 +192,7 @@ export const INTERNAL_LINK_PREFIX = OZBARGAIN_BASE_URL;
 /**
  * Parse an `<a>` tag into parts.
  */
-function parseLink(text: string): Omit<LinkTextPart, 'type'> | undefined {
+function parseLink(text: string): Pick<LinkTextPart, 'url' | 'text' | 'linkType'> | undefined {
   const urlStr = text.match(/href="(.+?)"/)?.[1];
   const relativeLink = urlStr?.startsWith('/');
   const linkText = text.match(/<a .+?>(.+?)<\/a>/s)?.[1];
