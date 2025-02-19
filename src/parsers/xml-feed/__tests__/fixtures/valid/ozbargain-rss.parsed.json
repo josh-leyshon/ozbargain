@@ -5485,9 +5485,23 @@
           },
           {
             "type": "normal",
-            "rawText": "</p>\n\n<p>With versatility and comfort paramount all year round, you can’t go wrong with the Camp Plus SI Mat from Sea to Summit.</p>\n\n<ul>\n<li>ASTM F3340-18 R-Value: 4.3</li>\n<li><strong>7.5cm of height</strong></li>\n<li>Designed for year-round use</li>\n<li>Abrasion-resistant 75D polyester with laminated TPU</li>\n<li>Multi-functional high flow rate reversible valve for easy inflation/deflation</li>\n<li>Horizontal delta coring reduces the bulk and weight</li>\n<li>PillowLock ™ system to keep separately available pillow secure</li>\n<li>Self-adhesive puncture repair kit included</li>\n</ul>\n",
-            "text": "\n\nWith versatility and comfort paramount all year round, you can’t go wrong with the Camp Plus SI Mat from Sea to Summit.\n\n\nASTM F3340-18 R-Value: 4.3\n7.5cm of height\nDesigned for year-round use\nAbrasion-resistant 75D polyester with laminated TPU\nMulti-functional high flow rate reversible valve for easy inflation/deflation\nHorizontal delta coring reduces the bulk and weight\nPillowLock ™ system to keep separately available pillow secure\nSelf-adhesive puncture repair kit included\n\n",
+            "rawText": "</p>\n\n<p>With versatility and comfort paramount all year round, you can’t go wrong with the Camp Plus SI Mat from Sea to Summit.</p>\n\n<ul>\n<li>ASTM F3340-18 R-Value: 4.3</li>\n<li>",
+            "text": "\n\nWith versatility and comfort paramount all year round, you can’t go wrong with the Camp Plus SI Mat from Sea to Summit.\n\n\nASTM F3340-18 R-Value: 4.3\n",
             "startIndex": 721,
+            "endIndex": 900
+          },
+          {
+            "type": "bold",
+            "rawText": "<strong>7.5cm of height</strong>",
+            "text": "7.5cm of height",
+            "startIndex": 900,
+            "endIndex": 932
+          },
+          {
+            "type": "normal",
+            "rawText": "</li>\n<li>Designed for year-round use</li>\n<li>Abrasion-resistant 75D polyester with laminated TPU</li>\n<li>Multi-functional high flow rate reversible valve for easy inflation/deflation</li>\n<li>Horizontal delta coring reduces the bulk and weight</li>\n<li>PillowLock ™ system to keep separately available pillow secure</li>\n<li>Self-adhesive puncture repair kit included</li>\n</ul>\n",
+            "text": "\nDesigned for year-round use\nAbrasion-resistant 75D polyester with laminated TPU\nMulti-functional high flow rate reversible valve for easy inflation/deflation\nHorizontal delta coring reduces the bulk and weight\nPillowLock ™ system to keep separately available pillow secure\nSelf-adhesive puncture repair kit included\n\n",
+            "startIndex": 932,
             "endIndex": 1314
           }
         ]

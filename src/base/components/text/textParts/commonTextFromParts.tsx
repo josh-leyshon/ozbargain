@@ -71,6 +71,16 @@ function SingleTextPart({ textPart, size, weight, colour }: RenderTextPartProps)
         {textPart.text}
       </Blockquote>
     )
+    : textPart.type === 'bold'
+    ? (
+      <Text
+        size={size}
+        weight={'bold'}
+        colour={colour}
+      >
+        {textPart.text}
+      </Text>
+    )
     : (
       <Text
         size={size}

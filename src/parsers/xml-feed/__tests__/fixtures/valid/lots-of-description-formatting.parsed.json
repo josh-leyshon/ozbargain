@@ -1,0 +1,669 @@
+{
+  "meta": {
+    "feedTitle": "OzBargain | New Deals, Coupons, Vouchers and Freebies",
+    "feedLink": "https://www.ozbargain.com.au/deals/feed"
+  },
+  "deals": [
+    {
+      "title": {
+        "rawText": "[Pre Order] Samsung Galaxy S25 Ultra 512GB $437 ($237 With Code) on JB 24M $99/M Plan\n        (in-Store, Port-in Customer) @ JB Hi-Fi",
+        "parts": [
+          {
+            "type": "normal",
+            "rawText": "[Pre Order] Samsung Galaxy S25 Ultra 512GB ",
+            "text": "[Pre Order] Samsung Galaxy S25 Ultra 512GB ",
+            "startIndex": 0,
+            "endIndex": 43
+          },
+          { "type": "price", "rawText": "$437", "text": "$437", "startIndex": 43, "endIndex": 47 },
+          { "type": "normal", "rawText": " (", "text": " (", "startIndex": 47, "endIndex": 49 },
+          { "type": "price", "rawText": "$237", "text": "$237", "startIndex": 49, "endIndex": 53 },
+          {
+            "type": "normal",
+            "rawText": " With Code) on JB 24M ",
+            "text": " With Code) on JB 24M ",
+            "startIndex": 53,
+            "endIndex": 75
+          },
+          { "type": "price", "rawText": "$99", "text": "$99", "startIndex": 75, "endIndex": 78 },
+          {
+            "type": "normal",
+            "rawText": "/M Plan\n        (in-Store, Port-in Customer) @ JB Hi-Fi",
+            "text": "/M Plan\n        (in-Store, Port-in Customer) @ JB Hi-Fi",
+            "startIndex": 78,
+            "endIndex": 133
+          }
+        ]
+      },
+      "description": {
+        "rawText": "<div style=\"float:right;margin:0 0 1ex 1ex\"><a href=\"/node/890078\" rel=\"noopener nofollow\" title=\"Link: https://www.jbhifi.com.au/products/samsung-galaxy-s25-ultra-512gb-titanium-grey?variant=40424746877129\"><img src=\"https://files.ozbargain.com.au/n/78/890078.jpg?h=fe25d45a\" alt=\"[Pre Order] Samsung Galaxy S25 Ultra 512GB $437 ($237 With Code) on JB 24M $99/M Plan (in-Store, Port-in Customer) @ JB Hi-Fi\"/></a></div><p>On the s25 ultra page scroll down and shows $1700 off the new s25 Ultra with the $99 p/m jbmobile plan if you port in.</p>\n\n<p>$237 is only if you use the $200 samsung signup promo code otherwise it’s $437. As this is a mobile plan you go in store to signup, show them the $200 preorder code they should give you the further discount.</p>\n\n<p>Plan : $237 ($437 without code) + $99 p/m over 24 months.</p>\n\n<p>If you cancel: <strike>$237 + $800 + $99 =$1,136 ($1037 if you can get first months charge refunded).</strike>, you will need to pay the voucher repayment fee as stated in <a href=\"https://www.telstra.com.au/content/dam/tcom/personal/consumer-advice/pdf/consumer/jb-hi-fi-standard-terms-upfront-mobile-service-terms.pdf\" class=\"external inline\" rel=\"noopener nofollow\">terms</a></p>\n\n<blockquote>\n  <p>Voucher Repayment Fee</p>\n  \n  <p>6.2 If you received a JB Hi-Fi Voucher when you purchased your Mobile Service and you cancel<br />\n  that Mobile Service within any applicable Voucher Term, you must pay us the outstanding<br />\n  amounts for the JB Hi-Fi Voucher you received for the cancelled Mobile Service (the Voucher<br />\n  Repayment Fee).</p>\n  \n  <p>6.3 The Voucher Repayment Fee is a pro-rata amount, equal to the total amount of the base<br />\n  Voucher divided by 24 and multiplied by the months (or part months) remaining in your<br />\n  Voucher Term.</p>\n</blockquote>\n\n<p><strike>Max cancellation fee is $800</strike>. The $99 first months charge In past deals I’ve usually got this refunded though if you’re really nice, but be aware in case if you are unable to get the $99 refunded. T&amp;C: <a href=\"https://www.telstra.com.au/help/critical-information-summaries/personal/mobile/mobile-plans/jb-hi-fi-mobile-upfront-plans\" class=\"external\" rel=\"noopener nofollow\">https://www.telstra.com.au/help/critical-information-summari…</a></p>\n\n<p>Also keep in mind this deal is for porting in your number, so if you’re planning to cancel you could get a $5 Aldi sim and port in with that.</p>\n\n<hr />\n\n<h4>Use the <a href=\"/node/890088\" class=\"internal inline\">Samsung Galaxy Pre-Order Code Request megathread</a> if you&#039;re after the $200 discount code. No requests in comments please</h4>\n",
+        "parts": [
+          {
+            "type": "normal",
+            "rawText": "<p>On the s25 ultra page scroll down and shows ",
+            "text": "On the s25 ultra page scroll down and shows ",
+            "startIndex": 420,
+            "endIndex": 467
+          },
+          { "type": "price", "rawText": "$1700", "text": "$1700", "startIndex": 467, "endIndex": 472 },
+          {
+            "type": "normal",
+            "rawText": " off the new s25 Ultra with the ",
+            "text": " off the new s25 Ultra with the ",
+            "startIndex": 472,
+            "endIndex": 504
+          },
+          { "type": "price", "rawText": "$99", "text": "$99", "startIndex": 504, "endIndex": 507 },
+          {
+            "type": "normal",
+            "rawText": " p/m jbmobile plan if you port in.</p>\n\n<p>",
+            "text": " p/m jbmobile plan if you port in.\n\n",
+            "startIndex": 507,
+            "endIndex": 550
+          },
+          { "type": "price", "rawText": "$237", "text": "$237", "startIndex": 550, "endIndex": 554 },
+          {
+            "type": "normal",
+            "rawText": " is only if you use the ",
+            "text": " is only if you use the ",
+            "startIndex": 554,
+            "endIndex": 578
+          },
+          { "type": "price", "rawText": "$200", "text": "$200", "startIndex": 578, "endIndex": 582 },
+          {
+            "type": "normal",
+            "rawText": " samsung signup promo code otherwise it’s ",
+            "text": " samsung signup promo code otherwise it’s ",
+            "startIndex": 582,
+            "endIndex": 624
+          },
+          { "type": "price", "rawText": "$437", "text": "$437", "startIndex": 624, "endIndex": 628 },
+          {
+            "type": "normal",
+            "rawText": ". As this is a mobile plan you go in store to signup, show them the ",
+            "text": ". As this is a mobile plan you go in store to signup, show them the ",
+            "startIndex": 628,
+            "endIndex": 696
+          },
+          { "type": "price", "rawText": "$200", "text": "$200", "startIndex": 696, "endIndex": 700 },
+          {
+            "type": "normal",
+            "rawText": " preorder code they should give you the further discount.</p>\n\n<p>Plan : ",
+            "text": " preorder code they should give you the further discount.\n\nPlan : ",
+            "startIndex": 700,
+            "endIndex": 773
+          },
+          { "type": "price", "rawText": "$237", "text": "$237", "startIndex": 773, "endIndex": 777 },
+          { "type": "normal", "rawText": " (", "text": " (", "startIndex": 777, "endIndex": 779 },
+          { "type": "price", "rawText": "$437", "text": "$437", "startIndex": 779, "endIndex": 783 },
+          {
+            "type": "normal",
+            "rawText": " without code) + ",
+            "text": " without code) + ",
+            "startIndex": 783,
+            "endIndex": 800
+          },
+          { "type": "price", "rawText": "$99", "text": "$99", "startIndex": 800, "endIndex": 803 },
+          {
+            "type": "normal",
+            "rawText": " p/m over 24 months.</p>\n\n<p>If you cancel: <strike>",
+            "text": " p/m over 24 months.\n\nIf you cancel: ",
+            "startIndex": 803,
+            "endIndex": 855
+          },
+          { "type": "price", "rawText": "$237", "text": "$237", "startIndex": 855, "endIndex": 859 },
+          { "type": "normal", "rawText": " + ", "text": " + ", "startIndex": 859, "endIndex": 862 },
+          { "type": "price", "rawText": "$800", "text": "$800", "startIndex": 862, "endIndex": 866 },
+          { "type": "normal", "rawText": " + ", "text": " + ", "startIndex": 866, "endIndex": 869 },
+          { "type": "price", "rawText": "$99", "text": "$99", "startIndex": 869, "endIndex": 872 },
+          { "type": "normal", "rawText": " =", "text": " =", "startIndex": 872, "endIndex": 874 },
+          { "type": "price", "rawText": "$1,136", "text": "$1,136", "startIndex": 874, "endIndex": 880 },
+          { "type": "normal", "rawText": " (", "text": " (", "startIndex": 880, "endIndex": 882 },
+          { "type": "price", "rawText": "$1037", "text": "$1037", "startIndex": 882, "endIndex": 887 },
+          {
+            "type": "normal",
+            "rawText": " if you can get first months charge refunded).</strike>, you will need to pay the voucher repayment fee as stated in ",
+            "text": " if you can get first months charge refunded)., you will need to pay the voucher repayment fee as stated in ",
+            "startIndex": 887,
+            "endIndex": 1004
+          },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://www.telstra.com.au/content/dam/tcom/personal/consumer-advice/pdf/consumer/jb-hi-fi-standard-terms-upfront-mobile-service-terms.pdf\" class=\"external inline\" rel=\"noopener nofollow\">terms</a>",
+            "startIndex": 1004,
+            "endIndex": 1210,
+            "url": "https://www.telstra.com.au/content/dam/tcom/personal/consumer-advice/pdf/consumer/jb-hi-fi-standard-terms-upfront-mobile-service-terms.pdf",
+            "text": "terms",
+            "linkType": "external"
+          },
+          { "type": "normal", "rawText": "</p>\n\n", "text": "\n\n", "startIndex": 1210, "endIndex": 1216 },
+          {
+            "type": "blockquote",
+            "rawText": "<blockquote>\n  <p>Voucher Repayment Fee</p>\n  \n  <p>6.2 If you received a JB Hi-Fi Voucher when you purchased your Mobile Service and you cancel<br />\n  that Mobile Service within any applicable Voucher Term, you must pay us the outstanding<br />\n  amounts for the JB Hi-Fi Voucher you received for the cancelled Mobile Service (the Voucher<br />\n  Repayment Fee).</p>\n  \n  <p>6.3 The Voucher Repayment Fee is a pro-rata amount, equal to the total amount of the base<br />\n  Voucher divided by 24 and multiplied by the months (or part months) remaining in your<br />\n  Voucher Term.</p>\n</blockquote>",
+            "text": "Voucher Repayment Fee\n  \n  6.2 If you received a JB Hi-Fi Voucher when you purchased your Mobile Service and you cancel\n  that Mobile Service within any applicable Voucher Term, you must pay us the outstanding\n  amounts for the JB Hi-Fi Voucher you received for the cancelled Mobile Service (the Voucher\n  Repayment Fee).\n  \n  6.3 The Voucher Repayment Fee is a pro-rata amount, equal to the total amount of the base\n  Voucher divided by 24 and multiplied by the months (or part months) remaining in your\n  Voucher Term.",
+            "startIndex": 1216,
+            "endIndex": 1816
+          },
+          {
+            "type": "normal",
+            "rawText": "\n\n<p><strike>Max cancellation fee is ",
+            "text": "\n\nMax cancellation fee is ",
+            "startIndex": 1816,
+            "endIndex": 1853
+          },
+          { "type": "price", "rawText": "$800", "text": "$800", "startIndex": 1853, "endIndex": 1857 },
+          { "type": "normal", "rawText": "</strike>. The ", "text": ". The ", "startIndex": 1857, "endIndex": 1872 },
+          { "type": "price", "rawText": "$99", "text": "$99", "startIndex": 1872, "endIndex": 1875 },
+          {
+            "type": "normal",
+            "rawText": " first months charge In past deals I’ve usually got this refunded though if you’re really nice, but be aware in case if you are unable to get the ",
+            "text": " first months charge In past deals I’ve usually got this refunded though if you’re really nice, but be aware in case if you are unable to get the ",
+            "startIndex": 1875,
+            "endIndex": 2021
+          },
+          { "type": "price", "rawText": "$99", "text": "$99", "startIndex": 2021, "endIndex": 2024 },
+          {
+            "type": "normal",
+            "rawText": " refunded. T&amp;C: ",
+            "text": " refunded. T&C: ",
+            "startIndex": 2024,
+            "endIndex": 2044
+          },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://www.telstra.com.au/help/critical-information-summaries/personal/mobile/mobile-plans/jb-hi-fi-mobile-upfront-plans\" class=\"external\" rel=\"noopener nofollow\">https://www.telstra.com.au/help/critical-information-summari…</a>",
+            "startIndex": 2044,
+            "endIndex": 2282,
+            "url": "https://www.telstra.com.au/help/critical-information-summaries/personal/mobile/mobile-plans/jb-hi-fi-mobile-upfront-plans",
+            "text": "https://www.telstra.com.au/help/critical-information-summari…",
+            "linkType": "external"
+          },
+          {
+            "type": "normal",
+            "rawText": "</p>\n\n<p>Also keep in mind this deal is for porting in your number, so if you’re planning to cancel you could get a ",
+            "text": "\n\nAlso keep in mind this deal is for porting in your number, so if you’re planning to cancel you could get a ",
+            "startIndex": 2282,
+            "endIndex": 2398
+          },
+          { "type": "price", "rawText": "$5", "text": "$5", "startIndex": 2398, "endIndex": 2400 },
+          {
+            "type": "normal",
+            "rawText": " Aldi sim and port in with that.</p>\n\n<hr />\n\n<h4>Use the ",
+            "text": " Aldi sim and port in with that.\n\n\n\nUse the ",
+            "startIndex": 2400,
+            "endIndex": 2458
+          },
+          {
+            "type": "link",
+            "rawText": "<a href=\"/node/890088\" class=\"internal inline\">Samsung Galaxy Pre-Order Code Request megathread</a>",
+            "startIndex": 2458,
+            "endIndex": 2557,
+            "url": "https://www.ozbargain.com.au/node/890088",
+            "text": "Samsung Galaxy Pre-Order Code Request megathread",
+            "linkType": "internal"
+          },
+          {
+            "type": "normal",
+            "rawText": " if you&#039;re after the ",
+            "text": " if you're after the ",
+            "startIndex": 2557,
+            "endIndex": 2583
+          },
+          { "type": "price", "rawText": "$200", "text": "$200", "startIndex": 2583, "endIndex": 2587 },
+          {
+            "type": "normal",
+            "rawText": " discount code. No requests in comments please</h4>\n",
+            "text": " discount code. No requests in comments please\n",
+            "startIndex": 2587,
+            "endIndex": 2639
+          }
+        ]
+      },
+      "author": "Bonesaw321",
+      "postedAt": "2025-01-22T20:04:49.000Z",
+      "id": "890078",
+      "links": {
+        "deal": "https://www.ozbargain.com.au/node/890078",
+        "comments": "https://www.ozbargain.com.au/node/890078/comments",
+        "productPage": "https://www.jbhifi.com.au/products/samsung-galaxy-s25-ultra-512gb-titanium-grey?variant=40424746877129"
+      },
+      "votes": { "positive": 153, "negative": 0 },
+      "commentCount": 406,
+      "categories": [
+        { "name": "Mobile", "link": "https://www.ozbargain.com.au/cat/mobile" },
+        { "name": "Mobile Phone", "link": "https://www.ozbargain.com.au/tag/mobile-phone" },
+        { "name": "Samsung", "link": "https://www.ozbargain.com.au/brand/samsung" },
+        {
+          "name": "Samsung\n        Galaxy S25 Ultra",
+          "link": "https://www.ozbargain.com.au/product/samsung-galaxy-s25-ultra"
+        },
+        { "name": "SIM Only Mobile Plan", "link": "https://www.ozbargain.com.au/tag/sim-only-mobile-plan" },
+        { "name": "Android", "link": "https://www.ozbargain.com.au/tag/android" }
+      ],
+      "expiresAt": "2025-02-13T13:00:00.000Z",
+      "thumbnailUrl": "https://files.ozbargain.com.au/n/78/890078l.jpg?h=fe25d45a"
+    },
+    {
+      "title": {
+        "rawText": "10x Fexorelief 180mg $4.99, 192x Ibuprofen 200mg $13.99 Delivered & More @ Pharmacy Savings",
+        "parts": [
+          {
+            "type": "normal",
+            "rawText": "10x Fexorelief 180mg ",
+            "text": "10x Fexorelief 180mg ",
+            "startIndex": 0,
+            "endIndex": 21
+          },
+          { "type": "price", "rawText": "$4.99", "text": "$4.99", "startIndex": 21, "endIndex": 26 },
+          {
+            "type": "normal",
+            "rawText": ", 192x Ibuprofen 200mg ",
+            "text": ", 192x Ibuprofen 200mg ",
+            "startIndex": 26,
+            "endIndex": 49
+          },
+          { "type": "price", "rawText": "$13.99", "text": "$13.99", "startIndex": 49, "endIndex": 55 },
+          {
+            "type": "normal",
+            "rawText": " Delivered & More @ Pharmacy Savings",
+            "text": " Delivered & More @ Pharmacy Savings",
+            "startIndex": 55,
+            "endIndex": 91
+          }
+        ]
+      },
+      "description": {
+        "rawText": "<div style=\"float:right;margin:0 0 1ex 1ex\"><a href=\"/node/893761\" rel=\"noopener nofollow\" title=\"Link: https://pharmacysavings.com.au/collections/2025-summer-clearance\"><img src=\"https://files.ozbargain.com.au/n/61/893761.jpg?h=94dc7b25\" alt=\"10x Fexorelief 180mg $4.99, 192x Ibuprofen 200mg $13.99 Delivered &amp; More @ Pharmacy Savings\"/></a></div><p>Hi Ozbargainers,</p>\n\n<p>Bit of a house clearing set of deals tonight, each of the below may not be strong enough to stand on its own as a deal (as the demand may be limited) but together I think this is a reasonable suite of deals.  The below are either chronically over stocked (ie I overestimated how may we could sell) or they are shorter dated items.  These deals will not live on for months and months and are an end of line clearance.</p>\n\n<p>Link to all products: <a href=\"https://pharmacysavings.com.au/collections/2025-summer-clearance\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/collections/2025-summer-clear…</a> or see below for direct links</p>\n\n<p><strong>Items:</strong><br />\n4x Heel Balm, Medisol 120ml Tubes, Exp: End March 2025, $10.99 <a href=\"https://pharmacysavings.com.au/collections/2025-summer-clearance/products/medisol-premium-heel-balm-120ml?variant=45059551527074\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/collections/2025-summer-clear…</a><br />\n20x Lorrex 2mg Loperamide Diarrhoea Relief LiquidCaps, Exp: End July 2025, $3.79 <a href=\"https://pharmacysavings.com.au/products/travel-essentials-travel-ease-variants-bonus-diarrhoea-relief-copy\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/travel-essentials-tr…</a><br />\n16x Honey &amp; Lemon Throat Lozenges; Exp: End July 2025, $4.99 <a href=\"https://pharmacysavings.com.au/products/16x-pharmacy-action-honey-and-lemon-lozenges\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/16x-pharmacy-action-…</a><br />\n48x Cold &amp; Flu Day &amp; Night PE; Exp End April 2026, $10.00 <a href=\"https://pharmacysavings.com.au/products/24x-cold-and-flu-relief-day-night-pe-codral-alternative-eofy\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/24x-cold-and-flu-rel…</a><br />\n192x Ibuprofen 200mg, Exp: End November 2025 $13.99 <a href=\"https://pharmacysavings.com.au/products/192x-pharmacy-action-ibuprofen-200mg\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/192x-pharmacy-action…</a><br />\n10x Fexorelief 180mg, Exp: End January 2027 $4.99 <a href=\"https://pharmacysavings.com.au/products/10x-fexorelief-fexofenadine-hydrochloride-180mg\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/10x-fexorelief-fexof…</a><br />\n30x Chesty Forte (Thins and lessons mucus) Exp: End August 2025 $7.99 <a href=\"https://pharmacysavings.com.au/products/30x-chesty-forte-pharmacy-action\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/30x-chesty-forte-pha…</a><br />\n20x Travel Ease Exp: End February 2025 $6.99 <a href=\"https://pharmacysavings.com.au/products/20x-travel-ease-2-x-10-tablet-boxes-exp-end-february-2025-boxing-day-sale\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/20x-travel-ease-2-x-…</a><br />\n24x Travel Ease For Kids, Exp: End February 2025 $7.99 <a href=\"https://pharmacysavings.com.au/products/travel-essentials-travel-ease-variants-bonus-diarrhoea-relief?variant=45265578164386\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/travel-essentials-tr…</a><br />\n750x Caps Vitamin D3 1000U Exp: End April 2025 $24.99 <a href=\"https://pharmacysavings.com.au/products/vitamin-d-d3-1000iu-750x-capsules-pharmacy-action-3x-pack?variant=45265579704482\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/vitamin-d-d3-1000iu-…</a></p>\n\n<p>As always the older deals where significant demand exists and prices are held at original deal prices are noted again:</p>\n\n<ul>\n<li>100x Hayfexo @ $19.99: <a href=\"/node/776153\" class=\"internal\">https://www.ozbargain.com.au/node/776153</a></li>\n<li>200x Cetrine @ $19.99: <a href=\"/node/834351\" class=\"internal\">https://www.ozbargain.com.au/node/834351</a></li>\n<li>200x Trust Loratadine @ $24.99: <a href=\"/node/891232\" class=\"internal\">https://www.ozbargain.com.au/node/891232</a></li>\n<li>200x Lorazol, Loratadine 10mg @ $19.99 <a href=\"/node/837337\" class=\"internal\">https://www.ozbargain.com.au/node/837337</a> </li>\n<li>3x 140 Dose Mometasone + 70x Cetirizine OR 70x Loratadine @ $41.99 <a href=\"/node/889566\" class=\"internal\">https://www.ozbargain.com.au/node/889566</a></li>\n</ul>\n\n<p><strong>And for those looking for (my version of) bulk antihistamine deals:</strong><br />\n<a href=\"/node/888603\" class=\"internal\">https://www.ozbargain.com.au/node/888603</a> - 420x Loratadine 10mg &amp; 70x Cetirizine  - $49.99<br />\n<a href=\"/node/887664\" class=\"internal\">https://www.ozbargain.com.au/node/887664</a> - 420x Cetrine 10mg &amp; 70x Loratadine - $49.99<br />\n<a href=\"/node/886769\" class=\"internal\">https://www.ozbargain.com.au/node/886769</a> -  280x Fexofenadine Hydrochloride 180mg + 70x Cetirizine $50.99</p>\n",
+        "parts": [
+          {
+            "type": "normal",
+            "rawText": "<p>Hi Ozbargainers,</p>\n\n<p>Bit of a house clearing set of deals tonight, each of the below may not be strong enough to stand on its own as a deal (as the demand may be limited) but together I think this is a reasonable suite of deals.  The below are either chronically over stocked (ie I overestimated how may we could sell) or they are shorter dated items.  These deals will not live on for months and months and are an end of line clearance.</p>\n\n<p>Link to all products: ",
+            "text": "Hi Ozbargainers,\n\nBit of a house clearing set of deals tonight, each of the below may not be strong enough to stand on its own as a deal (as the demand may be limited) but together I think this is a reasonable suite of deals.  The below are either chronically over stocked (ie I overestimated how may we could sell) or they are shorter dated items.  These deals will not live on for months and months and are an end of line clearance.\n\nLink to all products: ",
+            "startIndex": 352,
+            "endIndex": 827
+          },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://pharmacysavings.com.au/collections/2025-summer-clearance\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/collections/2025-summer-clear…</a>",
+            "startIndex": 827,
+            "endIndex": 1008,
+            "url": "https://pharmacysavings.com.au/collections/2025-summer-clearance",
+            "text": "https://pharmacysavings.com.au/collections/2025-summer-clear…",
+            "linkType": "external"
+          },
+          {
+            "type": "normal",
+            "rawText": " or see below for direct links</p>\n\n<p>",
+            "text": " or see below for direct links\n\n",
+            "startIndex": 1008,
+            "endIndex": 1047
+          },
+          {
+            "type": "bold",
+            "rawText": "<strong>Items:</strong>",
+            "text": "Items:",
+            "startIndex": 1047,
+            "endIndex": 1070
+          },
+          {
+            "type": "normal",
+            "rawText": "<br />\n4x Heel Balm, Medisol 120ml Tubes, Exp: End March 2025, ",
+            "text": "\n4x Heel Balm, Medisol 120ml Tubes, Exp: End March 2025, ",
+            "startIndex": 1070,
+            "endIndex": 1133
+          },
+          { "type": "price", "rawText": "$10.99", "text": "$10.99", "startIndex": 1133, "endIndex": 1139 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 1139, "endIndex": 1140 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://pharmacysavings.com.au/collections/2025-summer-clearance/products/medisol-premium-heel-balm-120ml?variant=45059551527074\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/collections/2025-summer-clear…</a>",
+            "startIndex": 1140,
+            "endIndex": 1385,
+            "url": "https://pharmacysavings.com.au/collections/2025-summer-clearance/products/medisol-premium-heel-balm-120ml?variant=45059551527074",
+            "text": "https://pharmacysavings.com.au/collections/2025-summer-clear…",
+            "linkType": "external"
+          },
+          {
+            "type": "normal",
+            "rawText": "<br />\n20x Lorrex 2mg Loperamide Diarrhoea Relief LiquidCaps, Exp: End July 2025, ",
+            "text": "\n20x Lorrex 2mg Loperamide Diarrhoea Relief LiquidCaps, Exp: End July 2025, ",
+            "startIndex": 1385,
+            "endIndex": 1467
+          },
+          { "type": "price", "rawText": "$3.79", "text": "$3.79", "startIndex": 1467, "endIndex": 1472 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 1472, "endIndex": 1473 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://pharmacysavings.com.au/products/travel-essentials-travel-ease-variants-bonus-diarrhoea-relief-copy\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/travel-essentials-tr…</a>",
+            "startIndex": 1473,
+            "endIndex": 1696,
+            "url": "https://pharmacysavings.com.au/products/travel-essentials-travel-ease-variants-bonus-diarrhoea-relief-copy",
+            "text": "https://pharmacysavings.com.au/products/travel-essentials-tr…",
+            "linkType": "external"
+          },
+          {
+            "type": "normal",
+            "rawText": "<br />\n16x Honey &amp; Lemon Throat Lozenges; Exp: End July 2025, ",
+            "text": "\n16x Honey & Lemon Throat Lozenges; Exp: End July 2025, ",
+            "startIndex": 1696,
+            "endIndex": 1762
+          },
+          { "type": "price", "rawText": "$4.99", "text": "$4.99", "startIndex": 1762, "endIndex": 1767 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 1767, "endIndex": 1768 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://pharmacysavings.com.au/products/16x-pharmacy-action-honey-and-lemon-lozenges\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/16x-pharmacy-action-…</a>",
+            "startIndex": 1768,
+            "endIndex": 1969,
+            "url": "https://pharmacysavings.com.au/products/16x-pharmacy-action-honey-and-lemon-lozenges",
+            "text": "https://pharmacysavings.com.au/products/16x-pharmacy-action-…",
+            "linkType": "external"
+          },
+          {
+            "type": "normal",
+            "rawText": "<br />\n48x Cold &amp; Flu Day &amp; Night PE; Exp End April 2026, ",
+            "text": "\n48x Cold & Flu Day & Night PE; Exp End April 2026, ",
+            "startIndex": 1969,
+            "endIndex": 2035
+          },
+          { "type": "price", "rawText": "$10.00", "text": "$10.00", "startIndex": 2035, "endIndex": 2041 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 2041, "endIndex": 2042 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://pharmacysavings.com.au/products/24x-cold-and-flu-relief-day-night-pe-codral-alternative-eofy\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/24x-cold-and-flu-rel…</a>",
+            "startIndex": 2042,
+            "endIndex": 2259,
+            "url": "https://pharmacysavings.com.au/products/24x-cold-and-flu-relief-day-night-pe-codral-alternative-eofy",
+            "text": "https://pharmacysavings.com.au/products/24x-cold-and-flu-rel…",
+            "linkType": "external"
+          },
+          {
+            "type": "normal",
+            "rawText": "<br />\n192x Ibuprofen 200mg, Exp: End November 2025 ",
+            "text": "\n192x Ibuprofen 200mg, Exp: End November 2025 ",
+            "startIndex": 2259,
+            "endIndex": 2311
+          },
+          { "type": "price", "rawText": "$13.99", "text": "$13.99", "startIndex": 2311, "endIndex": 2317 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 2317, "endIndex": 2318 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://pharmacysavings.com.au/products/192x-pharmacy-action-ibuprofen-200mg\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/192x-pharmacy-action…</a>",
+            "startIndex": 2318,
+            "endIndex": 2511,
+            "url": "https://pharmacysavings.com.au/products/192x-pharmacy-action-ibuprofen-200mg",
+            "text": "https://pharmacysavings.com.au/products/192x-pharmacy-action…",
+            "linkType": "external"
+          },
+          {
+            "type": "normal",
+            "rawText": "<br />\n10x Fexorelief 180mg, Exp: End January 2027 ",
+            "text": "\n10x Fexorelief 180mg, Exp: End January 2027 ",
+            "startIndex": 2511,
+            "endIndex": 2562
+          },
+          { "type": "price", "rawText": "$4.99", "text": "$4.99", "startIndex": 2562, "endIndex": 2567 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 2567, "endIndex": 2568 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://pharmacysavings.com.au/products/10x-fexorelief-fexofenadine-hydrochloride-180mg\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/10x-fexorelief-fexof…</a>",
+            "startIndex": 2568,
+            "endIndex": 2772,
+            "url": "https://pharmacysavings.com.au/products/10x-fexorelief-fexofenadine-hydrochloride-180mg",
+            "text": "https://pharmacysavings.com.au/products/10x-fexorelief-fexof…",
+            "linkType": "external"
+          },
+          {
+            "type": "normal",
+            "rawText": "<br />\n30x Chesty Forte (Thins and lessons mucus) Exp: End August 2025 ",
+            "text": "\n30x Chesty Forte (Thins and lessons mucus) Exp: End August 2025 ",
+            "startIndex": 2772,
+            "endIndex": 2843
+          },
+          { "type": "price", "rawText": "$7.99", "text": "$7.99", "startIndex": 2843, "endIndex": 2848 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 2848, "endIndex": 2849 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://pharmacysavings.com.au/products/30x-chesty-forte-pharmacy-action\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/30x-chesty-forte-pha…</a>",
+            "startIndex": 2849,
+            "endIndex": 3038,
+            "url": "https://pharmacysavings.com.au/products/30x-chesty-forte-pharmacy-action",
+            "text": "https://pharmacysavings.com.au/products/30x-chesty-forte-pha…",
+            "linkType": "external"
+          },
+          {
+            "type": "normal",
+            "rawText": "<br />\n20x Travel Ease Exp: End February 2025 ",
+            "text": "\n20x Travel Ease Exp: End February 2025 ",
+            "startIndex": 3038,
+            "endIndex": 3084
+          },
+          { "type": "price", "rawText": "$6.99", "text": "$6.99", "startIndex": 3084, "endIndex": 3089 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 3089, "endIndex": 3090 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://pharmacysavings.com.au/products/20x-travel-ease-2-x-10-tablet-boxes-exp-end-february-2025-boxing-day-sale\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/20x-travel-ease-2-x-…</a>",
+            "startIndex": 3090,
+            "endIndex": 3320,
+            "url": "https://pharmacysavings.com.au/products/20x-travel-ease-2-x-10-tablet-boxes-exp-end-february-2025-boxing-day-sale",
+            "text": "https://pharmacysavings.com.au/products/20x-travel-ease-2-x-…",
+            "linkType": "external"
+          },
+          {
+            "type": "normal",
+            "rawText": "<br />\n24x Travel Ease For Kids, Exp: End February 2025 ",
+            "text": "\n24x Travel Ease For Kids, Exp: End February 2025 ",
+            "startIndex": 3320,
+            "endIndex": 3376
+          },
+          { "type": "price", "rawText": "$7.99", "text": "$7.99", "startIndex": 3376, "endIndex": 3381 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 3381, "endIndex": 3382 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://pharmacysavings.com.au/products/travel-essentials-travel-ease-variants-bonus-diarrhoea-relief?variant=45265578164386\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/travel-essentials-tr…</a>",
+            "startIndex": 3382,
+            "endIndex": 3623,
+            "url": "https://pharmacysavings.com.au/products/travel-essentials-travel-ease-variants-bonus-diarrhoea-relief?variant=45265578164386",
+            "text": "https://pharmacysavings.com.au/products/travel-essentials-tr…",
+            "linkType": "external"
+          },
+          {
+            "type": "normal",
+            "rawText": "<br />\n750x Caps Vitamin D3 1000U Exp: End April 2025 ",
+            "text": "\n750x Caps Vitamin D3 1000U Exp: End April 2025 ",
+            "startIndex": 3623,
+            "endIndex": 3677
+          },
+          { "type": "price", "rawText": "$24.99", "text": "$24.99", "startIndex": 3677, "endIndex": 3683 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 3683, "endIndex": 3684 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"https://pharmacysavings.com.au/products/vitamin-d-d3-1000iu-750x-capsules-pharmacy-action-3x-pack?variant=45265579704482\" class=\"external\" rel=\"noopener nofollow\">https://pharmacysavings.com.au/products/vitamin-d-d3-1000iu-…</a>",
+            "startIndex": 3684,
+            "endIndex": 3921,
+            "url": "https://pharmacysavings.com.au/products/vitamin-d-d3-1000iu-750x-capsules-pharmacy-action-3x-pack?variant=45265579704482",
+            "text": "https://pharmacysavings.com.au/products/vitamin-d-d3-1000iu-…",
+            "linkType": "external"
+          },
+          {
+            "type": "normal",
+            "rawText": "</p>\n\n<p>As always the older deals where significant demand exists and prices are held at original deal prices are noted again:</p>\n\n<ul>\n<li>100x Hayfexo @ ",
+            "text": "\n\nAs always the older deals where significant demand exists and prices are held at original deal prices are noted again:\n\n\n100x Hayfexo @ ",
+            "startIndex": 3921,
+            "endIndex": 4078
+          },
+          { "type": "price", "rawText": "$19.99", "text": "$19.99", "startIndex": 4078, "endIndex": 4084 },
+          { "type": "normal", "rawText": ": ", "text": ": ", "startIndex": 4084, "endIndex": 4086 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"/node/776153\" class=\"internal\">https://www.ozbargain.com.au/node/776153</a>",
+            "startIndex": 4086,
+            "endIndex": 4170,
+            "url": "https://www.ozbargain.com.au/node/776153",
+            "text": "https://www.ozbargain.com.au/node/776153",
+            "linkType": "internal"
+          },
+          {
+            "type": "normal",
+            "rawText": "</li>\n<li>200x Cetrine @ ",
+            "text": "\n200x Cetrine @ ",
+            "startIndex": 4170,
+            "endIndex": 4195
+          },
+          { "type": "price", "rawText": "$19.99", "text": "$19.99", "startIndex": 4195, "endIndex": 4201 },
+          { "type": "normal", "rawText": ": ", "text": ": ", "startIndex": 4201, "endIndex": 4203 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"/node/834351\" class=\"internal\">https://www.ozbargain.com.au/node/834351</a>",
+            "startIndex": 4203,
+            "endIndex": 4287,
+            "url": "https://www.ozbargain.com.au/node/834351",
+            "text": "https://www.ozbargain.com.au/node/834351",
+            "linkType": "internal"
+          },
+          {
+            "type": "normal",
+            "rawText": "</li>\n<li>200x Trust Loratadine @ ",
+            "text": "\n200x Trust Loratadine @ ",
+            "startIndex": 4287,
+            "endIndex": 4321
+          },
+          { "type": "price", "rawText": "$24.99", "text": "$24.99", "startIndex": 4321, "endIndex": 4327 },
+          { "type": "normal", "rawText": ": ", "text": ": ", "startIndex": 4327, "endIndex": 4329 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"/node/891232\" class=\"internal\">https://www.ozbargain.com.au/node/891232</a>",
+            "startIndex": 4329,
+            "endIndex": 4413,
+            "url": "https://www.ozbargain.com.au/node/891232",
+            "text": "https://www.ozbargain.com.au/node/891232",
+            "linkType": "internal"
+          },
+          {
+            "type": "normal",
+            "rawText": "</li>\n<li>200x Lorazol, Loratadine 10mg @ ",
+            "text": "\n200x Lorazol, Loratadine 10mg @ ",
+            "startIndex": 4413,
+            "endIndex": 4455
+          },
+          { "type": "price", "rawText": "$19.99", "text": "$19.99", "startIndex": 4455, "endIndex": 4461 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 4461, "endIndex": 4462 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"/node/837337\" class=\"internal\">https://www.ozbargain.com.au/node/837337</a>",
+            "startIndex": 4462,
+            "endIndex": 4546,
+            "url": "https://www.ozbargain.com.au/node/837337",
+            "text": "https://www.ozbargain.com.au/node/837337",
+            "linkType": "internal"
+          },
+          {
+            "type": "normal",
+            "rawText": " </li>\n<li>3x 140 Dose Mometasone + 70x Cetirizine OR 70x Loratadine @ ",
+            "text": " \n3x 140 Dose Mometasone + 70x Cetirizine OR 70x Loratadine @ ",
+            "startIndex": 4546,
+            "endIndex": 4617
+          },
+          { "type": "price", "rawText": "$41.99", "text": "$41.99", "startIndex": 4617, "endIndex": 4623 },
+          { "type": "normal", "rawText": " ", "text": " ", "startIndex": 4623, "endIndex": 4624 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"/node/889566\" class=\"internal\">https://www.ozbargain.com.au/node/889566</a>",
+            "startIndex": 4624,
+            "endIndex": 4708,
+            "url": "https://www.ozbargain.com.au/node/889566",
+            "text": "https://www.ozbargain.com.au/node/889566",
+            "linkType": "internal"
+          },
+          {
+            "type": "normal",
+            "rawText": "</li>\n</ul>\n\n<p>",
+            "text": "\n\n\n",
+            "startIndex": 4708,
+            "endIndex": 4724
+          },
+          {
+            "type": "bold",
+            "rawText": "<strong>And for those looking for (my version of) bulk antihistamine deals:</strong>",
+            "text": "And for those looking for (my version of) bulk antihistamine deals:",
+            "startIndex": 4724,
+            "endIndex": 4808
+          },
+          { "type": "normal", "rawText": "<br />\n", "text": "\n", "startIndex": 4808, "endIndex": 4815 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"/node/888603\" class=\"internal\">https://www.ozbargain.com.au/node/888603</a>",
+            "startIndex": 4815,
+            "endIndex": 4899,
+            "url": "https://www.ozbargain.com.au/node/888603",
+            "text": "https://www.ozbargain.com.au/node/888603",
+            "linkType": "internal"
+          },
+          {
+            "type": "normal",
+            "rawText": " - 420x Loratadine 10mg &amp; 70x Cetirizine  - ",
+            "text": " - 420x Loratadine 10mg & 70x Cetirizine  - ",
+            "startIndex": 4899,
+            "endIndex": 4947
+          },
+          { "type": "price", "rawText": "$49.99", "text": "$49.99", "startIndex": 4947, "endIndex": 4953 },
+          { "type": "normal", "rawText": "<br />\n", "text": "\n", "startIndex": 4953, "endIndex": 4960 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"/node/887664\" class=\"internal\">https://www.ozbargain.com.au/node/887664</a>",
+            "startIndex": 4960,
+            "endIndex": 5044,
+            "url": "https://www.ozbargain.com.au/node/887664",
+            "text": "https://www.ozbargain.com.au/node/887664",
+            "linkType": "internal"
+          },
+          {
+            "type": "normal",
+            "rawText": " - 420x Cetrine 10mg &amp; 70x Loratadine - ",
+            "text": " - 420x Cetrine 10mg & 70x Loratadine - ",
+            "startIndex": 5044,
+            "endIndex": 5088
+          },
+          { "type": "price", "rawText": "$49.99", "text": "$49.99", "startIndex": 5088, "endIndex": 5094 },
+          { "type": "normal", "rawText": "<br />\n", "text": "\n", "startIndex": 5094, "endIndex": 5101 },
+          {
+            "type": "link",
+            "rawText": "<a href=\"/node/886769\" class=\"internal\">https://www.ozbargain.com.au/node/886769</a>",
+            "startIndex": 5101,
+            "endIndex": 5185,
+            "url": "https://www.ozbargain.com.au/node/886769",
+            "text": "https://www.ozbargain.com.au/node/886769",
+            "linkType": "internal"
+          },
+          {
+            "type": "normal",
+            "rawText": " -  280x Fexofenadine Hydrochloride 180mg + 70x Cetirizine ",
+            "text": " -  280x Fexofenadine Hydrochloride 180mg + 70x Cetirizine ",
+            "startIndex": 5185,
+            "endIndex": 5244
+          },
+          { "type": "price", "rawText": "$50.99", "text": "$50.99", "startIndex": 5244, "endIndex": 5250 },
+          { "type": "normal", "rawText": "</p>\n", "text": "\n", "startIndex": 5250, "endIndex": 5255 }
+        ]
+      },
+      "author": "jason101",
+      "postedAt": "2025-02-16T09:41:52.000Z",
+      "id": "893761",
+      "links": {
+        "deal": "https://www.ozbargain.com.au/node/893761",
+        "comments": "https://www.ozbargain.com.au/node/893761/comments",
+        "productPage": "https://pharmacysavings.com.au/collections/2025-summer-clearance"
+      },
+      "votes": { "positive": 7, "negative": 1 },
+      "commentCount": 25,
+      "categories": [
+        { "name": "Health &amp; Beauty", "link": "https://www.ozbargain.com.au/cat/health-beauty" },
+        { "name": "Antihistamine", "link": "https://www.ozbargain.com.au/tag/antihistamine" },
+        { "name": "Fexofenadine", "link": "https://www.ozbargain.com.au/tag/fexofenadine" },
+        { "name": "Ibuprofen", "link": "https://www.ozbargain.com.au/tag/ibuprofen" },
+        { "name": "Pain Relief", "link": "https://www.ozbargain.com.au/tag/pain-relief" }
+      ],
+      "thumbnailUrl": "https://files.ozbargain.com.au/n/61/893761l.jpg?h=94dc7b25"
+    }
+  ]
+}
